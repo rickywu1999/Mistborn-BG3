@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="10" build="100"/>
+    <region id="Progressions">
+        <node id="root">
+            <children>
+                <node id="Progression">
+                    <attribute id="AllowImprovement" type="bool" value="false"/> 
+                    <attribute id="Boosts" type="LSString" value="ActionResource(MetalSlots,4,0);ProficiencyBonus(SavingThrow,Dexterity);ProficiencyBonus(SavingThrow,Intelligence);Proficiency(LightArmor);Proficiency(Shields);Proficiency(SimpleWeapons);Proficiency(Shortswords);Proficiency(Longswords);Proficiency(Rapiers)"/>
+                    <attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="Mistborn"/> 
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSkills(a1c2b712-2ed6-4e5b-820f-c5db654fe006,2);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1);SelectPassives(f94764f3-0a6a-4492-b42e-333ea67e2b28,1,Choosable_Metals)"/>
+                    <attribute id="TableUUID" type="guid" value="6e5e6b00-d045-4c13-98fb-3e895b3b9940"/>
+                    <attribute id="UUID" type="guid" value="b5c810d5-c327-45a7-b7d3-7f662bc95dca"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="AllowImprovement" type="bool" value="false"/> 
+                    <attribute id="Boosts" type="LSString" value="ActionResource(MetalSlots,4,0);Proficiency(LightArmor);Proficiency(Shields);Proficiency(SimpleWeapons);Proficiency(Shortswords);Proficiency(Longswords);Proficiency(Rapiers)"/>
+                    <attribute id="IsMulticlass" type="bool" value="true"/>
+                    <attribute id="Level" type="uint8" value="1"/>
+                    <attribute id="Name" type="LSString" value="Mistborn"/> 
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(f94764f3-0a6a-4492-b42e-333ea67e2b28,1,Choosable_Metals)"/>
+                    <attribute id="TableUUID" type="guid" value="6e5e6b00-d045-4c13-98fb-3e895b3b9940"/>
+                    <attribute id="UUID" type="guid" value="636a3a7b-80a5-48b6-a072-01847c9f83e9"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>
+<!--press control shift a to quick spawn a line below
+<attribute id="Boosts" type="LSString" value=""/>
+<attribute id="Level" type="uint8" value=""/>
+<attribute id="Name" type="LSString" value=""/>
+<attribute id="ProgressionType" type="uint8" value="0"/>
+<attribute id="TableUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+<attribute id="UUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+end custom attribute lines-->
+<!--press control shift 2 to quick spawn a line below
+example
+end ctrl shift 2 clipboard-->

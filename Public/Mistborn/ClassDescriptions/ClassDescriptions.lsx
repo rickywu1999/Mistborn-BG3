@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="9" build="314"/>
+    <region id="ClassDescriptions">
+        <node id="root">
+            <children>
+                <node id="ClassDescription">
+                    <attribute id="BaseHp" type="int32" value="8"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="ClassEquipment" type="FixedString" value="EQP_CC_Rogue"/>
+                    <attribute id="ClassHotbarColumns" type="int32" value="5"/>
+                    <attribute id="CommonHotbarColumns" type="int32" value="9"/>
+                    <attribute id="Description" type="TranslatedString" handle="hcbd4f5dfgeadag4933g8ce9gfb10e3ff3618" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h806be28bg91e7g4e38g856eg2c7c390cea2c" version="1"/>
+                    <attribute id="HpPerLevel" type="int32" value="5"/>
+                    <attribute id="ItemsHotbarColumns" type="int32" value="2"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="Name" type="FixedString" value="Mistborn"/> <!--Enter your mod name Ex. "Barbarian"-->
+                    <attribute id="PrimaryAbility" type="uint8" value="5"/> <!--1 to 6-->
+                    <attribute id="ProgressionTableUUID" type="guid" value="6e5e6b00-d045-4c13-98fb-3e895b3b9940"/>
+                    <attribute id="SoundClassType" type="FixedString" value="Rogue"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="5"/> <!--1 to 6-->
+                    <attribute id="UUID" type="guid" value="ae3032c3-9e26-4666-965a-b130a7a67518"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>
+<!--press control shift a to quick spawn a line below
+<attribute id="BaseHp" type="int32" value="12"/>
+<attribute id="ClassEquipment" type="FixedString" value="EQP_CC_Barbarian"/>
+<attribute id="ClassHotbarColumns" type="int32" value="5"/>
+<attribute id="CommonHotbarColumns" type="int32" value="9"/>
+<attribute id="Description" type="TranslatedString" handle="h000000000000000000000000000000000000" version="1"/>
+<attribute id="DisplayName" type="TranslatedString" handle="h000000000000000000000000000000000000" version="1"/>
+<attribute id="HpPerLevel" type="int32" value=""/>
+<attribute id="ItemsHotbarColumns" type="int32" value="2"/>
+<attribute id="LearningStrategy" type="uint8" value="1"/>
+<attribute id="Name" type="FixedString" value=""/>
+<attribute id="PrimaryAbility" type="uint8" value=""/>
+<attribute id="ProgressionTableUUID" type="guid" value=""/>
+<attribute id="SoundClassType" type="FixedString" value="Barbarian"/>
+<attribute id="SpellCastingAbility" type="uint8" value=""/>
+<attribute id="UUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+end custom attribute lines-->
+<!--press control shift 2 to quick spawn a line below
+example
+end ctrl shift 2 clipboard-->

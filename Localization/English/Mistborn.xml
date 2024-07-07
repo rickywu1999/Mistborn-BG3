@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentList>
+	<!--Class and Subclass -->
+	<content contentuid="h806be28bg91e7g4e38g856eg2c7c390cea2c" version="1">Mistborn</content>
+	<content contentuid="hcbd4f5dfgeadag4933g8ce9gfb10e3ff3618" version="1">Mistborn are figures shrouded in awe and fear. These rare individuals have the power to burn all metals known to Allomancers, making them masters of a versatile and formidable array of abilities. By ingesting and metabolizing these metals, a Mistborn can enhance their strength, fly across the battlefield, soothe or riot emotions, and even manipulate time around them.</content>
+	
+	<!--Metal Slots -->
+	<content contentuid="h1914187fg34f6g455eg81f9g171adffcde14" version="1">Metal Slots</content>
+	<content contentuid="hbcca4811gc5dfg4916ga4fcg52dc44a97336" version="1">Mistborn drink vials of various metals to fuel their Allomantic abilities. You replenish your Metal Slots on a &lt;LSTag Tooltip="ShortRest"&gt;Short&lt;/LSTag&gt; or &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;.</content>
+	<content contentuid="hed44144cg23a4g4b08g819cgab93bd440003" version="1">Metal Slots</content>
+	<content contentuid="heffbeaacg0ac0g4f12g98a5g2c024f5eb402" version="1">Mistborn burn metals they ingest to power their Allomatic abilities.</content>
+
+		<!--Passives-->
+    <content contentuid="h69a8d9a3af8e43fca4a650a74840b2add1d6" version="1">The 16 Allomatic Metals</content>
+    <content contentuid="h8fd80317bb464146af96c486615e94b84ac8" version="1">Physical Metal: Iron</content>
+    <content contentuid="h7b50be3a026a4b96bda9509ff92997122g55" version="1">Physical Metal: Steel</content>
+    <content contentuid="h2ba74eb39c0844dfb389b4510f3fd6152a7f" version="1">Physical Metal: Tin</content>
+    <content contentuid="h7d8129db55e440f3a1f66a26aae4b4b64850" version="1">Physical Metal: Pewter</content>
+    <content contentuid="h9a702fc8cf134938abedf2a3f8f24b62g606" version="1">Mental Metal: Zinc</content>
+    <content contentuid="h7c1661480951458186b86f0856ef01486f00" version="1">Mental Metal: Brass</content>
+    <content contentuid="h06fa65b240004dcab7543188d6cbc24f1201" version="1">Mental Metal: Copper</content>
+    <content contentuid="hd2d5edbac7c5404a98ba199cae3c6b8cdbef" version="1">Mental Metal: Bronze</content>
+    <content contentuid="h642982765aa64d5c82a3866800852f98d64a" version="1">Enhancement Metal: Chromium</content>
+    <content contentuid="hadb0e9cabc6145039d20ca2b1b6ff7459063" version="1">Enhancement Metal: Nicrosil</content>
+    <content contentuid="h9e54e3500c714c00a31481d92f04ad3ffg19" version="1">Enhancement Metal: Aluminum</content>
+    <content contentuid="h8fa988fcaada4cb5a6258b9e09463a9d8b4c" version="1">Enhancement Metal: Duralumin</content>
+    <content contentuid="h2a7e8a8b434b463a8ca60d9b75eece7e5ab3" version="1">Temporal Metal: Cadmium</content>
+    <content contentuid="h9b74802a91b14c4a83c46ebf1fabf67d13c0" version="1">Temporal Metal: Bendalloy</content>
+    <content contentuid="h2276af2f1f43417bbb8ae0a4be2314d20352" version="1">Temporal Metal: Gold</content>
+    <content contentuid="h88343afbc6184dd69967233ae51ad98421bb" version="1">Temporal Metal: Electrum</content>
+	<content contentuid="h05cddf91e63448ca8e6a0bb3979f32e4a528" version="1">Unlocks the ability to burn iron, enabling the use of Allomancy to pull metallic objects and enemies. Enable the ability to toggle &lt;LSTag Type="Status" Tooltip="IronAnchor"&gt;Iron Anchor&lt;/LSTag&gt;.</content>
+    <content contentuid="ha71109489af143cb960c5c26d3fd55554b20" version="1">Unlocks the ability to burn steel, allowing the use of Allomancy to push metallic objects and enemies.</content>
+    <content contentuid="h9f4935e8d9d341baad0b4d2866e054fc06g3" version="1">Unlocks the ability to burn pewter, greatly enhancing physical strength, endurance, and resilience.</content>
+    <content contentuid="h564f6dfb06ba44198554eb55154010de660f" version="1">Unlocks the ability to burn tin, significantly heightening all five senses for improved perception and awareness.</content>
+    <content contentuid="h300e48ccd2b746af9e3ec974830ac77a594e" version="1">Unlocks the ability to burn zinc, enabling the use of Allomancy to inflame the emotions of others.</content>
+    <content contentuid="h19d7be45326e45e9af7cfad22e23561d842e" version="1">Unlocks the ability to burn brass, allowing the use of Allomancy to soothe and dampen the emotions of others.</content>
+    <content contentuid="h96ef77e750cb4c6b9b55c0deba9606550434" version="1">Unlocks the ability to burn copper, creating a cloud that hides Allomantic pulses and protects against emotional manipulation.</content>
+    <content contentuid="h74373c95562c4f428d9117d4ec68fa2fe7ef" version="1">Unlocks the ability to burn bronze, granting the power to detect Allomantic pulses and sense other Allomancers.</content>
+    <content contentuid="h26ec9bd707b24577a1191456d7deb64dff6f" version="1">Unlocks the ability to burn gold, allowing the use of Allomancy to see potential past versions of oneself.</content>
+    <content contentuid="he6a40b1780e846d3ab195c97a706ff8e21f3" version="1">Unlocks the ability to burn electrum, enabling the use of Allomancy to foresee one's own immediate future.</content>
+    <content contentuid="h13f93a6ec2084f1b8111dd22c0af40f27ba0" version="1">Unlocks the ability to burn cadmium, creating a bubble that significantly slows down time within its area.</content>
+    <content contentuid="h2064d53de8594bc5b8464d5a3562a907af39" version="1">Unlocks the ability to burn bendalloy, generating a bubble that speeds up time within its area.</content>
+    <content contentuid="hf9288506e70540159ed53cb9acf4efa222e6" version="1">Unlocks the ability to burn aluminum, instantly depleting all metal reserves and rendering the user powerless.</content>
+    <content contentuid="ha8b20c3464bf4ef9a304e0527cf186b30b06" version="1">Unlocks the ability to burn duralumin, dramatically enhancing the strength and potency of all other Allomantic metals for a brief moment.</content>
+    <content contentuid="h7f120368215c4a66a121c2cc33fb8690f5f1" version="1">Unlocks the ability to burn nicrosil, magnifying the Allomantic abilities of others upon contact.</content>
+    <content contentuid="h0e5d564149c845ecad0d069001916cb38f53" version="1">Unlocks the ability to burn chromium, causing other Allomancers to lose all their metal reserves upon contact.</content>
+    <content contentuid="h939659ddd7b44d4c84acb343d9d879fb62ae" version="1">Select the Allomantic metals to incorporate into your build, unlocking unique abilities and enhancing your power as a Mistborn.</content>
+
+	<!--PHYSICAL-->
+	<!--Iron-->
+    <content contentuid="h3b2cd238c21d4db28bef7fe96bb89b70ef0f" version="1">Iron Pull</content>
+    <content contentuid="he4df31e11f354589b8225ac6ef05e94c713d" version="1">By burning iron, pull a smaller enemy towards the caster, dealing damage and disrupting their position.</content>
+	<content contentuid="h60f624c94fd442889ca84e20255d8dbe1gcd" version="1">By burning iron, pull a smaller enemy [1] towards the caster, dealing damage and disrupting their position.</content>
+    <content contentuid="h97d924c29be44e4db102e288f989d6173345" version="1">Iron Anchor</content>
+    <content contentuid="h00376e5a93a1436e8f10a03612c562bd8931" version="1">By burning iron, anchor to nearby metals and increase size category by 1</content>
+    <content contentuid="h89d94da3bcd941ee81d8942b4ac8a068d63e" version="1">Iron Lurch</content>
+    <content contentuid="h90140284a0f0416ba73df128dccefb04aa15" version="1">By burning iron, pull towards a larger enemy, closing the distance instantly.</content>
+	<content contentuid="h5487181d0d2340d7bedac6f77927d8f7125g" version="1">Iron Pull (Strong)</content>
+    <content contentuid="hae1c3a6a92ff41dabddb36f9724996407bd8" version="1">Iron Lurch (Strong)</content>
+    <content contentuid="h5c54af2eaffd456abac381d42472cd7278g1" version="1">Iron Lurch (Flare)</content>
+    <content contentuid="h1aa4b50a3431448a86cdea0c3c73373de4df" version="1">Iron Pull (Flare)</content>
+	<!--Steel-->
+	<content contentuid="h29d5f47696104527b1968d1b760ab016c2gc" version="1">Steel Shove</content>
+    <content contentuid="h9ae03760b7654e29b483207e9634931ec6c8" version="1">By burning iron, push a smaller enemy away from the caster, dealing damage and disrupting their position.</content>
+    <content contentuid="h40d2c1de0b73482b8e20d8d62513602d9088" version="1">By burning iron, push a smaller enemy [1] away from the caster, dealing damage and disrupting their position.</content>
+    <content contentuid="h33d8e7fe794f4ea28cd4d86d0072c12f2g5a" version="1">Steel Shove (Strong)</content>
+    <content contentuid="h04361cf06bd34aaba79feb5d436fc78bf354" version="1">Steel Shove (Flare)</content>
+    <content contentuid="hbaf9b72256754b608b266b90466b7a8cd0ec" version="1">Steel Boost</content>
+    <content contentuid="h19e70966f837426f843bd1b4aea87fb6e437" version="1">By burning steel, push away from larger enemies, propelling in the opposite direction.</content>
+    <content contentuid="h801cc2782eb6420299f8fc29aaa8e26fdb8f" version="1">By burning steel, push away from larger enemies, propelling [1] in the opposite direction.</content>
+    <content contentuid="h541c7d37b8e1450b8ecdab8e10015220fg99" version="1">Steel Boost (Strong)</content>
+    <content contentuid="h98683bebe0fe48b0b2d773b2a41bc90cd2fg" version="1">Steel Boost (Flare)</content>
+</contentList>

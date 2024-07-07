@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="4" build="206"/>
+    <region id="PassiveLists">
+        <node id="root">
+            <children>
+                <node id="PassiveList">
+                    <attribute id="Passives" type="LSString" value="FightingStyle_Archery,FightingStyle_Dueling,FightingStyle_Defense,FightingStyle_TwoWeaponFighting"/>
+                    <attribute id="UUID" type="guid" value="d123e1c8-5b9e-42f8-8c6c-f4f1193629da"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Passives" type="LSString" value="Iron_Unlock,Steel_Unlock,Tin_Unlock,Pewter_Unlock,Zinc_Unlock,Brass_Unlock,Copper_Unlock,Bronze_Unlock,Chromium_Unlock,Nicrosil_Unlock,Aluminum_Unlock,Duralumin_Unlock,Cadmium_Unlock,Bendalloy_Unlock,Gold_Unlock,Electrum_Unlock"/>
+                    <attribute id="UUID" type="guid" value="f94764f3-0a6a-4492-b42e-333ea67e2b28"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>
