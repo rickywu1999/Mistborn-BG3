@@ -1,5 +1,0 @@
-{
-    "RequiredVersion": 10,
-    "ModTable": "Mistborn",
-    "FeatureFlags": ["Lua"]
-}
