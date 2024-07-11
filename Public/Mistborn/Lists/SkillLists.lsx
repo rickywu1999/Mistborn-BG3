@@ -5,7 +5,7 @@
         <node id="root">
             <children>
                 <node id="SkillList"> Class Skills
-                    <attribute id="Skills" type="LSString" value="Acrobatics, Athletics, Deception, Insight, Intimidation, Investigation, Perception, Performance, Persuasion, SleightOfHand, Stealth"/> List of skills to choose at CC
+                    <attribute id="Skills" type="LSString" value="Acrobatics, Athletics, Investigation, Perception, SleightOfHand, Stealth"/> List of skills to choose at CC
                     <attribute id="UUID" type="guid" value="0e1468ec-0eec-4166-96ca-2f1e7f66772d"/> 
                 </node>
             </children>

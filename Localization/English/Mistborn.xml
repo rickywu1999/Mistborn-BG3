@@ -47,27 +47,39 @@
     <content contentuid="h939659ddd7b44d4c84acb343d9d879fb62ae" version="1">Select the Allomantic metals to incorporate into your build, unlocking unique abilities and enhancing your power as a Mistborn.</content>
 
 	<!--PHYSICAL-->
+    <!--Tooltips-->
+    <content contentuid="h36219bc1a914423cb688775c05099529dd78" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Target must be smaller or equal-sized.</content>
+    <content contentuid="h1b5c8af6fefe4fd09180da87f7c91f959d57" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Target must be larger or equal-sized.</content>
 	<!--Iron-->
     <content contentuid="h3b2cd238c21d4db28bef7fe96bb89b70ef0f" version="1">Iron Pull</content>
-    <content contentuid="he4df31e11f354589b8225ac6ef05e94c713d" version="1">By burning iron, pull a smaller enemy towards the caster, dealing damage and disrupting their position.</content>
-	<content contentuid="h60f624c94fd442889ca84e20255d8dbe1gcd" version="1">By burning iron, pull a smaller enemy [1] towards the caster, dealing damage and disrupting their position.</content>
+    <content contentuid="he4df31e11f354589b8225ac6ef05e94c713d" version="1">By burning iron, pull a smaller or equal-sized target closer, dealing damage and disrupting their position.</content>
+	<content contentuid="h60f624c94fd442889ca84e20255d8dbe1gcd" version="1">By burning iron, pull a smaller or equal-sized target [1] closer, dealing damage and disrupting their position.</content>
     <content contentuid="h97d924c29be44e4db102e288f989d6173345" version="1">Iron Anchor</content>
-    <content contentuid="h00376e5a93a1436e8f10a03612c562bd8931" version="1">By burning iron, anchor to nearby metals and increase size category by 1</content>
+    <content contentuid="h00376e5a93a1436e8f10a03612c562bd8931" version="1">By burning iron, anchor to nearby metals and increase size category by 1.</content>
     <content contentuid="h89d94da3bcd941ee81d8942b4ac8a068d63e" version="1">Iron Lurch</content>
-    <content contentuid="h90140284a0f0416ba73df128dccefb04aa15" version="1">By burning iron, pull towards a larger enemy, closing the distance instantly.</content>
+    <content contentuid="h90140284a0f0416ba73df128dccefb04aa15" version="1">By burning iron, pull towards a larger or equal-sized target, closing the distance instantly.</content>
 	<content contentuid="h5487181d0d2340d7bedac6f77927d8f7125g" version="1">Iron Pull (Strong)</content>
     <content contentuid="hae1c3a6a92ff41dabddb36f9724996407bd8" version="1">Iron Lurch (Strong)</content>
     <content contentuid="h5c54af2eaffd456abac381d42472cd7278g1" version="1">Iron Lurch (Flare)</content>
     <content contentuid="h1aa4b50a3431448a86cdea0c3c73373de4df" version="1">Iron Pull (Flare)</content>
 	<!--Steel-->
 	<content contentuid="h29d5f47696104527b1968d1b760ab016c2gc" version="1">Steel Shove</content>
-    <content contentuid="h9ae03760b7654e29b483207e9634931ec6c8" version="1">By burning iron, push a smaller enemy away from the caster, dealing damage and disrupting their position.</content>
-    <content contentuid="h40d2c1de0b73482b8e20d8d62513602d9088" version="1">By burning iron, push a smaller enemy [1] away from the caster, dealing damage and disrupting their position.</content>
+    <content contentuid="h9ae03760b7654e29b483207e9634931ec6c8" version="1">By burning steel, push a smaller or equal-sized target away, dealing damage and disrupting their position.</content>
+    <content contentuid="h40d2c1de0b73482b8e20d8d62513602d9088" version="1">By burning steel, push a smaller or equal-sized target [1] away, dealing damage and disrupting their position.</content>
     <content contentuid="h33d8e7fe794f4ea28cd4d86d0072c12f2g5a" version="1">Steel Shove (Strong)</content>
     <content contentuid="h04361cf06bd34aaba79feb5d436fc78bf354" version="1">Steel Shove (Flare)</content>
     <content contentuid="hbaf9b72256754b608b266b90466b7a8cd0ec" version="1">Steel Boost</content>
-    <content contentuid="h19e70966f837426f843bd1b4aea87fb6e437" version="1">By burning steel, push away from larger enemies, propelling in the opposite direction.</content>
-    <content contentuid="h801cc2782eb6420299f8fc29aaa8e26fdb8f" version="1">By burning steel, push away from larger enemies, propelling [1] in the opposite direction.</content>
+    <content contentuid="h19e70966f837426f843bd1b4aea87fb6e437" version="1">By burning steel, push away from a larger or equal-sized target, propelling in the opposite direction.</content>
+    <content contentuid="h801cc2782eb6420299f8fc29aaa8e26fdb8f" version="1">By burning steel, push away from a larger or equal-sized target, propelling [1] in the opposite direction.</content>
     <content contentuid="h541c7d37b8e1450b8ecdab8e10015220fg99" version="1">Steel Boost (Strong)</content>
     <content contentuid="h98683bebe0fe48b0b2d773b2a41bc90cd2fg" version="1">Steel Boost (Flare)</content>
+    <content contentuid="h88fb271b1b2e46b2981c5ef9fde4617177ga" version="1">Coin Shot</content>
+    <content contentuid="h6430bcee2cbb4d02beda7162a68daf964832" version="1">By burning steel, propel a metal coin towards a target, dealing piercing damage.</content>
+    <content contentuid="h6fe5aa1962e647d282e630404d4df01a2a14" version="1">Coin Shot (Strong)</content>
+    <content contentuid="h80e39b64ced94022b13e6cfce1171256eg02" version="1">Coin Shot (Flare)</content>
+    <content contentuid="h916fd312339449a391d619db110a125c3ca6" version="1">Testingtestingtesting</content>
+    <content contentuid="h1dd02ebd138043189c398e972b391af64g8e" version="1">Steel Leap</content>
+    <content contentuid="hc0b63d0d18884596899f5ddee96470c8dc2d" version="1">By burning steel and pushing against metal on the ground, triple your jumping distance.</content>
+    <content contentuid="h24d8e92c81414ef885ec01fac04b41f82afd" version="1">Iron Jump</content>
+    <content contentuid="h4f406a61cd604947b690426a5367d858f5a7" version="1">By burning iron and pulling on metal above you, triple your jumping distance.</content>
 </contentList>

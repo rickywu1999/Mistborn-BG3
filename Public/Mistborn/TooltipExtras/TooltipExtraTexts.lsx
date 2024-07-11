@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="9" build="326"/>
+    <region id="TooltipExtraTexts">
+        <node id="root">
+            <children>
+                <node id="TooltipExtraTexts"> <!-- Target must be a smaller or equal size category -->
+                    <attribute id="Text" type="TranslatedString" handle="h36219bc1a914423cb688775c05099529dd78" version="1"/>
+                    <attribute id="UUID" type="guid" value="53e383b6-250a-4c28-a809-2262d2531d51"/>
+                </node>
+                <node id="TooltipExtraTexts"> <!-- Target must be a larger size category -->
+                    <attribute id="Text" type="TranslatedString" handle="h1b5c8af6fefe4fd09180da87f7c91f959d57" version="1"/>
+                    <attribute id="UUID" type="guid" value="a1f3abb6-101a-4498-ae7f-66a3ea951b44"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

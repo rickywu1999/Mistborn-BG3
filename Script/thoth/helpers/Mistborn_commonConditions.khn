@@ -1,7 +1,0 @@
-function TargetSmallerThanSource(entity,entity2)
-    return ConditionResult(entity.Size ~= Size.None and entity2.Size ~= Size.None and entity.Size.value < entity2.Size.value)
-end
-
-function TargetLargerThanSource(entity,entity2)
-    return ConditionResult(entity.Size ~= Size.None and entity2.Size ~= Size.None and entity.Size.value > entity2.Size.value)
-end
