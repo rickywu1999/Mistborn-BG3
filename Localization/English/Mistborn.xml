@@ -10,7 +10,7 @@
 	<content contentuid="hed44144cg23a4g4b08g819cgab93bd440003" version="1">Metal Slots</content>
 	<content contentuid="heffbeaacg0ac0g4f12g98a5g2c024f5eb402" version="1">Mistborn burn metals they ingest to power their Allomatic abilities.</content>
 
-		<!--Passives-->
+	<!--Passives-->
     <content contentuid="h69a8d9a3af8e43fca4a650a74840b2add1d6" version="1">The 16 Allomatic Metals</content>
     <content contentuid="h8fd80317bb464146af96c486615e94b84ac8" version="1">Physical Metal: Iron</content>
     <content contentuid="h7b50be3a026a4b96bda9509ff92997122g55" version="1">Physical Metal: Steel</content>
@@ -45,11 +45,15 @@
     <content contentuid="h7f120368215c4a66a121c2cc33fb8690f5f1" version="1">Unlocks the ability to burn nicrosil, magnifying the Allomantic abilities of others upon contact.</content>
     <content contentuid="h0e5d564149c845ecad0d069001916cb38f53" version="1">Unlocks the ability to burn chromium, causing other Allomancers to lose all their metal reserves upon contact.</content>
     <content contentuid="h939659ddd7b44d4c84acb343d9d879fb62ae" version="1">Select the Allomantic metals to incorporate into your build, unlocking unique abilities and enhancing your power as a Mistborn.</content>
-
-	<!--PHYSICAL-->
+    <content contentuid="h4cd9b2ea47654358b84542b880e9011683gd" version="1">Metal Flaring</content>
+    <content contentuid="h77f047b16f1d4aa186f7e7537c1bebae66b6" version="1">Gain the ability to flare metals, burning them at an accelerated rate to enhance their effects.</content>
+	
     <!--Tooltips-->
     <content contentuid="h36219bc1a914423cb688775c05099529dd78" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Target must be smaller or equal-sized.</content>
     <content contentuid="h1b5c8af6fefe4fd09180da87f7c91f959d57" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Target must be larger or equal-sized.</content>
+    <content contentuid="h7d2231994a2849f996aadf31de7cebf1ef3c" version="1">&lt;LSTag Type="Image" Info="Inspiration"/&gt; Must have &lt;LSTag Type="Passive" Tooltip="Metal_Flaring"&gt;Metal Flaring&lt;/LSTag&gt; to use.&lt;br&gt;</content>
+
+    <!--PHYSICAL-->
 	<!--Iron-->
     <content contentuid="h3b2cd238c21d4db28bef7fe96bb89b70ef0f" version="1">Iron Pull</content>
     <content contentuid="he4df31e11f354589b8225ac6ef05e94c713d" version="1">By burning iron, pull a smaller or equal-sized target closer, dealing damage and disrupting their position.</content>
@@ -58,28 +62,44 @@
     <content contentuid="h00376e5a93a1436e8f10a03612c562bd8931" version="1">By burning iron, anchor to nearby metals and increase size category by 1.</content>
     <content contentuid="h89d94da3bcd941ee81d8942b4ac8a068d63e" version="1">Iron Lurch</content>
     <content contentuid="h90140284a0f0416ba73df128dccefb04aa15" version="1">By burning iron, pull towards a larger or equal-sized target, closing the distance instantly.</content>
-	<content contentuid="h5487181d0d2340d7bedac6f77927d8f7125g" version="1">Iron Pull (Strong)</content>
-    <content contentuid="hae1c3a6a92ff41dabddb36f9724996407bd8" version="1">Iron Lurch (Strong)</content>
+	<content contentuid="h5487181d0d2340d7bedac6f77927d8f7125g" version="1">Iron Pull (Enhance)</content>
+    <content contentuid="hae1c3a6a92ff41dabddb36f9724996407bd8" version="1">Iron Lurch (Enhance)</content>
     <content contentuid="h5c54af2eaffd456abac381d42472cd7278g1" version="1">Iron Lurch (Flare)</content>
     <content contentuid="h1aa4b50a3431448a86cdea0c3c73373de4df" version="1">Iron Pull (Flare)</content>
 	<!--Steel-->
 	<content contentuid="h29d5f47696104527b1968d1b760ab016c2gc" version="1">Steel Shove</content>
     <content contentuid="h9ae03760b7654e29b483207e9634931ec6c8" version="1">By burning steel, push a smaller or equal-sized target away, dealing damage and disrupting their position.</content>
     <content contentuid="h40d2c1de0b73482b8e20d8d62513602d9088" version="1">By burning steel, push a smaller or equal-sized target [1] away, dealing damage and disrupting their position.</content>
-    <content contentuid="h33d8e7fe794f4ea28cd4d86d0072c12f2g5a" version="1">Steel Shove (Strong)</content>
+    <content contentuid="h33d8e7fe794f4ea28cd4d86d0072c12f2g5a" version="1">Steel Shove (Enhance)</content>
     <content contentuid="h04361cf06bd34aaba79feb5d436fc78bf354" version="1">Steel Shove (Flare)</content>
     <content contentuid="hbaf9b72256754b608b266b90466b7a8cd0ec" version="1">Steel Boost</content>
     <content contentuid="h19e70966f837426f843bd1b4aea87fb6e437" version="1">By burning steel, push away from a larger or equal-sized target, propelling in the opposite direction.</content>
     <content contentuid="h801cc2782eb6420299f8fc29aaa8e26fdb8f" version="1">By burning steel, push away from a larger or equal-sized target, propelling [1] in the opposite direction.</content>
-    <content contentuid="h541c7d37b8e1450b8ecdab8e10015220fg99" version="1">Steel Boost (Strong)</content>
+    <content contentuid="h541c7d37b8e1450b8ecdab8e10015220fg99" version="1">Steel Boost (Enhance)</content>
     <content contentuid="h98683bebe0fe48b0b2d773b2a41bc90cd2fg" version="1">Steel Boost (Flare)</content>
     <content contentuid="h88fb271b1b2e46b2981c5ef9fde4617177ga" version="1">Coin Shot</content>
     <content contentuid="h6430bcee2cbb4d02beda7162a68daf964832" version="1">By burning steel, propel a metal coin towards a target, dealing piercing damage.</content>
-    <content contentuid="h6fe5aa1962e647d282e630404d4df01a2a14" version="1">Coin Shot (Strong)</content>
+    <content contentuid="h6fe5aa1962e647d282e630404d4df01a2a14" version="1">Coin Shot (Enhance)</content>
     <content contentuid="h80e39b64ced94022b13e6cfce1171256eg02" version="1">Coin Shot (Flare)</content>
     <content contentuid="h916fd312339449a391d619db110a125c3ca6" version="1">Testingtestingtesting</content>
     <content contentuid="h1dd02ebd138043189c398e972b391af64g8e" version="1">Steel Leap</content>
     <content contentuid="hc0b63d0d18884596899f5ddee96470c8dc2d" version="1">By burning steel and pushing against metal on the ground, triple your jumping distance.</content>
-    <content contentuid="h24d8e92c81414ef885ec01fac04b41f82afd" version="1">Iron Jump</content>
-    <content contentuid="h4f406a61cd604947b690426a5367d858f5a7" version="1">By burning iron and pulling on metal above you, triple your jumping distance.</content>
+    <!--Tin-->
+    <content contentuid="hd15c17e79669457eac12fc9e7e7540b04bc9" version="1">Tineye</content>
+    <content contentuid="hb7a196ca8ea4411fb85e1b805d4131575b03" version="1">By burning tin, gain the ability to see in the dark out to a range of [1].</content>
+    <content contentuid="h1d4088dbae5a41cc9ead4a94829c299a6g92" version="1">Tineye (Enhance)</content>
+    <content contentuid="h9d62084cd72f49238e865587a80d0f8da7d8" version="1">Tineye (Flare)</content>
+    <content contentuid="hbff7b133141b4f4b915184a0b5c8742ag27b" version="1">By burning tin, gain the ability to see in the dark out to a range.</content>
+    <content contentuid="hf4f9436f83eb416393928793177f3a8d1fba" version="1">Tin Senses</content>
+    <content contentuid="hf9235b1b2fd14dd3a50a04d6340e7d009237" version="1">By burning tin, enhance all five senses to gain a +[1] bonus to Perception and immunity to &lt;LSTag Type="Status" Tooltip="SURPRISED"&gt;Surprised&lt;/LSTag&gt;.&lt;br&gt;However, being &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinded&lt;/LSTag&gt; will overwhelm your senses, inflicting &lt;LSTag Type="Status" Tooltip="STUNNED"&gt;Stunned&lt;/LSTag&gt; and removing this buff.</content>
+    <!--Pewter-->
+    <content contentuid="h0b237ca447fb4310a1bc27e818b6518152g8" version="1">Pewter Enhance</content>
+    <content contentuid="h0ab304feea5f43628c0643b047849df650fb" version="1">By burning pewter, temporarily increase physical strength and resilience, gaining the &lt;LSTag Type="Status" Tooltip="PEWTERENHANCE"&gt;Pewter Enhance&lt;/LSTag&gt; buff.&lt;br&gt;&lt;br&gt;While burning pewter, you can continue to burn pewter every turn without expending an action. </content>
+    <content contentuid="h8fa3c321e1f54d82b189a9c2ab12eca5gfaf" version="1">Gain a +[1] bonus to Strength, Dexterity, and Constitution &lt;LSTag Tooltip="SavingThrow"&gt;saving throws&lt;/LSTag&gt; and a +[1] bonus to &lt;LSTag Tooltip="AttackRoll"&gt;attack rolls&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Regain [2] at the start of your turn.&lt;br&gt;&lt;br&gt;Take [3] less damage from Piercing, Slashing, and Bludgeoning damage. <b>However, each hit sustained while burning pewter will deal [4] damage after you stop burning pewter.</b></content>
+    <content contentuid="h4c31694fc59e46708bb559634e098cd2e933" version="1">Pewter Fatigue</content>
+    <content contentuid="hd95d6fdf6a454a55baff148fb30ab97a4d4f" version="1">Take [1] damage per stack.</content>
+    <content contentuid="ha6cf8316588e4653a7d93a17ef9b986c8938" version="1">Pewter Enhance (Enhance)</content>
+    <content contentuid="h4c326a9159b2439fb1866d0a2ee501b2d36d" version="1">By burning pewter, temporarily increase physical strength and resilience, gaining the &lt;LSTag Type="Status" Tooltip="PEWTERENHANCE_ENHANCE"&gt;Pewter Enhance&lt;/LSTag&gt; buff.&lt;br&gt;&lt;br&gt;While burning pewter, you can continue to burn pewter every turn without expending an action.</content>
+    <content contentuid="hcc7428dbdfe74b21b9e0f9363d46ade5e3g1" version="1">Pewter Enhance (Flare)</content>
+    <content contentuid="hf30ad5b168394063a875cebb7c564bb3fabe" version="1">By burning pewter, temporarily increase physical strength and resilience, gaining the &lt;LSTag Type="Status" Tooltip="PEWTERENHANCE_FLARE"&gt;Pewter Enhance&lt;/LSTag&gt; buff.&lt;br&gt;&lt;br&gt;While burning pewter, you can continue to burn pewter every turn without expending an action.</content>
 </contentList>

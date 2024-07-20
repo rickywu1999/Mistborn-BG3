@@ -12,6 +12,10 @@
                     <attribute id="Text" type="TranslatedString" handle="h1b5c8af6fefe4fd09180da87f7c91f959d57" version="1"/>
                     <attribute id="UUID" type="guid" value="a1f3abb6-101a-4498-ae7f-66a3ea951b44"/>
                 </node>
+                <node id="TooltipExtraTexts"> <!-- Must have Metal Flaring to use. -->
+                    <attribute id="Text" type="TranslatedString" handle="h7d2231994a2849f996aadf31de7cebf1ef3c" version="1"/>
+                    <attribute id="UUID" type="guid" value="c98b3f22-3bad-467c-9e68-1342ab3b07b5"/>
+                </node>
             </children>
         </node>
     </region>
