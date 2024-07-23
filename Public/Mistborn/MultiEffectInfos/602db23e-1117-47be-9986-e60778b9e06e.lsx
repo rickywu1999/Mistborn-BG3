@@ -3,35 +3,30 @@
 	<version major="4" minor="0" revision="4" build="602" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
-			<attribute id="Name" type="LSString" value="Allomancy_BlueLines" />
-			<attribute id="UUID" type="guid" value="61b2a0b0-c185-4a9f-aaeb-ef05f230bd37" />
+			<attribute id="Name" type="LSString" value="Allomancy_Mental_Cleanse" />
+			<attribute id="UUID" type="guid" value="602db23e-1117-47be-9986-e60778b9e06e" />
 			<children>
 				<node id="EffectInfo">
 					<attribute id="BindSourceTo" type="FixedString" value="SourceEntity" />
 					<attribute id="BindTargetTo" type="FixedString" value="TargetEntity" />
 					<attribute id="DetachSource" type="bool" value="False" />
 					<attribute id="DetachTarget" type="bool" value="False" />
-					<attribute id="EffectResourceGuid" type="guid" value="20ffe1d3-103f-4700-8b97-61216e66e45d" />
+					<attribute id="EffectResourceGuid" type="guid" value="846ee892-5c43-48b1-9ca2-9ff9937cdb4d" />
 					<attribute id="KeepRotation" type="bool" value="False" />
-					<attribute id="KeepScale" type="bool" value="False" />
+					<attribute id="KeepScale" type="bool" value="True" />
 					<attribute id="MainHand" type="bool" value="False" />
 					<attribute id="MaxDistance" type="float" value="0" />
 					<attribute id="MinDistance" type="float" value="0" />
 					<attribute id="OffHand" type="bool" value="False" />
-					<attribute id="Pivot" type="FixedString" value="Source" />
-					<attribute id="UUID" type="guid" value="4b65a3c4-499f-473e-9c75-30bf79c740b0" />
-					<attribute id="UseDistance" type="bool" value="True" />
-					<attribute id="UseOrientDirection" type="bool" value="True" />
+					<attribute id="Pivot" type="FixedString" value="Target" />
+					<attribute id="StartTextKey" type="LSString" value="Cast" />
+					<attribute id="UUID" type="guid" value="793930ba-1477-4d8e-8afa-95b84b6cd58f" />
+					<attribute id="UseDistance" type="bool" value="False" />
+					<attribute id="UseOrientDirection" type="bool" value="False" />
 					<attribute id="UseScaleOverride" type="bool" value="False" />
 					<children>
-						<node id="SourceBone">
-							<attribute id="Value" type="LSString" value="Dummy_BodyFX" />
-						</node>
-						<node id="SourceSkeletonSlot">
-							<attribute id="Value" type="LSString" value="" />
-						</node>
 						<node id="TargetBone">
-							<attribute id="Value" type="LSString" value="Dummy_BodyFX" />
+							<attribute id="Value" type="LSString" value="Dummy_ChestFX" />
 						</node>
 						<node id="TargetSkeletonSlot">
 							<attribute id="Value" type="LSString" value="" />

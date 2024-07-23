@@ -16,6 +16,18 @@
                     <attribute id="Text" type="TranslatedString" handle="h7d2231994a2849f996aadf31de7cebf1ef3c" version="1"/>
                     <attribute id="UUID" type="guid" value="c98b3f22-3bad-467c-9e68-1342ab3b07b5"/>
                 </node>
+                <node id="TooltipExtraTexts"> <!-- Does not spend Metal Slots. -->
+                    <attribute id="Text" type="TranslatedString" handle="hc050123f4dfe449d8de2b494723a11d4eb2c" version="1"/>
+                    <attribute id="UUID" type="guid" value="d575ff4b-dbaf-4499-8ba9-debde6ba6d0d"/>
+                </node>
+                <node id="TooltipExtraTexts"> <!-- This Spell uses Charisma for the Spellcasting Modifier. -->
+                    <attribute id="Text" type="TranslatedString" handle="h96c8e88d61af4917ae22a486af09432081fa" version="1"/>
+                    <attribute id="UUID" type="guid" value="a3c02130-a7c5-407c-aa28-6c5e8f40bacf"/>
+                </node>
+                <node id="TooltipExtraTexts"> <!-- This Spell uses Dexterity for the Attack Roll. -->
+                    <attribute id="Text" type="TranslatedString" handle="h8d60c337c55c49ef90fe8b567e23c29b5940" version="1"/>
+                    <attribute id="UUID" type="guid" value="3b72916a-904a-4c80-a0c3-48ce3cc69d24"/>
+                </node>
             </children>
         </node>
     </region>
