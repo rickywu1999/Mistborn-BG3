@@ -115,7 +115,7 @@ data "Boosts" "RollBonus(SavingThrow,1,Strength);RollBonus(SavingThrow,1,Dexteri
 data "Passives" "PewterFatigue_Passive;PewterHeal_Passive"
 data "TickType" "EndTurn"
 data "StatusGroups" "SG_RemoveOnRespec"
-data "StatusEffect" "869aaa90-c2da-40d3-856a-9730df79c4ba"
+"StatusEffect" "d187f3f9-b9cf-428e-a1df-39e0a92ec7c4"
 data "OnRemoveFunctors" "RemoveStatus(PEWTERFATIGUE)"
 
 new entry "PEWTERENHANCE_ENHANCE"

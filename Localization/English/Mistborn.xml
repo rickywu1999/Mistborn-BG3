@@ -111,6 +111,22 @@
     <content contentuid="h5742c10c846d45a4a5d5ffb4aeaef3a65f0b" version="1">You have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; against being &lt;LSTag Type="Status" Tooltip="CHARMED"&gt;Charmed&lt;/LSTag&gt;.</content>
     <content contentuid="h3754f1e7ef15464d8d9f886805fe3ede459g" version="1">Riot Friendship</content>
     <content contentuid="h2240efb282c74ad5b8cc82f434619dbbaa3a" version="1">By burning zinc, riot feelings of comraderie in a non-hostile creature to gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Charisma &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
+    <content contentuid="h32dd9ec72b534c9fac2d2d9bd75546e98d08" version="1">Riot Stress</content>
+    <content contentuid="h7e09bfa035cb47648d436ba2585439e13627" version="1">By burning zinc, riot the stress of up to 3 creatures, reducing &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; by [1].</content>
+    <content contentuid="h1c143233e6c5403fa830edc7794830ba4ac0" version="1">Stressed</content>
+    <content contentuid="hddd8fe8b66f041eea46bd3271520a42f229f" version="1">Reduce &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; by [1].</content>
+    <content contentuid="hf9e51ea8684f489c887875502c8b7f35c8b2" version="1">Riot Stress (Enhance)</content>
+    <content contentuid="h8f76629781424ea6b964fb68c7e7bdbacaba" version="1">Riot Stress (Flare)</content>
+    <content contentuid="hd126848b6c6044eab19be62301f1c0aag5ad" version="1">Stressed (Enhance)</content>
+    <content contentuid="h600c65eb9c404addad4bd8ca697b249367c9" version="1">Stressed (Flare)</content>
+    <content contentuid="h5131eb3b2f3a44999127dfe4ac6b14f2e4fd" version="1">Riot Anger</content>
+    <content contentuid="hcac928b584ce434999804c72f5e726d50e1g" version="1">By burning zinc, riot the anger and recklessness of up to 3 creatures, increasing &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; by [1] and reducing &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; by [1].</content>
+    <content contentuid="h63af0ac792884c68a8e4a07b13b06b15c6dd" version="1">Riot Anger (Enhance)</content>
+    <content contentuid="hcbbebe3c1c454078a3db34a400297217026b" version="1">Riot Anger (Flare)</content>
+    <content contentuid="h8e257feca15b4449b6482ed475019f083fb2" version="1">Angry</content>
+    <content contentuid="hf1b588fc3b094289a099baadc018785c8296" version="1">Angry (Enhance)</content>
+    <content contentuid="hbc115189748a4049ac7c82214326cbc45624" version="1">Angry (Flare)</content>
+    <content contentuid="hf1d60b150dc04de1a641e445de7767bc2613" version="1">Increase &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; by [1] and reduce &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; by [1].</content>
     <!--Brass-->
     <content contentuid="h240faff576284be4825971019168cdf3gdac" version="1">Soothe Hatred</content>
     <content contentuid="ha965497adaad4c24b3e0d7adf274015cb949" version="1">By burning brass, soothe the target's hatred towards you after performing a weapon attack, possibly applying &lt;LSTag Type="Status" Tooltip="CHARMED"&gt;Charmed&lt;/LSTag&gt; to the target.</content>
@@ -121,4 +137,5 @@
     <content contentuid="hc0ca46f0343d4995855d5ccfdbfe39b5541f" version="1">Peripheral vision and sight range reduced.</content>
     <content contentuid="h86e4cd3412bd44b78b8aa1c327a0a1c20634" version="1">By burning brass, soothe away the focus and attention of up to 3 non-hostile creature, reducing their peripheral vision and vision range.</content>
     <content contentuid="h89d7e38eacd64995a24841a2773219ef7g54" version="1">Unattentive</content>
+    <content contentuid="h534ed72f6f314442a6f441c4035b23f907e2" version="1">Soothe Stress</content>
 </contentList>

@@ -38,7 +38,7 @@ data "DisplayName" "h9a702fc8cf134938abedf2a3f8f24b62g606;2"
 data "Description" "h300e48ccd2b746af9e3ec974830ac77a594e;2"
 data "Icon" "Passive_Mental_Zinc"
 data "Properties" "Highlighted"
-data "Boosts" "UnlockSpell(RiotTerror_Melee,,,,Charisma);UnlockSpell(RiotTerror_Ranged,,,,Charisma);UnlockSpell(RiotClarity);UnlockSpell(RiotFriendship)"
+data "Boosts" "UnlockSpell(RiotTerror_Melee,,,,Charisma);UnlockSpell(RiotTerror_Ranged,,,,Charisma);UnlockSpell(RiotStress_Container,,,,Charisma);UnlockSpell(RiotAnger_Container,,,,Charisma);UnlockSpell(RiotClarity);UnlockSpell(RiotFriendship)"
 
 new entry "Brass_Unlock"
 type "PassiveData"
