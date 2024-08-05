@@ -5,13 +5,13 @@
 	<content contentuid="hcbd4f5dfgeadag4933g8ce9gfb10e3ff3618" version="1">Mistborn are figures shrouded in awe and fear. These rare individuals have the power to burn all metals known to Allomancers, making them masters of a versatile and formidable array of abilities. By ingesting and metabolizing these metals, a Mistborn can enhance their strength, fly across the battlefield, soothe or riot emotions, and even manipulate time around them.</content>
 	
 	<!--Metal Slots -->
-	<content contentuid="h1914187fg34f6g455eg81f9g171adffcde14" version="1">Metal Slots</content>
+	<content contentuid="h1914187fg34f6g455eg81f9g171adffcde14" version="1">Metal Slot(s)</content>
 	<content contentuid="hbcca4811gc5dfg4916ga4fcg52dc44a97336" version="1">Mistborn drink vials of various metals to fuel their Allomantic abilities. You replenish your Metal Slots on a &lt;LSTag Tooltip="ShortRest"&gt;Short&lt;/LSTag&gt; or &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;.</content>
 	<content contentuid="hed44144cg23a4g4b08g819cgab93bd440003" version="1">Metal Slots</content>
 	<content contentuid="heffbeaacg0ac0g4f12g98a5g2c024f5eb402" version="1">Mistborn burn metals they ingest to power their Allomatic abilities.</content>
 
 	<!--Passives-->
-    <content contentuid="h69a8d9a3af8e43fca4a650a74840b2add1d6" version="1">The 16 Allomatic Metals</content>
+    <content contentuid="h69a8d9a3af8e43fca4a650a74840b2add1d6" version="1">Allomatic Metals</content>
     <content contentuid="h8fd80317bb464146af96c486615e94b84ac8" version="1">Physical Metal: Iron</content>
     <content contentuid="h7b50be3a026a4b96bda9509ff92997122g55" version="1">Physical Metal: Steel</content>
     <content contentuid="h2ba74eb39c0844dfb389b4510f3fd6152a7f" version="1">Physical Metal: Tin</content>
@@ -46,7 +46,7 @@
     <content contentuid="h0e5d564149c845ecad0d069001916cb38f53" version="1">Unlocks the ability to burn chromium, causing other Allomancers to lose all their metal reserves upon contact.</content>
     <content contentuid="h939659ddd7b44d4c84acb343d9d879fb62ae" version="1">Select the Allomantic metals to incorporate into your build, unlocking unique abilities and enhancing your power as a Mistborn.</content>
     <content contentuid="h4cd9b2ea47654358b84542b880e9011683gd" version="1">Metal Flaring</content>
-    <content contentuid="h77f047b16f1d4aa186f7e7537c1bebae66b6" version="1">Gain the ability to flare metals, burning them at an accelerated rate to enhance their effects.</content>
+    <content contentuid="h77f047b16f1d4aa186f7e7537c1bebae66b6" version="1">Mistborn Level 7 Class Feature:&lt;br&gt;Gain the ability to flare metals, burning them at an accelerated rate to enhance their effects.</content>
 	
     <!--Tooltips-->
     <content contentuid="h36219bc1a914423cb688775c05099529dd78" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Target must be smaller or equal-sized.</content>
@@ -55,6 +55,7 @@
     <content contentuid="hc050123f4dfe449d8de2b494723a11d4eb2c" version="1">Does not spend &lt;LSTag Type="ActionResource" Tooltip="MetalSlots"&gt;Metal Slots&lt;/LSTag&gt;.</content>
     <content contentuid="h96c8e88d61af4917ae22a486af09432081fa" version="1">&lt;LSTag Type="Image" Info="Inspiration"/&gt; This ability uses &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; for the &lt;LSTag Tooltip="SpellcastingAbilityModifier"&gt;Spellcasting Modifier&lt;/LSTag&gt;.</content>
     <content contentuid="h8d60c337c55c49ef90fe8b567e23c29b5940" version="1">&lt;LSTag Type="Image" Info="Inspiration"/&gt; This ability uses &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; for the &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;.</content>
+    <content contentuid="hfc1e1f76d8c24b4f8fdafa7072692bf24360" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; This ability will always succeed on allies.</content>
 
     <!--PHYSICAL-->
 	<!--Iron-->
@@ -90,7 +91,7 @@
     <content contentuid="h1d4088dbae5a41cc9ead4a94829c299a6g92" version="1">Tineye (Enhance)</content>
     <content contentuid="h9d62084cd72f49238e865587a80d0f8da7d8" version="1">Tineye (Flare)</content>
     <content contentuid="hf4f9436f83eb416393928793177f3a8d1fba" version="1">Tin Senses</content>
-    <content contentuid="hf9235b1b2fd14dd3a50a04d6340e7d009237" version="1">By burning tin, enhance all five senses to gain a +[1] bonus to Perception and immunity to &lt;LSTag Type="Status" Tooltip="SURPRISED"&gt;Surprised&lt;/LSTag&gt;.&lt;br&gt;However, being &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinded&lt;/LSTag&gt; will overwhelm your senses, inflicting &lt;LSTag Type="Status" Tooltip="STUNNED"&gt;Stunned&lt;/LSTag&gt; and removing this buff.</content>
+    <content contentuid="hf9235b1b2fd14dd3a50a04d6340e7d009237" version="1">By burning tin, enhance all five senses to gain a +[1] bonus to Perception and immunity to &lt;LSTag Type="Status" Tooltip="SURPRISED"&gt;Surprised&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;However, being &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinded&lt;/LSTag&gt; will overwhelm your senses, inflicting &lt;LSTag Type="Status" Tooltip="STUNNED"&gt;Stunned&lt;/LSTag&gt; and removing this buff.</content>
     <!--Pewter-->
     <content contentuid="h0b237ca447fb4310a1bc27e818b6518152g8" version="1">Pewter Enhance</content>
     <content contentuid="h0ab304feea5f43628c0643b047849df650fb" version="1">By burning pewter, temporarily increase physical strength and resilience, gaining the &lt;LSTag Type="Status" Tooltip="PEWTERENHANCE"&gt;Pewter Enhance&lt;/LSTag&gt; buff.&lt;br&gt;&lt;br&gt;While burning pewter, you can continue to burn pewter every turn without expending an action. </content>
@@ -105,14 +106,11 @@
     <!--MENTAL-->
 	<!--Zinc-->
     <content contentuid="ha86d28dfb92f4fbc93bff87817f589f1ef18" version="1">Riot Terror</content>
-    <content contentuid="ha35f2aee61b041648e3509485848477b7baf" version="1">By burning zinc, riot the feeling of fear in the target after performing a weapon attack, possibly applying &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frighten&lt;/LSTag&gt; to the target.</content>
-    <content contentuid="he0d6ec66bd344f0b942e155337216af72052" version="1">Riot Clarity</content>
-    <content contentuid="h02dac27c4584435aaec68b24d16ed4fc4g7d" version="1">By burning zinc, riot the sense of clarity in the minds of up to 3 creatures, removing &lt;LSTag Type="Status" Tooltip="CHARMED"&gt;Charm&lt;/LSTag&gt; and providing &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; against being &lt;LSTag Type="Status" Tooltip="CHARMED"&gt;Charmed&lt;/LSTag&gt;.</content>
-    <content contentuid="h5742c10c846d45a4a5d5ffb4aeaef3a65f0b" version="1">You have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; against being &lt;LSTag Type="Status" Tooltip="CHARMED"&gt;Charmed&lt;/LSTag&gt;.</content>
+    <content contentuid="ha35f2aee61b041648e3509485848477b7baf" version="1">By burning zinc, temporarily riot a creature's fear after performing a weapon attack, possibly applying &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frighten&lt;/LSTag&gt; to the creature.</content>
     <content contentuid="h3754f1e7ef15464d8d9f886805fe3ede459g" version="1">Riot Friendship</content>
-    <content contentuid="h2240efb282c74ad5b8cc82f434619dbbaa3a" version="1">By burning zinc, riot feelings of comraderie in a non-hostile creature to gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Charisma &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
+    <content contentuid="h2240efb282c74ad5b8cc82f434619dbbaa3a" version="1">By burning zinc, temporarily riot feelings of comraderie in a non-hostile creature to gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Charisma &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
     <content contentuid="h32dd9ec72b534c9fac2d2d9bd75546e98d08" version="1">Riot Stress</content>
-    <content contentuid="h7e09bfa035cb47648d436ba2585439e13627" version="1">By burning zinc, riot the stress of up to 3 creatures, reducing &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; by [1].</content>
+    <content contentuid="h7e09bfa035cb47648d436ba2585439e13627" version="1">By burning zinc, temporarily riot the stress of up to 3 creatures, reducing &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; by [1].</content>
     <content contentuid="h1c143233e6c5403fa830edc7794830ba4ac0" version="1">Stressed</content>
     <content contentuid="hddd8fe8b66f041eea46bd3271520a42f229f" version="1">Reduce &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; by [1].</content>
     <content contentuid="hf9e51ea8684f489c887875502c8b7f35c8b2" version="1">Riot Stress (Enhance)</content>
@@ -120,7 +118,7 @@
     <content contentuid="hd126848b6c6044eab19be62301f1c0aag5ad" version="1">Stressed (Enhance)</content>
     <content contentuid="h600c65eb9c404addad4bd8ca697b249367c9" version="1">Stressed (Flare)</content>
     <content contentuid="h5131eb3b2f3a44999127dfe4ac6b14f2e4fd" version="1">Riot Anger</content>
-    <content contentuid="hcac928b584ce434999804c72f5e726d50e1g" version="1">By burning zinc, riot the anger and recklessness of up to 3 creatures, increasing &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; by [1] and reducing &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; by [1].</content>
+    <content contentuid="hcac928b584ce434999804c72f5e726d50e1g" version="1">By burning zinc, temporarily riot the anger and recklessness of up to 3 creatures, increasing &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; by [1] and reducing &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; by [1].</content>
     <content contentuid="h63af0ac792884c68a8e4a07b13b06b15c6dd" version="1">Riot Anger (Enhance)</content>
     <content contentuid="hcbbebe3c1c454078a3db34a400297217026b" version="1">Riot Anger (Flare)</content>
     <content contentuid="h8e257feca15b4449b6482ed475019f083fb2" version="1">Angry</content>
@@ -129,13 +127,34 @@
     <content contentuid="hf1d60b150dc04de1a641e445de7767bc2613" version="1">Increase &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; by [1] and reduce &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; by [1].</content>
     <!--Brass-->
     <content contentuid="h240faff576284be4825971019168cdf3gdac" version="1">Soothe Hatred</content>
-    <content contentuid="ha965497adaad4c24b3e0d7adf274015cb949" version="1">By burning brass, soothe the target's hatred towards you after performing a weapon attack, possibly applying &lt;LSTag Type="Status" Tooltip="CHARMED"&gt;Charmed&lt;/LSTag&gt; to the target.</content>
-    <content contentuid="hb36f898c77d143499bbdaa1e0194b922dcbf" version="1">Soothe Fear</content>
-    <content contentuid="h6d7f52e59e6940eaab5b6ed7139177083bfc" version="1">By burning brass, soothe away the fear from the minds of up to 3 creatures, removing &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frighten&lt;/LSTag&gt; and providing &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; against being &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightened&lt;/LSTag&gt;.</content>
-    <content contentuid="h3e8f009dc00445deb7466cfff763da699182" version="1">You have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; against being &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightened&lt;/LSTag&gt;.</content>
+    <content contentuid="ha965497adaad4c24b3e0d7adf274015cb949" version="1">By burning brass, temporarily soothe away a creature's hatred after performing a weapon attack, possibly applying &lt;LSTag Type="Status" Tooltip="CHARMED"&gt;Charmed&lt;/LSTag&gt; to the creature.</content>
     <content contentuid="he16dfdbc975f4921b939ec0f022725eb6gc0" version="1">Soothe Attention</content>
     <content contentuid="hc0ca46f0343d4995855d5ccfdbfe39b5541f" version="1">Peripheral vision and sight range reduced.</content>
-    <content contentuid="h86e4cd3412bd44b78b8aa1c327a0a1c20634" version="1">By burning brass, soothe away the focus and attention of up to 3 non-hostile creature, reducing their peripheral vision and vision range.</content>
+    <content contentuid="h86e4cd3412bd44b78b8aa1c327a0a1c20634" version="1">By burning brass, temporarily soothe away the focus and attention of up to 3 non-hostile creature, reducing their peripheral vision and vision range.</content>
     <content contentuid="h89d7e38eacd64995a24841a2773219ef7g54" version="1">Unattentive</content>
     <content contentuid="h534ed72f6f314442a6f441c4035b23f907e2" version="1">Soothe Stress</content>
+    <content contentuid="h5d427b2c058a4a4a804d79040a05223d8600" version="1">By burning brass, temporarily soothe away the stress of up to 3 creatures, increasing &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; by [1].</content>
+    <content contentuid="hfb734870d3e24fd78be9e6365fd4936a2c6e" version="1">Soothe Stress (Enhance)</content>
+    <content contentuid="h2668257379c64282bc1a5dcd249b8cd20451" version="1">Soothe Stress (Flare)</content>
+    <content contentuid="he2fb5a2a81d34f30985184e543c9522e9gfc" version="1">Relaxed</content>
+    <content contentuid="h4739766b2e3b4812b8ceb5646d242e150865" version="1">Increase &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; by [1].</content>
+    <content contentuid="h791e9ac56ef84df185005316c21b5e465aa9" version="1">Relaxed (Enhance)</content>
+    <content contentuid="h16b8207ce8e3474e83e2a287c335b22b1011" version="1">Relaxed (Flare)</content>
+    <content contentuid="heb308d84a71140babcbcb6bfa82229b743fc" version="1">Soothe Bravery</content>
+    <content contentuid="h6a7d74fbbd604d3a829a20d29a1c382e89e8" version="1">By burning brass, temporarily soothe away bravery from up to 3 creatures, making them more wary and cautious. Reduces &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; by [1] and increases &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; by [1].</content>
+    <content contentuid="hff29cef359884f9188c05c33f547bfb7gb70" version="1">Soothe Bravery (Enhance)</content>
+    <content contentuid="hcaae2eba8f61463d9b7af3f1d44c1d806bd0" version="1">Soothe Bravery (Flare)</content>
+    <content contentuid="hca1a593627fc4279b1f432278096112c97f3" version="1">Cautious</content>
+    <content contentuid="h3f6fd7bdde1148c4b8810981c311f15a3514" version="1">Cautious (Enhance)</content>
+    <content contentuid="he4a614d675e64ce29fa1d53f404be0d32a9c" version="1">Cautious (Flare)</content>
+    <!--Copper-->
+    <content contentuid="h29359fe7faee4d97b2c277283100d0b28gg7" version="1">Copper Nondetection</content>
+    <content contentuid="h2309a5123ce644ada9b3ab60512f18a1bfd3" version="1">By burning copper, create a coppercloud to hide nearby allies from divination magic and prevent them from being targetted by divination spells. Consumes 1 &lt;LSTag Type="ActionResource" Tooltip="MetalSlots"&gt;Metal Slot&lt;/LSTag&gt; every 10 turns.</content>
+    <content contentuid="hf46118e80c1d400484e11c68334de31c984f" version="1">Copper Guard</content>
+    <content contentuid="h5c34332450e543648f79b0d542e771237a43" version="1">Copper Guard Aura</content>
+    <content contentuid="hc806e9433fb944fcbd94803575f557ab1cb9" version="1">This entity and nearby allies have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Type="Status" Tooltip="CHARMED"&gt;Charm&lt;/LSTag&gt; and &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frighten&lt;/LSTag&gt; &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
+    <content contentuid="h9c3f10c1dcc44fdfbe187635bb395f5e9gbg" version="1">Protected by an ally's coppercloud. &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Type="Status" Tooltip="CHARMED"&gt;Charm&lt;/LSTag&gt; and &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frighten&lt;/LSTag&gt; &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
+    <content contentuid="h13bfb07836894dfaae7cda722ec8f8cc53b9" version="1">By burning copper, create a coppercloud to provide nearby allies an &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; against emotion altering statuses like &lt;LSTag Type="Status" Tooltip="CHARMED"&gt;Charm&lt;/LSTag&gt; and &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frighten&lt;/LSTag&gt;. Consumes 1 &lt;LSTag Type="ActionResource" Tooltip="MetalSlots"&gt;Metal Slot&lt;/LSTag&gt; every 10 turns.</content>
+    <content contentuid="h833d175a569d48f9b71dbd1740474a976g8c" version="1">Copper Nondetection Aura</content>
+    <content contentuid="h4a0ca9e4c4ad4f998df40f8e8fef87674b40" version="1">This entity and nearby allies are hidden from divination magic and can not be targetted by divination spells.</content>
 </contentList>

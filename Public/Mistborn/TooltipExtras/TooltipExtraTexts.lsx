@@ -28,6 +28,10 @@
                     <attribute id="Text" type="TranslatedString" handle="h8d60c337c55c49ef90fe8b567e23c29b5940" version="1"/>
                     <attribute id="UUID" type="guid" value="3b72916a-904a-4c80-a0c3-48ce3cc69d24"/>
                 </node>
+                <node id="TooltipExtraTexts"> <!-- This Spell will always succeed on allies. -->
+                    <attribute id="Text" type="TranslatedString" handle="hfc1e1f76d8c24b4f8fdafa7072692bf24360" version="1"/>
+                    <attribute id="UUID" type="guid" value="87a18126-ae49-4b05-9f98-8c109ba704ee"/>
+                </node>
             </children>
         </node>
     </region>
