@@ -62,7 +62,7 @@ data "DisplayName" "hd2d5edbac7c5404a98ba199cae3c6b8cdbef;2"
 data "Description" "h74373c95562c4f428d9117d4ec68fa2fe7ef;2"
 data "Icon" "Passive_Mental_Bronze"
 data "Properties" "Highlighted"
-data "Boosts" "UnlockSpell(IronPull_Container)"
+data "Boosts" "UnlockSpell(BronzeDetectMagic);UnlockSpell(BronzeDetectEvilAndGood);UnlockSpell(BronzeSenseInvisibility)"
 
 new entry "Chromium_Unlock"
 type "PassiveData"

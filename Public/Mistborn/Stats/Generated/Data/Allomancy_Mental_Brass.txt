@@ -193,7 +193,7 @@ data "DescriptionParams" "1"
 data "Icon" "Spell_Transmutation_EnhanceAbility_OwlsWisdom"
 data "StackId" "MISTBORN_STRESSED"
 data "Boosts" "RollBonus(SavingThrow,1);RollBonus(DeathSavingThrow,1)"
-data "StatusEffect" "27b49a3e-1555-4eec-a509-a4d201c6a594"
+data "StatusEffect" "18f37e12-5586-49cf-8559-c2a677505e2b"
 
 new entry "SOOTHESTRESS_ENHANCE"
 type "StatusData"
