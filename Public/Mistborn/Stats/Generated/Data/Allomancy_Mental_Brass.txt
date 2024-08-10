@@ -298,7 +298,7 @@ data "SoundVocalStart" "WEAK"
 data "StackId" "MISTBORN_RECKLESS"
 data "Boosts" "AC(1);RollBonus(Attack,-1)"
 data "StatusPropertyFlags" "InitiateCombat;BringIntoCombat"
-data "StatusEffect" "127d9e0b-b235-4e98-8037-f1353b554b47"
+data "StatusEffect" "6442bb7c-7926-486a-88bf-e16f49e61737"
 
 new entry "SOOTHEBRAVERY_ENHANCE"
 type "StatusData"

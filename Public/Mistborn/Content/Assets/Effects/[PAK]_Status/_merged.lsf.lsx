@@ -86,6 +86,37 @@
 						</node>
 					</children>
 				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="2 3.5 1.67" />
+					<attribute id="BoundsMin" type="fvec3" value="-2 -0.5 -2.33" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="1.5" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Status_Cautious_HeadFX_01" />
+					<attribute id="ID" type="FixedString" value="cc69f425-fbdd-43c7-af60-db4089a7d364" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="VFX_Status_Cautious_HeadFX_01" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mistborn/Assets/Effects/Effects_Banks/Status/VFX_Status_Cautious_HeadFX_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209017" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="0098dc84-f253-09e3-feaf-aaf6e766f4fb" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="b4b3fb6e-1b77-9431-a0ad-0503c7e28ac7" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="b25d953d-30da-59b7-e95f-c735c56af305" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="2c43722a-0a68-81d4-76a1-729c094346e7" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
 			</children>
 		</node>
 	</region>
