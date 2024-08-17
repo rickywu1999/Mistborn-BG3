@@ -69,7 +69,15 @@
     <content contentuid="hae1c3a6a92ff41dabddb36f9724996407bd8" version="1">Iron Lurch (Enhance)</content>
     <content contentuid="h5c54af2eaffd456abac381d42472cd7278g1" version="1">Iron Lurch (Flare)</content>
     <content contentuid="h1aa4b50a3431448a86cdea0c3c73373de4df" version="1">Iron Pull (Flare)</content>
-	<!--Steel-->
+    <content contentuid="hb370d70c3fb84a099968d0ea58d4f8a30309" version="1">Iron Redirection</content>
+    <content contentuid="h34fb225f00b84bfe9d4da9d6e6579cf25762" version="1">By burning iron, protect nearby allies by using a &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;reaction&lt;/LSTag&gt; or &lt;LSTag Type="ActionResource" Tooltip="MetalSlots"&gt;Metal Slot&lt;/LSTag&gt; to redirect ranged weapon attacks towards your shield.&lt;br&gt;&lt;br&gt;Reduce the damage taken from a redirected attack by [1].&lt;br&gt;&lt;br&gt;While burning iron, you consume 1 &lt;LSTag Type="ActionResource" Tooltip="MetalSlots"&gt;Metal Slot&lt;/LSTag&gt; every 10 turns.</content>
+    <content contentuid="h696325d3a7c54140a2130863523b3d54gf58" version="1">Iron Redirection Aura</content>
+    <content contentuid="hd3668c88f423412a99fb69aeb907da189d9g" version="1">Redirect a ranged weapon attack towards your shield, reducing the damage taken by [1].</content>
+    <content contentuid="h4c595da44d704a7ba8ccad4fddf6755e3a23" version="1">Protected from ranged weapon attacks.</content>
+    <content contentuid="h27db4d39940c41ac8a79866305c6d19640ae" version="1">Protect nearby allies by redirecting ranged weapon attacks towards your shield, reducing the damage taken by [1].</content>
+	<content contentuid="hc8c9cd00588847d19fe26e544db7166510cf" version="1">Iron Redirection (End)</content>
+    <content contentuid="hb087aa7ac9d24efcae534035fea84708d85g" version="1">Stop burning iron to end Iron Redirection.</content>
+    <!--Steel-->
 	<content contentuid="h29d5f47696104527b1968d1b760ab016c2gc" version="1">Steel Shove</content>
     <content contentuid="h40d2c1de0b73482b8e20d8d62513602d9088" version="1">By burning steel, push a target [1] away, dealing damage and disrupting their position.</content>
     <content contentuid="h33d8e7fe794f4ea28cd4d86d0072c12f2g5a" version="1">Steel Shove (Enhance)</content>
@@ -102,7 +110,7 @@
     <content contentuid="hcc7428dbdfe74b21b9e0f9363d46ade5e3g1" version="1">Pewter Enhance (Flare)</content>
     <content contentuid="hf30ad5b168394063a875cebb7c564bb3fabe" version="1">By burning pewter, temporarily increase physical strength and resilience, gaining the &lt;LSTag Type="Status" Tooltip="PEWTERENHANCE_FLARE"&gt;Pewter Enhance&lt;/LSTag&gt; buff.&lt;br&gt;&lt;br&gt;While burning pewter, you consume 4 &lt;LSTag Type="ActionResource" Tooltip="MetalSlots"&gt;Metal Slot&lt;/LSTag&gt; every turn.</content>
     <content contentuid="h14777cc2610645858a7773f597cdfb8430c6" version="1">Pewter Enhance (End)</content>
-    <content contentuid="h19402dbf9f3141dfb9e6549d6382f13ec0c5" version="1">Use a bonus action to stop burning pewter.</content>
+    <content contentuid="h19402dbf9f3141dfb9e6549d6382f13ec0c5" version="1">Stop burning pewter to end Pewter Enhance.</content>
 
     <!--MENTAL-->
 	<!--Zinc-->
