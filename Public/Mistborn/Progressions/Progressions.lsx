@@ -25,6 +25,16 @@
                     <attribute id="TableUUID" type="guid" value="6e5e6b00-d045-4c13-98fb-3e895b3b9940"/>
                     <attribute id="UUID" type="guid" value="636a3a7b-80a5-48b6-a072-01847c9f83e9"/>
                 </node>
+                <node id="Progression">
+                    <attribute id="AllowImprovement" type="bool" value="false"/> 
+                    <attribute id="Boosts" type="LSString" value="ActionResource(MetalSlots,1,0)"/>
+                    <attribute id="Level" type="uint8" value="2"/>
+                    <attribute id="Name" type="LSString" value="Mistborn"/> 
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(923d687c-af54-45d8-898f-6d498a037a53,1,FightingStyle);SelectPassives(f94764f3-0a6a-4492-b42e-333ea67e2b28,1,Choosable_Metals)"/>
+                    <attribute id="TableUUID" type="guid" value="6e5e6b00-d045-4c13-98fb-3e895b3b9940"/>
+                    <attribute id="UUID" type="guid" value="8020dda4-e61a-441e-8143-6d1e15accc12"/>
+                </node>
             </children>
         </node>
     </region>

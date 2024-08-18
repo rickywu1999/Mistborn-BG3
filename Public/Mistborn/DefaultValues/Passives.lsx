@@ -4,14 +4,12 @@
     <region id="DefaultValues">
         <node id="root">
             <children>
-                <!--
                 <node id="DefaultValue">
                     <attribute id="Add" type="LSString" value="FightingStyle_Dueling"/>
                     <attribute id="Level" type="int32" value="2"/>
-                    <attribute id="TableUUID" type="guid" value="7e7bedd9-0460-4d6b-adc3-5487b9347232"/>
-                    <attribute id="UUID" type="guid" value="e613ebe3-91dd-4559-9556-55d7098755cb"/>
+                    <attribute id="TableUUID" type="guid" value="6e5e6b00-d045-4c13-98fb-3e895b3b9940"/>
+                    <attribute id="UUID" type="guid" value="c3d827ad-9417-45aa-ac12-963e2c5f3da2"/>
                 </node>
-                -->
             </children>
         </node>
     </region>

@@ -9,6 +9,8 @@
 	<content contentuid="hbcca4811gc5dfg4916ga4fcg52dc44a97336" version="1">Mistborn drink vials of various metals to fuel their Allomantic abilities. You replenish your Metal Slots on a &lt;LSTag Tooltip="ShortRest"&gt;Short&lt;/LSTag&gt; or &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;.</content>
 	<content contentuid="hed44144cg23a4g4b08g819cgab93bd440003" version="1">Metal Slots</content>
 	<content contentuid="heffbeaacg0ac0g4f12g98a5g2c024f5eb402" version="1">Mistborn burn metals they ingest to power their Allomatic abilities.</content>
+    <content contentuid="h5572c1cb2a7f487a93b8cd00033665b7304c" version="1">You gain an additional &lt;LSTag Type="ActionResource" Tooltip="MetalSlots"&gt;Metal Slot&lt;/LSTag&gt; to fuel your allomancy.</content>
+    <content contentuid="he5cc549a4b8a46818c90dcfc4be3fe3d5e6g" version="1">Additional Metal Slot</content>
 
 	<!--Passives-->
     <content contentuid="h69a8d9a3af8e43fca4a650a74840b2add1d6" version="1">Allomatic Metals</content>

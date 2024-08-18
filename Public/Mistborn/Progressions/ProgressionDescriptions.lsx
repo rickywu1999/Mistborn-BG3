@@ -19,6 +19,14 @@
                     <attribute id="UUID" type="guid" value="91e8b6a3-728d-4566-bfea-6483e1280d3d" />
                 </node>
                 <node id="ProgressionDescription">
+                    <attribute id="Description" type="TranslatedString" handle="h5572c1cb2a7f487a93b8cd00033665b7304c" version="1" />
+                    <attribute id="DisplayName" type="TranslatedString" handle="he5cc549a4b8a46818c90dcfc4be3fe3d5e6g" version="1" />  
+                    <attribute id="ParamMatch" type="FixedString" value="0:MetalSlots"/>
+                    <attribute id="ProgressionTableId" type="guid" value="6e5e6b00-d045-4c13-98fb-3e895b3b9940"/>
+                    <attribute id="Type" type="FixedString" value="ActionResource"/>
+                    <attribute id="UUID" type="guid" value="33597816-cf67-44fa-bdac-5f49c8ca00b6"/>
+                </node>
+                <node id="ProgressionDescription">
                     <attribute id="Description" type="TranslatedString" handle="h939659ddd7b44d4c84acb343d9d879fb62ae" version="1" />
                     <attribute id="DisplayName" type="TranslatedString" handle="h69a8d9a3af8e43fca4a650a74840b2add1d6" version="1" />  
                     <attribute id="SelectorId" type="FixedString" value="Choosable_Metals" />
