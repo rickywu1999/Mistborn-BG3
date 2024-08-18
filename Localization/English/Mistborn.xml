@@ -54,7 +54,6 @@
     <content contentuid="h7d2231994a2849f996aadf31de7cebf1ef3c" version="1">&lt;LSTag Type="Image" Info="Inspiration"/&gt; Must have &lt;LSTag Type="Passive" Tooltip="Metal_Flaring"&gt;Metal Flaring&lt;/LSTag&gt; to use.</content>
     <content contentuid="hc050123f4dfe449d8de2b494723a11d4eb2c" version="1">Does not spend &lt;LSTag Type="ActionResource" Tooltip="MetalSlots"&gt;Metal Slots&lt;/LSTag&gt;.</content>
     <content contentuid="h96c8e88d61af4917ae22a486af09432081fa" version="1">&lt;LSTag Type="Image" Info="Inspiration"/&gt; This ability uses &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; for the &lt;LSTag Tooltip="SpellcastingAbilityModifier"&gt;Spellcasting Modifier&lt;/LSTag&gt;.</content>
-    <content contentuid="h8d60c337c55c49ef90fe8b567e23c29b5940" version="1">&lt;LSTag Type="Image" Info="Inspiration"/&gt; This ability uses &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; for the &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;.</content>
     <content contentuid="hfc1e1f76d8c24b4f8fdafa7072692bf24360" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; This ability will always succeed on allies.</content>
 
     <!--PHYSICAL-->

@@ -14,7 +14,7 @@ data "DisplayName" "h7b50be3a026a4b96bda9509ff92997122g55;2"
 data "Description" "ha71109489af143cb960c5c26d3fd55554b20;2"
 data "Icon" "Passive_Physical_Steel"
 data "Properties" "Highlighted"
-data "Boosts" "UnlockSpell(SteelShove_Container);UnlockSpell(SteelBoost_Container);UnlockSpell(CoinShot_Container,,,,Dexterity);UnlockSpell(SteelJump)"
+data "Boosts" "UnlockSpell(SteelShove_Container);UnlockSpell(SteelBoost_Container);UnlockSpell(CoinShot_Container);UnlockSpell(SteelJump)"
 
 new entry "Tin_Unlock"
 type "PassiveData"
