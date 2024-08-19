@@ -6,9 +6,9 @@
             <children>
                 <node id="ActionResourceDefinition">
                     <attribute id="Description" type="TranslatedString" handle="hbcca4811gc5dfg4916ga4fcg52dc44a97336" version="1"/>
-                    <attribute id="DisplayName" type="TranslatedString" handle="h1914187fg34f6g455eg81f9g171adffcde14" version="1"/> Metal Slots
+                    <attribute id="DisplayName" type="TranslatedString" handle="h1914187fg34f6g455eg81f9g171adffcde14" version="1"/> Metal Reserves
                     <attribute id="MaxLevel" type="uint32" value="0"/>
-                    <attribute id="Name" type="FixedString" value="MetalSlots"/>
+                    <attribute id="Name" type="FixedString" value="MetalReserves"/>
                     <attribute id="ReplenishType" type="FixedString" value="ShortRest"/>
                     <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
                     <attribute id="UUID" type="guid" value="dc8e06bf-e3a1-4e6d-811d-6931567e9fa1"/>

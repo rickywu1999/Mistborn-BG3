@@ -1,4 +1,4 @@
-new entry "MetalSlots"
+new entry "MetalReserves"
 type "PassiveData"
 data "DisplayName" "hed44144cg23a4g4b08g819cgab93bd440003;1"
 data "Description" "heffbeaacg0ac0g4f12g98a5g2c024f5eb402;1"

@@ -6,7 +6,7 @@
             <children>
                 <node id="Progression">
                     <attribute id="AllowImprovement" type="bool" value="false"/> 
-                    <attribute id="Boosts" type="LSString" value="ActionResource(MetalSlots,4,0);ProficiencyBonus(SavingThrow,Dexterity);ProficiencyBonus(SavingThrow,Intelligence);Proficiency(LightArmor);Proficiency(Shields);Proficiency(SimpleWeapons);Proficiency(Shortswords);Proficiency(Longswords);Proficiency(Rapiers)"/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(MetalReserves,4,0);ProficiencyBonus(SavingThrow,Dexterity);ProficiencyBonus(SavingThrow,Intelligence);Proficiency(LightArmor);Proficiency(Shields);Proficiency(SimpleWeapons);Proficiency(Shortswords);Proficiency(Longswords);Proficiency(Rapiers)"/>
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="Mistborn"/> 
                     <attribute id="ProgressionType" type="uint8" value="0"/>
@@ -16,7 +16,7 @@
                 </node>
                 <node id="Progression">
                     <attribute id="AllowImprovement" type="bool" value="false"/> 
-                    <attribute id="Boosts" type="LSString" value="ActionResource(MetalSlots,4,0);Proficiency(LightArmor);Proficiency(Shields);Proficiency(SimpleWeapons);Proficiency(Shortswords);Proficiency(Longswords);Proficiency(Rapiers)"/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(MetalReserves,4,0);Proficiency(LightArmor);Proficiency(Shields);Proficiency(SimpleWeapons);Proficiency(Shortswords);Proficiency(Longswords);Proficiency(Rapiers)"/>
                     <attribute id="IsMulticlass" type="bool" value="true"/>
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="Mistborn"/> 
@@ -27,7 +27,7 @@
                 </node>
                 <node id="Progression">
                     <attribute id="AllowImprovement" type="bool" value="false"/> 
-                    <attribute id="Boosts" type="LSString" value="ActionResource(MetalSlots,1,0)"/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(MetalReserves,1,0)"/>
                     <attribute id="Level" type="uint8" value="2"/>
                     <attribute id="Name" type="LSString" value="Mistborn"/> 
                     <attribute id="ProgressionType" type="uint8" value="0"/>

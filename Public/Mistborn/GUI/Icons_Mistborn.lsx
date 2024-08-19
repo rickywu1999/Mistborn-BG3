@@ -317,7 +317,7 @@
                     <attribute id="V2" type="float" value="0.0625" />
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="Status_Physical_Iron_Redirection" />
+                    <attribute id="MapKey" type="FixedString" value="Spell_Physical_Iron_Redirection" />
                     <attribute id="U1" type="float" value="0.3125" />
                     <attribute id="U2" type="float" value="0.34375" />
                     <attribute id="V1" type="float" value="0.03125" />

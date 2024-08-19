@@ -14,14 +14,14 @@
                 <node id="ProgressionDescription">
                     <attribute id="Description" type="TranslatedString" handle="heffbeaacg0ac0g4f12g98a5g2c024f5eb402" version="1" />
                     <attribute id="DisplayName" type="TranslatedString" handle="hed44144cg23a4g4b08g819cgab93bd440003" version="1" />  
-                    <attribute id="ExactMatch" type="FixedString" value="ActionResource(MetalSlots,4,0)" />
+                    <attribute id="ExactMatch" type="FixedString" value="ActionResource(MetalReserves,4,0)" />
                     <attribute id="ProgressionId" type="guid" value="b5c810d5-c327-45a7-b7d3-7f662bc95dca"/>
                     <attribute id="UUID" type="guid" value="91e8b6a3-728d-4566-bfea-6483e1280d3d" />
                 </node>
                 <node id="ProgressionDescription">
                     <attribute id="Description" type="TranslatedString" handle="h5572c1cb2a7f487a93b8cd00033665b7304c" version="1" />
                     <attribute id="DisplayName" type="TranslatedString" handle="he5cc549a4b8a46818c90dcfc4be3fe3d5e6g" version="1" />  
-                    <attribute id="ParamMatch" type="FixedString" value="0:MetalSlots"/>
+                    <attribute id="ParamMatch" type="FixedString" value="0:MetalReserves"/>
                     <attribute id="ProgressionTableId" type="guid" value="6e5e6b00-d045-4c13-98fb-3e895b3b9940"/>
                     <attribute id="Type" type="FixedString" value="ActionResource"/>
                     <attribute id="UUID" type="guid" value="33597816-cf67-44fa-bdac-5f49c8ca00b6"/>

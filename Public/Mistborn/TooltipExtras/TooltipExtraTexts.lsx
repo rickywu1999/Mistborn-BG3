@@ -16,7 +16,7 @@
                     <attribute id="Text" type="TranslatedString" handle="h7d2231994a2849f996aadf31de7cebf1ef3c" version="1"/>
                     <attribute id="UUID" type="guid" value="c98b3f22-3bad-467c-9e68-1342ab3b07b5"/>
                 </node>
-                <node id="TooltipExtraTexts"> <!-- Does not spend Metal Slots. -->
+                <node id="TooltipExtraTexts"> <!-- Does not spend Metal Reserves. -->
                     <attribute id="Text" type="TranslatedString" handle="hc050123f4dfe449d8de2b494723a11d4eb2c" version="1"/>
                     <attribute id="UUID" type="guid" value="d575ff4b-dbaf-4499-8ba9-debde6ba6d0d"/>
                 </node>

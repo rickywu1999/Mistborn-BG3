@@ -1,7 +1,7 @@
 Ext.Require("Mistborn_Additions.lua")
 
 StatPaths={
-    "Public/Mistborn/Stats/Generated/Data/ActionResource_MetalSlots.txt",
+    "Public/Mistborn/Stats/Generated/Data/ActionResource_MetalReserves.txt",
     "Public/Mistborn/Stats/Generated/Data/Allomancy_Physical_Iron.txt",
     "Public/Mistborn/Stats/Generated/Data/Allomancy_Physical_Steel.txt",
     "Public/Mistborn/Stats/Generated/Data/Allomancy_Physical_Tin.txt",
