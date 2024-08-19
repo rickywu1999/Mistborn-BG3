@@ -170,3 +170,4 @@ using "PEWTERFATIGUE"
 data "Description" "hd95d6fdf6a454a55baff148fb30ab97a4d4f;5"
 data "DescriptionParams" "4"
 data "OnRemoveFunctors" "IF(not HasStatus('DOWNED')):DealDamage(4)"
+
