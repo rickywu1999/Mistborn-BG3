@@ -112,6 +112,12 @@
     <content contentuid="hf30ad5b168394063a875cebb7c564bb3fabe" version="1">By burning pewter, temporarily increase physical strength and resilience, gaining the &lt;LSTag Type="Status" Tooltip="PEWTERENHANCE_FLARE"&gt;Pewter Enhance&lt;/LSTag&gt; buff.&lt;br&gt;&lt;br&gt;While burning pewter, you consume 4 &lt;LSTag Type="ActionResource" Tooltip="MetalReserves"&gt;Metal Reserve&lt;/LSTag&gt; every turn.</content>
     <content contentuid="h14777cc2610645858a7773f597cdfb8430c6" version="1">Pewter Enhance (End)</content>
     <content contentuid="h19402dbf9f3141dfb9e6549d6382f13ec0c5" version="1">Stop burning pewter to end Pewter Enhance.</content>
+    <content contentuid="h1a7325974f0d4a149c0beacac026ff90g741" version="1">Pewter Arm</content>
+    <content contentuid="h5125047b9b93476d99c553f981d7450fde63" version="1">By burning pewter, enhance the force of your melee attacks for 1 turn, increasing the damage by your &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; &lt;LSTag Tooltip="Modifier"&gt;Modifier&lt;/LSTag&gt;.</content>
+    <content contentuid="h3f07c393350d462ea02931a66b5bc83e351b" version="1">When you make a melee attack, your &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; &lt;LSTag Tooltip="Modifier"&gt;Modifier&lt;/LSTag&gt; is added to the damage.</content>
+    <content contentuid="ha8a9c3524def479f81780abe6fa2e9614016" version="1">Gained [1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit point(s)&lt;/LSTag&gt; from &lt;LSTag Type="Spell" Tooltip="PewterEndurance_Base"&gt;Pewter Endurance&lt;/LSTag&gt;.</content>
+    <content contentuid="h0843083863fd4d32b18879b510b4a1e8764a" version="1">Pewter Endurance</content>
+    <content contentuid="he21e89b4eca4472db632ce12aa7d0b224717" version="1">By burning pewter, gain [1] to sustain incoming damage.</content>
 
     <!--MENTAL-->
 	<!--Zinc-->
@@ -174,6 +180,6 @@
     <content contentuid="h0311cc287c70463cb2139452bcb77f038g0g" version="1">By burning bronze, become able to see &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt; creatures, and possibly reveal them to others.</content>
     <content contentuid="hc1b1d6a80ca1484dbf53a82ac69bcaf7c2g2" version="1">By burning bronze, sense the presence of magic in the area. You can fully focus on a creature possessing the ability to cast spells, preventing it from becoming &lt;LSTag Type="Status" Tooltip="SNEAKING"&gt;Hidden&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt; while its magic can be detected.</content>
     <content contentuid="he8ca3a26c3ad420d97c9deadfffb40ded3d2" version="1">By burning bronze, detect the presence of aberrations, celestials, elementals, feys, fiends and undead in the area, preventing them from &lt;LSTag Type="Status" Tooltip="SNEAKING"&gt;Hiding&lt;/LSTag&gt; or becoming &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt;.</content>
-    <content contentuid="h1a7325974f0d4a149c0beacac026ff90g741" version="1">Pewter Arm</content>
-    <content contentuid="h5125047b9b93476d99c553f981d7450fde63" version="1">By burning pewter, enhance the force of your melee attacks for 1 turn, increasing the damage by your Wisdom Modifier.</content>
+    <content contentuid="ha3216b7fd50d45498dcc29e19f0e0da83457" version="1">Gained [1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit point(s)&lt;/LSTag&gt; from &lt;LSTag Type="Spell" Tooltip="PewterEndurance_Enhance"&gt;Pewter Endurance&lt;/LSTag&gt;.</content>
+    <content contentuid="hd1336433d025484fbf75b359b2c4ae8114gd" version="1">Gained [1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit point(s)&lt;/LSTag&gt; from &lt;LSTag Type="Spell" Tooltip="PewterEndurance_Flare"&gt;Pewter Endurance&lt;/LSTag&gt;.</content>
 </contentList>

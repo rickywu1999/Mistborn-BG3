@@ -30,7 +30,7 @@ data "DisplayName" "h7d8129db55e440f3a1f66a26aae4b4b64850;2"
 data "Description" "h9f4935e8d9d341baad0b4d2866e054fc06g3;2"
 data "Icon" "Passive_Physical_Pewter"
 data "Properties" "Highlighted"
-data "Boosts" "UnlockSpell(PewterEnhance_Container)"
+data "Boosts" "UnlockSpell(PewterEnhance_Container);UnlockSpell(PewterArm);UnlockSpell(PewterEndurance_Container)"
 
 new entry "Zinc_Unlock"
 type "PassiveData"
