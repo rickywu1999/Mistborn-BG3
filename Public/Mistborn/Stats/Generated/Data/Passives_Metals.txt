@@ -118,7 +118,7 @@ data "DisplayName" "h2276af2f1f43417bbb8ae0a4be2314d20352;2"
 data "Description" "h26ec9bd707b24577a1191456d7deb64dff6f;2"
 data "Icon" "Passive_Temporal_Gold"
 data "Properties" "Highlighted"
-data "Boosts" "UnlockSpell(IronPull_Container)"
+data "Boosts" "UnlockSpell(AlterFightingStyle_Container);UnlockSpell(AlterWeaponTraining_Container)"
 
 new entry "Electrum_Unlock"
 type "PassiveData"

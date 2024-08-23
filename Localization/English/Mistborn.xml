@@ -118,6 +118,8 @@
     <content contentuid="ha8a9c3524def479f81780abe6fa2e9614016" version="1">Gained [1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit point(s)&lt;/LSTag&gt; from &lt;LSTag Type="Spell" Tooltip="PewterEndurance_Base"&gt;Pewter Endurance&lt;/LSTag&gt;.</content>
     <content contentuid="h0843083863fd4d32b18879b510b4a1e8764a" version="1">Pewter Endurance</content>
     <content contentuid="he21e89b4eca4472db632ce12aa7d0b224717" version="1">By burning pewter, gain [1] to sustain incoming damage.</content>
+    <content contentuid="ha3216b7fd50d45498dcc29e19f0e0da83457" version="1">Gained [1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit point(s)&lt;/LSTag&gt; from &lt;LSTag Type="Spell" Tooltip="PewterEndurance_Enhance"&gt;Pewter Endurance&lt;/LSTag&gt;.</content>
+    <content contentuid="hd1336433d025484fbf75b359b2c4ae8114gd" version="1">Gained [1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit point(s)&lt;/LSTag&gt; from &lt;LSTag Type="Spell" Tooltip="PewterEndurance_Flare"&gt;Pewter Endurance&lt;/LSTag&gt;.</content>
 
     <!--MENTAL-->
 	<!--Zinc-->
@@ -180,6 +182,28 @@
     <content contentuid="h0311cc287c70463cb2139452bcb77f038g0g" version="1">By burning bronze, become able to see &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt; creatures, and possibly reveal them to others.</content>
     <content contentuid="hc1b1d6a80ca1484dbf53a82ac69bcaf7c2g2" version="1">By burning bronze, sense the presence of magic in the area. You can fully focus on a creature possessing the ability to cast spells, preventing it from becoming &lt;LSTag Type="Status" Tooltip="SNEAKING"&gt;Hidden&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt; while its magic can be detected.</content>
     <content contentuid="he8ca3a26c3ad420d97c9deadfffb40ded3d2" version="1">By burning bronze, detect the presence of aberrations, celestials, elementals, feys, fiends and undead in the area, preventing them from &lt;LSTag Type="Status" Tooltip="SNEAKING"&gt;Hiding&lt;/LSTag&gt; or becoming &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt;.</content>
-    <content contentuid="ha3216b7fd50d45498dcc29e19f0e0da83457" version="1">Gained [1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit point(s)&lt;/LSTag&gt; from &lt;LSTag Type="Spell" Tooltip="PewterEndurance_Enhance"&gt;Pewter Endurance&lt;/LSTag&gt;.</content>
-    <content contentuid="hd1336433d025484fbf75b359b2c4ae8114gd" version="1">Gained [1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit point(s)&lt;/LSTag&gt; from &lt;LSTag Type="Spell" Tooltip="PewterEndurance_Flare"&gt;Pewter Endurance&lt;/LSTag&gt;.</content>
+    
+    <!--TEMPORAL-->
+    <!--Gold-->
+    <content contentuid="h8e9ac86a5b5e4cbfafba0efc54b5d83b6911" version="1">Alter Fighting Style</content>
+    <content contentuid="h87901bb5393045eeb658f6b286f0420fc7f8" version="1">Alter Weapon Training</content>
+    <content contentuid="hd444eb3c96f34ae29dcea88fb7be647542b9" version="1">By burning gold, glimpse shadows of alternate selves who chose different Fighting Styles. Shift into the mindset of one of these shadows to change your Fighting Style.</content>
+    <content contentuid="h174c25209a3343ad88f7f6c705957bc0dd2a" version="1">By burning gold, glimpse shadows of alternate selves who trained with different weapons. Embrace the mindset of one of these shadows to gain proficiency with that weapon.</content>
+    <content contentuid="h61403d90fdc54e5794b735cdbbdf61219g78" version="1">Flail Training</content>
+    <content contentuid="h27fc3f3223584af1ab53ca89b4d21c022adc" version="1">Become &lt;LSTag Tooltip="WeaponProficiency"&gt;proficient&lt;/LSTag&gt; with [1].</content>
+    <content contentuid="hd6d133d427cf4c9fbe4111a63c60d89d4d15" version="1">Morningstar Training</content>
+    <content contentuid="h4c30d3ab63484032a853d694163d6c91f3c9" version="1">Scimitar Training</content>
+    <content contentuid="h075b258a24e74ccaa880ca2d815c4a9aac0f" version="1">War Pick Training</content>
+    <content contentuid="h30dc3380e04144dfaa486cf0852fb9b040a0" version="1">Battleaxe Training</content>
+    <content contentuid="h43732185b8e74815a213322446929dac9e4f" version="1">Trident Training</content>
+    <content contentuid="h8c2827f243eb457c95518e4ec3f480007bde" version="1">Warhammer Training</content>
+    <content contentuid="h8804bc6afb3147809a9cf7ed38f5410203cb" version="1">Glaive Training</content>
+    <content contentuid="hf49b8ed6a2a2431d86f2b1ec81c9c214d302" version="1">Greataxe Training</content>
+    <content contentuid="hf92ca0ed417341ab97ec7c0206f800cc0585" version="1">Greatsword Training</content>
+    <content contentuid="h6dac887185fb4f43aecc3379915510ebadge" version="1">Halberd Training</content>
+    <content contentuid="he4b7628df9234e41846d5d8e3e4db2dbggba" version="1">Maul Training</content>
+    <content contentuid="h64c8bbaf0c494f34b71afe5c4edc04def667" version="1">Pike Training</content>
+    <content contentuid="hfd17553b75424d86ab9988b932c41d176195" version="1">Hand Crossbow Training</content>
+    <content contentuid="h394898219138489a981484399bb34d4d229d" version="1">Heavy Crossbow Training</content>
+    <content contentuid="hbdad416c5d9a4b069854f2d0eeebcb3f6e2f" version="1">Longbow Training</content>
 </contentList>
