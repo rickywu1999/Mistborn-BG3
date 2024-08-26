@@ -639,14 +639,14 @@
                     <attribute id="V2" type="float" value="0.09375" />
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="Spell_Temporal_Electrum_Shadow" />
                     <attribute id="U1" type="float" value="0.75" />
                     <attribute id="U2" type="float" value="0.78125" />
                     <attribute id="V1" type="float" value="0.0625" />
                     <attribute id="V2" type="float" value="0.09375" />
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="Spell_Temporal_Electrum_Disengage" />
                     <attribute id="U1" type="float" value="0.78125" />
                     <attribute id="U2" type="float" value="0.8125" />
                     <attribute id="V1" type="float" value="0.0625" />

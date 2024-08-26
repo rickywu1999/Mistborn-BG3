@@ -126,7 +126,7 @@ data "DisplayName" "h88343afbc6184dd69967233ae51ad98421bb;2"
 data "Description" "he6a40b1780e846d3ab195c97a706ff8e21f3;2"
 data "Icon" "Passive_Temporal_Electrum"
 data "Properties" "Highlighted"
-data "Boosts" "UnlockSpell(IronPull_Container)"
+data "Boosts" "UnlockSpell(ElectrumShadow);UnlockSpell(ElectrumDisengage)"
 
 new entry "Metal_Flaring"
 type "PassiveData"

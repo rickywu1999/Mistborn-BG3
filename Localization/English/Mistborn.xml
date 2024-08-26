@@ -187,8 +187,8 @@
     <!--Gold-->
     <content contentuid="h8e9ac86a5b5e4cbfafba0efc54b5d83b6911" version="1">Alter Fighting Style</content>
     <content contentuid="h87901bb5393045eeb658f6b286f0420fc7f8" version="1">Alter Weapon Training</content>
-    <content contentuid="hd444eb3c96f34ae29dcea88fb7be647542b9" version="1">By burning gold, glimpse shadows of alternate selves who chose different Fighting Styles. Shift into the mindset of one of these shadows to change your Fighting Style.</content>
-    <content contentuid="h174c25209a3343ad88f7f6c705957bc0dd2a" version="1">By burning gold, glimpse shadows of alternate selves who trained with different weapons. Embrace the mindset of one of these shadows to gain proficiency with that weapon.</content>
+    <content contentuid="hd444eb3c96f34ae29dcea88fb7be647542b9" version="1">By burning gold, glimpse shadows of alternate selves who chose different Fighting Styles. Shift into the mindset of one of these shadows to change your Fighting Style.&lt;br&gt;&lt;br&gt;Doing so is mentally taxing and you will take [1] damage.</content>
+    <content contentuid="h174c25209a3343ad88f7f6c705957bc0dd2a" version="1">By burning gold, glimpse shadows of alternate selves who trained with different weapons. Embrace the mindset of one of these shadows to gain proficiency with that weapon.&lt;br&gt;&lt;br&gt;Doing so is mentally taxing and you will take [1] damage.</content>
     <content contentuid="h61403d90fdc54e5794b735cdbbdf61219g78" version="1">Flail Training</content>
     <content contentuid="h27fc3f3223584af1ab53ca89b4d21c022adc" version="1">Become &lt;LSTag Tooltip="WeaponProficiency"&gt;proficient&lt;/LSTag&gt; with [1].</content>
     <content contentuid="hd6d133d427cf4c9fbe4111a63c60d89d4d15" version="1">Morningstar Training</content>
@@ -206,4 +206,9 @@
     <content contentuid="hfd17553b75424d86ab9988b932c41d176195" version="1">Hand Crossbow Training</content>
     <content contentuid="h394898219138489a981484399bb34d4d229d" version="1">Heavy Crossbow Training</content>
     <content contentuid="hbdad416c5d9a4b069854f2d0eeebcb3f6e2f" version="1">Longbow Training</content>
+    <!--Electrum-->
+    <content contentuid="h1705888609f9433598e92acf302dee6f12f7" version="1">Electrum Shadow</content>
+    <content contentuid="hd7740471796b4e75a2bbc23dea4d3c013121" version="1">By burning electrum, glimpse an electrum shadow that portrays your actions a few seconds into the future. Using this information, gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against you and you have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Dexterity &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
+    <content contentuid="h56e72b73bd134835b22bd3289033a8e15529" version="1">Electrum Disengage</content>
+    <content contentuid="h5dff4d266e404685ba907d1181ddc75a2d3b" version="1">By burning electrum, see visions of yourself a few seconds into the future. Using this information, avoid all &lt;LSTag Tooltip="OpportunityAttack"&gt;opportunity attacks&lt;/LSTag&gt; while moving.</content>
 </contentList>

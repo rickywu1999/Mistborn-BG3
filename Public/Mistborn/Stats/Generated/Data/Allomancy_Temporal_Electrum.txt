@@ -1,0 +1,50 @@
+// Electrum Shadow
+new entry "ElectrumShadow"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_PatientDefense"
+data "SpellProperties" "ApplyStatus(SELF,ELECTRUM_SHADOW,100,1)"
+data "Icon" "Spell_Temporal_Electrum_Shadow"
+data "DisplayName" "h1705888609f9433598e92acf302dee6f12f7;2"
+data "Description" "hd7740471796b4e75a2bbc23dea4d3c013121;5"
+data "UseCosts" "BonusActionPoint:1;MetalReserves:1"
+data "SpellAnimation" "9fd22d7d-5d7a-470b-a939-810046915bed,,;,,;4222840e-85c4-41d4-89f3-cf525ab7a2ce,,;d58199b1-9bc5-4715-99d4-43a5b5c1ec16,,;2d19a206-bf18-4f4d-ba95-f83c5fc38fd7,,;,,;57db495b-2467-467b-a599-d7df2fa4d659,,;,,;,,"
+data "PrepareEffect" "4cab976f-389f-4822-b340-d18d17a063d2"
+data "CastEffect" "23f9fd3e-218f-4ddb-a0dd-029b1c6aa8d3"
+
+new entry "ELECTRUM_SHADOW"
+type "StatusData"
+data "StatusType" "BOOST"
+using "PATIENT_DEFENCE"
+data "DisplayName" "h1705888609f9433598e92acf302dee6f12f7;2"
+data "Icon" "Spell_Temporal_Electrum_Shadow"
+data "StatusGroups" "SG_RemoveOnRespec"
+data "StatusEffect" "4cab976f-389f-4822-b340-d18d17a063d2"
+
+
+
+
+
+
+// Electrum Disengage
+new entry "ElectrumDisengage"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_Disengage"
+data "SpellProperties" "ApplyStatus(SELF,ELECTRUM_DISENGAGE,100,1)"
+data "Icon" "Spell_Temporal_Electrum_Disengage"
+data "DisplayName" "h56e72b73bd134835b22bd3289033a8e15529;2"
+data "Description" "h5dff4d266e404685ba907d1181ddc75a2d3b;5"
+data "UseCosts" "BonusActionPoint:1;MetalReserves:1"
+data "SpellAnimation" "9fd22d7d-5d7a-470b-a939-810046915bed,,;,,;4222840e-85c4-41d4-89f3-cf525ab7a2ce,,;d58199b1-9bc5-4715-99d4-43a5b5c1ec16,,;2d19a206-bf18-4f4d-ba95-f83c5fc38fd7,,;,,;57db495b-2467-467b-a599-d7df2fa4d659,,;,,;,,"
+data "PrepareEffect" "4cab976f-389f-4822-b340-d18d17a063d2"
+data "CastEffect" "23f9fd3e-218f-4ddb-a0dd-029b1c6aa8d3"
+
+new entry "ELECTRUM_DISENGAGE"
+type "StatusData"
+data "StatusType" "BOOST"
+using "DISENGAGE"
+data "DisplayName" "h1705888609f9433598e92acf302dee6f12f7;2"
+data "Icon" "Spell_Temporal_Electrum_Disengage"
+data "StatusGroups" "SG_RemoveOnRespec"
+data "StatusEffect" "4cab976f-389f-4822-b340-d18d17a063d2"
