@@ -20,6 +20,34 @@ Ext.Osiris.RegisterListener("StatusApplied", 4, "after", function(object, status
         end
         PersistentVars['IronRedirectionAuraOwner']=object
     end
+    if status == "BENDALLOYBUBBLE_DISMISS" then
+        _P("Here")
+        local combatParticipants = Osi["DB_Is_InCombat"]:Get(nil, nil)
+        for _, row in pairs(combatParticipants) do
+            local participantTpl = row[1]
+            local participantGUID = string.sub(participantTpl, -36)
+            local participantEntity = Ext.Entity.Get(participantGUID)
+            if Osi.HasActiveStatus(participantTpl,"BENDALLOY_HASTE") == 1 then
+                _P(participantEntity)
+                Osi.ApplyStatus(participantTpl,"TIMEBUBBLE_LETHARGY_IMMUNITY",-1)
+                participantEntity:Replicate("CombatParticipant")
+            end
+        end
+    end
+    if status == "CADMIUMBUBBLE_DISMISS" then
+        _P("Here")
+        local combatParticipants = Osi["DB_Is_InCombat"]:Get(nil, nil)
+        for _, row in pairs(combatParticipants) do
+            local participantTpl = row[1]
+            local participantGUID = string.sub(participantTpl, -36)
+            local participantEntity = Ext.Entity.Get(participantGUID)
+            if Osi.HasActiveStatus(participantTpl,"CADMIUM_SLOW") == 1 then
+                _P(participantEntity)
+                Osi.ApplyStatus(participantTpl,"TIMEBUBBLE_LETHARGY_IMMUNITY",-1)
+                participantEntity:Replicate("CombatParticipant")
+            end
+        end
+    end
 end)
 
 Ext.Osiris.RegisterListener("UsingSpell", 5, "after", function(caster, spell, _, _, _)
@@ -38,33 +66,4 @@ Ext.Osiris.RegisterListener("UsingSpell", 5, "after", function(caster, spell, _,
         entity:Replicate("CCLevelUp")
     end
 end)
-
-Ext.Osiris.RegisterListener("StartedPreviewingSpell", 4, "after", function(caster, spell, isMostPowerful, hasMultipleLevels)
-    
-end)
-
-
---[[
-Ext.Osiris.RegisterListener("StartedPreviewingSpell", 4, "before", function(_caster, _spell, _, _, _)
-    -- print("Init spell preview listener: ", _caster, _spell);
-    local uuid = GetGUIDFromTpl(_caster)
-    local isNecromancySpellSchool = Ext.Stats.Get(_spell).SpellSchool == "Necromancy";
-    local hasGreaterNecromancyPassive = Osi.HasPassive(uuid, "CursedTome_TheBegining_GreaterNecromancy_Passive") == 1;
-    local hasGreaterNecromancyBuff = Osi.HasActiveStatus(uuid, "CURSEDTOME_THEBEGINING_GREATERNECROMANCY_BUFF") == 1;
-    -- print("Is Necromancy: ", isNecromancySpellSchool);
-    -- print("Has greater necromancy passive: ", hasGreaterNecromancyPassive);
-    -- print("Has greater necromancy buff: ", hasGreaterNecromancyBuff);
-
-    if not isNecromancySpellSchool and hasGreaterNecromancyPassive then
-        -- print ("Removing greater necromancy buff")
-        Osi.RemoveStatus(uuid, "CURSEDTOME_THEBEGINING_GREATERNECROMANCY_BUFF");
-        return
-    end
-
-    if isNecromancySpellSchool and hasGreaterNecromancyPassive and not hasGreaterNecromancyBuff  then
-        -- print("Applying greater necromancy buff");
-        Osi.ApplyStatus(uuid, "CURSEDTOME_THEBEGINING_GREATERNECROMANCY_BUFF", -1);
-    end
-end)
---]]
 

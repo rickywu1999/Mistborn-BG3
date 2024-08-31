@@ -13,6 +13,7 @@ StatPaths={
     "Public/Mistborn/Stats/Generated/Data/Allomancy_Temporal_Gold.txt",
     "Public/Mistborn/Stats/Generated/Data/Allomancy_Temporal_Electrum.txt",
     "Public/Mistborn/Stats/Generated/Data/Passives_Metals.txt",
+    "Public/Mistborn/Stats/Generated/Data/Status_Allomancy.txt",
 }
 
 local function on_reset_completed()
