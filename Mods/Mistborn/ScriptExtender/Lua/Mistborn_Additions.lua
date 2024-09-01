@@ -29,7 +29,7 @@ Ext.Osiris.RegisterListener("StatusApplied", 4, "after", function(object, status
             local participantEntity = Ext.Entity.Get(participantGUID)
             if Osi.HasActiveStatus(participantTpl,"BENDALLOY_HASTE") == 1 then
                 _P(participantEntity)
-                Osi.ApplyStatus(participantTpl,"TIMEBUBBLE_LETHARGY_IMMUNITY",-1)
+                Osi.ApplyStatus(participantTpl,"TIMEBUBBLE_LETHARGY_IMMUNITY",1)
                 participantEntity:Replicate("CombatParticipant")
             end
         end
@@ -43,7 +43,7 @@ Ext.Osiris.RegisterListener("StatusApplied", 4, "after", function(object, status
             local participantEntity = Ext.Entity.Get(participantGUID)
             if Osi.HasActiveStatus(participantTpl,"CADMIUM_SLOW") == 1 then
                 _P(participantEntity)
-                Osi.ApplyStatus(participantTpl,"TIMEBUBBLE_LETHARGY_IMMUNITY",-1)
+                Osi.ApplyStatus(participantTpl,"TIMEBUBBLE_LETHARGY_IMMUNITY",1)
                 participantEntity:Replicate("CombatParticipant")
             end
         end

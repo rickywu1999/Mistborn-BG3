@@ -653,56 +653,56 @@
                     <attribute id="V2" type="float" value="0.09375" />
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="Status_Temporal_Bendalloy_Haste" />
                     <attribute id="U1" type="float" value="0.8125" />
                     <attribute id="U2" type="float" value="0.84375" />
                     <attribute id="V1" type="float" value="0.0625" />
                     <attribute id="V2" type="float" value="0.09375" />
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="Status_Temporal_Cadmium_Slow" />
                     <attribute id="U1" type="float" value="0.84375" />
                     <attribute id="U2" type="float" value="0.875" />
                     <attribute id="V1" type="float" value="0.0625" />
                     <attribute id="V2" type="float" value="0.09375" />
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="Spell_Temporal_Cadmium_Bubble" />
                     <attribute id="U1" type="float" value="0.875" />
                     <attribute id="U2" type="float" value="0.90625" />
                     <attribute id="V1" type="float" value="0.0625" />
                     <attribute id="V2" type="float" value="0.09375" />
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="Spell_Temporal_Cadmium_Bubble_Enhance" />
                     <attribute id="U1" type="float" value="0.90625" />
                     <attribute id="U2" type="float" value="0.9375" />
                     <attribute id="V1" type="float" value="0.0625" />
                     <attribute id="V2" type="float" value="0.09375" />
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="Spell_Temporal_Cadmium_Bubble_Flare" />
                     <attribute id="U1" type="float" value="0.9375" />
                     <attribute id="U2" type="float" value="0.96875" />
                     <attribute id="V1" type="float" value="0.0625" />
                     <attribute id="V2" type="float" value="0.09375" />
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="Spell_Temporal_Bendalloy_Bubble" />
                     <attribute id="U1" type="float" value="0.96875" />
                     <attribute id="U2" type="float" value="1.0" />
                     <attribute id="V1" type="float" value="0.0625" />
                     <attribute id="V2" type="float" value="0.09375" />
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="Spell_Temporal_Bendalloy_Bubble_Enhance" />
                     <attribute id="U1" type="float" value="0.0" />
                     <attribute id="U2" type="float" value="0.03125" />
                     <attribute id="V1" type="float" value="0.09375" />
                     <attribute id="V2" type="float" value="0.125" />
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="Spell_Temporal_Bendalloy_Bubble_Flare" />
                     <attribute id="U1" type="float" value="0.03125" />
                     <attribute id="U2" type="float" value="0.0625" />
                     <attribute id="V1" type="float" value="0.09375" />

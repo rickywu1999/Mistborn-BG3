@@ -20,22 +20,7 @@
 						<node id="Dependencies">
 							<children>
 								<node id="DependentResource">
-									<attribute id="Object" type="FixedString" value="a52db6fd-f006-4408-8320-32bf4834e7bb" />
-								</node>
-								<node id="DependentResource">
-									<attribute id="Object" type="FixedString" value="f726668a-32e9-c7e0-1516-4f3fc48378e7" />
-								</node>
-								<node id="DependentResource">
 									<attribute id="Object" type="FixedString" value="f12c073f-f9e9-067d-1ecc-33308473470d" />
-								</node>
-								<node id="DependentResource">
-									<attribute id="Object" type="FixedString" value="1f73b5e1-266d-5ca0-9aec-8c13881b8c2b" />
-								</node>
-								<node id="DependentResource">
-									<attribute id="Object" type="FixedString" value="e415d0b5-5555-c635-5081-f2b09417b26c" />
-								</node>
-								<node id="DependentResource">
-									<attribute id="Object" type="FixedString" value="b4c92036-3733-5b15-f86d-1a02855d0144" />
 								</node>
 							</children>
 						</node>
