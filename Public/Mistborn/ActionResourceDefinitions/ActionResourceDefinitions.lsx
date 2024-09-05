@@ -13,6 +13,13 @@
                     <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
                     <attribute id="UUID" type="guid" value="dc8e06bf-e3a1-4e6d-811d-6931567e9fa1"/>
                 </node>
+                <node id="ActionResourceDefinition">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h2ae2afb5gd50eg4d06g893dgc473b933d76f" version="1"/> Counterspell
+                    <attribute id="Name" type="FixedString" value="Interrupt_Aluminum_Counterspell"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Never"/>
+                    <attribute id="IsHidden" type="bool" value="true"/>
+                    <attribute id="UUID" type="guid" value="b740e39c-b189-4796-bed1-9e18ad9037b7"/>
+                </node>
             </children>
         </node>
     </region>

@@ -12,6 +12,7 @@ StatPaths={
     "Public/Mistborn/Stats/Generated/Data/Allomancy_Mental_Copper.txt",
     "Public/Mistborn/Stats/Generated/Data/Allomancy_Temporal_Gold.txt",
     "Public/Mistborn/Stats/Generated/Data/Allomancy_Temporal_Electrum.txt",
+    "Public/Mistborn/Stats/Generated/Data/Allomancy_Enhancement_Aluminum.txt",
     "Public/Mistborn/Stats/Generated/Data/Passives_Metals.txt",
     "Public/Mistborn/Stats/Generated/Data/Status_Allomancy.txt",
 }
