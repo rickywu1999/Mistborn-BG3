@@ -2,7 +2,7 @@
 <contentList>
 	<!--Class and Subclass -->
 	<content contentuid="h806be28bg91e7g4e38g856eg2c7c390cea2c" version="1">Mistborn</content>
-	<content contentuid="hcbd4f5dfgeadag4933g8ce9gfb10e3ff3618" version="1">Mistborn are figures shrouded in awe and fear. These rare individuals have the power to burn all metals known to Allomancers, making them masters of a versatile and formidable array of abilities. By ingesting and metabolizing these metals, a Mistborn can enhance their strength, fly across the battlefield, soothe or riot emotions, and even manipulate time around them.</content>
+	<content contentuid="hcbd4f5dfgeadag4933g8ce9gfb10e3ff3618" version="1">Mistborn are figures shrouded in awe and fear. These rare individuals have the power to burn all metals known to Allomancers, making them masters of a versatile and formidable array of abilities. By ingesting and metabolizing these metals, a Mistborn can enhance their strength, fly across the battlefield, soothe or riot emotions, and even manipulate time.</content>
 	
 	<!--Metal Reserves -->
 	<content contentuid="h1914187fg34f6g455eg81f9g171adffcde14" version="1">Metal Reserve(s)</content>
@@ -95,6 +95,7 @@
     <content contentuid="h6430bcee2cbb4d02beda7162a68daf964832" version="1">By burning steel, propel a metal coin towards a target, dealing piercing damage.</content>
     <content contentuid="h6fe5aa1962e647d282e630404d4df01a2a14" version="1">Coin Shot (Enhance)</content>
     <content contentuid="h80e39b64ced94022b13e6cfce1171256eg02" version="1">Coin Shot (Flare)</content>
+    <content contentuid="hc5bfe47330444cec97eb26795aae649a3f0e" version="1">The damage of this ability increases by an additional die at level 5, 11, and 17.</content>
     <content contentuid="h1dd02ebd138043189c398e972b391af64g8e" version="1">Steel Leap</content>
     <content contentuid="hc0b63d0d18884596899f5ddee96470c8dc2d" version="1">By burning steel and pushing against metal on the ground, triple your jumping distance.</content>
     <!--Tin-->

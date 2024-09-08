@@ -40,6 +40,7 @@ data "Cooldown" "OncePerRest"
 data "UseCosts" "ReactionActionPoint:1"
 data "RootSpellID" ""
 data "InterruptPrototype" "Interrupt_Aluminum_Counterspell"
+data "SpellFlags" ""
 
 new entry "ALUMINUM_COUNTERSPELL_RESOURCE"
 type "StatusData"

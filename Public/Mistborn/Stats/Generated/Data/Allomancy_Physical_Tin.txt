@@ -51,7 +51,7 @@ data "SpellAnimation" "dd86aa43-8189-4d9f-9a5c-454b5fe4a197,,;,,;94ad1609-9862-4
 data "VerbalIntent" "Utility"
 data "SpellFlags" "IsMelee;IsLinkedSpellContainer"
 data "HitAnimationType" "MagicalNonDamage"
-data "PrepareEffect" "c88e9cf1-0bd4-cc39-cfbb-824391f757a8"
+data "PrepareEffect" "e86ad080-a3c1-41c1-97ed-4511edc072ae"
 data "CastEffect" "80089f04-57ae-42e5-9563-80b2c84592a0"
 
 new entry "Tineye_Base"
