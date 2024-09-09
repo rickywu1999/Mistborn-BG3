@@ -8,7 +8,7 @@
 	<content contentuid="h1914187fg34f6g455eg81f9g171adffcde14" version="1">Metal Reserve(s)</content>
 	<content contentuid="hbcca4811gc5dfg4916ga4fcg52dc44a97336" version="1">Mistborn drink vials of various metals to fuel their Allomantic abilities. You replenish your Metal Reserves on a &lt;LSTag Tooltip="ShortRest"&gt;Short&lt;/LSTag&gt; or &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;.</content>
 	<content contentuid="hed44144cg23a4g4b08g819cgab93bd440003" version="1">Metal Reserves</content>
-	<content contentuid="heffbeaacg0ac0g4f12g98a5g2c024f5eb402" version="1">Mistborn burn metals they ingest to power their Allomatic abilities.</content>
+	<content contentuid="heffbeaacg0ac0g4f12g98a5g2c024f5eb402" version="1">You gain 4 &lt;LSTag Type="ActionResource" Tooltip="MetalReserves"&gt;Metal Reserves&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Mistborn burn their metal reserves to power their Allomatic abilities.</content>
     <content contentuid="h5572c1cb2a7f487a93b8cd00033665b7304c" version="1">You gain an additional &lt;LSTag Type="ActionResource" Tooltip="MetalReserves"&gt;Metal Reserve&lt;/LSTag&gt; to fuel your allomancy.</content>
     <content contentuid="he5cc549a4b8a46818c90dcfc4be3fe3d5e6g" version="1">Additional Metal Reserve</content>
 
@@ -239,5 +239,11 @@
     <content contentuid="h9ca5aa65ef7c4f3d8f44e8fe97ebaff1f70e" version="1">Aluminum Purge</content>
     <content contentuid="h03f25b54a68545e08f153b6da0dd1b0bg0dc" version="1">Aluminum Equipment</content>
     <content contentuid="h656f992f72174ea397f7344cdc5f83c0110c" version="1">Utilize the nullifying effects of aluminum by integrating it on your equipment, allowing you to nullify a spell targetting you.</content>
-    <content contentuid="hab762bde53fc48eeae6b9bd2274234cbcdab" version="1">If the spell is higher than level than 3, you must make a &lt;LSTag Tooltip="AbilityCheck"&gt;check&lt;/LSTag&gt; using your spellcasting ability to prevent it. The check's difficulty is equal to [1] plus the level of the spell you are trying to counter.</content>
+    <content contentuid="hab762bde53fc48eeae6b9bd2274234cbcdab" version="1">If the spell is higher than level [2], you must make a &lt;LSTag Tooltip="AbilityCheck"&gt;check&lt;/LSTag&gt; using your spellcasting ability to prevent it. The check's difficulty is equal to [1] plus the level of the spell you are trying to counter.</content>
+    <!--Chromium-->
+    <content contentuid="hef1c9e2a70ec4c2a9cd16f262cb64d7c649g" version="1">Chromium Negate</content>
+    <content contentuid="ha322b5723d0b42a8abe954a5223b4933d685" version="1">By burning chromium, touch a nearby creature and try to stop the spell being cast.</content>
+    <content contentuid="hf91255b95b294dabad63f37c0fe76a237dcd" version="1">Stop a spell from being cast. If it is higher level than [1], you must roll to prevent it.</content>
+    <content contentuid="h81e9990c9d9748ceb7bf3b0df5a38ce27fc3" version="1">Chromium Negate (Enhance)</content>
+    <content contentuid="h33b6087ccd0d49bf9af6dbc15a9c015763dc" version="1">Chromium Negate (Flare)</content>
 </contentList>
