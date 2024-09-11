@@ -1,0 +1,17 @@
+local __util = require 'larian.util'
+
+function MistbornSizeEqualOrGreater(size, entity)
+    entity = entity or context.Target
+    return ConditionResult(entity.Size ~= Size.None and entity.Size.value >= size.value,{ConditionError("SizeMustBeLarger")})
+end
+
+function MistbornSizeEqualOrSmaller(size, entity)
+    entity = entity or context.Target
+    return ConditionResult(entity.Size ~= Size.None and entity.Size.value <= size.value,{ConditionError("SizeMustBeSmaller")})
+end
+
+function MistbornIsMetal(entity)
+    entity = entity or context.Target
+    result = Tagged('METAL', entity) | HasMetalWeaponInAnyHand(entity) | HasMetalArmor(entity)
+    return ConditionResult(result.Result, {ConditionError("DoesNotHaveMetal")})
+end

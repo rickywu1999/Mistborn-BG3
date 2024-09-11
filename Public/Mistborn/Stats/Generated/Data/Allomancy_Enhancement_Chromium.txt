@@ -1,3 +1,4 @@
+// Chromium Negate
 new entry "Chromium_Negate_Base"
 type "SpellData"
 data "SpellType" "Target"
@@ -94,3 +95,41 @@ data "SpellAnimation" "3ff87abf-1ea1-4c32-aadf-c822d74c7dc0,,;,,;c17a3562-3758-4
 data "CastEffect" "77c412b1-9229-4ac2-b85e-12e0a7fd1f5a"
 data "TargetEffect" ""
 data "BeamEffect" ""
+
+
+
+
+
+// Chromium Leach
+new entry "Chromium_Leach"
+type "SpellData"
+data "SpellType" "Target"
+data "SpellProperties" "GROUND:SurfaceChange(Electrify)"
+data "TargetRadius" "1.5"
+data "SpellRoll" "Attack(AttackType.MeleeUnarmedAttack);"
+data "SpellSuccess" "ApplyStatus(CHROMIUM_LEACH,100,0)"
+data "TargetConditions" "not Self() and not Dead() and Character()"
+data "Icon" "Spell_Evocation_ShockingGrasp"
+data "DisplayName" "h497cf67e6fa8438192a556dae5ff88a8e2ea;1"
+data "Description" "h08fcd063g2c1dg4837g9e49g66fa8a27b8ae;3"
+data "DescriptionParams" "DealDamage(LevelMapValue(D8Cantrip),Lightning)"
+data "TooltipDamageList" "DealDamage(LevelMapValue(D8Cantrip),Lightning)"
+data "TooltipAttackSave" "MeleeSpellAttack"
+data "TooltipStatusApply" "ApplyStatus(SHOCKING_GRASP,100,1)"
+data "PrepareSound" "Spell_Prepare_Damage_Lightning_Gen_L1to3"
+data "PrepareLoopSound" "Spell_Prepare_Damage_Lightning_Gen_L1to3_Loop"
+data "CastSound" "Spell_Cast_Damage_Lightning_ShockingGrasp_L0"
+data "TargetSound" "Spell_Impact_Damage_Lightning_ShockingGrasp_L0"
+data "CastTextEvent" "Cast"
+data "CycleConditions" "Enemy() and not Dead()"
+data "UseCosts" "ActionPoint:1"
+data "SpellAnimation" "3ff87abf-1ea1-4c32-aadf-c822d74c7dc0,,;,,;c17a3562-3758-4c4a-96e8-790cebed1df4,a1227ad0-1db2-4941-836b-0a8d85b87a0b,aef20313-abe9-4abb-8ecf-65c22d25ea80;a8012b19-b279-45ec-89b0-86a1b73ad584,92b2bf7e-5fd5-4016-acb9-dae833b7c2e2,a6874259-8dd1-46fa-99f8-6a19ebb19087;d8925ce4-d6d9-400c-92f5-ad772ef7f178,,;,,;eadedcce-d01b-4fbb-a1ae-d218f13aa5d6,,;efbf3ee5-7340-4b29-8ab5-113b004a8e7b,,;95c387b6-3756-4bb5-accf-75a117eefb5f,,"
+data "VerbalIntent" "Damage"
+data "SpellFlags" "IsSpell;HasVerbalComponent;HasSomaticComponent;IsMelee;IsHarmful"
+data "HitAnimationType" "MagicalDamage_Electric"
+data "PrepareEffect" "77241e8c-ae8d-4402-92d8-a871ce64d86f"
+data "CastEffect" "10fc784a-4312-47a8-a6b8-6b529c646ac4"
+data "TargetEffect" "a3e2368b-f486-4cfc-b04a-b02e23383280"
+data "DamageType" "Lightning"
+
+

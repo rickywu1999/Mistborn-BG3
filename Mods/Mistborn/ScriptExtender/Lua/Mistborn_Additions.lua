@@ -67,3 +67,8 @@ Ext.Osiris.RegisterListener("UsingSpell", 5, "after", function(caster, spell, _,
     end
 end)
 
+Ext.Osiris.RegisterListener("StartedPreviewingSpell", 4, "before", function(caster, spell, _, _, _)
+    if string.match(spell,"IronLurch") or string.match(spell,"IronPull") or string.match(spell,"SteelPush") or string.match(spell,"SteelBoost") then
+        Osi.ApplyStatus(caster,"ALLOMANCY_AURA",-1)
+    end
+end)
