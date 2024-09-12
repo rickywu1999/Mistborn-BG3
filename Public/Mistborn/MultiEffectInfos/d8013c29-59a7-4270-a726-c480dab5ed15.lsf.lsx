@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="6" build="409" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
+	<region id="MultiEffectInfos">
+		<node id="MultiEffectInfos">
+			<attribute id="Name" type="LSString" value="Chromium_Leach_TargetEffect" />
+			<attribute id="UUID" type="guid" value="d8013c29-59a7-4270-a726-c480dab5ed15" />
+			<children>
+				<node id="EffectInfo">
+					<attribute id="BindSourceTo" type="FixedString" value="SourceEntity" />
+					<attribute id="BindTargetTo" type="FixedString" value="TargetEntity" />
+					<attribute id="DetachSource" type="bool" value="False" />
+					<attribute id="DetachTarget" type="bool" value="False" />
+					<attribute id="EffectResourceGuid" type="guid" value="2914e577-99b6-4c44-8ce5-3d0478e6f1fa" />
+					<attribute id="Enabled" type="bool" value="True" />
+					<attribute id="KeepRotation" type="bool" value="False" />
+					<attribute id="KeepScale" type="bool" value="True" />
+					<attribute id="MainHand" type="bool" value="False" />
+					<attribute id="MaxDistance" type="float" value="0" />
+					<attribute id="MinDistance" type="float" value="0" />
+					<attribute id="OffHand" type="bool" value="False" />
+					<attribute id="Pivot" type="FixedString" value="Target" />
+					<attribute id="UUID" type="guid" value="33c24c5f-6c46-4908-a8ee-b536c6f4d06e" />
+					<attribute id="UseDistance" type="bool" value="False" />
+					<attribute id="UseOrientDirection" type="bool" value="False" />
+					<attribute id="UseScaleOverride" type="bool" value="False" />
+					<children>
+						<node id="TargetBone">
+							<attribute id="Value" type="LSString" value="Dummy_BodyFX" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

@@ -70,7 +70,7 @@ data "DisplayName" "h642982765aa64d5c82a3866800852f98d64a;2"
 data "Description" "h0e5d564149c845ecad0d069001916cb38f53;2"
 data "Icon" "Passive_Enhancement_Chromium"
 data "Properties" "Highlighted"
-data "Boosts" "UnlockSpell(Chromium_Negate_Base);UnlockSpell(Chromium_Negate_Enhance);UnlockSpell(Chromium_Negate_Flare)"
+data "Boosts" "UnlockSpell(Chromium_Negate_Base);UnlockSpell(Chromium_Negate_Enhance);UnlockSpell(Chromium_Negate_Flare);UnlockSpell(Chromium_Leach_Container)"
 
 new entry "Nicrosil_Unlock"
 type "PassiveData"

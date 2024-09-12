@@ -64,6 +64,7 @@
     <content contentuid="ha23387d82e23473d9d3c175ab263dcc9daa3" version="1">Target must be smaller than you.</content>
     <content contentuid="hcb084bf1af2b4898a234b141d581f52bg05a" version="1">Target must be larger than you.</content>
     <content contentuid="h14c85f0aba9a4bb68ba91ca95c480502481a" version="1">Target must be metallic or have metal.</content>
+    <content contentuid="ha74feae2af9d4a6384e47285fe853221bf19" version="1">Target must have spell slots.</content>
 
     <!--PHYSICAL-->
 	<!--Iron-->
@@ -250,4 +251,7 @@
     <content contentuid="h81e9990c9d9748ceb7bf3b0df5a38ce27fc3" version="1">Chromium Negate (Enhance)</content>
     <content contentuid="h33b6087ccd0d49bf9af6dbc15a9c015763dc" version="1">Chromium Negate (Flare)</content>
     <content contentuid="h497cf67e6fa8438192a556dae5ff88a8e2ea" version="1">Chromium Leach</content>
+    <content contentuid="hfc27206d1eda4f71b84d122c71727945e311" version="1">By burning chromium, drain away a nearby creature's magic with a touch, depleting a spell slot of level [1] or lower.</content>
+    <content contentuid="h13711f0c1ace4505b9e9c58556a571d90204" version="1">Chromium Leach (Enhance)</content>
+    <content contentuid="habb99eecd247469d98aee8a937b3dc15728f" version="1">Chromium Leach (Flare)</content>
 </contentList>

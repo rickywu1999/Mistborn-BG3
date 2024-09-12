@@ -22,6 +22,12 @@
                     <attribute id="Identifier" type="FixedString" value="DoesNotHaveMetal"/>
                     <attribute id="UUID" type="guid" value="3bb4712d-3e50-4184-a398-ac011f346697"/>
                 </node>
+                <node id="ConditionErrors">
+                    <attribute id="DisplayName" type="TranslatedString" handle="ha74feae2af9d4a6384e47285fe853221bf19" version="2"/>
+                    <attribute id="ErrorDescriptionType" type="uint8" value="0"/>
+                    <attribute id="Identifier" type="FixedString" value="MustHaveSpellSlots"/>
+                    <attribute id="UUID" type="guid" value="ebb447d0-7d95-48b1-bcd6-0499c5d9d417"/>
+                </node>
             </children>
         </node>
     </region>

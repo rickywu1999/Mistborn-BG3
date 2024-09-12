@@ -799,6 +799,102 @@
 						</node>
 					</children>
 				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
+					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="4" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Spells_Prepare_Chromium_Leach_R_HandFX_Textkey_01" />
+					<attribute id="ID" type="FixedString" value="69b8bc53-03ee-441e-abb1-ad76002391f1" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="VFX_Spells_Prepare_Chromium_Leach_R_HandFX_Textkey_01" />
+					<attribute id="Radius" type="float" value="5.196152" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mistborn/Assets/Effects/Effects_Banks/Status/VFX_Spells_Prepare_Chromium_Leach_R_HandFX_Textkey_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115200960758062" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="9c15f129-f070-7a2b-e66d-d728aaea2383" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="9acfb87b-b0b3-50a7-7408-414d4246d2b4" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
+					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="30" />
+					<attribute id="Duration" type="float" value="2" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Spells_Cast_Chromium_Leach_R_HandFX_01" />
+					<attribute id="ID" type="FixedString" value="928927df-600d-4933-862c-5a3a6b653f9f" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_Spells_Cast_Chromium_Leach_R_HandFX_01" />
+					<attribute id="Radius" type="float" value="3" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mistborn/Assets/Effects/Effects_Banks/Status/VFX_Spells_Cast_Chromium_Leach_R_HandFX_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115200960758062" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="9c15f129-f070-7a2b-e66d-d728aaea2383" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="88ab1c5e-5bcd-e4a5-7249-9c6a439a18d6" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="ee299615-7ce5-c8f5-d97c-08ccd88d0e8b" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="4 4 4" />
+					<attribute id="BoundsMin" type="fvec3" value="-4 -4 -4" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="30" />
+					<attribute id="Duration" type="float" value="4" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Spells_Cast_Chromium_Leach_Impact_BodyFX_Textkey_01" />
+					<attribute id="ID" type="FixedString" value="2914e577-99b6-4c44-8ce5-3d0478e6f1fa" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_Spells_Cast_Chromium_Leach_Impact_BodyFX_Textkey_01" />
+					<attribute id="Radius" type="float" value="4" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mistborn/Assets/Effects/Effects_Banks/Status/VFX_Spells_Cast_Chromium_Leach_Impact_BodyFX_Textkey_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725656" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="c326b15c-3802-1acc-c7e7-6e41b31bca3d" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="f812d39c-7d2b-e112-931a-9265f910dbc0" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="88a7846f-eb51-f13a-bfff-edd1cbffba61" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5648d41b-5f6b-2e1c-8e1f-9e69e8094264" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
 			</children>
 		</node>
 	</region>
