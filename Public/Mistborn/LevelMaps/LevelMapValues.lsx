@@ -27,7 +27,7 @@
                     <attribute id="Level20" type="LSString" value="4d6"/>
                     <attribute id="Name" type="FixedString" value="CoinShotDie"/>
                     <attribute id="PreferredClassUUID" type="guid" value="ae3032c3-9e26-4666-965a-b130a7a67518"/>
-                    <attribute id="UUID" type="guid" value="63314aab-59d1-4689-bead-080c7b3d2634"/>
+                    <attribute id="UUID" type="guid" value="84def3af-c3f7-42db-860a-eb906940f0b1"/>
                 </node>
                 <node id="LevelMapSeries">
                     <attribute id="Level1" type="LSString" value="1d8"/>
