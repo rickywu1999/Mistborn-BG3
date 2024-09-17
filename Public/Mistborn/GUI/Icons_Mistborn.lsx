@@ -842,7 +842,7 @@
                     <attribute id="V2" type="float" value="0.125" />
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="Spell_Physical_Iron_Disarm" />
                     <attribute id="U1" type="float" value="0.65625" />
                     <attribute id="U2" type="float" value="0.6875" />
                     <attribute id="V1" type="float" value="0.09375" />

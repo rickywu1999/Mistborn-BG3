@@ -4,7 +4,7 @@ data "DisplayName" "h8fd80317bb464146af96c486615e94b84ac8;2"
 data "Description" "h05cddf91e63448ca8e6a0bb3979f32e4a528;2"
 data "Icon" "Passive_Physical_Iron"
 data "Properties" "Highlighted"
-data "Boosts" "UnlockSpell(IronPull_Container);UnlockSpell(IronLurch_Container);UnlockSpell(IronRedirection)"
+data "Boosts" "UnlockSpell(IronPull_Container);UnlockSpell(IronLurch_Container);UnlockSpell(IronRedirection);UnlockSpell(IronDisarm)"
 data "StatsFunctorContext" "OnCreate"
 data "StatsFunctors" "IF(not HasStatus('IronAnchor_Boost')):ApplyStatus(IronAnchor_Boost,100,-1)"
 

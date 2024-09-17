@@ -283,6 +283,35 @@ data "StatusGroups" "SG_RemoveOnRespec"
 
 
 
+// Iron Disarm
+new entry "IronDisarm"
+type "SpellData"
+data "SpellType" "Target"
+data "TargetRadius" "18"
+data "SpellRoll" "not SavingThrow(Ability.Strength, SourceSpellDC())"
+data "SpellSuccess" "ApplyStatus(DISARM, 100, 1)"
+data "TargetConditions" "Character() and not Tagged('UNDEAD') and not HasPassive('ImmuneToDisarm')"
+data "Icon" "Spell_Physical_Iron_Disarm"
+data "DisplayName" "h60d706c025bb4834971f166fcf4ea2f56a2d;2"
+data "Description" "he6aa05d79ebb4b288c04feb54a1d719e968f;3"
+data "TooltipAttackSave" "Strength"
+data "TooltipStatusApply" "ApplyStatus(DISARMED, 100, 1)"
+data "TargetSound" "Spell_Impact_Control_CommandHalt_L1to3"
+data "CastTextEvent" "Cast"
+data "CycleConditions" "Enemy() and not Dead()"
+data "UseCosts" "ActionPoint:1;MetalReserves:1"
+data "SpellAnimation" "3ff87abf-1ea1-4c32-aadf-c822d74c7dc0,,;,,;70a28457-dba7-46f7-b03c-ceb3b9e12bad,,;68868848-6341-448a-97e3-94aa43ad5faf,,;d8925ce4-d6d9-400c-92f5-ad772ef7f178,,;,,;eadedcce-d01b-4fbb-a1ae-d218f13aa5d6,,;,,;,,"
+data "VerbalIntent" "Control"
+data "SpellFlags" "HasSomaticComponent;IsHarmful;IgnorePreviouslyPickedEntities"
+data "HitAnimationType" "None"
+data "PrepareEffect" "e86ad080-a3c1-41c1-97ed-4511edc072ae"
+data "TargetEffect" "ced3624d-cad9-48bd-a487-828cb374ce7b"
+data "BeamEffect" "61b2a0b0-c185-4a9f-aaeb-ef05f230bd37"
+
+
+
+
+
 // Allomancy Aura
 new entry "ALLOMANCY_AURA"
 type "StatusData"

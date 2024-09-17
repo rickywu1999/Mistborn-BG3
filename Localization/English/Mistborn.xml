@@ -87,6 +87,8 @@
     <content contentuid="h27db4d39940c41ac8a79866305c6d19640ae" version="1">Protect nearby allies by redirecting ranged weapon attacks towards your shield, reducing the damage taken by [1].</content>
 	<content contentuid="hc8c9cd00588847d19fe26e544db7166510cf" version="1">Iron Redirection (End)</content>
     <content contentuid="hb087aa7ac9d24efcae534035fea84708d85g" version="1">Stop burning iron to end Iron Redirection.</content>
+    <content contentuid="h60d706c025bb4834971f166fcf4ea2f56a2d" version="1">Iron DIsarm</content>
+    <content contentuid="he6aa05d79ebb4b288c04feb54a1d719e968f" version="1">By burning iron, yank the weapon from the target’s grip, disarming them with a swift pull.</content>
     <!--Steel-->
 	<content contentuid="h29d5f47696104527b1968d1b760ab016c2gc" version="1">Steel Shove</content>
     <content contentuid="h40d2c1de0b73482b8e20d8d62513602d9088" version="1">By burning steel, push a metal target of equal or smaller size [1] away, dealing damage if the target is not an ally.</content>
