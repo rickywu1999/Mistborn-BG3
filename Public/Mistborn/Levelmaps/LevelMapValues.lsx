@@ -5,6 +5,31 @@
         <node id="root">
             <children>
                 <node id="LevelMapSeries">
+                    <attribute id="Level1" type="LSString" value="1d4"/>
+                    <attribute id="Level2" type="LSString" value="1d4"/>
+                    <attribute id="Level3" type="LSString" value="1d4"/>
+                    <attribute id="Level4" type="LSString" value="1d4"/>
+                    <attribute id="Level5" type="LSString" value="2d4"/>
+                    <attribute id="Level6" type="LSString" value="2d4"/>
+                    <attribute id="Level7" type="LSString" value="2d4"/>
+                    <attribute id="Level8" type="LSString" value="2d4"/>
+                    <attribute id="Level9" type="LSString" value="2d4"/>
+                    <attribute id="Level10" type="LSString" value="2d4"/>
+                    <attribute id="Level11" type="LSString" value="3d4"/>
+                    <attribute id="Level12" type="LSString" value="3d4"/>
+                    <attribute id="Level13" type="LSString" value="3d4"/>
+                    <attribute id="Level14" type="LSString" value="3d4"/>
+                    <attribute id="Level15" type="LSString" value="3d4"/>
+                    <attribute id="Level16" type="LSString" value="3d4"/>
+                    <attribute id="Level17" type="LSString" value="4d4"/>
+                    <attribute id="Level18" type="LSString" value="4d4"/>
+                    <attribute id="Level19" type="LSString" value="4d4"/>
+                    <attribute id="Level20" type="LSString" value="4d4"/>
+                    <attribute id="Name" type="FixedString" value="CoinShotDie"/>
+                    <attribute id="PreferredClassUUID" type="guid" value="ae3032c3-9e26-4666-965a-b130a7a67518"/>
+                    <attribute id="UUID" type="guid" value="84def3af-c3f7-42db-860a-eb906940f0b1"/>
+                </node>
+                <node id="LevelMapSeries">
                     <attribute id="Level1" type="LSString" value="1d6"/>
                     <attribute id="Level2" type="LSString" value="1d6"/>
                     <attribute id="Level3" type="LSString" value="1d6"/>
@@ -25,9 +50,9 @@
                     <attribute id="Level18" type="LSString" value="4d6"/>
                     <attribute id="Level19" type="LSString" value="4d6"/>
                     <attribute id="Level20" type="LSString" value="4d6"/>
-                    <attribute id="Name" type="FixedString" value="CoinShotDie"/>
+                    <attribute id="Name" type="FixedString" value="CoinShotDieEnhance"/>
                     <attribute id="PreferredClassUUID" type="guid" value="ae3032c3-9e26-4666-965a-b130a7a67518"/>
-                    <attribute id="UUID" type="guid" value="84def3af-c3f7-42db-860a-eb906940f0b1"/>
+                    <attribute id="UUID" type="guid" value="e36654c3-770b-4797-9222-ae74a1ba2c84"/>
                 </node>
                 <node id="LevelMapSeries">
                     <attribute id="Level1" type="LSString" value="1d8"/>
@@ -50,34 +75,34 @@
                     <attribute id="Level18" type="LSString" value="4d8"/>
                     <attribute id="Level19" type="LSString" value="4d8"/>
                     <attribute id="Level20" type="LSString" value="4d8"/>
-                    <attribute id="Name" type="FixedString" value="CoinShotDieEnhance"/>
-                    <attribute id="PreferredClassUUID" type="guid" value="ae3032c3-9e26-4666-965a-b130a7a67518"/>
-                    <attribute id="UUID" type="guid" value="e36654c3-770b-4797-9222-ae74a1ba2c84"/>
-                </node>
-                <node id="LevelMapSeries">
-                    <attribute id="Level1" type="LSString" value="1d10"/>
-                    <attribute id="Level2" type="LSString" value="1d10"/>
-                    <attribute id="Level3" type="LSString" value="1d10"/>
-                    <attribute id="Level4" type="LSString" value="1d10"/>
-                    <attribute id="Level5" type="LSString" value="2d10"/>
-                    <attribute id="Level6" type="LSString" value="2d10"/>
-                    <attribute id="Level7" type="LSString" value="2d10"/>
-                    <attribute id="Level8" type="LSString" value="2d10"/>
-                    <attribute id="Level9" type="LSString" value="2d10"/>
-                    <attribute id="Level10" type="LSString" value="2d10"/>
-                    <attribute id="Level11" type="LSString" value="3d10"/>
-                    <attribute id="Level12" type="LSString" value="3d10"/>
-                    <attribute id="Level13" type="LSString" value="3d10"/>
-                    <attribute id="Level14" type="LSString" value="3d10"/>
-                    <attribute id="Level15" type="LSString" value="3d10"/>
-                    <attribute id="Level16" type="LSString" value="3d10"/>
-                    <attribute id="Level17" type="LSString" value="4d10"/>
-                    <attribute id="Level18" type="LSString" value="4d10"/>
-                    <attribute id="Level19" type="LSString" value="4d10"/>
-                    <attribute id="Level20" type="LSString" value="4d10"/>
                     <attribute id="Name" type="FixedString" value="CoinShotDieFlare"/>
                     <attribute id="PreferredClassUUID" type="guid" value="ae3032c3-9e26-4666-965a-b130a7a67518"/>
                     <attribute id="UUID" type="guid" value="b541328e-e8b1-4a7d-9363-1eb30151f7a7"/>
+                </node>
+                <node id="LevelMapSeries">
+                    <attribute id="Level1" type="LSString" value="1d12"/>
+                    <attribute id="Level2" type="LSString" value="1d12"/>
+                    <attribute id="Level3" type="LSString" value="1d12"/>
+                    <attribute id="Level4" type="LSString" value="1d12"/>
+                    <attribute id="Level5" type="LSString" value="2d12"/>
+                    <attribute id="Level6" type="LSString" value="2d12"/>
+                    <attribute id="Level7" type="LSString" value="2d12"/>
+                    <attribute id="Level8" type="LSString" value="2d12"/>
+                    <attribute id="Level9" type="LSString" value="2d12"/>
+                    <attribute id="Level10" type="LSString" value="2d12"/>
+                    <attribute id="Level11" type="LSString" value="3d12"/>
+                    <attribute id="Level12" type="LSString" value="3d12"/>
+                    <attribute id="Level13" type="LSString" value="3d12"/>
+                    <attribute id="Level14" type="LSString" value="3d12"/>
+                    <attribute id="Level15" type="LSString" value="3d12"/>
+                    <attribute id="Level16" type="LSString" value="3d12"/>
+                    <attribute id="Level17" type="LSString" value="4d12"/>
+                    <attribute id="Level18" type="LSString" value="4d12"/>
+                    <attribute id="Level19" type="LSString" value="4d12"/>
+                    <attribute id="Level20" type="LSString" value="4d12"/>
+                    <attribute id="Name" type="FixedString" value="CoinShotDieDuralumin"/>
+                    <attribute id="PreferredClassUUID" type="guid" value="ae3032c3-9e26-4666-965a-b130a7a67518"/>
+                    <attribute id="UUID" type="guid" value="070d5e24-2520-4b19-abc5-cee93204da4a"/>
                 </node>
             </children>
         </node>

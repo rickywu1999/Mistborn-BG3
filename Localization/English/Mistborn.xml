@@ -97,7 +97,7 @@
     <content contentuid="h541c7d37b8e1450b8ecdab8e10015220fg99" version="1">Steel Boost (Enhance)</content>
     <content contentuid="h98683bebe0fe48b0b2d773b2a41bc90cd2fg" version="1">Steel Boost (Flare)</content>
     <content contentuid="h88fb271b1b2e46b2981c5ef9fde4617177ga" version="1">Coin Shot</content>
-    <content contentuid="h6430bcee2cbb4d02beda7162a68daf964832" version="1">By burning steel, propel a metal coin towards a target, dealing piercing damage.</content>
+    <content contentuid="h6430bcee2cbb4d02beda7162a68daf964832" version="1">By burning steel, propel a metal coin towards up to [1] target(s), dealing piercing damage.</content>
     <content contentuid="h6fe5aa1962e647d282e630404d4df01a2a14" version="1">Coin Shot (Enhance)</content>
     <content contentuid="h80e39b64ced94022b13e6cfce1171256eg02" version="1">Coin Shot (Flare)</content>
     <content contentuid="hc5bfe47330444cec97eb26795aae649a3f0e" version="1">The damage of this ability increases by an additional die at level 5, 11, and 17.</content>
