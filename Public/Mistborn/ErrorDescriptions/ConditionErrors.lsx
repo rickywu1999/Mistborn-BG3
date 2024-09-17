@@ -28,6 +28,12 @@
                     <attribute id="Identifier" type="FixedString" value="MustHaveSpellSlots"/>
                     <attribute id="UUID" type="guid" value="ebb447d0-7d95-48b1-bcd6-0499c5d9d417"/>
                 </node>
+                <node id="ConditionErrors">
+                    <attribute id="DisplayName" type="TranslatedString" handle="hfb05969648b54d918079ba6c9941b0a2b9c0" version="2"/>
+                    <attribute id="ErrorDescriptionType" type="uint8" value="0"/>
+                    <attribute id="Identifier" type="FixedString" value="MustHaveRecentlyCastedSpell"/>
+                    <attribute id="UUID" type="guid" value="eb3a2c79-63da-49f2-ac88-c62e1432fa37"/>
+                </node>
             </children>
         </node>
     </region>

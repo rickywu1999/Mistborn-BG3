@@ -16,10 +16,6 @@
                     <attribute id="Text" type="TranslatedString" handle="h96c8e88d61af4917ae22a486af09432081fa" version="1"/>
                     <attribute id="UUID" type="guid" value="a3c02130-a7c5-407c-aa28-6c5e8f40bacf"/>
                 </node>
-                <node id="TooltipExtraTexts"> <!-- This Spell will always succeed on allies. -->
-                    <attribute id="Text" type="TranslatedString" handle="hfc1e1f76d8c24b4f8fdafa7072692bf24360" version="1"/>
-                    <attribute id="UUID" type="guid" value="87a18126-ae49-4b05-9f98-8c109ba704ee"/>
-                </node>
                 <node id="TooltipExtraTexts"> <!-- Metal Consumption: 1 Metal Reserve every 10 turns. -->
                     <attribute id="Text" type="TranslatedString" handle="h7ca4c502d10c419cb1915b512d811254a807" version="1"/>
                     <attribute id="UUID" type="guid" value="3b72916a-904a-4c80-a0c3-48ce3cc69d24"/>

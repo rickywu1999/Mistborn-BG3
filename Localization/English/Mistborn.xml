@@ -65,11 +65,12 @@
     <content contentuid="hcb084bf1af2b4898a234b141d581f52bg05a" version="1">Target must be larger than you.</content>
     <content contentuid="h14c85f0aba9a4bb68ba91ca95c480502481a" version="1">Target must be metallic or have metal.</content>
     <content contentuid="ha74feae2af9d4a6384e47285fe853221bf19" version="1">Target must have spell slots.</content>
+    <content contentuid="hfb05969648b54d918079ba6c9941b0a2b9c0" version="1">Target must have recently used a spell.</content>
 
     <!--PHYSICAL-->
 	<!--Iron-->
     <content contentuid="h3b2cd238c21d4db28bef7fe96bb89b70ef0f" version="1">Iron Pull</content>
-	<content contentuid="h60f624c94fd442889ca84e20255d8dbe1gcd" version="1">By burning iron, pull a metal target of equal or smaller size [1] closer, dealing damage and disrupting their position.</content>
+	<content contentuid="h60f624c94fd442889ca84e20255d8dbe1gcd" version="1">By burning iron, pull a metal target of equal or smaller size [1] closer, dealing damage if the target is not an ally.</content>
     <content contentuid="h97d924c29be44e4db102e288f989d6173345" version="1">Iron Anchor</content>
     <content contentuid="h00376e5a93a1436e8f10a03612c562bd8931" version="1">By burning iron, anchor to nearby metals and increase size category by 1.</content>
     <content contentuid="h89d94da3bcd941ee81d8942b4ac8a068d63e" version="1">Iron Lurch</content>
@@ -88,7 +89,7 @@
     <content contentuid="hb087aa7ac9d24efcae534035fea84708d85g" version="1">Stop burning iron to end Iron Redirection.</content>
     <!--Steel-->
 	<content contentuid="h29d5f47696104527b1968d1b760ab016c2gc" version="1">Steel Shove</content>
-    <content contentuid="h40d2c1de0b73482b8e20d8d62513602d9088" version="1">By burning steel, push a metal target of equal or smaller size [1] away, dealing damage and disrupting their position.</content>
+    <content contentuid="h40d2c1de0b73482b8e20d8d62513602d9088" version="1">By burning steel, push a metal target of equal or smaller size [1] away, dealing damage if the target is not an ally.</content>
     <content contentuid="h33d8e7fe794f4ea28cd4d86d0072c12f2g5a" version="1">Steel Shove (Enhance)</content>
     <content contentuid="h04361cf06bd34aaba79feb5d436fc78bf354" version="1">Steel Shove (Flare)</content>
     <content contentuid="hbaf9b72256754b608b266b90466b7a8cd0ec" version="1">Steel Boost</content>
@@ -254,4 +255,65 @@
     <content contentuid="hfc27206d1eda4f71b84d122c71727945e311" version="1">By burning chromium, drain away a nearby creature's magic with a touch, depleting a spell slot of level [1] or lower.</content>
     <content contentuid="h13711f0c1ace4505b9e9c58556a571d90204" version="1">Chromium Leach (Enhance)</content>
     <content contentuid="habb99eecd247469d98aee8a937b3dc15728f" version="1">Chromium Leach (Flare)</content>
+    <!--Nicrosil-->
+    <content contentuid="h45355baa980549a3a43fad73273f2c88a7b3" version="1">Nicrosil Infuse</content>
+    <content contentuid="hee01acb3a588464dae15a9b7205d9a7d8fe0" version="1">By burning nicrosil, touch a nearby creature that recently cast a spell, causing them to involuntarily erupt with magical energy. The effect varies based on the spell school and damage type.</content>
+    <content contentuid="h97b35d2441b94062a4bb85d57c08c34c5ge4" version="1">Nicrosil Infuse (Flare)</content>
+    <content contentuid="h40e706c0ab644d65b46b12200c6665289882" version="1">Potential Effects:&lt;br&gt;&lt;LSTag Type="Spell" Tooltip="Shout_Nicrosil_Abjuration"&gt;Abjuration Surge&lt;/LSTag&gt;&lt;br&gt;&lt;LSTag Type="Spell" Tooltip="Shout_Nicrosil_Conjuration"&gt;Conjuration Surge&lt;/LSTag&gt;&lt;br&gt;&lt;LSTag Type="Spell" Tooltip="Shout_Nicrosil_Divination"&gt;Divination Surge&lt;/LSTag&gt;&lt;br&gt;&lt;LSTag Type="Spell" Tooltip="Shout_Nicrosil_Enchantment"&gt;Enchantment Surge&lt;/LSTag&gt;&lt;br&gt;&lt;LSTag Type="Spell" Tooltip="Shout_Nicrosil_Evocation"&gt;Evocation Surge&lt;/LSTag&gt;&lt;br&gt;&lt;LSTag Type="Spell" Tooltip="Shout_Nicrosil_Illusion"&gt;Illusion Surge&lt;/LSTag&gt;&lt;br&gt;&lt;LSTag Type="Spell" Tooltip="Shout_Nicrosil_Necromancy"&gt;Necromancy Surge&lt;/LSTag&gt;&lt;br&gt;&lt;LSTag Type="Spell" Tooltip="Shout_Nicrosil_Transmutation"&gt;Transmutation Surge&lt;/LSTag&gt;</content>
+    <content contentuid="hb554193c05674b0aa0a225901e2ba77a9b03" version="1">Potential Effects:&lt;br&gt;&lt;LSTag Type="Spell" Tooltip="Shout_Nicrosil_Abjuration_Flare"&gt;Abjuration Flare&lt;/LSTag&gt;&lt;br&gt;&lt;LSTag Type="Spell" Tooltip="Shout_Nicrosil_Conjuration_Flare"&gt;Conjuration Flare&lt;/LSTag&gt;&lt;br&gt;&lt;LSTag Type="Spell" Tooltip="Shout_Nicrosil_Divination_Flare"&gt;Divination Flare&lt;/LSTag&gt;&lt;br&gt;&lt;LSTag Type="Spell" Tooltip="Shout_Nicrosil_Enchantment_Flare"&gt;Enchantment Flare&lt;/LSTag&gt;&lt;br&gt;&lt;LSTag Type="Spell" Tooltip="Shout_Nicrosil_Evocation_Flare"&gt;Evocation Flare&lt;/LSTag&gt;&lt;br&gt;&lt;LSTag Type="Spell" Tooltip="Shout_Nicrosil_Illusion_Flare"&gt;Illusion Flare&lt;/LSTag&gt;&lt;br&gt;&lt;LSTag Type="Spell" Tooltip="Shout_Nicrosil_Necromancy_Flare"&gt;Necromancy Flare&lt;/LSTag&gt;&lt;br&gt;&lt;LSTag Type="Spell" Tooltip="Shout_Nicrosil_Transmutation_Flare"&gt;Transmutation Flare&lt;/LSTag&gt;</content>
+    <content contentuid="h3bdde66eb2f8487db3bf29b7d36047333867" version="1">Abjuration</content>
+    <content contentuid="h233e027cf91f4704b37372599a1d947092af" version="1">Recently used Abjuration magic.</content>
+    <content contentuid="h9b1164e661ea400f871764ec79d2721e78b3" version="1">Abjuration Surge</content>
+    <content contentuid="h4ba4342cbecd421e82382f56967945aa7639" version="1">Erupt with Abjuration magic, granting [1] to nearby creatures.</content>
+    <content contentuid="h218d9eb236ee4285b8b699babbf979690972" version="1">Abjuration Flare</content>
+    <content contentuid="hff21902ce7ad4b64aa23b0fe19e4fa2b0a01" version="1">Conjuration</content>
+    <content contentuid="hd491bf2afab94478b821b193f6147d5f8a00" version="1">Recently used Conjuration magic.</content>
+    <content contentuid="h0731399280904ee99dd965e7e792a6fb8458" version="1">Conjuration Surge</content>
+    <content contentuid="h2d2be0ba971744f292dd3d457cdf801c7298" version="1">Erupt with Conjuration magic, creating a vine-covered surface that &lt;LSTag Type="Status" Tooltip="ENSNARED_VINES"&gt;entangles&lt;/LSTag&gt; nearby creatures.</content>
+    <content contentuid="h31a1ccd55e4d4e9b8311fbd4a4d56537b3c5" version="1">Conjuration Flare</content>
+    <content contentuid="hd03ffd0d32f6408eadc4c02ddd9dcdd6g957" version="1">Erupt with Conjuration magic, creating a tentacle-covered surface that &lt;LSTag Type="Status" Tooltip="BLACK_TENTACLES"&gt;smothers&lt;/LSTag&gt; nearby creatures.</content>
+    <content contentuid="h9ad8bfd80bcc42c8998c0aee126dd4d08f8f" version="1">Divination</content>
+    <content contentuid="h709f40c544af480e9945f1867d9a574557a1" version="1">Recently used Divination magic.</content>
+    <content contentuid="h343c89f5511b4feb8a01c74178a2c75e290c" version="1">Divination Surge</content>
+    <content contentuid="had7c626f57b843c4bfa34eac2c16c67215ba" version="1">Erupt with Divination magic, granting nearby creatures &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on their next &lt;LSTag Tooltip="AttackRoll"&gt;attack&lt;/LSTag&gt;.</content>
+    <content contentuid="h7b90e1ef97ed4c33a664c08047c2cba02b0d" version="1">Prophetic Boon</content>
+    <content contentuid="h9926a393afe54885b093248d7be802e4cf6f" version="1">You are infused with Divination magic and have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on your next &lt;LSTag Tooltip="AttackRoll"&gt;attack&lt;/LSTag&gt;.</content>
+    <content contentuid="hc255f807db684552b23294ae063710a8e93g" version="1">Erupt with Divination magic, granting nearby creatures &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on their next &lt;LSTag Tooltip="AttackRoll"&gt;attack&lt;/LSTag&gt;. Additionally, the number you need to &lt;LSTag Tooltip="AttackRoll"&gt;roll&lt;/LSTag&gt; a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; on this hit is also reduced by 5.</content>
+    <content contentuid="h6a78e1a724b44ae6bda8a01c6b15b9d129f7" version="1">Prophetic Blessing</content>
+    <content contentuid="h9bb1cea486e74aa79f26efa750b95bcf5fc8" version="1">Divination Flare</content>
+    <content contentuid="h041e755a34d649149de1aa33f4e2f3340266" version="1">You are infused with Divination magic and have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on your next &lt;LSTag Tooltip="AttackRoll"&gt;attack&lt;/LSTag&gt;. The number you need to &lt;LSTag Tooltip="AttackRoll"&gt;roll&lt;/LSTag&gt; a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; on this hit is also reduced by 5.</content>
+    <content contentuid="h1aa5a02613ab4005ba2850c6b4642c195786" version="1">Enchantment</content>
+    <content contentuid="h7ec38071e626430fa9831821a9aaa035a7ga" version="1">Recently used Enchantment magic.</content>
+    <content contentuid="hbc9f6ef3bd1f433696c42030c96f1389a216" version="1">Enchantment Surge</content>
+    <content contentuid="h3de7900d8e76433ebfab138ca8f65050ba76" version="1">Enchantment Flare</content>
+    <content contentuid="h543ecc6a954b40869fb39d2ccc7a4475c956" version="1">Erupt with Enchantment magic, inflicting all nearby creatures with &lt;LSTag Type="Status" Tooltip="CROWN_OF_MADNESS "&gt;madness&lt;/LSTag&gt;.</content>
+    <content contentuid="h15271941b7b54b51bc98382503fff3c47gc2" version="1">Erupt with Enchantment magic, inflicting all nearby creatures with &lt;LSTag Type="Status" Tooltip="CONFUSION "&gt;confusion&lt;/LSTag&gt;.</content>
+    <content contentuid="h1fe9571284464f8d82cb90297d285645f198" version="1">Recently used Evocation magic.</content>
+    <content contentuid="he956a760f7044f8fa9dd7d6e0bbc7e204dc3" version="1">Evocation</content>
+    <content contentuid="h9d075a7cccd24f878d8e1aeae17cdbfd07bd" version="1">Evocation Surge</content>
+    <content contentuid="haf50b1bcc5784542a5f6640d5cee91f94760" version="1">Evocation Flare</content>
+    <content contentuid="h343599feacea49ad94ff736149e8fe500bdc" version="1">Erupt with Evocation magic, dealing Fire, Cold, Lightning, and Thunder damage to all nearby creatures.</content>
+    <content contentuid="h06d545b1f5224e69839169c9dec11af8bg7g" version="1">Illusion</content>
+    <content contentuid="h8c8a5c964eae4afbb38cfb56b45dcf5896aa" version="1">Recently used Illusion magic.</content>
+    <content contentuid="hd4e15ec545d34e57b0b0fbe2afae0c4e8169" version="1">Illusion Surge</content>
+    <content contentuid="h8e8b8d28edbb48b0933d3d6933d07bf5g429" version="1">After erupting with Illusion magic, surrounding creatures are disoriented by illusions, imposing &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on their next &lt;LSTag Tooltip="AttackRoll"&gt;attack&lt;/LSTag&gt;.</content>
+    <content contentuid="hdaaecd2a1e5842aea4341fab5bf5bb088g97" version="1">Illusory Distraction</content>
+    <content contentuid="h0877c3bcaff14777a2771767b096b760ae52" version="1">You are disoriented by illusions and have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on your next &lt;LSTag Tooltip="AttackRoll"&gt;attack&lt;/LSTag&gt;.</content>
+    <content contentuid="h74ab2d54b40743bc877b9596bc00e5c341ab" version="1">Illusion Flare</content>
+    <content contentuid="ha0521cada62c44d5b631a50cdea6b45e6e5c" version="1">After erupting with Illusion magic, surrounding creatures are disoriented by illusions and have a chance to become &lt;LSTag Type="Status" Tooltip="HYPNOTIC_PATTERN "&gt;hypnotized&lt;/LSTag&gt;.</content>
+    <content contentuid="h70aba54d77bc4424b737662344d0378cb338" version="1">Necromancy</content>
+    <content contentuid="h6d07858b55f243258c51e8c47cd89842f5fe" version="1">Recently used Necromancy magic.</content>
+    <content contentuid="ha97256a78b6646edbfd1237c807bc4047caf" version="1">Necromancy Surge</content>
+    <content contentuid="h373c5cd0f3f24b2290f8ce034413d036e660" version="1">Erupt with Necromancy magic, summoning unstable, uncontrolled zombies that decay rapidly.</content>
+    <content contentuid="h24ee46aac2734d798acb37b810563b465dd9" version="1">Uncontrollable</content>
+    <content contentuid="h8d564213a5ab47fdb8551a3b9876ff3c107e" version="1">This zombie can not be controlled and is aggressive to nearby creatures.</content>
+    <content contentuid="h91295608f7d64fe6a44fcb9406c2c15345a7" version="1">Necromancy Flare</content>
+    <content contentuid="h7391c1e5e33c4386a073326787a8249b25c5" version="1">Unstable</content>
+    <content contentuid="hb1c9c654e5634f8fa91365e632423e3a5a5e" version="1">This zombie can not be controlled and is aggressive to nearby creatures. Additionally takes [1] each turn.</content>
+    <content contentuid="h9d97c206ee274e0792d47209e13fc30d1520" version="1">Transmutation</content>
+    <content contentuid="hf4e0ed7436b64ffe8d93af150f073b12bbef" version="1">Recently used Transmutation magic.</content>
+    <content contentuid="h7f24004de15949fa8d52b8c2844820c5bf84" version="1">Transmutation Surge</content>
+    <content contentuid="h17d7a4fd657d42c0a926425f1698a759c672" version="1">Erupt with Transmutation magic, reducing the size of all nearby creatures.</content>
+    <content contentuid="h214725cfb89a46c4a7611326c77cc522a260" version="1">Transmutation Flare</content>
+    <content contentuid="h33dee68d67254f75bfa7888b2f82f3f57ed5" version="1">Erupt with Transmutation magic, transforming all nearby creatures into harmless sheep.</content>
 </contentList>

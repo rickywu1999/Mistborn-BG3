@@ -765,56 +765,56 @@
                     <attribute id="V2" type="float" value="0.125" />
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="Status_Enhancement_Nicrosil_Abjuration" />
                     <attribute id="U1" type="float" value="0.3125" />
                     <attribute id="U2" type="float" value="0.34375" />
                     <attribute id="V1" type="float" value="0.09375" />
                     <attribute id="V2" type="float" value="0.125" />
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="Status_Enhancement_Nicrosil_Conjuration" />
                     <attribute id="U1" type="float" value="0.34375" />
                     <attribute id="U2" type="float" value="0.375" />
                     <attribute id="V1" type="float" value="0.09375" />
                     <attribute id="V2" type="float" value="0.125" />
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="Status_Enhancement_Nicrosil_Divination" />
                     <attribute id="U1" type="float" value="0.375" />
                     <attribute id="U2" type="float" value="0.40625" />
                     <attribute id="V1" type="float" value="0.09375" />
                     <attribute id="V2" type="float" value="0.125" />
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="Status_Enhancement_Nicrosil_Enchantment" />
                     <attribute id="U1" type="float" value="0.40625" />
                     <attribute id="U2" type="float" value="0.4375" />
                     <attribute id="V1" type="float" value="0.09375" />
                     <attribute id="V2" type="float" value="0.125" />
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="Status_Enhancement_Nicrosil_Evocation" />
                     <attribute id="U1" type="float" value="0.4375" />
                     <attribute id="U2" type="float" value="0.46875" />
                     <attribute id="V1" type="float" value="0.09375" />
                     <attribute id="V2" type="float" value="0.125" />
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="Status_Enhancement_Nicrosil_Illusion" />
                     <attribute id="U1" type="float" value="0.46875" />
                     <attribute id="U2" type="float" value="0.5" />
                     <attribute id="V1" type="float" value="0.09375" />
                     <attribute id="V2" type="float" value="0.125" />
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="Status_Enhancement_Nicrosil_Necromancy" />
                     <attribute id="U1" type="float" value="0.5" />
                     <attribute id="U2" type="float" value="0.53125" />
                     <attribute id="V1" type="float" value="0.09375" />
                     <attribute id="V2" type="float" value="0.125" />
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="Status_Enhancement_Nicrosil_Transmutation" />
                     <attribute id="U1" type="float" value="0.53125" />
                     <attribute id="U2" type="float" value="0.5625" />
                     <attribute id="V1" type="float" value="0.09375" />

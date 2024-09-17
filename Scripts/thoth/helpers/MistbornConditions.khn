@@ -21,3 +21,18 @@ function MistbornHasSpellSlots(entity)
     result = HasActionResource('SpellSlot', 1,1, false, false, entity) | HasActionResource('SpellSlot', 1,2, false, false, entity) | HasActionResource('SpellSlot', 1,3, false, false, entity) | HasActionResource('SpellSlot', 1,4, false, false, entity) | HasActionResource('SpellSlot', 1,5, false, false, entity) | HasActionResource('SpellSlot', 1,6, false, false, entity) | HasActionResource('SpellSlot', 1,7, false, false, entity) | HasActionResource('SpellSlot', 1,8, false, false, entity) | HasActionResource('SpellSlot', 1,9, false, false, entity)  
     return ConditionResult(result.Result, {ConditionError("MustHaveSpellSlots")})
 end
+
+function MistbornRecentlyCastedSpell()
+    result = HasStatus('NICROSIL_ABJURATION') | HasStatus('NICROSIL_CONJURATION') | HasStatus('NICROSIL_DIVINATION') | HasStatus('NICROSIL_ENCHANTMENT') | HasStatus('NICROSIL_EVOCATION') | HasStatus('NICROSIL_ILLUSION') | HasStatus('NICROSIL_NECROMANCY') | HasStatus('NICROSIL_TRANSMUTATION')
+    return ConditionResult(result.Result, {ConditionError("MustHaveRecentlyCastedSpell")})
+end
+
+function AttackAutoResolveOnAlly(attackType, result)
+    result = result or false
+    ally = Ally()
+    if not ally.Result then
+        st = Attack(attackType)
+        return ConditionResult(st.Result,{},{},st.Chance)
+    end
+    return ConditionResult(result)
+end
