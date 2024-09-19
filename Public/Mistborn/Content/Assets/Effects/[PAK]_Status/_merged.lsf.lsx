@@ -419,7 +419,7 @@
 					<attribute id="CullingDistance" type="float" value="0" />
 					<attribute id="Duration" type="float" value="2" />
 					<attribute id="EffectName" type="FixedString" value="VFX_Spells_Cast_Dome_Bendalloy_Dummy_01" />
-					<attribute id="ID" type="FixedString" value="85552775-9b7b-4f2b-926c-120457a8d518" />
+					<attribute id="ID" type="FixedString" value="0d997733-2f9a-4e9e-ae8c-d078e8d6f4d0" />
 					<attribute id="Initialized" type="bool" value="True" />
 					<attribute id="InterruptionMode" type="uint32" value="0" />
 					<attribute id="Localized" type="bool" value="False" />
@@ -1044,6 +1044,50 @@
 								</node>
 								<node id="DependentResource">
 									<attribute id="Object" type="FixedString" value="0c5ef267-581e-3d1e-6645-20626faa15ab" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="14 14 14" />
+					<attribute id="BoundsMin" type="fvec3" value="-14 -14 -14" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="60" />
+					<attribute id="Duration" type="float" value="3" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Spells_Cast_ShoutAoE_Duralumin_Mental_Root_Textkey_01" />
+					<attribute id="ID" type="FixedString" value="6e806c94-0a9a-43e6-bc45-f5bb8bbde27d" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_Spells_Cast_ShoutAoE_Duralumin_Mental_Root_Textkey_01" />
+					<attribute id="Radius" type="float" value="24.24871" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mistborn/Assets/Effects/Effects_Banks/Status/VFX_Spells_Cast_ShoutAoE_Duralumin_Mental_Root_Textkey_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5258f0da-49a0-30a7-8265-0695963b17b9" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="39f6fbef-4b40-0bdb-e513-aff7232349a8" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="317bf423-2205-46f1-6932-c1e980336040" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="824c45ce-8580-8225-a0be-3f6fe5513388" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5154b9d0-433a-a105-d2e1-098b2d443955" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="e9c711a0-c416-6bfd-0cf5-1e9860f492d1" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="20eb59a1-0d58-95a0-0275-6ed6a949eb7a" />
 								</node>
 							</children>
 						</node>

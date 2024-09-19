@@ -98,7 +98,7 @@ data "DisplayName" "h8fa988fcaada4cb5a6258b9e09463a9d8b4c;2"
 data "Description" "ha8b20c3464bf4ef9a304e0527cf186b30b06;2"
 data "Icon" "Passive_Enhancement_Duralumin"
 data "Properties" "Highlighted"
-data "Boosts" ""
+data "Boosts" "UnlockSpell(Duralumin_Container)"
 
 new entry "Cadmium_Unlock"
 type "PassiveData"

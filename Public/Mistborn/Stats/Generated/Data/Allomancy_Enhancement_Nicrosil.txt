@@ -3,7 +3,7 @@ new entry "NICROSIL_AURA"
 type "StatusData"
 data "StatusType" "BOOST"
 data "StackId" "NICROSIL_AURA"
-data "AuraRadius" "100"
+data "AuraRadius" "50"
 data "AuraStatuses" "TARGET:IF(Character()):ApplyStatus(NICROSIL_TYPING)"
 data "StatusGroups" "SG_RemoveOnRespec"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;ApplyToDead;IgnoreResting"
@@ -21,7 +21,6 @@ data "StatsFunctorContext" "OnCast"
 data "Conditions" "not Item()"
 data "StatsFunctors" "IF(IsSpellSchool(SpellSchool.Abjuration)):ApplyStatus(NICROSIL_ABJURATION,100,3);IF(IsSpellSchool(SpellSchool.Conjuration)):ApplyStatus(NICROSIL_CONJURATION,100,3);IF(IsSpellSchool(SpellSchool.Divination)):ApplyStatus(NICROSIL_DIVINATION,100,3);IF(IsSpellSchool(SpellSchool.Enchantment)):ApplyStatus(NICROSIL_ENCHANTMENT,100,3);IF(IsSpellSchool(SpellSchool.Evocation)):ApplyStatus(NICROSIL_EVOCATION,100,3);IF(IsSpellSchool(SpellSchool.Illusion)):ApplyStatus(NICROSIL_ILLUSION,100,3);IF(IsSpellSchool(SpellSchool.Necromancy)):ApplyStatus(NICROSIL_NECROMANCY,100,3);IF(IsSpellSchool(SpellSchool.Transmutation)):ApplyStatus(NICROSIL_TRANSMUTATION,100,3);"
 data "Properties" "IsHidden"
-
 
 // Abjuration
 new entry "NICROSIL_ABJURATION"
@@ -538,7 +537,7 @@ data "SpellAnimation" "3ff87abf-1ea1-4c32-aadf-c822d74c7dc0,,;,,;c17a3562-3758-4
 data "VerbalIntent" "Buff"
 data "SpellFlags" "HasSomaticComponent;IsMelee;IsLinkedSpellContainer"
 data "HitAnimationType" "MagicalNonDamage"
-data "PrepareEffect" "7f0776b1-c6be-4b20-b765-d81160346765"
+data "PrepareEffect" "90bf6ff4-bf4b-423c-a4b4-536bcf397c4e"
 data "CastEffect" "6ada9530-4979-468f-89b8-c6d64dea13fd"
 
 new entry "Nicrosil_Infuse_Enhance"

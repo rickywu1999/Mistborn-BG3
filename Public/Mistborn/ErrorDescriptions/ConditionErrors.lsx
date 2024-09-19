@@ -34,6 +34,12 @@
                     <attribute id="Identifier" type="FixedString" value="MustHaveRecentlyCastedSpell"/>
                     <attribute id="UUID" type="guid" value="eb3a2c79-63da-49f2-ac88-c62e1432fa37"/>
                 </node>
+                <node id="ConditionErrors">
+                    <attribute id="DisplayName" type="TranslatedString" handle="ha19a1dee812641a3a844d690e98c9ebe8egg" version="2"/>
+                    <attribute id="ErrorDescriptionType" type="uint8" value="0"/>
+                    <attribute id="Identifier" type="FixedString" value="CannotHarmThroughTemporalBubble"/>
+                    <attribute id="UUID" type="guid" value="8f7d5260-4a27-453b-ac04-8ed31d831122"/>
+                </node>
             </children>
         </node>
     </region>

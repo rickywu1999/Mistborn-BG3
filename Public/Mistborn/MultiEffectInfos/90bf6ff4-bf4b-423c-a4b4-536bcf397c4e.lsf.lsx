@@ -4,7 +4,7 @@
 	<region id="MultiEffectInfos">
 		<node id="MultiEffectInfos">
 			<attribute id="Name" type="LSString" value="Chromium_Leach_PrepareEffect" />
-			<attribute id="UUID" type="guid" value="7f0776b1-c6be-4b20-b765-d81160346765" />
+			<attribute id="UUID" type="guid" value="90bf6ff4-bf4b-423c-a4b4-536bcf397c4e" />
 			<children>
 				<node id="EffectInfo">
 					<attribute id="UUID" type="guid" value="9dcbe1f9-30e5-414d-ae48-b30f16b04580" />
