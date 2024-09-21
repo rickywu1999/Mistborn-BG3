@@ -43,8 +43,7 @@ data "SpellProperties" "GROUND:Summon(edca6656-dc8c-410b-9f16-fcc02d5ed803,Perma
 data "AreaRadius" "6"
 data "SpellContainerID" "CadmiumBubble_Container"
 data "UseCosts" "ActionPoint:1;MetalReserves:4"
-data "TooltipPermanentWarnings" "c98b3f22-3bad-467c-9e68-1342ab3b07b5;3d4d8727-f1bf-4880-8094-c11a333f2262"
-//data "RequirementConditions" "HasStatus('FLARING_UNLOCK')"
+//data "RequirementConditions" "HasPassive('Metal_Flaring')"
 data "Icon" "Spell_Temporal_Cadmium_Bubble_Flare"
 
 new entry "CadmiumBubble_End"

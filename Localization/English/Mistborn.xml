@@ -6,7 +6,7 @@
 	
 	<!--Metal Reserves -->
 	<content contentuid="h1914187fg34f6g455eg81f9g171adffcde14" version="1">Metal Reserve(s)</content>
-	<content contentuid="hbcca4811gc5dfg4916ga4fcg52dc44a97336" version="1">Mistborn ingest metals from vials to sustain their Allomantic abilities. Metal Reserves are replenished after a &lt;LSTag Tooltip="ShortRest"&gt;Short&lt;/LSTag&gt; or &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;.</content>
+	<content contentuid="hbcca4811gc5dfg4916ga4fcg52dc44a97336" version="1">Mistborn ingest metals from vials to sustain their Allomantic abilities. Metal Reserves are replenished after a &lt;LSTag Tooltip="ShortRest"&gt;short&lt;/LSTag&gt; or &lt;LSTag Tooltip="LongRest"&gt;long rest&lt;/LSTag&gt;.</content>
 	<content contentuid="hed44144cg23a4g4b08g819cgab93bd440003" version="1">Metal Reserves</content>
 	<content contentuid="heffbeaacg0ac0g4f12g98a5g2c024f5eb402" version="1">You gain 4 &lt;LSTag Type="ActionResource" Tooltip="MetalReserves"&gt;Metal Reserves&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Mistborn burn these reserves to activate their Allomantic abilities.</content>
     <content contentuid="h5572c1cb2a7f487a93b8cd00033665b7304c" version="1">You gain an additional &lt;LSTag Type="ActionResource" Tooltip="MetalReserves"&gt;Metal Reserve&lt;/LSTag&gt; to fuel your Allomantic abilities.</content>
@@ -30,8 +30,8 @@
     <content contentuid="h9b74802a91b14c4a83c46ebf1fabf67d13c0" version="1">Temporal Metal: Bendalloy</content>
     <content contentuid="h2276af2f1f43417bbb8ae0a4be2314d20352" version="1">Temporal Metal: Gold</content>
     <content contentuid="h88343afbc6184dd69967233ae51ad98421bb" version="1">Temporal Metal: Electrum</content>
-	<content contentuid="h05cddf91e63448ca8e6a0bb3979f32e4a528" version="1">Enables the ability to pull on metallic objects. Unlock the ability to toggle &lt;LSTag Type="Status" Tooltip="IronAnchor"&gt;Iron Anchor&lt;/LSTag&gt;.</content>
-    <content contentuid="ha71109489af143cb960c5c26d3fd55554b20" version="1">Enables the ability to push on metallic objects.</content>
+	<content contentuid="h05cddf91e63448ca8e6a0bb3979f32e4a528" version="1">Enables the ability to pull on metallic objects. Unlock the ability to toggle &lt;LSTag Type="Status" Tooltip="IronAnchor"&gt;Iron Anchor&lt;/LSTag&gt;. As you prepare to burn iron, all creatures bearing metal will be highlighted, making them clear targets for your Allomantic abilities.</content>
+    <content contentuid="ha71109489af143cb960c5c26d3fd55554b20" version="1">Enables the ability to push on metallic objects. As you prepare to burn steel, all creatures bearing metal will be highlighted, making them clear targets for your Allomantic abilities.</content>
     <content contentuid="h9f4935e8d9d341baad0b4d2866e054fc06g3" version="1">Enables the ability to greatly enhance your physical strength, endurance, and resilience.</content>
     <content contentuid="h564f6dfb06ba44198554eb55154010de660f" version="1">Enables the ability to heighten all five senses for greater perception and awareness.</content>
     <content contentuid="h300e48ccd2b746af9e3ec974830ac77a594e" version="1">Enables the ability to inflame and manipulate the emotions of others.</content>
@@ -47,8 +47,6 @@
     <content contentuid="h7f120368215c4a66a121c2cc33fb8690f5f1" version="1">Enables the ability to magnifies the magic of others upon contact.</content>
     <content contentuid="h0e5d564149c845ecad0d069001916cb38f53" version="1">Enables the ability to drains all magic from a target upon contact.</content>
     <content contentuid="h939659ddd7b44d4c84acb343d9d879fb62ae" version="1">Choose the metals to incorporate into your build, unlocking powerful Allomantic abilities and expanding your versatility as a Mistborn.</content>
-    <content contentuid="h4cd9b2ea47654358b84542b880e9011683gd" version="1">Metal Flaring</content>
-    <content contentuid="h77f047b16f1d4aa186f7e7537c1bebae66b6" version="1">Mistborn Level 7 Class Feature:&lt;br&gt;Gain the ability to flare metals, burning them at an accelerated rate to enhance their effects.</content>
 	
     <!--Tooltips-->
     <content contentuid="h7d2231994a2849f996aadf31de7cebf1ef3c" version="1">&lt;LSTag Type="Image" Info="Inspiration"/&gt; Must have &lt;LSTag Type="Passive" Tooltip="Metal_Flaring"&gt;Metal Flaring&lt;/LSTag&gt; to use.</content>
@@ -345,4 +343,22 @@
     <content contentuid="hf2b21509601d4df79caa9f49acdfdc99a5e2" version="1">Brass Drained</content>
     <content contentuid="hda660699638c4c9e98e9068bb03e27f904c9" version="1">Zinc Drained</content>
     <content contentuid="h1393d7a723f84624a2595b7db10562e1bb84" version="1">Chromium Drained</content>
+
+    <!--Subclasses-->
+    <content contentuid="h2f04c36773e649178e54920670ed7fa1g85c" version="1">Battle Allomancer</content>
+    <content contentuid="h3894108977984e978b8cb01fb45066b4bcd9" version="1">Battle Allomancers excel in manipulating physical metals to control the battlefield. They protect allies by pulling or pushing enemies, swiftly moving people around, and using their agility to outmaneuver opponents. With enhanced strength and resilience, they are formidable in close combat and can turn the tide of any fight.</content>
+    <content contentuid="hda42a503aa494e60a496d3dcc497fa075640" version="1">Social Allomancer</content>
+    <content contentuid="h9230e73003a9456990693eb2910796a01g4d" version="1">Social Allomancers specialize in mental manipulation, charming foes or spreading fear to control the flow of battle. They excel at bolstering their allies' abilities while weakening their enemies' resolve. Their mastery of emotions makes them a powerful force in both combat and negotiation.</content>
+    <content contentuid="h91e09af66e524118a52c55464feed7c73131" version="1">Temporal Allomancer</content>
+    <content contentuid="h5e06046273b5484fb9c73caf2a6cce378876" version="1">Temporal Allomancers manipulate the flow of time, altering the pace of battle to their advantage. They can slow enemies or hasten allies, creating strategic openings and controlling the battlefield. Their mastery over time gives them unmatched flexibility in combat.</content>
+    <content contentuid="h4a6f426acfff40538126e6dbecd6defdac95" version="1">Enhancement Allomancer</content>
+    <content contentuid="h7ed21fdb31c9463bb8570f5356e054cafe43" version="1">Enhancement Allomancers amplify their own and others' Allomantic abilities, dramatically boosting power for short bursts. They can turn the tide of battle with overwhelming strength or drain their foes' magic. Their ability to enhance or suppress powers makes them a versatile and dangerous ally or enemy.</content>
+    
+    <!--Class Features-->
+    <content contentuid="h4464fa58fda94b66b8e68bf8c1872801df26" version="1">Allomantic Awakening</content>
+    <content contentuid="h31237dbc2449448e8b2b2310a7285796f9eg" version="1">After a life-changing event awakens the dormant Allomantic abilities within you, you gain the power to burn metals and unleash their unique effects.&lt;br&gt;&lt;br&gt;You learn to burn a new metal at each level until level 12, and then every two levels thereafter. For some allomatic abilties, you can burn additional metal reserves to produced an enhanced effect.</content>
+    <content contentuid="h4cd9b2ea47654358b84542b880e9011683gd" version="1">Metal Flaring</content>
+    <content contentuid="h77f047b16f1d4aa186f7e7537c1bebae66b6" version="1">Gain the ability to flare metals, burning them at an accelerated rate to enhance their effects.</content>
+    <content contentuid="hbf80e029cf7b4f588cbe30b56224c668cg12" version="1">Allomatic Reflexes</content>
+    <content contentuid="h94cda78db01b4190a7dbc5753b644b235518" version="1">Your growing mastery of allomantic abilities enables you to swiftly respond to threats. When an enemy moves within a certain range of you, you can use your reaction to activate the base effect of a metal you know, expending twice the usual amount of metal reserves. Once you use this feature, you cannot use it again until you finish a &lt;LSTag Tooltip="ShortRest"&gt;short&lt;/LSTag&gt; or &lt;LSTag Tooltip="LongRest"&gt;long rest&lt;/LSTag&gt;.</content>
 </contentList>

@@ -6,11 +6,12 @@
             <children>
                 <node id="Progression">
                     <attribute id="AllowImprovement" type="bool" value="false"/> 
-                    <attribute id="Boosts" type="LSString" value="ActionResource(MetalReserves,4,0);ProficiencyBonus(SavingThrow,Dexterity);ProficiencyBonus(SavingThrow,Intelligence);Proficiency(LightArmor);Proficiency(Shields);Proficiency(SimpleWeapons);Proficiency(Shortswords);Proficiency(Longswords);Proficiency(Rapiers)"/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(Allomatic_Reflex_Resource,1,0);ActionResource(MetalReserves,4,0);ProficiencyBonus(SavingThrow,Dexterity);ProficiencyBonus(SavingThrow,Intelligence);Proficiency(LightArmor);Proficiency(Shields);Proficiency(SimpleWeapons);Proficiency(Shortswords);Proficiency(Longswords);Proficiency(Rapiers)"/>
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="Mistborn"/> 
                     <attribute id="ProgressionType" type="uint8" value="0"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSkills(a1c2b712-2ed6-4e5b-820f-c5db654fe006,3);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1);SelectPassives(f94764f3-0a6a-4492-b42e-333ea67e2b28,2,Choosable_Metals)"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Allomantic_Awakening"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSkills(a1c2b712-2ed6-4e5b-820f-c5db654fe006,3);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1);SelectPassives(f94764f3-0a6a-4492-b42e-333ea67e2b28,1,Choosable_Metals)"/>
                     <attribute id="TableUUID" type="guid" value="6e5e6b00-d045-4c13-98fb-3e895b3b9940"/>
                     <attribute id="UUID" type="guid" value="b5c810d5-c327-45a7-b7d3-7f662bc95dca"/>
                 </node>
@@ -21,7 +22,7 @@
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="Mistborn"/> 
                     <attribute id="ProgressionType" type="uint8" value="0"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSkills(a1c2b712-2ed6-4e5b-820f-c5db654fe006,1);SelectPassives(f94764f3-0a6a-4492-b42e-333ea67e2b28,2,Choosable_Metals)"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSkills(a1c2b712-2ed6-4e5b-820f-c5db654fe006,1);SelectPassives(f94764f3-0a6a-4492-b42e-333ea67e2b28,1,Choosable_Metals)"/>
                     <attribute id="TableUUID" type="guid" value="6e5e6b00-d045-4c13-98fb-3e895b3b9940"/>
                     <attribute id="UUID" type="guid" value="636a3a7b-80a5-48b6-a072-01847c9f83e9"/>
                 </node>
@@ -35,18 +36,99 @@
                     <attribute id="TableUUID" type="guid" value="6e5e6b00-d045-4c13-98fb-3e895b3b9940"/>
                     <attribute id="UUID" type="guid" value="8020dda4-e61a-441e-8143-6d1e15accc12"/>
                 </node>
+                <node id="Progression">
+                    <attribute id="AllowImprovement" type="bool" value="false"/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(MetalReserves,1,0)"/>
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="Mistborn"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(f94764f3-0a6a-4492-b42e-333ea67e2b28,1,Choosable_Metals)"/>
+                    <attribute id="TableUUID" type="guid" value="6e5e6b00-d045-4c13-98fb-3e895b3b9940"/>
+                    <attribute id="UUID" type="guid" value="e8585146-8e12-4a52-a9b0-829f215c1d0d"/>
+                    <children>
+                        <node id="SubClasses">
+                            <children>
+                                <node id="SubClass">
+                                    <attribute id="Object" type="guid" value="827b6205-60b8-4539-b586-3e8e32bb096c"/>
+                                </node>
+                                <node id="SubClass">
+                                    <attribute id="Object" type="guid" value="01f1c8d4-fd4b-461a-be35-a4b94fa56164"/>
+                                </node>
+                                <node id="SubClass">
+                                    <attribute id="Object" type="guid" value="7fd312f6-aad4-454a-8af3-961cb0578cdb"/>
+                                </node>
+                                <node id="SubClass">
+                                    <attribute id="Object" type="guid" value="ef22d605-dbe4-4f26-93c8-0228144214a2"/>
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <node id="Progression">
+                    <attribute id="AllowImprovement" type="bool" value="true"/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(MetalReserves,1,0)"/>
+                    <attribute id="Level" type="uint8" value="4"/>
+                    <attribute id="Name" type="LSString" value="Mistborn"/>
+                    <attribute id="PassivesAdded" type="LSString" value="SlowFall"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(f94764f3-0a6a-4492-b42e-333ea67e2b28,1,Choosable_Metals)"/>
+                    <attribute id="TableUUID" type="guid" value="6e5e6b00-d045-4c13-98fb-3e895b3b9940"/>
+                    <attribute id="UUID" type="guid" value="d59bbba8-119a-4606-8c28-fa358eba358f"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="AllowImprovement" type="bool" value="false"/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(MetalReserves,1,0)"/>
+                    <attribute id="Level" type="uint8" value="5"/>
+                    <attribute id="Name" type="LSString" value="Mistborn"/>
+                    <attribute id="PassivesAdded" type="LSString" value="ExtraAttack"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(f94764f3-0a6a-4492-b42e-333ea67e2b28,1,Choosable_Metals)"/>
+                    <attribute id="TableUUID" type="guid" value="6e5e6b00-d045-4c13-98fb-3e895b3b9940"/>
+                    <attribute id="UUID" type="guid" value="900941f6-ae52-454a-8498-580631003150"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="AllowImprovement" type="bool" value="false"/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(MetalReserves,1,0)"/>
+                    <attribute id="Level" type="uint8" value="6"/>
+                    <attribute id="Name" type="LSString" value="Mistborn"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(f94764f3-0a6a-4492-b42e-333ea67e2b28,1,Choosable_Metals)"/>
+                    <attribute id="TableUUID" type="guid" value="6e5e6b00-d045-4c13-98fb-3e895b3b9940"/>
+                    <attribute id="UUID" type="guid" value="9732ab1b-c77c-4ab2-852b-3c5489c47d63"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="AllowImprovement" type="bool" value="false"/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(MetalReserves,1,0)"/>
+                    <attribute id="Level" type="uint8" value="7"/>
+                    <attribute id="Name" type="LSString" value="Mistborn"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Metal_Flaring;Evasion"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(f94764f3-0a6a-4492-b42e-333ea67e2b28,1,Choosable_Metals)"/>
+                    <attribute id="TableUUID" type="guid" value="6e5e6b00-d045-4c13-98fb-3e895b3b9940"/>
+                    <attribute id="UUID" type="guid" value="269c77eb-29e9-4490-a395-19497c74c188"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="AllowImprovement" type="bool" value="true"/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(MetalReserves,1,0)"/>
+                    <attribute id="Level" type="uint8" value="8"/>
+                    <attribute id="Name" type="LSString" value="Mistborn"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(f94764f3-0a6a-4492-b42e-333ea67e2b28,1,Choosable_Metals)"/>
+                    <attribute id="TableUUID" type="guid" value="6e5e6b00-d045-4c13-98fb-3e895b3b9940"/>
+                    <attribute id="UUID" type="guid" value="146a8d56-cdb4-47c7-8085-ac81d164e2a5"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="AllowImprovement" type="bool" value="false"/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(MetalReserves,1,0);ActionResource(Allomatic_Reflex_Resource,1,0)"/>
+                    <attribute id="Level" type="uint8" value="9"/>
+                    <attribute id="Name" type="LSString" value="Mistborn"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Allomatic_Reflexes;Allomatic_Reflexes_Iron;Allomatic_Reflexes_Steel;Allomatic_Reflexes_Brass;Allomatic_Reflexes_Zinc;Allomatic_Reflexes_Chromium"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(f94764f3-0a6a-4492-b42e-333ea67e2b28,1,Choosable_Metals)"/>
+                    <attribute id="TableUUID" type="guid" value="6e5e6b00-d045-4c13-98fb-3e895b3b9940"/>
+                    <attribute id="UUID" type="guid" value="c1cc55b8-2986-48a9-9141-a716a1ff2bb5"/>
+                </node>
             </children>
         </node>
     </region>
 </save>
-<!--press control shift a to quick spawn a line below
-<attribute id="Boosts" type="LSString" value=""/>
-<attribute id="Level" type="uint8" value=""/>
-<attribute id="Name" type="LSString" value=""/>
-<attribute id="ProgressionType" type="uint8" value="0"/>
-<attribute id="TableUUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
-<attribute id="UUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
-end custom attribute lines-->
-<!--press control shift 2 to quick spawn a line below
-example
-end ctrl shift 2 clipboard-->

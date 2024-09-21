@@ -30,27 +30,59 @@
                         </node>
                     </children>
                 </node>
+                <node id="ClassDescription"> Subclass
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+					<attribute id="Description" type="TranslatedString" handle="h3894108977984e978b8cb01fb45066b4bcd9" version="1"/> Link to the .loca file
+                    <attribute id="DisplayName" type="TranslatedString" handle="h2f04c36773e649178e54920670ed7fa1g85c" version="1"/> Link to the .loca file
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="Name" type="FixedString" value="BattleAllomancer"/> name of your subclass
+                    <attribute id="ParentGuid" type="guid" value="ae3032c3-9e26-4666-965a-b130a7a67518"/> This is the same UUID as your main class, as the main class act as the subclass' parent
+                    <attribute id="PrimaryAbility" type="uint8" value="5"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="abfbd26c-734e-4ee9-b94d-1a947f1f6f18"/> This is a different table as the Main Class, as this one is specific to the subclass
+                    <attribute id="SoundClassType" type="FixedString" value="Rogue"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="5"/>
+                    <attribute id="UUID" type="guid" value="827b6205-60b8-4539-b586-3e8e32bb096c"/> Make a unique UUID for the subclass
+                </node>
+				<node id="ClassDescription"> Subclass
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+					<attribute id="Description" type="TranslatedString" handle="h9230e73003a9456990693eb2910796a01g4d" version="1"/> Link to the .loca file
+                    <attribute id="DisplayName" type="TranslatedString" handle="hda42a503aa494e60a496d3dcc497fa075640" version="1"/> Link to the .loca file
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="Name" type="FixedString" value="SocialAllomancer"/> name of your subclass
+                    <attribute id="ParentGuid" type="guid" value="ae3032c3-9e26-4666-965a-b130a7a67518"/> This is the same UUID as your main class, as the main class act as the subclass' parent
+                    <attribute id="PrimaryAbility" type="uint8" value="5"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="416641dc-6eb2-4efe-90f2-73643015b5f9"/> This is a different table as the Main Class, as this one is specific to the subclass
+                    <attribute id="SoundClassType" type="FixedString" value="Rogue"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="5"/>
+                    <attribute id="UUID" type="guid" value="01f1c8d4-fd4b-461a-be35-a4b94fa56164"/> Make a unique UUID for the subclass
+                </node>
+                <node id="ClassDescription"> Subclass
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+					<attribute id="Description" type="TranslatedString" handle="h5e06046273b5484fb9c73caf2a6cce378876" version="1"/> Link to the .loca file
+                    <attribute id="DisplayName" type="TranslatedString" handle="h91e09af66e524118a52c55464feed7c73131" version="1"/> Link to the .loca file
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="Name" type="FixedString" value="TemporalAllomancer"/> name of your subclass
+                    <attribute id="ParentGuid" type="guid" value="ae3032c3-9e26-4666-965a-b130a7a67518"/> This is the same UUID as your main class, as the main class act as the subclass' parent
+                    <attribute id="PrimaryAbility" type="uint8" value="5"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="a01b590c-f5de-460d-98d8-e2d202342b1c"/> This is a different table as the Main Class, as this one is specific to the subclass
+                    <attribute id="SoundClassType" type="FixedString" value="Rogue"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="5"/>
+                    <attribute id="UUID" type="guid" value="7fd312f6-aad4-454a-8af3-961cb0578cdb"/> Make a unique UUID for the subclass
+                </node>
+                <node id="ClassDescription"> Subclass
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+					<attribute id="Description" type="TranslatedString" handle="h7ed21fdb31c9463bb8570f5356e054cafe43" version="1"/> Link to the .loca file
+                    <attribute id="DisplayName" type="TranslatedString" handle="h4a6f426acfff40538126e6dbecd6defdac95" version="1"/> Link to the .loca file
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="Name" type="FixedString" value="EnhancementAllomancer"/> name of your subclass
+                    <attribute id="ParentGuid" type="guid" value="ae3032c3-9e26-4666-965a-b130a7a67518"/> This is the same UUID as your main class, as the main class act as the subclass' parent
+                    <attribute id="PrimaryAbility" type="uint8" value="5"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="68d5d316-8dd9-4fe8-b31e-e295bdb12a9a"/> This is a different table as the Main Class, as this one is specific to the subclass
+                    <attribute id="SoundClassType" type="FixedString" value="Rogue"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="5"/>
+                    <attribute id="UUID" type="guid" value="ef22d605-dbe4-4f26-93c8-0228144214a2"/> Make a unique UUID for the subclass
+                </node>
             </children>
         </node>
     </region>
 </save>
-<!--press control shift a to quick spawn a line below
-<attribute id="BaseHp" type="int32" value="12"/>
-<attribute id="ClassEquipment" type="FixedString" value="EQP_CC_Barbarian"/>
-<attribute id="ClassHotbarColumns" type="int32" value="5"/>
-<attribute id="CommonHotbarColumns" type="int32" value="9"/>
-<attribute id="Description" type="TranslatedString" handle="h000000000000000000000000000000000000" version="1"/>
-<attribute id="DisplayName" type="TranslatedString" handle="h000000000000000000000000000000000000" version="1"/>
-<attribute id="HpPerLevel" type="int32" value=""/>
-<attribute id="ItemsHotbarColumns" type="int32" value="2"/>
-<attribute id="LearningStrategy" type="uint8" value="1"/>
-<attribute id="Name" type="FixedString" value=""/>
-<attribute id="PrimaryAbility" type="uint8" value=""/>
-<attribute id="ProgressionTableUUID" type="guid" value=""/>
-<attribute id="SoundClassType" type="FixedString" value="Barbarian"/>
-<attribute id="SpellCastingAbility" type="uint8" value=""/>
-<attribute id="UUID" type="guid" value="00000000-0000-0000-0000-000000000000"/>
-end custom attribute lines-->
-<!--press control shift 2 to quick spawn a line below
-example
-end ctrl shift 2 clipboard-->
