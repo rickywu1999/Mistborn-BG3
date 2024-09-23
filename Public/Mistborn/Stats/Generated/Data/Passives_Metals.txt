@@ -131,3 +131,13 @@ data "Description" "he6a40b1780e846d3ab195c97a706ff8e21f3;2"
 data "Icon" "Passive_Temporal_Electrum"
 data "Properties" "Highlighted"
 data "Boosts" "UnlockSpell(ElectrumShadow);UnlockSpell(ElectrumDisengage)"
+
+
+// Fighting Style: Caster
+new entry "FightingStyle_Caster"
+type "PassiveData"
+data "DisplayName" "h8671ab8d8bb74e789e268ff6c8b1288f239e;2"
+data "Description" "hd33f8f5b1b18463c8a7ee4689ac76f22f12f;2"
+data "Icon" "PassiveFeature_MagicInitiateWizard"
+data "Properties" "Highlighted"
+data "Boosts" "ActionResource(MetalReserves,2,0)"

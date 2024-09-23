@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="5" build="0"/>
+    <region id="SpellLists">
+        <node id="root">
+            <children>
+				<node id="SpellList">
+                    <attribute id="Spells" type="LSString" value="Quick_Allomancy"/> a list of spell separated by a ;
+                    <attribute id="UUID" type="guid" value="95755291-c3a3-459a-86da-e11cd733c519"/> make a new UUID. refer to this when selecting or adding spells
+                </node>
+                <node id="SpellList">
+                    <attribute id="Spells" type="LSString" value="Backup_Reserves"/> a list of spell separated by a ;
+                    <attribute id="UUID" type="guid" value="b968b802-4cf2-47ea-8f47-39b0c8fffe41"/> make a new UUID. refer to this when selecting or adding spells
+                </node>
+                <node id="SpellList">
+                    <attribute id="Spells" type="LSString" value="Mistborn_Atium"/> a list of spell separated by a ;
+                    <attribute id="UUID" type="guid" value="24c3f5f2-2df8-4367-b7b7-082e9a10d111"/> make a new UUID. refer to this when selecting or adding spells
+                </node>
+			</children>
+        </node>
+    </region>
+</save>

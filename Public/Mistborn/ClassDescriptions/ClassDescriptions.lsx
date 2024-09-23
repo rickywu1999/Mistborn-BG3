@@ -16,7 +16,7 @@
                     <attribute id="ItemsHotbarColumns" type="int32" value="2"/>
                     <attribute id="LearningStrategy" type="uint8" value="1"/>
                     <attribute id="Name" type="FixedString" value="Mistborn"/> <!--Enter your mod name Ex. "Barbarian"-->
-                    <attribute id="PrimaryAbility" type="uint8" value="5"/> <!--1 to 6-->
+                    <attribute id="PrimaryAbility" type="uint8" value="2"/> <!--1 to 6-->
                     <attribute id="ProgressionTableUUID" type="guid" value="6e5e6b00-d045-4c13-98fb-3e895b3b9940"/>
                     <attribute id="SoundClassType" type="FixedString" value="Rogue"/>
                     <attribute id="SpellCastingAbility" type="uint8" value="5"/> <!--1 to 6-->
@@ -37,11 +37,16 @@
                     <attribute id="LearningStrategy" type="uint8" value="1"/>
                     <attribute id="Name" type="FixedString" value="BattleAllomancer"/> name of your subclass
                     <attribute id="ParentGuid" type="guid" value="ae3032c3-9e26-4666-965a-b130a7a67518"/> This is the same UUID as your main class, as the main class act as the subclass' parent
-                    <attribute id="PrimaryAbility" type="uint8" value="5"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="2"/>
                     <attribute id="ProgressionTableUUID" type="guid" value="abfbd26c-734e-4ee9-b94d-1a947f1f6f18"/> This is a different table as the Main Class, as this one is specific to the subclass
                     <attribute id="SoundClassType" type="FixedString" value="Rogue"/>
                     <attribute id="SpellCastingAbility" type="uint8" value="5"/>
                     <attribute id="UUID" type="guid" value="827b6205-60b8-4539-b586-3e8e32bb096c"/> Make a unique UUID for the subclass
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="1ae7017c-4884-4a43-bc4a-742fa0d201c0"/>
+                        </node>
+                    </children>
                 </node>
 				<node id="ClassDescription"> Subclass
                     <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
@@ -50,11 +55,16 @@
                     <attribute id="LearningStrategy" type="uint8" value="1"/>
                     <attribute id="Name" type="FixedString" value="SocialAllomancer"/> name of your subclass
                     <attribute id="ParentGuid" type="guid" value="ae3032c3-9e26-4666-965a-b130a7a67518"/> This is the same UUID as your main class, as the main class act as the subclass' parent
-                    <attribute id="PrimaryAbility" type="uint8" value="5"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="6"/>
                     <attribute id="ProgressionTableUUID" type="guid" value="416641dc-6eb2-4efe-90f2-73643015b5f9"/> This is a different table as the Main Class, as this one is specific to the subclass
                     <attribute id="SoundClassType" type="FixedString" value="Rogue"/>
                     <attribute id="SpellCastingAbility" type="uint8" value="5"/>
                     <attribute id="UUID" type="guid" value="01f1c8d4-fd4b-461a-be35-a4b94fa56164"/> Make a unique UUID for the subclass
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="1ae7017c-4884-4a43-bc4a-742fa0d201c0"/>
+                        </node>
+                    </children>
                 </node>
                 <node id="ClassDescription"> Subclass
                     <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
@@ -76,7 +86,7 @@
                     <attribute id="LearningStrategy" type="uint8" value="1"/>
                     <attribute id="Name" type="FixedString" value="EnhancementAllomancer"/> name of your subclass
                     <attribute id="ParentGuid" type="guid" value="ae3032c3-9e26-4666-965a-b130a7a67518"/> This is the same UUID as your main class, as the main class act as the subclass' parent
-                    <attribute id="PrimaryAbility" type="uint8" value="5"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="2"/>
                     <attribute id="ProgressionTableUUID" type="guid" value="68d5d316-8dd9-4fe8-b31e-e295bdb12a9a"/> This is a different table as the Main Class, as this one is specific to the subclass
                     <attribute id="SoundClassType" type="FixedString" value="Rogue"/>
                     <attribute id="SpellCastingAbility" type="uint8" value="5"/>
