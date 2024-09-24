@@ -11,7 +11,7 @@
                     <attribute id="Name" type="LSString" value="Mistborn"/> 
                     <attribute id="ProgressionType" type="uint8" value="0"/>
                     <attribute id="PassivesAdded" type="LSString" value="Allomantic_Awakening"/>
-                    <attribute id="Selectors" type="LSString" value="AddSpells(24c3f5f2-2df8-4367-b7b7-082e9a10d111);SelectSkills(a1c2b712-2ed6-4e5b-820f-c5db654fe006,3);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1);SelectPassives(f94764f3-0a6a-4492-b42e-333ea67e2b28,1,Choosable_Metals)"/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(3f1af736-c1ef-497d-92a7-65267e4a4508,1,Metal_Savant);SelectSkills(a1c2b712-2ed6-4e5b-820f-c5db654fe006,3);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1);SelectPassives(f94764f3-0a6a-4492-b42e-333ea67e2b28,1,Choosable_Metals)"/>
                     <attribute id="TableUUID" type="guid" value="6e5e6b00-d045-4c13-98fb-3e895b3b9940"/>
                     <attribute id="UUID" type="guid" value="b5c810d5-c327-45a7-b7d3-7f662bc95dca"/>
                 </node>
@@ -179,6 +179,15 @@
                     <attribute id="Selectors" type="LSString" value="AddSpells(24c3f5f2-2df8-4367-b7b7-082e9a10d111)"/>
                     <attribute id="TableUUID" type="guid" value="6e5e6b00-d045-4c13-98fb-3e895b3b9940"/>
                     <attribute id="UUID" type="guid" value="53c3bd81-572d-4f02-a978-e234e2eacb3d"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="AllowImprovement" type="bool" value="false"/>
+                    <attribute id="Level" type="uint8" value="15"/>
+                    <attribute id="Name" type="LSString" value="Mistborn"/>
+                    <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(f94764f3-0a6a-4492-b42e-333ea67e2b28,1,Choosable_Metals);SelectPassives(3f1af736-c1ef-497d-92a7-65267e4a4508,1,Metal_Savant);"/>
+                    <attribute id="TableUUID" type="guid" value="6e5e6b00-d045-4c13-98fb-3e895b3b9940"/>
+                    <attribute id="UUID" type="guid" value="1cd20648-f579-474c-846f-ae989e348342"/>
                 </node>
             </children>
         </node>

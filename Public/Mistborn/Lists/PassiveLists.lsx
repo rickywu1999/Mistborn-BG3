@@ -12,6 +12,10 @@
                     <attribute id="Passives" type="LSString" value="Iron_Unlock,Steel_Unlock,Tin_Unlock,Pewter_Unlock,Zinc_Unlock,Brass_Unlock,Copper_Unlock,Bronze_Unlock,Chromium_Unlock,Nicrosil_Unlock,Aluminum_Unlock,Duralumin_Unlock,Cadmium_Unlock,Bendalloy_Unlock,Gold_Unlock,Electrum_Unlock"/>
                     <attribute id="UUID" type="guid" value="f94764f3-0a6a-4492-b42e-333ea67e2b28"/>
                 </node>
+                <node id="PassiveList">
+                    <attribute id="Passives" type="LSString" value="Iron_Savant,Steel_Savant,Tin_Savant,Pewter_Savant,Zinc_Savant,Brass_Savant,Copper_Savant,Bronze_Savant,Chromium_Savant,Nicrosil_Savant,Aluminum_Savant,Duralumin_Savant,Cadmium_Savant,Bendalloy_Savant,Gold_Savant,Electrum_Savant"/>
+                    <attribute id="UUID" type="guid" value="3f1af736-c1ef-497d-92a7-65267e4a4508"/>
+                </node>
             </children>
         </node>
     </region>

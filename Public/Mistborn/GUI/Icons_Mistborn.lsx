@@ -905,112 +905,112 @@
                     <attribute id="V2" type="float" value="0.125" />
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="Passive_Physical_Iron_Savant" />
                     <attribute id="U1" type="float" value="0.9375" />
                     <attribute id="U2" type="float" value="0.96875" />
                     <attribute id="V1" type="float" value="0.09375" />
                     <attribute id="V2" type="float" value="0.125" />
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="Passive_Physical_Steel_Savant" />
                     <attribute id="U1" type="float" value="0.96875" />
                     <attribute id="U2" type="float" value="1.0" />
                     <attribute id="V1" type="float" value="0.09375" />
                     <attribute id="V2" type="float" value="0.125" />
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="Passive_Physical_Tin_Savant" />
                     <attribute id="U1" type="float" value="0.0" />
                     <attribute id="U2" type="float" value="0.03125" />
                     <attribute id="V1" type="float" value="0.125" />
                     <attribute id="V2" type="float" value="0.15625" />
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="Passive_Physical_Pewter_Savant" />
                     <attribute id="U1" type="float" value="0.03125" />
                     <attribute id="U2" type="float" value="0.0625" />
                     <attribute id="V1" type="float" value="0.125" />
                     <attribute id="V2" type="float" value="0.15625" />
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="Passive_Mental_Zinc_Savant" />
                     <attribute id="U1" type="float" value="0.0625" />
                     <attribute id="U2" type="float" value="0.09375" />
                     <attribute id="V1" type="float" value="0.125" />
                     <attribute id="V2" type="float" value="0.15625" />
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="Passive_Mental_Brass_Savant" />
                     <attribute id="U1" type="float" value="0.09375" />
                     <attribute id="U2" type="float" value="0.125" />
                     <attribute id="V1" type="float" value="0.125" />
                     <attribute id="V2" type="float" value="0.15625" />
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="Passive_Mental_Copper_Savant" />
                     <attribute id="U1" type="float" value="0.125" />
                     <attribute id="U2" type="float" value="0.15625" />
                     <attribute id="V1" type="float" value="0.125" />
                     <attribute id="V2" type="float" value="0.15625" />
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="Passive_Mental_Bronze_Savant" />
                     <attribute id="U1" type="float" value="0.15625" />
                     <attribute id="U2" type="float" value="0.1875" />
                     <attribute id="V1" type="float" value="0.125" />
                     <attribute id="V2" type="float" value="0.15625" />
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="Passive_Enhancement_Chromium_Savant" />
                     <attribute id="U1" type="float" value="0.1875" />
                     <attribute id="U2" type="float" value="0.21875" />
                     <attribute id="V1" type="float" value="0.125" />
                     <attribute id="V2" type="float" value="0.15625" />
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="Passive_Enhancement_Nicrosil_Savant" />
                     <attribute id="U1" type="float" value="0.21875" />
                     <attribute id="U2" type="float" value="0.25" />
                     <attribute id="V1" type="float" value="0.125" />
                     <attribute id="V2" type="float" value="0.15625" />
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="Passive_Enhancement_Aluminum_Savant" />
                     <attribute id="U1" type="float" value="0.25" />
                     <attribute id="U2" type="float" value="0.28125" />
                     <attribute id="V1" type="float" value="0.125" />
                     <attribute id="V2" type="float" value="0.15625" />
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="Passive_Enhancement_Duralumin_Savant" />
                     <attribute id="U1" type="float" value="0.28125" />
                     <attribute id="U2" type="float" value="0.3125" />
                     <attribute id="V1" type="float" value="0.125" />
                     <attribute id="V2" type="float" value="0.15625" />
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="Passive_Temporal_Cadmium_Savant" />
                     <attribute id="U1" type="float" value="0.3125" />
                     <attribute id="U2" type="float" value="0.34375" />
                     <attribute id="V1" type="float" value="0.125" />
                     <attribute id="V2" type="float" value="0.15625" />
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="Passive_Temporal_Bendalloy_Savant" />
                     <attribute id="U1" type="float" value="0.34375" />
                     <attribute id="U2" type="float" value="0.375" />
                     <attribute id="V1" type="float" value="0.125" />
                     <attribute id="V2" type="float" value="0.15625" />
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="Passive_Temporal_Gold_Savant" />
                     <attribute id="U1" type="float" value="0.375" />
                     <attribute id="U2" type="float" value="0.40625" />
                     <attribute id="V1" type="float" value="0.125" />
                     <attribute id="V2" type="float" value="0.15625" />
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="Passive_Temporal_Electrum_Savant" />
                     <attribute id="U1" type="float" value="0.40625" />
                     <attribute id="U2" type="float" value="0.4375" />
                     <attribute id="V1" type="float" value="0.125" />

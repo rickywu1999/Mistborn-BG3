@@ -32,6 +32,12 @@
                     <attribute id="SelectorId" type="FixedString" value="Choosable_Metals" />
                     <attribute id="UUID" type="guid" value="278e87d1-33f6-455b-9938-3dbedd368136" />
                 </node>
+                <node id="ProgressionDescription">
+                    <attribute id="Description" type="TranslatedString" handle="hcb21ae6d17e0475da9384fe78fe015adg0c9" version="1" />
+                    <attribute id="DisplayName" type="TranslatedString" handle="h7ea90536b8c14c89bbff0b3fd8aab4d59162" version="1" />  
+                    <attribute id="SelectorId" type="FixedString" value="Metal_Savant" />
+                    <attribute id="UUID" type="guid" value="20320f8e-2938-4f1e-8cb3-cb2183af8e6c" />
+                </node>
             </children>
         </node>
     </region>

@@ -22,7 +22,7 @@ data "DisplayName" "h2ba74eb39c0844dfb389b4510f3fd6152a7f;2"
 data "Description" "h564f6dfb06ba44198554eb55154010de660f;2"
 data "Icon" "Passive_Physical_Tin"
 data "Properties" "Highlighted"
-data "Boosts" "UnlockSpell(Tineye_Container);UnlockSpell(TinSenses)"
+data "Boosts" "UnlockSpell(Tineye_Container)"
 
 new entry "Pewter_Unlock"
 type "PassiveData"

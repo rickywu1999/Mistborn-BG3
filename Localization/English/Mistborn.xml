@@ -106,11 +106,13 @@
     <content contentuid="hc0b63d0d18884596899f5ddee96470c8dc2d" version="1">Burn steel to push against metal on the ground while moving, triple your jumping distance.</content>
     <!--Tin-->
     <content contentuid="hd15c17e79669457eac12fc9e7e7540b04bc9" version="1">Tineye</content>
-    <content contentuid="hb7a196ca8ea4411fb85e1b805d4131575b03" version="1">Burn tin to gain the ability to see in the dark out to a range of [1].</content>
+    <content contentuid="hb7a196ca8ea4411fb85e1b805d4131575b03" version="1">Your heightened vision increase your Perception by [1] and grants Darkvision out to a range of [2]. &lt;br&gt;&lt;br&gt;However, if you are &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinded&lt;/LSTag&gt; while burning tin, you must make a DC [3] Constitution save or become &lt;LSTag Type="Status" Tooltip="STUNNED"&gt;Stunned&lt;/LSTag&gt; for [4] round and lose this buff.</content>
     <content contentuid="h1d4088dbae5a41cc9ead4a94829c299a6g92" version="1">Tineye (Enhance)</content>
     <content contentuid="h9d62084cd72f49238e865587a80d0f8da7d8" version="1">Tineye (Flare)</content>
-    <content contentuid="hf4f9436f83eb416393928793177f3a8d1fba" version="1">Tin Senses</content>
-    <content contentuid="hf9235b1b2fd14dd3a50a04d6340e7d009237" version="1">Burn tin to enhance all five senses to gain a +[1] bonus to Perception and immunity to &lt;LSTag Type="Status" Tooltip="SURPRISED"&gt;Surprised&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;However, being &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinded&lt;/LSTag&gt; will overwhelm your senses, inflicting &lt;LSTag Type="Status" Tooltip="STUNNED"&gt;Stunned&lt;/LSTag&gt; and removing this buff.</content>
+    <content contentuid="hf4f9436f83eb416393928793177f3a8d1fba" version="1">Tin Sense</content>
+    <content contentuid="hf9235b1b2fd14dd3a50a04d6340e7d009237" version="1">Your heightened senses grant immunity to &lt;LSTag Type="Status" Tooltip="SURPRISED"&gt;Surprised&lt;/LSTag&gt;.</content>
+    <content contentuid="hfce6d193ed834888a0f8f9809370299d7f10" version="1">Burn tin to heighten all your senses, allowing you to perceive the world with extraordinary clarity, even in darkness.</content>
+    <content contentuid="hddbaac51bdfa478d8fe5d54b1bbe4643a947" version="1">Burn tin to greatly heighten all your senses, allowing you to perceive the world with extraordinary clarity, even in darkness. Additionally, you easily notice potential ambushes and cannot be &lt;LSTag Type="Status" Tooltip="SURPRISED"&gt;Surprised&lt;/LSTag&gt;.</content>
     <!--Pewter-->
     <content contentuid="h0b237ca447fb4310a1bc27e818b6518152g8" version="1">Pewter Enhance</content>
     <content contentuid="h0ab304feea5f43628c0643b047849df650fb" version="1">Burn pewter, temporarily increase physical strength and resilience, gaining the &lt;LSTag Type="Status" Tooltip="PEWTERENHANCE"&gt;Pewter Enhance&lt;/LSTag&gt; buff.</content>
@@ -321,9 +323,9 @@
     <content contentuid="h54140d9709dc492c894a1540d2c2ebe10821" version="1">Duralumin</content>
     <content contentuid="hcdc77ce7c3044f83b0e888cabdaa7e20ed99" version="1">Burn Duralumin alongside another metal, amplify the effects of that metal to achieve powerful feats of Allomancy. In exchange, all reserves of the chosen metal are consumed, rendering you unable to use that metal until your next long rest. All Duralumin-Enhanced abilities have a +2 to DC.</content>
     <content contentuid="h47ede27b5cb347bcbac174970d48845d3178" version="1">Duralumin-Enhanced Iron Pull</content>
-    <content contentuid="hd1a1cb55495e4dadb34e2536806c69e68e85" version="1">By burning iron with duralumin, dramatically increase the power of your pull, drawing all enemies in range 15m towards you.</content>
+    <content contentuid="hd1a1cb55495e4dadb34e2536806c69e68e85" version="1">By burning iron with duralumin, dramatically increase the power of your pull, drawing all enemies in range [1] towards you.</content>
     <content contentuid="h6f0981bd8dfa4e89a8cd6561594a5d0bc1db" version="1">Duralumin-Enhanced Steel Shove</content>
-    <content contentuid="h82a28787c90a4ad79cd24df9328f1180gc58" version="1">By burning steel with duralumin, dramatically increase the power of your shove, pushing all enemies in range 15m away from you.</content>
+    <content contentuid="h82a28787c90a4ad79cd24df9328f1180gc58" version="1">By burning steel with duralumin, dramatically increase the power of your shove, pushing all enemies in range [1] away from you.</content>
     <content contentuid="h7de64fd66efa481689aa60aefe5f6b80e0gc" version="1">Duralumin-Enhanced Coin Shot</content>
     <content contentuid="h14a82de1d3144bdcb286c30de11fbaa8ef32" version="1">By burning steel with duralumin, dramatically increase the power of your coin shot, propelling metal coins towards up to [1] target(s).</content>
     <content contentuid="h4a3d7c8be37a45cb9ff45a7ccb4412359726" version="1">Duralumin-Enhanced Pewter</content>
@@ -370,4 +372,11 @@
     <content contentuid="h31c04bd792ef4944843e9321d033fa06748f" version="1">Atium</content>
     <content contentuid="had319307076847bda5c10639bfac6ce179ab" version="1">Burning atium grants you the ability to see a few seconds into the future, manifesting as shadows that show where your enemies will move or attack. For the next 3 turns, you gain +3 &lt;LSTag Tooltip="ArmourClass"&gt;AC&lt;/LSTag&gt;, &lt;LSTag Tooltip="Advantage"&gt;advantage&lt;/LSTag&gt; on all &lt;LSTag Tooltip="AttackRoll"&gt;attack rolls&lt;/LSTag&gt; and &lt;LSTag Tooltip="SavingThrow"&gt;saving throws&lt;/LSTag&gt;, and enemies have &lt;LSTag Tooltip="Disadvantage"&gt;disadvantage&lt;/LSTag&gt; when attacking you.</content>
     <content contentuid="h043369cc76d44e59bccd24e7b19873ec6544" version="1">Gain +3 &lt;LSTag Tooltip="ArmourClass"&gt;AC&lt;/LSTag&gt;, &lt;LSTag Tooltip="Advantage"&gt;advantage&lt;/LSTag&gt; on all &lt;LSTag Tooltip="AttackRoll"&gt;attack rolls&lt;/LSTag&gt; and &lt;LSTag Tooltip="SavingThrow"&gt;saving throws&lt;/LSTag&gt;, and enemies have &lt;LSTag Tooltip="Disadvantage"&gt;disadvantage&lt;/LSTag&gt; when attacking you</content>
+    <content contentuid="h7ea90536b8c14c89bbff0b3fd8aab4d59162" version="1">Savant</content>
+    <content contentuid="hcb21ae6d17e0475da9384fe78fe015adg0c9" version="1">Through prolonged and intense use of a single metal, you have become a savant. Choose one metal you know; when burning this metal, you gain heightened power and control over its effects, with the potential for special interactions.</content>
+    <content contentuid="hf5f7567278e349f482c18921c3f21ec82c1g" version="1">Iron Savant</content>
+    <content contentuid="hb1113f4b457848f790d5812a8b026ea627de" version="1">Your mastery over iron allows you to bypass typical limitations. All iron-based abilities ignore size and metal restrictions. Additionally, any damage dealt through these abilities is increased by an additional die. &lt;br&gt;&lt;br&gt;&lt;LSTag Type="Spell" Tooltip="IronRedirection"&gt;Iron Redirection&lt;/LSTag&gt; no longer requires a reaction point to redirect attacks away from allies.&lt;br&gt;&lt;br&gt;You no longer take fall damage.</content>
+    <content contentuid="heff2dbe349464b2a9e4fe16f7be82332g415" version="1">Steel Savant</content>
+    <content contentuid="h1ba6daad949446e68f9f2bbdc688376fg0bd" version="1">Your advanced understanding of steel enhances your ability to push metal. You can now push on metals regardless of size or weight restrictions. Additionally, your Steel-based attacks deal an extra die of damage. &lt;br&gt;&lt;br&gt;&lt;LSTag Type="Spell" Tooltip="SteelJump"&gt;Steel Jump&lt;/LSTag&gt; is now permanent.&lt;br&gt;&lt;br&gt;You no longer take fall damage.</content>
+    <content contentuid="h921ae479741345678fc66a23a3590ae1ff57" version="1">Tin Savant</content>
 </contentList>
