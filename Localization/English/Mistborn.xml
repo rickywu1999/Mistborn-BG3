@@ -8,7 +8,7 @@
 	<content contentuid="h1914187fg34f6g455eg81f9g171adffcde14" version="1">Metal Reserve(s)</content>
 	<content contentuid="hbcca4811gc5dfg4916ga4fcg52dc44a97336" version="1">Mistborn ingest metals from vials to sustain their Allomantic abilities. Metal Reserves are replenished after a &lt;LSTag Tooltip="ShortRest"&gt;short&lt;/LSTag&gt; or &lt;LSTag Tooltip="LongRest"&gt;long rest&lt;/LSTag&gt;.</content>
 	<content contentuid="hed44144cg23a4g4b08g819cgab93bd440003" version="1">Metal Reserves</content>
-	<content contentuid="heffbeaacg0ac0g4f12g98a5g2c024f5eb402" version="1">You gain 4 &lt;LSTag Type="ActionResource" Tooltip="MetalReserves"&gt;Metal Reserves&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Mistborn burn these reserves to activate their Allomantic abilities.</content>
+	<content contentuid="heffbeaacg0ac0g4f12g98a5g2c024f5eb402" version="1">You gain 4 &lt;LSTag Type="ActionResource" Tooltip="MetalReserves"&gt;Metal Reserves&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Mistborn burn these reserves to activate their Allomantic abilities. Your metal reserve capacity increases at each level until level 13, and then every two levels thereafter. </content>
     <content contentuid="h5572c1cb2a7f487a93b8cd00033665b7304c" version="1">You gain an additional &lt;LSTag Type="ActionResource" Tooltip="MetalReserves"&gt;Metal Reserve&lt;/LSTag&gt; to fuel your Allomantic abilities.</content>
     <content contentuid="he5cc549a4b8a46818c90dcfc4be3fe3d5e6g" version="1">Additional Metal Reserve</content>
 
