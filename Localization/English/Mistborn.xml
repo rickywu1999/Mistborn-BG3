@@ -13,7 +13,7 @@
     <content contentuid="he5cc549a4b8a46818c90dcfc4be3fe3d5e6g" version="1">Additional Metal Reserve</content>
 
 	<!--Choosable Metals-->
-    <content contentuid="h69a8d9a3af8e43fca4a650a74840b2add1d6" version="1">Allomatic Metals</content>
+    <content contentuid="h69a8d9a3af8e43fca4a650a74840b2add1d6" version="1">Allomantic Metals</content>
     <content contentuid="h8fd80317bb464146af96c486615e94b84ac8" version="1">Physical Metal: Iron</content>
     <content contentuid="h7b50be3a026a4b96bda9509ff92997122g55" version="1">Physical Metal: Steel</content>
     <content contentuid="h2ba74eb39c0844dfb389b4510f3fd6152a7f" version="1">Physical Metal: Tin</content>
@@ -221,22 +221,30 @@
     <content contentuid="hfd17553b75424d86ab9988b932c41d176195" version="1">Hand Crossbow Training</content>
     <content contentuid="h394898219138489a981484399bb34d4d229d" version="1">Heavy Crossbow Training</content>
     <content contentuid="hbdad416c5d9a4b069854f2d0eeebcb3f6e2f" version="1">Longbow Training</content>
+    <content contentuid="hc9cb15272f8844898e428bef44cb79967526" version="1">Alter Skills</content>
+    <content contentuid="hc2433cf10f56497b9f61924443e18ebd3202" version="1">Alter Skills: Strength</content>
+    <content contentuid="hace3c2cd34d2470bb71a6f1535ca59fad4c4" version="1">Alter Skills: Dexterity</content>
+    <content contentuid="h22854d8c66944f5088615e036f192aa6da09" version="1">Alter Skills: Intelligence</content>
+    <content contentuid="h51e93d69bc87468e9d36e895b258dc488901" version="1">Alter Skills: Wisdom</content>
+    <content contentuid="h4524873dc7bb4560a56231dbc2847d60ef33" version="1">Alter Skills: Charisma</content>
     <!--Electrum-->
-    <content contentuid="h1705888609f9433598e92acf302dee6f12f7" version="1">Electrum Shadow</content>
-    <content contentuid="hd7740471796b4e75a2bbc23dea4d3c013121" version="1">Burn electrum to glimpse an electrum shadow that portrays your actions a few seconds into the future. Using this information, gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against you and you have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Dexterity &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
+    <content contentuid="h1705888609f9433598e92acf302dee6f12f7" version="1">Electrum Dodge</content>
+    <content contentuid="hd7740471796b4e75a2bbc23dea4d3c013121" version="1">Burn electrum to glimpse shadows of your actions a few seconds into the future. Using this information, gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against you and you have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Dexterity &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
     <content contentuid="h56e72b73bd134835b22bd3289033a8e15529" version="1">Electrum Disengage</content>
-    <content contentuid="h5dff4d266e404685ba907d1181ddc75a2d3b" version="1">Burn electrum to see visions of yourself a few seconds into the future. Using this information, avoid all &lt;LSTag Tooltip="OpportunityAttack"&gt;opportunity attacks&lt;/LSTag&gt; while moving.</content>
+    <content contentuid="h5dff4d266e404685ba907d1181ddc75a2d3b" version="1">Burn electrum to see shadows of your movement a few seconds into the future. Using this information, you see potential attacks before they happen and avoid all &lt;LSTag Tooltip="OpportunityAttack"&gt;opportunity attacks&lt;/LSTag&gt; while moving.</content>
     <!--Bendalloy-->
     <content contentuid="h1eddc236826842d08e4a46a0af3c17a9cb2e" version="1">Bendalloy Bubble</content>
-    <content contentuid="h710affb86c194f17aa0fcbbe3ce25182ba0b" version="1">Burn bendalloy to create a time bubble that speeds up time and applies &lt;LSTag Type="Status" Tooltip="BENDALLOY_HASTE"&gt;Haste&lt;/LSTag&gt; to all creatures inside the bubble. Any creatures that leave the bubble become &lt;LSTag Type="Status" Tooltip="HASTE_LETHARGY"&gt;Lethargic&lt;/LSTag&gt;. The bubble's surface blocks direct attacks from passing in or out.</content>
+    <content contentuid="h710affb86c194f17aa0fcbbe3ce25182ba0b" version="1">Burn bendalloy to create a time bubble that speeds up time and applies &lt;LSTag Type="Status" Tooltip="BENDALLOY_HASTE"&gt;Haste&lt;/LSTag&gt; to all creatures inside the bubble. Any creatures that leave the bubble must pass a DC 14 Wisdom saving throw or become &lt;LSTag Type="Status" Tooltip="HASTE_LETHARGY"&gt;Lethargic&lt;/LSTag&gt;. The bubble's surface blocks direct attacks from passing in or out.</content>
     <content contentuid="hd78b4c08a97d48fc9bb75aa363e7a6a7f98c" version="1">Bendalloy Bubble (End)</content>
     <content contentuid="h0e14a1c43dbd41a58d72942570b6262ag31e" version="1">Stop maintaining the bendalloy bubble.</content>
     <content contentuid="h6e631e936e21464b9a55f6a1ec23fb42a880" version="1">Bendalloy Haste</content>
     <content contentuid="he8a07321e6d04bad9c457d5a01657568cg1g" version="1">Creature has a +2 bonus to &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt;, &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Dexterity &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;, its &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; is doubled, and it can take one additional action per turn.&lt;br&gt;&lt;br&gt;If the creature leaves the bendalloy bubble while it is being maintained, the creature becomes &lt;LSTag Type="Status" Tooltip="HASTE_LETHARGY"&gt;Lethargic&lt;/LSTag&gt;.</content>
     <content contentuid="hbcd72eb422bc4c358e22d3f14d301094f72f" version="1">Bendalloy Bubble (Flare)</content>
+    <content contentuid="h7e31e5d781174392a7d14dbfb4257f42350a" version="1">Lethargy Immunity</content>
+    <content contentuid="hff28cb4df0ed40fe8174bb09f6741761f23c" version="1">You are immune to &lt;LSTag Type="Status" Tooltip="HASTE_LETHARGY"&gt;Lethargy&lt;/LSTag&gt; this turn.</content>
     <!--Cadmium-->
     <content contentuid="h9077d58778584f069fe3d0e5e50e3266c60c" version="1">Cadmium Bubble</content>
-    <content contentuid="hf3a334479b694043a42c54948d7ab880eddc" version="1">Burn cadmium to create a time bubble that slows down time and applies &lt;LSTag Type="Status" Tooltip="CADMIUM_SLOW"&gt;Slow&lt;/LSTag&gt; to all creatures inside the bubble. Any creatures that leave the bubble become &lt;LSTag Type="Status" Tooltip="HASTE_LETHARGY"&gt;Lethargic&lt;/LSTag&gt;. The bubble's surface blocks direct attacks from passing in or out.</content>
+    <content contentuid="hf3a334479b694043a42c54948d7ab880eddc" version="1">Burn cadmium to create a time bubble that slows down time and applies &lt;LSTag Type="Status" Tooltip="CADMIUM_SLOW"&gt;Slow&lt;/LSTag&gt; to all creatures inside the bubble. Any creatures that leave the bubble must pass a DC 14 Wisdom saving throw or become &lt;LSTag Type="Status" Tooltip="HASTE_LETHARGY"&gt;Lethargic&lt;/LSTag&gt;. The bubble's surface blocks direct attacks from passing in or out.</content>
     <content contentuid="h23191c8236ae4fc9b84b43b956a3d7da5883" version="1">Cadmium Bubble (Flare)</content>
     <content contentuid="h2284e55a74e443e3b1d5e77589885d7fd261" version="1">Cadmium Bubble (End)</content>
     <content contentuid="had7dc4f3654b4f488dbdd67e0788de291g84" version="1">Stop maintaining the cadmium bubble.</content>
@@ -260,6 +268,8 @@
     <content contentuid="hfc27206d1eda4f71b84d122c71727945e311" version="1">Burn chromium to drain away a nearby creature's magic with a touch, depleting a spell slot of level [1] or lower.</content>
     <content contentuid="h13711f0c1ace4505b9e9c58556a571d90204" version="1">Chromium Leach (Enhance)</content>
     <content contentuid="habb99eecd247469d98aee8a937b3dc15728f" version="1">Chromium Leach (Flare)</content>
+    <content contentuid="h46ddae6f2d934d429d4db26a0033712fbf25" version="1">Spell Block</content>
+    <content contentuid="hb186b3920e6b45349b419d35fad080f60fce" version="1">The lingering effects of Chromium prevent the target from casting spells.</content>
     <!--Nicrosil-->
     <content contentuid="h45355baa980549a3a43fad73273f2c88a7b3" version="1">Nicrosil Infuse</content>
     <content contentuid="hee01acb3a588464dae15a9b7205d9a7d8fe0" version="1">Burn nicrosil to touch a nearby creature that recently cast a spell, causing them to involuntarily erupt with magical energy. The effect varies based on the spell school and metal reserves used.</content>
@@ -360,13 +370,13 @@
     
     <!--Class Features-->
     <content contentuid="h4464fa58fda94b66b8e68bf8c1872801df26" version="1">Allomantic Awakening</content>
-    <content contentuid="h31237dbc2449448e8b2b2310a7285796f9eg" version="1">After a life-changing event awakens the dormant Allomantic abilities within you, you gain the power to burn metals and unleash their unique effects.&lt;br&gt;&lt;br&gt;You learn to burn a new metal at each level until level 12, and then every two levels thereafter. For some allomatic abilties, you can burn additional metal reserves to produced an enhanced effect.</content>
+    <content contentuid="h31237dbc2449448e8b2b2310a7285796f9eg" version="1">After a life-changing event awakens the dormant Allomantic abilities within you, you gain the power to burn metals and unleash their unique effects.&lt;br&gt;&lt;br&gt;You learn to burn a new metal at each level until level 12, and then every two levels thereafter. For some allomantic abilties, you can burn additional metal reserves to produced an enhanced effect.</content>
     <content contentuid="h4cd9b2ea47654358b84542b880e9011683gd" version="1">Metal Flaring</content>
     <content contentuid="h77f047b16f1d4aa186f7e7537c1bebae66b6" version="1">Gain the ability to flare metals, burning them at an accelerated rate to enhance their effects.</content>
-    <content contentuid="hbf80e029cf7b4f588cbe30b56224c668cg12" version="1">Allomatic Reflexes</content>
+    <content contentuid="hbf80e029cf7b4f588cbe30b56224c668cg12" version="1">Allomantic Reflexes</content>
     <content contentuid="h94cda78db01b4190a7dbc5753b644b235518" version="1">Your growing mastery of allomantic abilities enables you to swiftly respond to threats. When an enemy moves within [1] of you, you can use your reaction to activate the base effect of a metal you know, expending twice the usual amount of metal reserves. Once you use this feature, you cannot use it again until you finish a &lt;LSTag Tooltip="ShortRest"&gt;short&lt;/LSTag&gt; or &lt;LSTag Tooltip="LongRest"&gt;long rest&lt;/LSTag&gt;.</content>
     <content contentuid="h8671ab8d8bb74e789e268ff6c8b1288f239e" version="1">Caster</content>
-    <content contentuid="hd33f8f5b1b18463c8a7ee4689ac76f22f12f" version="1">You gain 2 additional &lt;LSTag Type="ActionResource" Tooltip="MetalReserves"&gt;Metal Reserves&lt;/LSTag&gt; to fuel your allomatic abilities.</content>
+    <content contentuid="hd33f8f5b1b18463c8a7ee4689ac76f22f12f" version="1">You gain 2 additional &lt;LSTag Type="ActionResource" Tooltip="MetalReserves"&gt;Metal Reserves&lt;/LSTag&gt; to fuel your allomantic abilities.</content>
     <content contentuid="h1a2e660a30dd4d2684a59dfb9799fafa8g7g" version="1">Backup Reserves</content>
     <content contentuid="h41a630b075dd4d26ab1198b38d9c75f256ee" version="1">You’ve learned to keep an emergency supply of metals for critical moments in battle. You prepare a vial filled with extra solution, which you can swiftly consume as a bonus action to restore 4 &lt;LSTag Type="ActionResource" Tooltip="MetalReserves"&gt;Metal Reserves&lt;/LSTag&gt;.</content>
     <content contentuid="hd4b9a16d77974de4b20a0ef580d536a883ee" version="1">Quick Allomancy</content>
@@ -384,4 +394,31 @@
     <content contentuid="h1786d03265be4e6abcd38fe9213b234bac9d" version="1">As a Tin Savant, you can no longer stop burning tin without great harm. &lt;br&gt;&lt;br&gt;Your senses are permanently heightened, granting you the benefits of &lt;LSTag Type="Status" Tooltip="TINEYE_DARKVISION_SAVANT"&gt;Tineye&lt;/LSTag&gt; at all times. &lt;br&gt;&lt;br&gt;You are also immune to &lt;LSTag Type="Status" Tooltip="SURPRISED"&gt;Surprised&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;You will still be &lt;LSTag Type="Status" Tooltip="STUNNED"&gt;Stunned&lt;/LSTag&gt; for 2 rounds when &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinded&lt;/LSTag&gt;.</content>
     <content contentuid="he52c232cb5da40319199e46f8c5c5a865b47" version="1">Pewter Savant</content>
     <content contentuid="h1d10ec5774364d79a72dea54f5b55619e87a" version="1">As a Pewter Savant, your body has adapted to the strain of burning pewter. &lt;br&gt;&lt;br&gt;You no longer take damage after ending &lt;LSTag Type="Spell" Tooltip="PewterEnhance_Base"&gt;Pewter Enhance&lt;/LSTag&gt;. &lt;br&gt;&lt;br&gt;You gain the benefits of &lt;LSTag Type="Status" Tooltip="PEWTERARM"&gt;Pewter Arm&lt;/LSTag&gt; permanently.&lt;br&gt;&lt;br&gt;You also begin each combat with &lt;LSTag Type="Status" Tooltip="PEWTERENDURANCE_TEMP_HP_FLARE"&gt;temporary hit points&lt;/LSTag&gt;.</content>
+    <content contentuid="h6e3933ecbbae4ba0997a55c9b6c7ee60f4g6" version="1">Zinc Savant</content>
+    <content contentuid="h2471f6c8c2654a0e8d4c46e826cf6f0b436c" version="1">As a Zinc Savant, your ability to riot emotions becomes more intense and dangerous.&lt;br&gt;&lt;br&gt;Your zinc-based abilities now deal [1] per metal reserve used. &lt;br&gt;&lt;br&gt;Abilities that &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;frighten&lt;/LSTag&gt; now causes enemies to become overwhelmed with &lt;LSTag Type="Status" Tooltip="FEARED"&gt;fear&lt;/LSTag&gt;, making them flee from your presence.</content>
+    <content contentuid="h3fff9045a9374b3fafdeabbcb348af632fe4" version="1">Brass Savant</content>
+    <content contentuid="h852ccf48906c47a7a08ed1465bf1538b3cd2" version="1">As a Brass Savant, your mastery over soothing emotions becomes overwhelming.&lt;br&gt;&lt;br&gt;Your brass-based abilities now deal [1] per metal reserve used. &lt;br&gt;&lt;br&gt;Ability that &lt;LSTag Type="Status" Tooltip="CHARMED"&gt;charm&lt;/LSTag&gt; now induces a state of &lt;LSTag Type="Status" Tooltip="MENTAL_DURALUMIN_EMOTIONLESS"&gt;emotionless&lt;/LSTag&gt; compliance, rendering enemies cold and unfeeling.</content>
+    <content contentuid="hde70ead84c3040eb880706fdf565d8bd7g62" version="1">Bronze Savant</content>
+    <content contentuid="h833ea51b94624d8a99352ca2c4d4508b523d" version="1">Gain &lt;LSTag Type="Status" Tooltip="BRONZE_DETECT_MAGIC_AURA"&gt;Detect Magic&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="BRONZE_DETECT_EVIL_GOOD"&gt;Detect Evil and Good&lt;/LSTag&gt;, and &lt;LSTag Type="Status" Tooltip="BRONZE_SEE_INVISIBILITY"&gt;Sense Invisibility&lt;/LSTag&gt;.</content>
+    <content contentuid="h9c44c883cbb24160bebf2188a25f2b4d860f" version="1">As a Bronze Savant, your heightened sensitivity to pulses permanently grants you the abilities to &lt;LSTag Type="Status" Tooltip="BRONZE_DETECT_MAGIC_AURA"&gt;Detect Magic&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="BRONZE_DETECT_EVIL_GOOD"&gt;Detect Evil and Good&lt;/LSTag&gt;, and &lt;LSTag Type="Status" Tooltip="BRONZE_SEE_INVISIBILITY"&gt;Sense Invisibility&lt;/LSTag&gt;. &lt;br&gt;&lt;br&gt;Your attunement to Allomantic vibrations allows you to uncover hidden forces and threats effortlessly.</content>
+    <content contentuid="hafa1769f7b9e4ad59fe7a7c3efaa667f0bg6" version="1">Copper Savant</content>
+    <content contentuid="h38617ec0b088450cb402cba76ec3440ag81a" version="1">As a Copper Savant, you generate a permanent coppercloud aura, granting you and nearby allies &lt;LSTag Type="Status" Tooltip="NONDETECTION"&gt;nondetection&lt;/LSTag&gt; and &lt;LSTag Type="Status" Tooltip="COPPERGUARD"&gt;copper guard&lt;/LSTag&gt;.</content>
+    <content contentuid="hd18c910d24574eeb80f1a4feda490e73000a" version="1">Aluminum Savant</content>
+    <content contentuid="hc03fc0ff41b24ee9acda9841b93524e9dcdd" version="1">As an Aluminum Savant, your connection to aluminum allows you to passively repel harmful magical effects.&lt;br&gt;&lt;br&gt;You instantly negate any &lt;LSTag Type="Status" Tooltip="CHARMED"&gt;charm&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="PETRIFIED"&gt;petrify&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="STUNNED"&gt;stun&lt;/LSTag&gt;, and curse.</content>
+    <content contentuid="h24b63c9523d04e1c8e856962fa0ece7f9fea" version="1">Chromium Savant</content>
+    <content contentuid="hd7ec25d069c2434185e43633d5e3acd694d7" version="1">Your mastery of Chromium allows you to completely disrupt enemy spellcasters and leaves lingering effects.&lt;br&gt;&lt;br&gt;Your chromium-based abilities can now &lt;LSTag Type="Status" Tooltip="SPELL_BLOCK_CHROMIUM_SAVANT"&gt;block&lt;/LSTag&gt; targets from casting any spells for 1 turn they fail a second Wisdom saving throw. </content>
+    <content contentuid="h0693aef57300445e8a3ce17187339068c5dc" version="1">Duralumin Savant</content>
+    <content contentuid="h0cbe5836b2264d9180034addad141ad91592" version="1">As a Duralumin Savant, you gain precise control over how much metal you burn when using duralumin. After burning a metal with duralumin, you are no longer locked out from using that metal and can continue to burn it normally.</content>
+    <content contentuid="h59bd5f796e8940f9b2d927d7ec401a687b8f" version="1">Nicrosil Savant</content>
+    <content contentuid="h211ad0f6f94d4b53925ec66881eacd7780c4" version="1">Your mastery over Nicrosil allows you to infuse a target regardless of how long ago they last used their magic, allowing you to boost their magic without time constraints.</content>
+    <content contentuid="h9fb9a295a71c4a5f9b9ee8676b22e9f91d21" version="1">Bendalloy Savant</content>
+    <content contentuid="h6d18b7a6fec84e4e853ee030c999be811ga7" version="1">As a Bendalloy Savant, you can now move with your Bendalloy bubble, carrying the compressed time field with you as you act, allowing you to manipulate time on the go.</content>
+    <content contentuid="h5e3b479719ab46f89c6943f10a8c5b9c69ce" version="1">Cadmium Savant</content>
+    <content contentuid="hdc70e19c5dd8401ea81248368f71567add10" version="1">As a Cadmium Savant, you can now move with your Cadmium bubble, carrying the compressed time field with you as you act, allowing you to manipulate time on the go.</content>
+    <content contentuid="h835faaa1543244eab166d729a793457a8a48" version="1">Your mastery of electrum grants you unparalleled foresight. &lt;br&gt;&lt;br&gt;You gain permanent immunity to opportunity attacks, allowing you to move freely through the battlefield as you anticipate your enemies' every strike.</content>
+    <content contentuid="h98fef4a8d26a4201b3af599fc274fb2a76a2" version="1">Electrum Savant</content>
+    <content contentuid="h83e54bee71d0490d9a6b2ed233f38cbafd57" version="1">Gold Savant</content>
+    <content contentuid="hbb773f49e9f94e56839a389d2025d2de2fgg" version="1">As a gold savant, you have mastered the art of slipping into your alternate selves. &lt;br&gt;&lt;br&gt;You no longer suffer mental strain when using gold. &lt;br&gt;&lt;br&gt;You can now adopt the talents of your alternate shadows. You gain permanent proficiency in all skills associated with that ability.</content>
+    <content contentuid="h2c279eac383f4c6e8cacfb884bc71526178g" version="1">One with Preservation</content>
+    <content contentuid="h0345578de583413eaeebd2d72cb92d43b0c8" version="1">You have reached the pinnacle of Allomantic power, becoming one with the very essence of Preservation. Once per long rest, you can merge with Preservation itself, regenerating all your &lt;LSTag Type="ActionResource" Tooltip="MetalReserves"&gt;Metal Reserves&lt;/LSTag&gt; instantly. For the next 3 turns, you gain an additional action and bypass all resistances and immunities.</content>
 </contentList>

@@ -22,7 +22,7 @@
                 </node>
                 <node id="ActionResourceDefinition">
                     <attribute id="DisplayName" type="TranslatedString" handle="hbf80e029cf7b4f588cbe30b56224c668cg12" version="1"/> 
-                    <attribute id="Name" type="FixedString" value="Allomatic_Reflex_Resource"/>
+                    <attribute id="Name" type="FixedString" value="Allomantic_Reflex_Resource"/>
                     <attribute id="ReplenishType" type="FixedString" value="ShortRest"/>
                     <attribute id="IsHidden" type="bool" value="true"/>
                     <attribute id="UUID" type="guid" value="f3951373-5977-4569-9098-d8fe6bbe5d20"/>

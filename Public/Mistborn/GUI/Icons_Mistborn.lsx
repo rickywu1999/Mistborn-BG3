@@ -513,7 +513,7 @@
                     <attribute id="V2" type="float" value="0.09375" />
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="Spell_Temporal_Gold_AlterFightingStyle" />
+                    <attribute id="MapKey" type="FixedString" value="Spell_Temporal_Gold_AlterSkills" />
                     <attribute id="U1" type="float" value="0.1875" />
                     <attribute id="U2" type="float" value="0.21875" />
                     <attribute id="V1" type="float" value="0.0625" />
@@ -1017,14 +1017,14 @@
                     <attribute id="V2" type="float" value="0.15625" />
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="Spell_Temporal_Gold_AlterFightingStyle" />
                     <attribute id="U1" type="float" value="0.4375" />
                     <attribute id="U2" type="float" value="0.46875" />
                     <attribute id="V1" type="float" value="0.125" />
                     <attribute id="V2" type="float" value="0.15625" />
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="Spell_Lerasium" />
                     <attribute id="U1" type="float" value="0.46875" />
                     <attribute id="U2" type="float" value="0.5" />
                     <attribute id="V1" type="float" value="0.125" />

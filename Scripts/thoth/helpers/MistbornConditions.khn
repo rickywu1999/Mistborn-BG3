@@ -36,3 +36,13 @@ function AttackAutoResolveOnAlly(attackType, result)
     end
     return ConditionResult(result)
 end
+
+function MistbornCounterspell(level)
+    local spellPowerLevel = SpellPowerLevelEqualOrLessThan(level)
+    if not spellPowerLevel.Result then
+        local counterspellDC = 10 + context.HitDescription.SpellPowerLevel
+        local st = AbilityCheck(Ability.Wisdom, counterspellDC, false, false, 0, context.Observer, context.Observer)
+        return ConditionResult(st.Result,{},{},st.Chance)
+    end
+    return ConditionResult(true,{},{},1.0)
+end

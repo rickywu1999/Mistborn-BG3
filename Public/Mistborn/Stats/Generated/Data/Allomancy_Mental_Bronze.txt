@@ -22,6 +22,7 @@ data "HitAnimationType" "None"
 data "PrepareEffect" "7121a488-ed87-43f9-a2a7-8e25270c5556"
 data "CastEffect" "b4221f40-bcc3-4703-acc5-1afaee284839"
 data "TargetEffect" "a0aee53a-d702-4901-9bb3-7cf08e214346"
+data "RequirementConditions" "not HasPassive('Bronze_Savant',context.Source)"
 
 new entry "BRONZE_DETECT_MAGIC_AURA"
 type "StatusData"
@@ -29,6 +30,15 @@ data "StatusType" "BOOST"
 using "DETECT_MAGIC_AURA"
 data "Icon" "Spell_Mental_Bronze_DetectMagic"
 data "StatusEffect" "18f37e12-5586-49cf-8559-c2a677505e2b"
+
+new entry "BRONZE_DETECT_MAGIC_AURA_SAVANT"
+type "StatusData"
+data "StatusType" "BOOST"
+using "DETECT_MAGIC_AURA"
+data "Icon" "Spell_Mental_Bronze_DetectMagic"
+data "StatusEffect" ""
+data "StackType" "Ignore"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting;ApplyToDead"
 
 
 
@@ -54,6 +64,7 @@ data "HitAnimationType" "None"
 data "PrepareEffect" "7121a488-ed87-43f9-a2a7-8e25270c5556"
 data "CastEffect" "b4221f40-bcc3-4703-acc5-1afaee284839"
 data "TargetEffect" "a0aee53a-d702-4901-9bb3-7cf08e214346"
+data "RequirementConditions" "not HasPassive('Bronze_Savant',context.Source)"
 
 new entry "BRONZE_DETECT_EVIL_GOOD"
 type "StatusData"
@@ -61,6 +72,16 @@ data "StatusType" "BOOST"
 using "DETECT_EVIL_GOOD"
 data "Icon" "Spell_Mental_Bronze_DetectEvilAndGood"
 data "StatusEffect" "18f37e12-5586-49cf-8559-c2a677505e2b"
+
+new entry "BRONZE_DETECT_EVIL_GOOD_SAVANT"
+type "StatusData"
+data "StatusType" "BOOST"
+using "DETECT_EVIL_GOOD"
+data "Icon" "Spell_Mental_Bronze_DetectEvilAndGood"
+data "StatusEffect" ""
+data "StackType" "Ignore"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting;ApplyToDead"
+
 
 
 
@@ -88,9 +109,18 @@ data "HitAnimationType" "MagicalNonDamage"
 data "MemoryCost" "1"
 data "PrepareEffect" "7121a488-ed87-43f9-a2a7-8e25270c5556"
 data "CastEffect" "b4221f40-bcc3-4703-acc5-1afaee284839"
+data "RequirementConditions" "not HasPassive('Bronze_Savant',context.Source)"
 
 new entry "BRONZE_SEE_INVISIBILITY"
 type "StatusData"
 data "StatusType" "BOOST"
 using "SEE_INVISIBILITY"
 data "Icon" "Spell_Mental_Bronze_DetectInvisibility"
+
+new entry "BRONZE_SEE_INVISIBILITY_SAVANT"
+type "StatusData"
+data "StatusType" "BOOST"
+using "SEE_INVISIBILITY"
+data "Icon" "Spell_Mental_Bronze_DetectInvisibility"
+data "StackType" "Ignore"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting;ApplyToDead"

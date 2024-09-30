@@ -1093,6 +1093,32 @@
 						</node>
 					</children>
 				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="10 10 10" />
+					<attribute id="BoundsMin" type="fvec3" value="-10 -10 -10" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="2.01" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Prepare_Preservation_Fog" />
+					<attribute id="ID" type="FixedString" value="4bd7c115-1c61-4592-8dbe-cb9908e18e12" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="VFX_Prepare_Preservation_Fog" />
+					<attribute id="Radius" type="float" value="17.320509" />
+					<attribute id="SourceFile" type="LSString" value="Public/Mistborn/Assets/Effects/Effects_Banks/Status/VFX_Prepare_Preservation_Fog.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274213" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="e9e1d747-865b-2b8a-43b9-cea299dc550e" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
 			</children>
 		</node>
 	</region>

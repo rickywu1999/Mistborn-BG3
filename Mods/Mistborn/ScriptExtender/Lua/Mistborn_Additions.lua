@@ -20,29 +20,28 @@ Ext.Osiris.RegisterListener("StatusApplied", 4, "after", function(object, status
         end
         PersistentVars['IronRedirectionAuraOwner']=object
     end
-    if status == "BENDALLOYBUBBLE_DISMISS" then
-        _P("Here")
+end)
+
+Ext.Osiris.RegisterListener("UsingSpell", 5, "before", function(_, spell, _, _, _)
+    if spell == "BendalloyBubble_End" then
         local combatParticipants = Osi["DB_Is_InCombat"]:Get(nil, nil)
         for _, row in pairs(combatParticipants) do
             local participantTpl = row[1]
             local participantGUID = string.sub(participantTpl, -36)
             local participantEntity = Ext.Entity.Get(participantGUID)
             if Osi.HasActiveStatus(participantTpl,"BENDALLOY_HASTE") == 1 then
-                _P(participantEntity)
                 Osi.ApplyStatus(participantTpl,"TIMEBUBBLE_LETHARGY_IMMUNITY",1)
                 participantEntity:Replicate("CombatParticipant")
             end
         end
     end
-    if status == "CADMIUMBUBBLE_DISMISS" then
-        _P("Here")
+    if spell == "CadmiumBubble_End" then
         local combatParticipants = Osi["DB_Is_InCombat"]:Get(nil, nil)
         for _, row in pairs(combatParticipants) do
             local participantTpl = row[1]
             local participantGUID = string.sub(participantTpl, -36)
             local participantEntity = Ext.Entity.Get(participantGUID)
             if Osi.HasActiveStatus(participantTpl,"CADMIUM_SLOW") == 1 then
-                _P(participantEntity)
                 Osi.ApplyStatus(participantTpl,"TIMEBUBBLE_LETHARGY_IMMUNITY",1)
                 participantEntity:Replicate("CombatParticipant")
             end

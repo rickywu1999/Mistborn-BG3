@@ -16,6 +16,10 @@
                     <attribute id="Spells" type="LSString" value="Mistborn_Atium"/> a list of spell separated by a ;
                     <attribute id="UUID" type="guid" value="24c3f5f2-2df8-4367-b7b7-082e9a10d111"/> make a new UUID. refer to this when selecting or adding spells
                 </node>
+                <node id="SpellList">
+                    <attribute id="Spells" type="LSString" value="Mistborn_Capstone"/> a list of spell separated by a ;
+                    <attribute id="UUID" type="guid" value="3bea8111-7d3e-4381-8e28-f101e1d779be"/> make a new UUID. refer to this when selecting or adding spells
+                </node>
 			</children>
         </node>
     </region>
