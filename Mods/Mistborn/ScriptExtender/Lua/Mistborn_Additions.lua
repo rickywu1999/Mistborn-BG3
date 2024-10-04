@@ -1,3 +1,4 @@
+---@diagnostic disable: undefined-global
 PersistentVars = {}
 
 Ext.Osiris.RegisterListener("UsingSpellOnTarget", 6, "after", function(_, target, spell, _, _, _)

@@ -69,7 +69,7 @@
                     <attribute id="Boosts" type="LSString" value="ActionResource(MetalReserves,1,0)"/>
                     <attribute id="Level" type="uint8" value="4"/>
                     <attribute id="Name" type="LSString" value="Mistborn"/>
-                    <attribute id="PassivesAdded" type="LSString" value="SlowFall"/>
+                    <attribute id="PassivesAdded" type="LSString" value="SlowFall;"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
                     <attribute id="Selectors" type="LSString" value="SelectPassives(f94764f3-0a6a-4492-b42e-333ea67e2b28,1,Choosable_Metals)"/>
                     <attribute id="TableUUID" type="guid" value="6e5e6b00-d045-4c13-98fb-3e895b3b9940"/>
@@ -159,6 +159,10 @@
                     <attribute id="UUID" type="guid" value="db04fee0-192c-4e55-95bd-70a755aad272"/>
                 </node>
 
+
+
+
+
                 13-20
                 <node id="Progression">
                     <attribute id="AllowImprovement" type="bool" value="false"/>
@@ -234,6 +238,164 @@
                     <attribute id="Selectors" type="LSString" value="AddSpells(3bea8111-7d3e-4381-8e28-f101e1d779be)"/>
                     <attribute id="TableUUID" type="guid" value="6e5e6b00-d045-4c13-98fb-3e895b3b9940"/>
                     <attribute id="UUID" type="guid" value="1a0327d4-377e-49b9-84d2-f382e2bde597"/>
+                </node>
+
+
+
+
+                SubClasses
+
+                Battle Allomancer
+                <node id="Progression">
+                    <attribute id="AllowImprovement" type="bool" value="false"/>
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="BattleAllomancer"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Class_Feature_Metal_Deflection;Class_Feature_Martial_Knowledge"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="abfbd26c-734e-4ee9-b94d-1a947f1f6f18"/>
+                    <attribute id="UUID" type="guid" value="392285e4-c80e-4927-8183-d9121d307ac5"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="AllowImprovement" type="bool" value="false"/>
+                    <attribute id="Level" type="uint8" value="6"/>
+                    <attribute id="Name" type="LSString" value="BattleAllomancer"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Class_Feature_Adaptive_Maneuvers;Class_Feature_Adaptive_Maneuvers_Hidden"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="abfbd26c-734e-4ee9-b94d-1a947f1f6f18"/>
+                    <attribute id="UUID" type="guid" value="f855dc35-2b29-4f35-8729-a9911a0f1dfd"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="AllowImprovement" type="bool" value="false"/>
+                    <attribute id="Level" type="uint8" value="11"/>
+                    <attribute id="Name" type="LSString" value="BattleAllomancer"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Class_Feature_Allomantic_Strikes_Piercing;Class_Feature_Allomantic_Strikes_Bludgeoning;Class_Feature_Allomantic_Strikes_Slashing"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="abfbd26c-734e-4ee9-b94d-1a947f1f6f18"/>
+                    <attribute id="UUID" type="guid" value="314365b5-aeb4-4fbc-8bc4-c111e4aef624"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="AllowImprovement" type="bool" value="false"/>
+                    <attribute id="Level" type="uint8" value="12"/>
+                    <attribute id="Name" type="LSString" value="BattleAllomancer"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Class_Feature_Metallic_Synergy;Class_Feature_Metallic_Synergy_Hidden"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="abfbd26c-734e-4ee9-b94d-1a947f1f6f18"/>
+                    <attribute id="UUID" type="guid" value="d8762ccd-8830-472c-9f34-fe79118734bb"/>
+                </node>
+
+
+
+
+                Mental Allomancer
+                <node id="Progression">
+                    <attribute id="AllowImprovement" type="bool" value="false"/>
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="MentalAllomancer"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Class_Feature_Metal_Deflection"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="416641dc-6eb2-4efe-90f2-73643015b5f9"/>
+                    <attribute id="UUID" type="guid" value="b32e4ca7-7ac5-41ff-81a5-2b1f1b3bfbaf"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="AllowImprovement" type="bool" value="false"/>
+                    <attribute id="Level" type="uint8" value="6"/>
+                    <attribute id="Name" type="LSString" value="MentalAllomancer"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="416641dc-6eb2-4efe-90f2-73643015b5f9"/>
+                    <attribute id="UUID" type="guid" value="8e1f4217-1cd9-4be1-a1e3-5067885048b4"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="AllowImprovement" type="bool" value="false"/>
+                    <attribute id="Level" type="uint8" value="11"/>
+                    <attribute id="Name" type="LSString" value="MentalAllomancer"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="416641dc-6eb2-4efe-90f2-73643015b5f9"/>
+                    <attribute id="UUID" type="guid" value="1ea24c91-0f0f-43bd-9b98-65413e7b2c93"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="AllowImprovement" type="bool" value="false"/>
+                    <attribute id="Level" type="uint8" value="17"/>
+                    <attribute id="Name" type="LSString" value="MentalAllomancer"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="416641dc-6eb2-4efe-90f2-73643015b5f9"/>
+                    <attribute id="UUID" type="guid" value="9a4ac3c6-6938-40b5-be70-10fbdf6823e4"/>
+                </node>
+
+
+
+
+
+                Temporal Allomancer
+                <node id="Progression">
+                    <attribute id="AllowImprovement" type="bool" value="false"/>
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="TemporalAllomancer"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Class_Feature_Metal_Deflection"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="a01b590c-f5de-460d-98d8-e2d202342b1c"/>
+                    <attribute id="UUID" type="guid" value="df5914c2-7cae-4fb2-bc96-205a7fc69a2c"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="AllowImprovement" type="bool" value="false"/>
+                    <attribute id="Level" type="uint8" value="6"/>
+                    <attribute id="Name" type="LSString" value="TemporalAllomancer"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="a01b590c-f5de-460d-98d8-e2d202342b1c"/>
+                    <attribute id="UUID" type="guid" value="1dde6818-e2ce-433c-9ff3-97b5e1f2f3cd"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="AllowImprovement" type="bool" value="false"/>
+                    <attribute id="Level" type="uint8" value="11"/>
+                    <attribute id="Name" type="LSString" value="TemporalAllomancer"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="a01b590c-f5de-460d-98d8-e2d202342b1c"/>
+                    <attribute id="UUID" type="guid" value="61bfb193-d19d-4751-bce4-170b01f5e699"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="AllowImprovement" type="bool" value="false"/>
+                    <attribute id="Level" type="uint8" value="17"/>
+                    <attribute id="Name" type="LSString" value="MentalAllomancer"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="a01b590c-f5de-460d-98d8-e2d202342b1c"/>
+                    <attribute id="UUID" type="guid" value="a0869980-7d98-4074-92d9-cc8a829e2791"/>
+                </node>
+
+
+
+
+                Enhancement Allomancer
+                <node id="Progression">
+                    <attribute id="AllowImprovement" type="bool" value="false"/>
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="EnhancementAllomancer"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Class_Feature_Metal_Deflection"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="68d5d316-8dd9-4fe8-b31e-e295bdb12a9a"/>
+                    <attribute id="UUID" type="guid" value="edd4acfd-fc6a-44df-bbaa-700f36450ccb"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="AllowImprovement" type="bool" value="false"/>
+                    <attribute id="Level" type="uint8" value="6"/>
+                    <attribute id="Name" type="LSString" value="EnhancementAllomancer"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="68d5d316-8dd9-4fe8-b31e-e295bdb12a9a"/>
+                    <attribute id="UUID" type="guid" value="2d7171bf-0820-441e-8b2d-2f3b2b66ea36"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="AllowImprovement" type="bool" value="false"/>
+                    <attribute id="Level" type="uint8" value="11"/>
+                    <attribute id="Name" type="LSString" value="EnhancementAllomancer"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="68d5d316-8dd9-4fe8-b31e-e295bdb12a9a"/>
+                    <attribute id="UUID" type="guid" value="d0d91ad6-71a0-4714-b7ee-366c357deb9c"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="AllowImprovement" type="bool" value="false"/>
+                    <attribute id="Level" type="uint8" value="17"/>
+                    <attribute id="Name" type="LSString" value="EnhancementAllomancer"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="68d5d316-8dd9-4fe8-b31e-e295bdb12a9a"/>
+                    <attribute id="UUID" type="guid" value="a75e6af1-05cc-4745-9b5a-6fa1030139e5"/>
                 </node>
             </children>
         </node>

@@ -38,6 +38,34 @@
                     <attribute id="SelectorId" type="FixedString" value="Metal_Savant" />
                     <attribute id="UUID" type="guid" value="20320f8e-2938-4f1e-8cb3-cb2183af8e6c" />
                 </node>
+                <node id="ProgressionDescription">
+                    <attribute id="Description" type="TranslatedString" handle="h9230e73003a9456990693eb2910796a01g4d" version="1"/> 
+                    <attribute id="DisplayName" type="TranslatedString" handle="hda42a503aa494e60a496d3dcc497fa075640" version="1"/> 
+                    <attribute id="Type" type="FixedString" value="BattleAllomancer"/>
+                    <attribute id="ProgressionTableId" type="guid" value="abfbd26c-734e-4ee9-b94d-1a947f1f6f18"/>
+                    <attribute id="UUID" type="guid" value="5c6f1514-a751-4518-98f8-dc4db83a1f85"/>
+                </node>
+                <node id="ProgressionDescription">
+					<attribute id="Description" type="TranslatedString" handle="h9230e73003a9456990693eb2910796a01g4d" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hda42a503aa494e60a496d3dcc497fa075640" version="1"/>
+                    <attribute id="Type" type="FixedString" value="MentalAllomancer"/>
+                    <attribute id="ProgressionTableId" type="guid" value="416641dc-6eb2-4efe-90f2-73643015b5f9"/>
+                    <attribute id="UUID" type="guid" value="cd61ef86-7824-4b20-942e-8469e0cc2b8a"/>
+                </node>
+                <node id="ProgressionDescription">
+					<attribute id="Description" type="TranslatedString" handle="h5e06046273b5484fb9c73caf2a6cce378876" version="1"/> 
+                    <attribute id="DisplayName" type="TranslatedString" handle="h91e09af66e524118a52c55464feed7c73131" version="1"/>
+                    <attribute id="Type" type="FixedString" value="TemporalAllomancer"/>
+                    <attribute id="ProgressionTableId" type="guid" value="a01b590c-f5de-460d-98d8-e2d202342b1c"/>
+                    <attribute id="UUID" type="guid" value="4ebef2d2-4e23-4c4b-9490-2c76ff4c1fcd"/>
+                </node>
+                <node id="ProgressionDescription">
+					<attribute id="Description" type="TranslatedString" handle="h7ed21fdb31c9463bb8570f5356e054cafe43" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h4a6f426acfff40538126e6dbecd6defdac95" version="1"/>
+                    <attribute id="Type" type="FixedString" value="EnhancementAllomancer"/>
+                    <attribute id="ProgressionTableId" type="guid" value="68d5d316-8dd9-4fe8-b31e-e295bdb12a9a"/>
+                    <attribute id="UUID" type="guid" value="d8e1dab2-e81b-4e2c-b336-9dd0a6ccccb7"/>
+                </node>
             </children>
         </node>
     </region>

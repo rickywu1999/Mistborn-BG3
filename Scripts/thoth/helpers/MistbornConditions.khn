@@ -46,3 +46,79 @@ function MistbornCounterspell(level)
     end
     return ConditionResult(true,{},{},1.0)
 end
+
+function AdaptiveManeuversAbilities()
+    return SpellId('Tineye_Bonus') 
+    | SpellId('CoinShot_Bonus') 
+    | SpellId('SteelShove_Bonus') 
+    | SpellId('SteelJump_Bonus') 
+    | SpellId('PewterEndurance_Bonus') 
+    | SpellId('PewterEnhance_Bonus') 
+    | SpellId('IronDisarm_Bonus') 
+    | SpellId('IronRedirection_Bonus') 
+    | SpellId('IronPull_Bonus') 
+end
+
+function MistbornIronAbilities()
+    return SpellId('IronPull_Base') 
+    | SpellId('IronPull_Enhance') 
+    | SpellId('IronPull_Flare') 
+    | SpellId('IronLurch_Base') 
+    | SpellId('IronLurch_Enhance') 
+    | SpellId('IronLurch_Flare') 
+    | SpellId('IronRedirection') 
+    | SpellId('IronDisarm') 
+    | SpellId('Physical_Iron_Pull_Duralumin') 
+    | SpellId('IronDisarm_Bonus') 
+    | SpellId('IronRedirection_Bonus') 
+    | SpellId('IronPull_Bonus')
+end
+
+function MistbornSteelAbilities()
+    return SpellId('SteelShove_Base') 
+    | SpellId('SteelShove_Enhance') 
+    | SpellId('SteelShove_Flare') 
+    | SpellId('SteelBoost_Base') 
+    | SpellId('SteelBoost_Enhance') 
+    | SpellId('SteelBoost_Flare') 
+    | SpellId('CoinShot_Base') 
+    | SpellId('CoinShot_Enhance') 
+    | SpellId('CoinShot_Flare') 
+    | SpellId('SteelJump') 
+    | SpellId('Physical_Steel_Push_Duralumin') 
+    | SpellId('Physical_Steel_CoinShot_Duralumin') 
+    | SpellId('CoinShot_Bonus') 
+    | SpellId('SteelShove_Bonus') 
+    | SpellId('SteelJump_Bonus') 
+end
+
+function MistbornTinAbilities()
+    return SpellId('Tineye_Base') 
+    | SpellId('Tineye_Enhance') 
+    | SpellId('Tineye_Flare') 
+end
+
+function MistbornPewterAbilities()
+    return SpellId('PewterEnhance_Base') 
+    | SpellId('PewterEnhance_Enhance') 
+    | SpellId('PewterEnhance_Flare') 
+    | SpellId('PewterArm') 
+    | SpellId('PewterEndurance_Base') 
+    | SpellId('PewterEndurance_Enhance') 
+    | SpellId('PewterEndurance_Flare') 
+end
+
+function MistbornPhysicalAbilities()
+    return MistbornIronAbilities() 
+    | MistbornSteelAbilities() 
+    | MistbornTinAbilities() 
+    | MistbornPewterAbilities()
+end
+
+function MistbornPhysicalWeaponAbilities()
+    return SpellId('CoinShot_Base') 
+    | SpellId('CoinShot_Enhance') 
+    | SpellId('CoinShot_Flare') 
+    | SpellId('Physical_Steel_CoinShot_Duralumin') 
+    | SpellId('CoinShot_Bonus') 
+end

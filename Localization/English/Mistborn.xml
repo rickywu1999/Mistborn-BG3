@@ -203,7 +203,7 @@
     <content contentuid="h8e9ac86a5b5e4cbfafba0efc54b5d83b6911" version="1">Alter Fighting Style</content>
     <content contentuid="h87901bb5393045eeb658f6b286f0420fc7f8" version="1">Alter Weapon Training</content>
     <content contentuid="hd444eb3c96f34ae29dcea88fb7be647542b9" version="1">Burn gold to glimpse shadows of alternate selves who chose different Fighting Styles. Shift into the mindset of one of these shadows to change your Fighting Style.&lt;br&gt;&lt;br&gt;Doing so is mentally taxing and you will take [1] damage.</content>
-    <content contentuid="h174c25209a3343ad88f7f6c705957bc0dd2a" version="1">Burn gold to glimpse shadows of alternate selves who trained with different weapons. Embrace the mindset of one of these shadows to gain proficiency with that weapon.&lt;br&gt;&lt;br&gt;Doing so is mentally taxing and you will take [1] damage.</content>
+    <content contentuid="h174c25209a3343ad88f7f6c705957bc0dd2a" version="1">Burn gold to glimpse shadows of alternate selves who trained with different weapons. Embrace the mindset of one of these shadows to gain &lt;LSTag Tooltip="WeaponProficiency"&gt;proficiency&lt;/LSTag&gt; with that weapon.&lt;br&gt;&lt;br&gt;Doing so is mentally taxing and you will take [1] damage.</content>
     <content contentuid="h61403d90fdc54e5794b735cdbbdf61219g78" version="1">Flail Training</content>
     <content contentuid="h27fc3f3223584af1ab53ca89b4d21c022adc" version="1">Become &lt;LSTag Tooltip="WeaponProficiency"&gt;proficient&lt;/LSTag&gt; with [1].</content>
     <content contentuid="hd6d133d427cf4c9fbe4111a63c60d89d4d15" version="1">Morningstar Training</content>
@@ -360,9 +360,9 @@
 
     <!--Subclasses-->
     <content contentuid="h2f04c36773e649178e54920670ed7fa1g85c" version="1">Battle Allomancer</content>
-    <content contentuid="h3894108977984e978b8cb01fb45066b4bcd9" version="1">Battle Allomancers excel in manipulating physical metals to control the battlefield. They protect allies by pulling or pushing enemies, swiftly moving people around, and using their agility to outmaneuver opponents. With enhanced strength and resilience, they are formidable in close combat and can turn the tide of any fight.</content>
-    <content contentuid="hda42a503aa494e60a496d3dcc497fa075640" version="1">Social Allomancer</content>
-    <content contentuid="h9230e73003a9456990693eb2910796a01g4d" version="1">Social Allomancers specialize in mental manipulation, charming foes or spreading fear to control the flow of battle. They excel at bolstering their allies' abilities while weakening their enemies' resolve. Their mastery of emotions makes them a powerful force in both combat and negotiation.</content>
+    <content contentuid="h3894108977984e978b8cb01fb45066b4bcd9" version="1">Battle Allomancers excel in blending weapon attacks with Allomantic abilities to control the battlefield. They support allies by pulling or pushing enemies, using crowd control to manipulate positioning and protect their team. With enhanced strength, agility, and resilience, they can take heavy damage while dishing out powerful strikes, seamlessly weaving Allomantic power and martial prowess together for maximum impact in combat.</content>
+    <content contentuid="hda42a503aa494e60a496d3dcc497fa075640" version="1">Mental Allomancer</content>
+    <content contentuid="h9230e73003a9456990693eb2910796a01g4d" version="1">Mental Allomancers specialize in emotion manipulation, charming foes or spreading fear to control the flow of battle. They excel at bolstering their allies' abilities while weakening their enemies' resolve. Their mastery of emotions makes them a powerful force in both combat and negotiation.</content>
     <content contentuid="h91e09af66e524118a52c55464feed7c73131" version="1">Temporal Allomancer</content>
     <content contentuid="h5e06046273b5484fb9c73caf2a6cce378876" version="1">Temporal Allomancers manipulate the flow of time, altering the pace of battle to their advantage. They can slow enemies or hasten allies, creating strategic openings and controlling the battlefield. Their mastery over time gives them unmatched flexibility in combat.</content>
     <content contentuid="h4a6f426acfff40538126e6dbecd6defdac95" version="1">Enhancement Allomancer</content>
@@ -421,4 +421,24 @@
     <content contentuid="hbb773f49e9f94e56839a389d2025d2de2fgg" version="1">As a gold savant, you have mastered the art of slipping into your alternate selves. &lt;br&gt;&lt;br&gt;You no longer suffer mental strain when using gold. &lt;br&gt;&lt;br&gt;You can now adopt the talents of your alternate shadows. You gain permanent proficiency in all skills associated with that ability.</content>
     <content contentuid="h2c279eac383f4c6e8cacfb884bc71526178g" version="1">One with Preservation</content>
     <content contentuid="h0345578de583413eaeebd2d72cb92d43b0c8" version="1">You have reached the pinnacle of Allomantic power, becoming one with the very essence of Preservation. Once per long rest, you can merge with Preservation itself, regenerating all your &lt;LSTag Type="ActionResource" Tooltip="MetalReserves"&gt;Metal Reserves&lt;/LSTag&gt; instantly. For the next 3 turns, you gain an additional action and bypass all resistances and immunities.</content>
+    <!--Subclasses-->
+    <!--Battle Allomancer-->
+    <content contentuid="h27b3a532a38642be80763512de76a8434d96" version="1">Metal Deflection</content>
+    <content contentuid="h9d3bd0977eeb418e8985a726ce9387f4da99" version="1">As an expert in burning iron and steel, you subtly manipulate nearby metal, allowing you to deflect blows and evade attacks with precision. After activating an iron or steel ability, gain +[1] &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; for 1 turn.</content>
+    <content contentuid="h724ecbfaa79a4e54bf1c7d5c8b65843fb37b" version="1">&lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; increase by [1].</content>
+    <content contentuid="hbfd016ffb2574bac8e0974c436ecd0c2c197" version="1">Martial Knowledge</content>
+    <content contentuid="h52a87cbf775647669589f746575e148c83a5" version="1">As someone who is well studied in warfare and combat, you have &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; in &lt;LSTag Tooltip="History"&gt;History&lt;/LSTag&gt;.</content>
+    <content contentuid="hee526832f41b4025b0537b9cec709cdegd46" version="1">Adaptive Maneuvers</content>
+    <content contentuid="habd5a17d57b8412eb3856e607fad07c856ac" version="1">When you perform a weapon attack with your action, you can use your bonus action to activate the effect of a physical metal at the base level. Alternatively, when you perform any physical allomancy with your action, you can use your bonus action to perform a weapon attack. Coin shot is considered a weapon attack for this feature.</content>
+    <content contentuid="he75e9c6e7d9a4878a1b783ce241b7a27ba9c" version="1">You can use your bonus action to activate the effect of a physical metal at the base level.</content>
+    <content contentuid="hea340f7104354a30a6d77355f01b02db861f" version="1">Allomantic Strikes (Piercing)</content>
+    <content contentuid="hd576dd15a29f4b8e8bc81d7f2be3fcd30fg4" version="1">After using an iron or steel ability, your next weapon attack consumes a &lt;LSTag Type="ActionResource" Tooltip="MetalReserves"&gt;Metal Reserve&lt;/LSTag&gt; to deal additional [1] damage based on your &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; &lt;LSTag Tooltip="Modifier"&gt;Modifier&lt;/LSTag&gt;. Coin shot is considered a weapon attack for this feature.</content>
+    <content contentuid="h49279adaafc3466291cba2e57b211a9c52f6" version="1">Allomantic Strikes (Bludgeoning)</content>
+    <content contentuid="h137429b3107244f884bd8e1f52ccb06b1fc5" version="1">Allomantic Strikes (Slashing)</content>
+    <content contentuid="h2a5a1c7a8178417e83ce40c5209c81720d7e" version="1">Your next weapon attack consumes a &lt;LSTag Type="ActionResource" Tooltip="MetalReserves"&gt;Metal Reserve&lt;/LSTag&gt; and does additional [1] damage based on your &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; &lt;LSTag Tooltip="Modifier"&gt;Modifier&lt;/LSTag&gt;.</content>
+    <content contentuid="hd847d295e714446687a0cda7297d4b866539" version="1">Metallic Synergy</content>
+    <content contentuid="h242dda5c056e4a018582c11dc47faa877397" version="1">Metallic Synergy</content>
+    <content contentuid="h24f297c7393e47fa9af02a42c95224a786ag" version="1">When you use physical allomancy on a target, the target has &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on your weapon &lt;LSTag Tooltip="AttackRoll"&gt;attacks&lt;/LSTag&gt; against them.</content>
+    <content contentuid="h9ed8ad3c73b74921b8ac228d5da7622ba901" version="1">Affected entity has &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; against &lt;LSTag Tooltip="AttackRoll"&gt;attack rolls&lt;/LSTag&gt; made by the applier.</content>
+    <content contentuid="h1100c10a33164f9cbff489c52b0100d3g4ag" version="1">You have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;attack rolls&lt;/LSTag&gt; against a target you've used physical allomancy against.</content>
 </contentList>

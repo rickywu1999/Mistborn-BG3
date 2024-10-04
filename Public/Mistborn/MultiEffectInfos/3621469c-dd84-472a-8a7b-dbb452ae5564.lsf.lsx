@@ -35,7 +35,7 @@
 					<attribute id="BindTargetTo" type="FixedString" value="TargetEntity" />
 					<attribute id="DetachSource" type="bool" value="False" />
 					<attribute id="DetachTarget" type="bool" value="False" />
-					<attribute id="EffectResourceGuid" type="guid" value="9ca292c6-81f6-42c5-b880-ba3f5fbdc29c" />
+					<attribute id="EffectResourceGuid" type="guid" value="18fb49d8-c44f-4598-8611-4f578c62603b" />
 					<attribute id="Enabled" type="bool" value="True" />
 					<attribute id="KeepRotation" type="bool" value="True" />
 					<attribute id="KeepScale" type="bool" value="False" />
@@ -44,7 +44,7 @@
 					<attribute id="MinDistance" type="float" value="0" />
 					<attribute id="OffHand" type="bool" value="False" />
 					<attribute id="Pivot" type="FixedString" value="Target" />
-					<attribute id="UUID" type="guid" value="cb2b438e-2a0d-49df-b5f9-69d50bdc1394" />
+					<attribute id="UUID" type="guid" value="04f69e71-fdad-4e43-9a73-818a64e3a718" />
 					<attribute id="UseDistance" type="bool" value="False" />
 					<attribute id="UseOrientDirection" type="bool" value="False" />
 					<attribute id="UseScaleOverride" type="bool" value="False" />
@@ -55,8 +55,8 @@
 					</children>
 				</node>
 				<node id="EffectInfo">
-					<attribute id="UUID" type="guid" value="7b7ecd66-1047-44ad-ad1a-bb6e66f1f78a" />
-					<attribute id="EffectResourceGuid" type="guid" value="82f03b55-c77d-46d2-8722-9e755999066e" />
+					<attribute id="UUID" type="guid" value="08140a25-d4fa-4a99-a056-4d611b205a3d" />
+					<attribute id="EffectResourceGuid" type="guid" value="65606406-5bb7-45a2-abf4-465bd0ae3c30" />
 					<attribute id="DetachSource" type="bool" value="False" />
 					<attribute id="DetachTarget" type="bool" value="False" />
 					<attribute id="KeepRotation" type="bool" value="False" />
@@ -84,8 +84,8 @@
 					</children>
 				</node>
 				<node id="EffectInfo">
-					<attribute id="UUID" type="guid" value="55638f98-6c4b-4288-a855-5250925d7e95" />
-					<attribute id="EffectResourceGuid" type="guid" value="33d09939-cac4-46a0-be79-c23d54a3f066" />
+					<attribute id="UUID" type="guid" value="dc02c4fa-4fb6-4f76-8229-bcf3a3943f9d" />
+					<attribute id="EffectResourceGuid" type="guid" value="80dd66b1-ebc3-448d-a59e-5832feee6704" />
 					<attribute id="DetachSource" type="bool" value="False" />
 					<attribute id="DetachTarget" type="bool" value="False" />
 					<attribute id="KeepRotation" type="bool" value="False" />
@@ -117,7 +117,7 @@
 					<attribute id="BindTargetTo" type="FixedString" value="TargetEntity" />
 					<attribute id="DetachSource" type="bool" value="False" />
 					<attribute id="DetachTarget" type="bool" value="False" />
-					<attribute id="EffectResourceGuid" type="guid" value="805c6d37-a0c2-49e3-b198-4c680c71f672" />
+					<attribute id="EffectResourceGuid" type="guid" value="3b7104a4-1a7d-4ce4-b904-d4c0707ad6ad" />
 					<attribute id="Enabled" type="bool" value="True" />
 					<attribute id="KeepRotation" type="bool" value="True" />
 					<attribute id="KeepScale" type="bool" value="False" />
@@ -126,7 +126,7 @@
 					<attribute id="MinDistance" type="float" value="0" />
 					<attribute id="OffHand" type="bool" value="False" />
 					<attribute id="Pivot" type="FixedString" value="Target" />
-					<attribute id="UUID" type="guid" value="54f7fcce-a2b6-44fd-a68c-59ff670c31fd" />
+					<attribute id="UUID" type="guid" value="8c64feb6-afd6-4478-a6d8-dbc6aa595c4e" />
 					<attribute id="UseDistance" type="bool" value="False" />
 					<attribute id="UseOrientDirection" type="bool" value="False" />
 					<attribute id="UseScaleOverride" type="bool" value="False" />

@@ -112,7 +112,6 @@ data "ContainerSpells" "Chromium_Leach_Base;Chromium_Leach_Enhance;Chromium_Leac
 data "TargetRadius" "1.5"
 data "SpellRoll" "Attack(AttackType.MeleeSpellAttack)"
 data "SpellSuccess" "ApplyStatus(CHROMIUMDRAIN_1,100,-1);IF(HasPassive('Chromium_Savant',context.Source) and not SavingThrow(Ability.Wisdom,SourceSpellDC())):ApplyStatus(SPELL_BLOCK_CHROMIUM_SAVANT,100,1)"
-IF(HasPassive('Brass_Savant',context.Source) and not SavingThrow(Ability.Wisdom, SourceSpellDC())):ApplyStatus(CHARMED_BRASS,100,2);
 data "TargetConditions" "Character() and not Self() and MistbornHasSpellSlots()"
 data "Icon" "Spell_Enhancement_Chromium_Leach"
 data "DisplayName" "h497cf67e6fa8438192a556dae5ff88a8e2ea;1"

@@ -1,3 +1,4 @@
+---@diagnostic disable: undefined-global
 Ext.Require("Mistborn_Additions.lua")
 
 StatPaths={
