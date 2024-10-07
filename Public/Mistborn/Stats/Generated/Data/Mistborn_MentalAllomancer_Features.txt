@@ -16,6 +16,7 @@ data "Icon" "Passive_MentalAllomancer_DebilitatingInfluence"
 data "DisplayName" "h049a21cbc8ab46e39ed31e46b37f69788332"
 data "Description" "hb1ca5410f821431c9193fd87a44ca11a0513"
 data "Boosts" "IF(HasPassive('Class_Feature_Debilitating_Influence',context.Target)):Disadvantage(AttackRoll);"
+data "StackType" "Ignore"
 
 new entry "Class_Feature_Master_Manipulator"
 type "PassiveData"
@@ -59,6 +60,13 @@ type "StatusData"
 data "StatusType" "BOOST"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
 data "OnApplyFunctors" "IF(not SavingThrow(Ability.Wisdom, SourceSpellDC(10,context.Source,Ability.Charisma),AdvantageOnFrightened(), DisadvantageOnFrightened())):ApplyStatus(FEARED_ZINC,100,2);"
+
+new entry "HYSTERIA_COOLDOWN"
+type "StatusData"
+data "StatusType" "BOOST"
+data "StackType" "Ignore"
+data "Icon" "Passive_MentalAllomancer_SpreadingHysteria"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
 
 
 

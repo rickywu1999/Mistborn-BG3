@@ -21,7 +21,7 @@ Ext.Osiris.RegisterListener("StatusApplied", 4, "after", function(object, status
         end
         PersistentVars['IronRedirectionAuraOwner']=object
     end
-    if (status == "CHARMED_BRASS" or status == "MENTAL_DURALUMIN_EMOTIONLESS" or status == "FRIGHTENED_ZINC" or status == "FEARED_ZINC") and (Osi.HasPassive(causee,'Class_Feature_Spreading_Hysteria')==1) then
+    if (status == "CHARMED_BRASS" or status == "MENTAL_DURALUMIN_EMOTIONLESS" or status == "FRIGHTENED_ZINC" or status == "FEARED_ZINC") and (Osi.HasPassive(causee,'Class_Feature_Spreading_Hysteria')==1 and Osi.HasActiveStatus(causee,'HYSTERIA_COOLDOWN')~=1) then
         local smallest1,smallest2,smallest3 = math.huge,math.huge,math.huge
         local smallestob1,smallestob2,smallestob3 = "","",""
         for k, v in pairs(Osi.DB_Is_InCombat:Get(nil, Osi.CombatGetGuidFor(Ext.Entity.Get(object).Uuid.EntityUuid))) do
@@ -106,6 +106,7 @@ Ext.Osiris.RegisterListener("StatusApplied", 4, "after", function(object, status
                 Osi.ApplyStatus(smallestob1,"FEARED_ZINC_ATTEMPT",1,100,causee)
             end
         end
+        Osi.ApplyStatus(causee,'HYSTERIA_COOLDOWN',1,100)
     end
 end)
 
