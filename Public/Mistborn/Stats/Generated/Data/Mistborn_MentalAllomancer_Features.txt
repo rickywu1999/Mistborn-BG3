@@ -1,1 +1,106 @@
+// Level 3
+new entry "Class_Feature_Debilitating_Influence"
+type "PassiveData"
+data "Icon" "Passive_MentalAllomancer_DebilitatingInfluence"
+data "DisplayName" "h049a21cbc8ab46e39ed31e46b37f69788332"
+data "Description" "h63d4a34919a34945ad12654bc99c2da0664c"
+data "StatsFunctorContext" "OnStatusApply"
+data "Conditions" "MistbornMentalStatuses() and Enemy()"
+data "StatsFunctors" "ApplyStatus(DEBILITATING_INFLUENCE,100,2)"
+data "Properties" "Highlighted"
 
+new entry "DEBILITATING_INFLUENCE"
+type "StatusData"
+data "StatusType" "BOOST"
+data "Icon" "Passive_MentalAllomancer_DebilitatingInfluence"
+data "DisplayName" "h049a21cbc8ab46e39ed31e46b37f69788332"
+data "Description" "hb1ca5410f821431c9193fd87a44ca11a0513"
+data "Boosts" "IF(HasPassive('Class_Feature_Debilitating_Influence',context.Target)):Disadvantage(AttackRoll);"
+
+new entry "Class_Feature_Master_Manipulator"
+type "PassiveData"
+data "Icon" "Passive_MentalAllomancer_MasterManipulator"
+data "DisplayName" "hea04c08d5e454f9fa99fcb5834693899584f"
+data "Description" "h0b2d236b0aa94b5eaa0014a00d30014a1253"
+data "Properties" "Highlighted"
+
+
+
+
+
+// Level 7
+new entry "Class_Feature_Spreading_Hysteria"
+type "PassiveData"
+data "Icon" "Passive_MentalAllomancer_SpreadingHysteria"
+data "DisplayName" "h7766c0c72b474ddda73d1266249568a0e3e9"
+data "Description" "h671d8ea69c404463a4cdeb565e97018d776e"
+data "Properties" "Highlighted"
+
+new entry "CHARMED_BRASS_ATTEMPT"
+type "StatusData"
+data "StatusType" "BOOST"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+data "OnApplyFunctors" "IF(not SavingThrow(Ability.Wisdom, SourceSpellDC(10,context.Source,Ability.Charisma),AdvantageOnCharmed())):ApplyStatus(CHARMED_BRASS,100,2)"
+
+new entry "MENTAL_DURALUMIN_EMOTIONLESS_ATTEMPT"
+type "StatusData"
+data "StatusType" "BOOST"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+data "OnApplyFunctors" "IF(not SavingThrow(Ability.Wisdom, SourceSpellDC(10,context.Source,Ability.Charisma),AdvantageOnCharmed())):ApplyStatus(MENTAL_DURALUMIN_EMOTIONLESS,100,2)"
+
+new entry "FRIGHTENED_ZINC_ATTEMPT"
+type "StatusData"
+data "StatusType" "BOOST"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+data "OnApplyFunctors" "IF(not SavingThrow(Ability.Wisdom, SourceSpellDC(10,context.Source,Ability.Charisma),AdvantageOnFrightened(), DisadvantageOnFrightened())):ApplyStatus(FRIGHTENED_ZINC,100,2);"
+
+new entry "FEARED_ZINC_ATTEMPT"
+type "StatusData"
+data "StatusType" "BOOST"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+data "OnApplyFunctors" "IF(not SavingThrow(Ability.Wisdom, SourceSpellDC(10,context.Source,Ability.Charisma),AdvantageOnFrightened(), DisadvantageOnFrightened())):ApplyStatus(FEARED_ZINC,100,2);"
+
+
+
+
+
+// Level 10
+new entry "Class_Feature_Mental_Reinforcement"
+type "PassiveData"
+data "Icon" "Passive_MentalAllomancer_MentalReinforcement"
+data "DisplayName" "hfe8a6a2d887d4658b4d8fda4079ec5d43925"
+data "Description" "h043764fc1e2d48e4a5a9b1dfa781713adc0a"
+data "DescriptionParams" "2"
+data "Properties" "Highlighted"
+data "StatsFunctorContext" "OnCreate;OnShortRest;OnLongRest;OnCombatStarted"
+data "StatsFunctors" "ApplyStatus(MENTAL_REINFORCEMENT_AURA,100,-1);"
+
+new entry "MENTAL_REINFORCEMENT_AURA"
+type "StatusData"
+data "StatusType" "BOOST"
+data "AuraRadius" "18"
+data "AuraStatuses" "TARGET:IF(Ally() and (HasStatus('SG_Charmed') or HasStatus('SG Frightened') or MistbornHasMentalStatuses())):ApplyStatus(MENTAL_REINFORCEMENT_PASSIVE,100,1)"
+data "StackType" "Ignore"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+
+new entry "MENTAL_REINFORCEMENT_PASSIVE"
+type "StatusData"
+data "StatusType" "BOOST"
+data "Icon" "Passive_MentalAllomancer_MentalReinforcement"
+data "DisplayName" "hfe8a6a2d887d4658b4d8fda4079ec5d43925"
+data "Description" "h56aad03ad16f47528aeb534446890e15d577"
+data "DescriptionParams" "2"
+data "Boosts" "RollBonus(SavingThrow,2)"
+data "StackType" "Ignore"
+
+
+
+
+
+// Level 17
+new entry "Class_Feature_Mass_Hysteria"
+type "PassiveData"
+data "Icon" "Passive_MentalAllomancer_MassHysteria"
+data "DisplayName" "h6ff73047980449edb577f8fcd09f749f3892"
+data "Description" "hb8e8be8cbd8244339d7634f022a6bf5b06aa"
+data "Properties" "Highlighted"

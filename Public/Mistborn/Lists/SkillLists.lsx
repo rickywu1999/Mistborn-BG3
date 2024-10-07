@@ -8,6 +8,10 @@
                     <attribute id="Skills" type="LSString" value="Acrobatics, Athletics, Investigation, Perception, SleightOfHand, Stealth"/> List of skills to choose at CC
                     <attribute id="UUID" type="guid" value="0e1468ec-0eec-4166-96ca-2f1e7f66772d"/> 
                 </node>
+                <node id="SkillList"> Class Skills
+                    <attribute id="Skills" type="LSString" value="Persuasion, Deception"/> List of skills to choose at CC
+                    <attribute id="UUID" type="guid" value="751a85a3-4c3d-40d6-bca8-3d1164e89328"/> 
+                </node>
             </children>
         </node>
     </region>

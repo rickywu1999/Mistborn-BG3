@@ -1080,35 +1080,35 @@
                     <attribute id="V2" type="float" value="0.15625" />
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="Passive_MentalAllomancer_SpreadingHysteria" />
                     <attribute id="U1" type="float" value="0.71875" />
                     <attribute id="U2" type="float" value="0.75" />
                     <attribute id="V1" type="float" value="0.125" />
                     <attribute id="V2" type="float" value="0.15625" />
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="Passive_MentalAllomancer_MassHysteria" />
                     <attribute id="U1" type="float" value="0.75" />
                     <attribute id="U2" type="float" value="0.78125" />
                     <attribute id="V1" type="float" value="0.125" />
                     <attribute id="V2" type="float" value="0.15625" />
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="Passive_MentalAllomancer_DebilitatingInfluence" />
                     <attribute id="U1" type="float" value="0.78125" />
                     <attribute id="U2" type="float" value="0.8125" />
                     <attribute id="V1" type="float" value="0.125" />
                     <attribute id="V2" type="float" value="0.15625" />
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="Passive_MentalAllomancer_MentalReinforcement" />
                     <attribute id="U1" type="float" value="0.8125" />
                     <attribute id="U2" type="float" value="0.84375" />
                     <attribute id="V1" type="float" value="0.125" />
                     <attribute id="V2" type="float" value="0.15625" />
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="Passive_MentalAllomancer_MasterManipulator" />
                     <attribute id="U1" type="float" value="0.84375" />
                     <attribute id="U2" type="float" value="0.875" />
                     <attribute id="V1" type="float" value="0.125" />

@@ -142,14 +142,14 @@
     <content contentuid="ha35f2aee61b041648e3509485848477b7baf" version="1">Burn zinc to temporarily riot a creature's fear after you perform a weapon attack, possibly applying &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frighten&lt;/LSTag&gt; to the creature.</content>
     <content contentuid="h3754f1e7ef15464d8d9f886805fe3ede459g" version="1">Riot Friendship</content>
     <content contentuid="h2240efb282c74ad5b8cc82f434619dbbaa3a" version="1">Burn zinc to temporarily riot feelings of comraderie in a non-hostile creature to gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Charisma &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
-    <content contentuid="h32dd9ec72b534c9fac2d2d9bd75546e98d08" version="1">Riot Stress</content>
-    <content contentuid="h7e09bfa035cb47648d436ba2585439e13627" version="1">Burn zinc to temporarily riot the stress of up to 3 creatures, reducing &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; by [1].</content>
-    <content contentuid="h1c143233e6c5403fa830edc7794830ba4ac0" version="1">Stressed</content>
+    <content contentuid="h32dd9ec72b534c9fac2d2d9bd75546e98d08" version="1">Riot Anxiety</content>
+    <content contentuid="h7e09bfa035cb47648d436ba2585439e13627" version="1">Burn zinc to temporarily riot the anxiety of up to 3 creatures, reducing &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; by [1].</content>
+    <content contentuid="h1c143233e6c5403fa830edc7794830ba4ac0" version="1">Anxious</content>
     <content contentuid="hddd8fe8b66f041eea46bd3271520a42f229f" version="1">Reduce &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; by [1].</content>
-    <content contentuid="hf9e51ea8684f489c887875502c8b7f35c8b2" version="1">Riot Stress (Enhance)</content>
-    <content contentuid="h8f76629781424ea6b964fb68c7e7bdbacaba" version="1">Riot Stress (Flare)</content>
-    <content contentuid="hd126848b6c6044eab19be62301f1c0aag5ad" version="1">Stressed (Enhance)</content>
-    <content contentuid="h600c65eb9c404addad4bd8ca697b249367c9" version="1">Stressed (Flare)</content>
+    <content contentuid="hf9e51ea8684f489c887875502c8b7f35c8b2" version="1">Riot Anxiety (Enhance)</content>
+    <content contentuid="h8f76629781424ea6b964fb68c7e7bdbacaba" version="1">Riot Anxiety (Flare)</content>
+    <content contentuid="hd126848b6c6044eab19be62301f1c0aag5ad" version="1">Anxious (Enhance)</content>
+    <content contentuid="h600c65eb9c404addad4bd8ca697b249367c9" version="1">Anxious (Flare)</content>
     <content contentuid="h5131eb3b2f3a44999127dfe4ac6b14f2e4fd" version="1">Riot Anger</content>
     <content contentuid="hcac928b584ce434999804c72f5e726d50e1g" version="1">Burn zinc to temporarily riot the anger and recklessness of up to 3 creatures, increasing &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; by [1] and reducing &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; by [1].</content>
     <content contentuid="h63af0ac792884c68a8e4a07b13b06b15c6dd" version="1">Riot Anger (Enhance)</content>
@@ -166,20 +166,20 @@
     <content contentuid="h86e4cd3412bd44b78b8aa1c327a0a1c20634" version="1">Burn brass to temporarily soothe away the focus and attention of up to 3 non-hostile creature, reducing their peripheral vision and vision range.</content>
     <content contentuid="h89d7e38eacd64995a24841a2773219ef7g54" version="1">Unattentive</content>
     <content contentuid="h534ed72f6f314442a6f441c4035b23f907e2" version="1">Soothe Stress</content>
-    <content contentuid="h5d427b2c058a4a4a804d79040a05223d8600" version="1">Burn brass to temporarily soothe away the stress of up to 3 creatures, increasing &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; by [1].</content>
+    <content contentuid="h5d427b2c058a4a4a804d79040a05223d8600" version="1">Burn brass to temporarily soothe away the stress of up to 3 creatures, increasing &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; by [1].</content>
     <content contentuid="hfb734870d3e24fd78be9e6365fd4936a2c6e" version="1">Soothe Stress (Enhance)</content>
     <content contentuid="h2668257379c64282bc1a5dcd249b8cd20451" version="1">Soothe Stress (Flare)</content>
     <content contentuid="he2fb5a2a81d34f30985184e543c9522e9gfc" version="1">Relaxed</content>
-    <content contentuid="h4739766b2e3b4812b8ceb5646d242e150865" version="1">Increase &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; by [1].</content>
+    <content contentuid="h4739766b2e3b4812b8ceb5646d242e150865" version="1">Increase &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; by [1].</content>
     <content contentuid="h791e9ac56ef84df185005316c21b5e465aa9" version="1">Relaxed (Enhance)</content>
     <content contentuid="h16b8207ce8e3474e83e2a287c335b22b1011" version="1">Relaxed (Flare)</content>
-    <content contentuid="heb308d84a71140babcbcb6bfa82229b743fc" version="1">Soothe Bravery</content>
-    <content contentuid="h6a7d74fbbd604d3a829a20d29a1c382e89e8" version="1">Burn brass to temporarily soothe away bravery from up to 3 creatures, making them more wary and cautious. Reduces &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; by [1] and increases &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; by [1].</content>
-    <content contentuid="hff29cef359884f9188c05c33f547bfb7gb70" version="1">Soothe Bravery (Enhance)</content>
-    <content contentuid="hcaae2eba8f61463d9b7af3f1d44c1d806bd0" version="1">Soothe Bravery (Flare)</content>
-    <content contentuid="hca1a593627fc4279b1f432278096112c97f3" version="1">Cautious</content>
-    <content contentuid="h3f6fd7bdde1148c4b8810981c311f15a3514" version="1">Cautious (Enhance)</content>
-    <content contentuid="he4a614d675e64ce29fa1d53f404be0d32a9c" version="1">Cautious (Flare)</content>
+    <content contentuid="heb308d84a71140babcbcb6bfa82229b743fc" version="1">Soothe Confidence</content>
+    <content contentuid="h6a7d74fbbd604d3a829a20d29a1c382e89e8" version="1">Burn brass to temporarily soothe away confidence from up to 3 creatures, making them more wary and cautious. Reduces &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; by [1] and increases &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; by [1].</content>
+    <content contentuid="hff29cef359884f9188c05c33f547bfb7gb70" version="1">Soothe Confidence (Enhance)</content>
+    <content contentuid="hcaae2eba8f61463d9b7af3f1d44c1d806bd0" version="1">Soothe Confidence (Flare)</content>
+    <content contentuid="hca1a593627fc4279b1f432278096112c97f3" version="1">Wary</content>
+    <content contentuid="h3f6fd7bdde1148c4b8810981c311f15a3514" version="1">Wary (Enhance)</content>
+    <content contentuid="he4a614d675e64ce29fa1d53f404be0d32a9c" version="1">Wary (Flare)</content>
     <!--Copper-->
     <content contentuid="h29359fe7faee4d97b2c277283100d0b28gg7" version="1">Copper Nondetection</content>
     <content contentuid="h2309a5123ce644ada9b3ab60512f18a1bfd3" version="1">Burn copper to create a coppercloud to hide nearby allies from divination magic and prevent them from being targetted by divination spells.</content>
@@ -441,4 +441,17 @@
     <content contentuid="h24f297c7393e47fa9af02a42c95224a786ag" version="1">When you use physical allomancy on a target, the target has &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on your weapon &lt;LSTag Tooltip="AttackRoll"&gt;attacks&lt;/LSTag&gt; against them.</content>
     <content contentuid="h9ed8ad3c73b74921b8ac228d5da7622ba901" version="1">Affected entity has &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; against &lt;LSTag Tooltip="AttackRoll"&gt;attack rolls&lt;/LSTag&gt; made by the applier.</content>
     <content contentuid="h1100c10a33164f9cbff489c52b0100d3g4ag" version="1">You have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;attack rolls&lt;/LSTag&gt; against a target you've used physical allomancy against.</content>
+    <!--Mental Allomancer-->
+    <content contentuid="h049a21cbc8ab46e39ed31e46b37f69788332" version="1">Debilitating Influence</content>
+    <content contentuid="h63d4a34919a34945ad12654bc99c2da0664c" version="1">Enemies affected by your Mental Allomancy abilities find their focus on you disrupted. When influenced by your debuffs, they have disadvantage on attack rolls against you for two turns.</content>
+    <content contentuid="hb1ca5410f821431c9193fd87a44ca11a0513" version="1">Affected entity has &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;attack rolls&lt;/LSTag&gt; against the applier.</content>
+    <content contentuid="hea04c08d5e454f9fa99fcb5834693899584f" version="1">Master Manipulator</content>
+    <content contentuid="h0b2d236b0aa94b5eaa0014a00d30014a1253" version="1">You gain &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; in either Persuasion or Deception.</content>
+    <content contentuid="h7766c0c72b474ddda73d1266249568a0e3e9" version="1">Spreading Hysteria</content>
+    <content contentuid="h671d8ea69c404463a4cdeb565e97018d776e" version="1">When you successfully inflict a charm or fear effect on an enemy with Brass or Zinc, the hysteria spreads. The nearest enemy within 10m must pass a Wisdom &lt;LSTag Tooltip="SavingThrow"&gt;saving throw&lt;/LSTag&gt; or become affected by the same condition.</content>
+    <content contentuid="h6ff73047980449edb577f8fcd09f749f3892" version="1">Mass Hysteria</content>
+    <content contentuid="hb8e8be8cbd8244339d7634f022a6bf5b06aa" version="1">Your Allomantic influence now reaches even further. When you successfully inflict a charm or fear effect on an enemy, up to three nearest enemies within 10m must pass a Wisdom &lt;LSTag Tooltip="SavingThrow"&gt;saving throw&lt;/LSTag&gt; or suffer the same condition.</content>
+    <content contentuid="hfe8a6a2d887d4658b4d8fda4079ec5d43925" version="1">Mental Reinforcement</content>
+    <content contentuid="h043764fc1e2d48e4a5a9b1dfa781713adc0a" version="1">When an ally is afflicted with  &lt;LSTag Type="Status" Tooltip="FEARED"&gt;fear&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="CHARMED"&gt;charm&lt;/LSTag&gt;, you use your mental allomancy to reinforce their minds, granting a +[1] bonus to all &lt;LSTag Tooltip="SavingThrow"&gt;saving throws&lt;/LSTag&gt; for the duration of the effect. This bonus is also conferred when you bolster your allies with your mental allomancy.</content>
+    <content contentuid="h56aad03ad16f47528aeb534446890e15d577" version="1">You have +[1] to all Saving Throws.</content>
 </contentList>

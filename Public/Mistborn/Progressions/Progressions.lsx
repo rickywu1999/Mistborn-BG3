@@ -11,7 +11,7 @@
                     <attribute id="Name" type="LSString" value="Mistborn"/> 
                     <attribute id="ProgressionType" type="uint8" value="0"/>
                     <attribute id="PassivesAdded" type="LSString" value="Allomantic_Awakening"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSkills(a1c2b712-2ed6-4e5b-820f-c5db654fe006,3);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1);SelectPassives(f94764f3-0a6a-4492-b42e-333ea67e2b28,1,Choosable_Metals)"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSkills(a1c2b712-2ed6-4e5b-820f-c5db654fe006,2);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1);SelectPassives(f94764f3-0a6a-4492-b42e-333ea67e2b28,1,Choosable_Metals)"/>
                     <attribute id="TableUUID" type="guid" value="6e5e6b00-d045-4c13-98fb-3e895b3b9940"/>
                     <attribute id="UUID" type="guid" value="b5c810d5-c327-45a7-b7d3-7f662bc95dca"/>
                 </node>
@@ -22,7 +22,7 @@
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="Mistborn"/> 
                     <attribute id="ProgressionType" type="uint8" value="0"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSkills(a1c2b712-2ed6-4e5b-820f-c5db654fe006,1);SelectPassives(f94764f3-0a6a-4492-b42e-333ea67e2b28,1,Choosable_Metals)"/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(f94764f3-0a6a-4492-b42e-333ea67e2b28,1,Choosable_Metals)"/>
                     <attribute id="TableUUID" type="guid" value="6e5e6b00-d045-4c13-98fb-3e895b3b9940"/>
                     <attribute id="UUID" type="guid" value="636a3a7b-80a5-48b6-a072-01847c9f83e9"/>
                 </node>
@@ -291,7 +291,8 @@
                     <attribute id="AllowImprovement" type="bool" value="false"/>
                     <attribute id="Level" type="uint8" value="3"/>
                     <attribute id="Name" type="LSString" value="MentalAllomancer"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Class_Feature_Metal_Deflection"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Class_Feature_Debilitating_Influence;Class_Feature_Master_Manipulator"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSkills(751a85a3-4c3d-40d6-bca8-3d1164e89328,1);"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="TableUUID" type="guid" value="416641dc-6eb2-4efe-90f2-73643015b5f9"/>
                     <attribute id="UUID" type="guid" value="b32e4ca7-7ac5-41ff-81a5-2b1f1b3bfbaf"/>
@@ -300,6 +301,7 @@
                     <attribute id="AllowImprovement" type="bool" value="false"/>
                     <attribute id="Level" type="uint8" value="6"/>
                     <attribute id="Name" type="LSString" value="MentalAllomancer"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Class_Feature_Spreading_Hysteria"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="TableUUID" type="guid" value="416641dc-6eb2-4efe-90f2-73643015b5f9"/>
                     <attribute id="UUID" type="guid" value="8e1f4217-1cd9-4be1-a1e3-5067885048b4"/>
@@ -308,6 +310,7 @@
                     <attribute id="AllowImprovement" type="bool" value="false"/>
                     <attribute id="Level" type="uint8" value="11"/>
                     <attribute id="Name" type="LSString" value="MentalAllomancer"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Class_Feature_Mental_Reinforcement"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="TableUUID" type="guid" value="416641dc-6eb2-4efe-90f2-73643015b5f9"/>
                     <attribute id="UUID" type="guid" value="1ea24c91-0f0f-43bd-9b98-65413e7b2c93"/>
@@ -316,6 +319,7 @@
                     <attribute id="AllowImprovement" type="bool" value="false"/>
                     <attribute id="Level" type="uint8" value="17"/>
                     <attribute id="Name" type="LSString" value="MentalAllomancer"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Class_Feature_Mass_Hysteria"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="TableUUID" type="guid" value="416641dc-6eb2-4efe-90f2-73643015b5f9"/>
                     <attribute id="UUID" type="guid" value="9a4ac3c6-6938-40b5-be70-10fbdf6823e4"/>
