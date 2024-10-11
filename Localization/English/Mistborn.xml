@@ -357,6 +357,16 @@
     <content contentuid="hf2b21509601d4df79caa9f49acdfdc99a5e2" version="1">Brass Drained</content>
     <content contentuid="hda660699638c4c9e98e9068bb03e27f904c9" version="1">Zinc Drained</content>
     <content contentuid="h1393d7a723f84624a2595b7db10562e1bb84" version="1">Chromium Drained</content>
+    <content contentuid="h9d96165c0cad47af87202eac7b939ef03e6g" version="1">Duralumin-Enhanced Cadmium Bubble</content>
+    <content contentuid="hab3fa12b9d304845993cc60799cd3bfca75b" version="1">Cadmium Drained</content>
+    <content contentuid="h03e922716a274a06893a0ff18e39522af5gg" version="1">By burning cadmium with duralumin, dramatically decrease the speed of time in your time bubble. Create a cadmium bubble that lasts 3 turns. All creatures inside the bubbles are affected by &lt;LSTag Type="Status" Tooltip="TIME_STOP_MISTBORN"&gt;Time Stop&lt;/LSTag&gt;. The bubble's surface blocks direct attacks from passing in or out.</content>
+    <content contentuid="hdc5f0e2327a04a62a8d10bcb019c753egfd0" version="1">Time Stop</content>
+    <content contentuid="h164818de5e3747e1bf9df72ddb7b1457aga6" version="1">Flow of time has stopped for you.</content>
+    <content contentuid="h5450d0237ae6411ca3367b2e8d160df5eb8f" version="1">Duralumin-Enhanced Bendalloy Bubble</content>
+    <content contentuid="hfae4ce7e90024ecaa96640b703a8eae79aee" version="1">Bendalloy Drained</content>
+    <content contentuid="ha4d6ce2d90b1469bacc365e8754ca3238315" version="1">Time Rush</content>
+    <content contentuid="h976db10477b84d8ba76ca07578cdb2c578ea" version="1">Flow of time has stopped for those around you.</content>
+    <content contentuid="hb686bd34045448da93acaf1cba78a36672bb" version="1">By burning bendalloy with duralumin, dramatically increase the speed of time in your time bubble. Create a bendalloy bubble that lasts 3 turns. All creatures outside the bubbles are affected by &lt;LSTag Type="Status" Tooltip="TIME_STOP_MISTBORN"&gt;Time Stop&lt;/LSTag&gt;. The bubble's surface blocks direct attacks from passing in or out.</content>
 
     <!--Subclasses-->
     <content contentuid="h2f04c36773e649178e54920670ed7fa1g85c" version="1">Battle Allomancer</content>
@@ -413,9 +423,9 @@
     <content contentuid="h59bd5f796e8940f9b2d927d7ec401a687b8f" version="1">Nicrosil Savant</content>
     <content contentuid="h211ad0f6f94d4b53925ec66881eacd7780c4" version="1">Your mastery over Nicrosil allows you to infuse a target regardless of how long ago they last used their magic, allowing you to boost their magic without time constraints.</content>
     <content contentuid="h9fb9a295a71c4a5f9b9ee8676b22e9f91d21" version="1">Bendalloy Savant</content>
-    <content contentuid="h6d18b7a6fec84e4e853ee030c999be811ga7" version="1">As a Bendalloy Savant, you can now move with your Bendalloy bubble, carrying the compressed time field with you as you act, allowing you to manipulate time on the go.</content>
+    <content contentuid="h6d18b7a6fec84e4e853ee030c999be811ga7" version="1">As a Bendalloy Savant, you can now move with your Bendalloy bubble, carrying the compressed time field with you as you act, allowing you to manipulate time on the go. Does not apply to bubbles created with duralumin.</content>
     <content contentuid="h5e3b479719ab46f89c6943f10a8c5b9c69ce" version="1">Cadmium Savant</content>
-    <content contentuid="hdc70e19c5dd8401ea81248368f71567add10" version="1">As a Cadmium Savant, you can now move with your Cadmium bubble, carrying the compressed time field with you as you act, allowing you to manipulate time on the go.</content>
+    <content contentuid="hdc70e19c5dd8401ea81248368f71567add10" version="1">As a Cadmium Savant, you can now move with your Cadmium bubble, carrying the compressed time field with you as you act, allowing you to manipulate time on the go. Does not apply to bubbles created with duralumin.</content>
     <content contentuid="h835faaa1543244eab166d729a793457a8a48" version="1">Your mastery of electrum grants you unparalleled foresight. &lt;br&gt;&lt;br&gt;You gain permanent immunity to opportunity attacks, allowing you to move freely through the battlefield as you anticipate your enemies' every strike.</content>
     <content contentuid="h98fef4a8d26a4201b3af599fc274fb2a76a2" version="1">Electrum Savant</content>
     <content contentuid="h83e54bee71d0490d9a6b2ed233f38cbafd57" version="1">Gold Savant</content>

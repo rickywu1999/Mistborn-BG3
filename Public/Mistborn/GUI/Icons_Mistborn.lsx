@@ -1143,14 +1143,14 @@
                     <attribute id="V2" type="float" value="0.15625" />
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="Spell_Temporal_Cadmium_Bubble_Duralumin" />
                     <attribute id="U1" type="float" value="0.0" />
                     <attribute id="U2" type="float" value="0.03125" />
                     <attribute id="V1" type="float" value="0.15625" />
                     <attribute id="V2" type="float" value="0.1875" />
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="Spell_Temporal_Bendalloy_Bubble_Duralumin" />
                     <attribute id="U1" type="float" value="0.03125" />
                     <attribute id="U2" type="float" value="0.0625" />
                     <attribute id="V1" type="float" value="0.15625" />
