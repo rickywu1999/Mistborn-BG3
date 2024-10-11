@@ -175,7 +175,7 @@ data "CastTextEvent" "Cast"
 data "WeaponTypes" "Ammunition"
 data "Sheathing" "Ranged"
 data "UseCosts" "ActionPoint:1;MetalReserves:1"
-data "SpellFlags" "IsLinkedSpellContainer;IsHarmful;HasHighGroundRangeExtension"
+data "SpellFlags" "IsLinkedSpellContainer;IsHarmful;HasHighGroundRangeExtension;HasSomaticComponent"
 
 new entry "CoinShot_Base"
 type "SpellData"

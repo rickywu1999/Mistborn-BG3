@@ -154,3 +154,91 @@ function MistbornHasMentalStatuses()
     | HasStatus('MENTAL_DURALUMIN_EMOTIONLESS')
     | HasStatus('FEARED_ZINC')
 end
+
+function MBHumM()
+    return Tagged('HUMAN',context.Source) & Tagged('MALE',context.Source)
+end
+
+function MBElfM()
+    return Tagged('ELF',context.Source) & Tagged('MALE',context.Source)
+end
+
+function MBDrowM()
+    return Tagged('DROWELF',context.Source) & Tagged('MALE',context.Source)
+end
+
+function MBDwarfM()
+    return Tagged('DWARF',context.Source) & Tagged('MALE',context.Source)
+end
+
+function MBHalfM()
+    return Tagged('HALFELF',context.Source) & Tagged('MALE',context.Source)
+end
+
+function MBGnomeM()
+    return Tagged('GNOME',context.Source) & Tagged('MALE',context.Source)
+end
+
+function MBLingM()
+    return Tagged('HALFLING',context.Source) & Tagged('MALE',context.Source)
+end
+
+function MBTiefM()
+    return Tagged('TIEFLING',context.Source) & Tagged('MALE',context.Source)
+end
+
+function MBGithM()
+    return Tagged('GITHYANKI',context.Source) & Tagged('MALE',context.Source)
+end
+
+function MBDragM()
+    return Tagged('DRAGONBORN',context.Source) & Tagged('MALE',context.Source)
+end
+
+function MBOrcM()
+    return Tagged('HALFORC',context.Source) & Tagged('MALE',context.Source)
+end
+
+function MBHumF()
+    return Tagged('HUMAN',context.Source) & Tagged('FEMALE',context.Source)
+end
+
+function MBElfF()
+    return Tagged('ELF',context.Source) & Tagged('FEMALE',context.Source)
+end
+
+function MBDrowF()
+    return Tagged('DROWELF',context.Source) & Tagged('FEMALE',context.Source)
+end
+
+function MBDwarfF()
+    return Tagged('DWARF',context.Source) & Tagged('FEMALE',context.Source)
+end
+
+function MBHalfF()
+    return Tagged('HALFELF',context.Source) & Tagged('FEMALE',context.Source)
+end
+
+function MBGnomeF()
+    return Tagged('GNOME',context.Source) & Tagged('FEMALE',context.Source)
+end
+
+function MBLingF()
+    return Tagged('HALFLING',context.Source) & Tagged('FEMALE',context.Source)
+end
+
+function MBTiefF()
+    return Tagged('TIEFLING',context.Source) & Tagged('FEMALE',context.Source)
+end
+
+function MBGithF()
+    return Tagged('GITHYANKI',context.Source) & Tagged('FEMALE',context.Source)
+end
+
+function MBDragF()
+    return Tagged('DRAGONBORN',context.Source) & Tagged('FEMALE',context.Source)
+end
+
+function MBOrcF()
+    return Tagged('HALFORC',context.Source) & Tagged('FEMALE',context.Source)
+end

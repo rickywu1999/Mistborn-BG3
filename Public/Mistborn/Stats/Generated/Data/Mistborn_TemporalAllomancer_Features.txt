@@ -1,1 +1,112 @@
+// Level 3
+new entry "Class_Feature_Chronostamina"
+type "PassiveData"
+data "DisplayName" "h7950b4a2bf9e4ee8917fd535ea8e2ac2288c"
+data "Description" "ha3edf543717f4ea9a7bc18ec2176c0aff5f7"
+data "Boosts" "StatusImmunity(SLOW);StatusImmunity(HASTE_LETHARGY);StatusImmunity(TIME_STOP)"
+data "Icon" "Passive_TemporalAllomancer_Chronostamina"
+data "Properties" "Highlighted"
 
+
+
+
+
+// Level 6
+new entry "Class_Feature_Masks_Of_Gold"
+type "PassiveData"
+data "DisplayName" "hab4e99b3bb45479e8c37528bfaa1528cb9ga"
+data "Description" "h887dc2c50f75467a96688d4f31bddd49gc82"
+data "Boosts" "UnlockSpell(Gold_Shadow)"
+data "Icon" "Passive_TemporalAllomancer_MasksOfGold"
+data "Properties" "Highlighted"
+
+new entry "Gold_Shadow"
+type "SpellData"
+data "SpellType" "Target"
+data "DisplayName" "hab4e99b3bb45479e8c37528bfaa1528cb9ga"
+data "Description" "h22db202068234fd98ce7b8232776e722g570"
+data "DescriptionParams" "DealDamage(1d12,Psychic)"
+data "TargetRadius" "5"
+data "SpellProperties" "GROUND:IF(not HasPassive('Gold_Savant',context.Source)):DealDamage(SELF,1d12,Psychic);IF(MBHumM()):Summon(99812de4-8dfc-4a78-80af-9c342c023ade, Permanent,,,,GOLD_SHADOW,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);GROUND:IF(MBElfM()):Summon(e8169a2a-e140-407b-aa4f-1fc0e5d57a5d, Permanent,,,,GOLD_SHADOW,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);GROUND:IF(MBDrowM()):Summon(d726d0f6-370c-4642-908d-f76e6619998e, Permanent,,,,GOLD_SHADOW,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);GROUND:IF(MBDwarfM()):Summon(f33a4f90-f94e-4ed9-a6b1-0912e6b36c59, Permanent,,,,GOLD_SHADOW,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);GROUND:IF(MBHalfM()):Summon(fe8c3f06-cc26-4f72-baa8-5706fb0140bb, Permanent,,,,GOLD_SHADOW,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);GROUND:IF(MBGnomeM()):Summon(37ad50dd-f6fd-4962-a32d-15481bacab6d, Permanent,,,,GOLD_SHADOW,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);GROUND:IF(MBLingM()):Summon(c9d74a0f-4022-4113-ac06-05828dfa85a1, Permanent,,,,GOLD_SHADOW,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);GROUND:IF(MBTiefM()):Summon(f2c424e6-86e6-44e2-b04e-928482e9a76f, Permanent,,,,GOLD_SHADOW,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);GROUND:IF(MBGithM()):Summon(c7f03941-b89c-4aa3-b74a-ad358b000331, Permanent,,,,GOLD_SHADOW,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);GROUND:IF(MBDragM()):Summon(6c737cbd-3a0a-4ac9-a1d2-7794291e9951, Permanent,,,,GOLD_SHADOW,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);GROUND:IF(MBOrcM()):Summon(f1b30e64-6f44-484f-8f90-f9d0c34a6e8c, Permanent,,,,GOLD_SHADOW,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);GROUND:IF(MBHumF()):Summon(39240785-d534-47fd-85c4-f4a80c00c98b, Permanent,,,,GOLD_SHADOW,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);GROUND:IF(MBElfF()):Summon(d58976d5-ab26-41e5-a87a-26b3e27278ba, Permanent,,,,GOLD_SHADOW,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);GROUND:IF(MBDrowF()):Summon(73874d46-00e5-4bd1-91cc-49baf95a8226, Permanent,,,,GOLD_SHADOW,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);GROUND:IF(MBDwarfF()):Summon(011a64ae-8e3c-40b8-890d-67ae115af451, Permanent,,,,GOLD_SHADOW,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);GROUND:IF(MBHalfF()):Summon(93bca9b7-7817-4899-9376-3665bd95d822, Permanent,,,,GOLD_SHADOW,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);GROUND:IF(MBGnomeF()):Summon(01051ea7-1980-448f-9e24-9951f8b39670, Permanent,,,,GOLD_SHADOW,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);GROUND:IF(MBLingF()):Summon(9e9fb855-135b-423f-a7ce-0e9c98e6d06f, Permanent,,,,GOLD_SHADOW,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);GROUND:IF(MBTiefF()):Summon(5f3c0946-affb-4e95-a5b3-fd0a78d2dec8, Permanent,,,,GOLD_SHADOW,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);GROUND:IF(MBGithF()):Summon(bdefb0d5-4cec-4878-9230-7d7dba7b62cf, Permanent,,,,GOLD_SHADOW,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);GROUND:IF(MBDragF()):Summon(cc908c12-5f3f-42ae-b28c-c215c396b4bf, Permanent,,,,GOLD_SHADOW,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);GROUND:IF(MBOrcF()):Summon(4a54b4a2-8500-4207-964f-4ecfb9cdb778, Permanent,,,,GOLD_SHADOW,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);GROUND:IF(not PlayableRace(context.Source)):Summon(c05c1aa3-da26-4d73-acbd-adc66f7df6af, Permanent,,,,GOLD_SHADOW,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)"
+data "TargetConditions" "CanStand('c05c1aa3-da26-4d73-acbd-adc66f7df6af') and not Character() and not Self()"
+data "Icon" "Passive_TemporalAllomancer_MasksOfGold"
+data "UseCosts" "ActionPoint:1;MetalReserves:1"
+data "SpellAnimation" "9fd22d7d-5d7a-470b-a939-810046915bed,,;,,;4222840e-85c4-41d4-89f3-cf525ab7a2ce,,;d58199b1-9bc5-4715-99d4-43a5b5c1ec16,,;2d19a206-bf18-4f4d-ba95-f83c5fc38fd7,,;,,;57db495b-2467-467b-a599-d7df2fa4d659,,;,,;,,"
+data "PrepareEffect" "b226460f-c11b-4cd0-a5a9-f9e12bbb0a0f"
+data "CastEffect" "4a266605-328a-41b8-a431-d4085ec97f0b"
+data "RequirementConditions" "HasPassive('Gold_Unlock',context.Source) and not HasStatus('GOLD_SHADOW_SWAP',context.Source)"
+
+new entry "GOLD_SHADOW"
+type "StatusData"
+data "StatusType" "BOOST"
+data "Icon" "Status_Invisible"
+data "FormatColor" "Yellow"
+data "MaterialType" "Replacement"
+data "MaterialApplyBody" "Yes"
+data "MaterialApplyArmor" "Yes"
+data "MaterialApplyWeapon" "Yes"
+data "MaterialApplyNormalMap" "No"
+data "StackId" "GOLD_SHADOW"
+data "StackType" "Ignore"
+data "StackPriority" "1"
+data "Boosts" "IgnoreLeaveAttackRange(); Invisibility(); DetectDisturbancesBlock(true);UnlockSpell(Projectile_Jump);ActionResource(Movement,9,0);UnlockSpellVariant(SpellId('Shout_Dismiss_Self'),ModifyUseCosts(Replace,BonusActionPoint,0,0,BonusActionPoint));UnlockSpellVariant(SpellId('Projectile_Jump'),ModifyUseCosts(Replace,BonusActionPoint,0,0,BonusActionPoint))"
+data "StatusPropertyFlags" "DisableCombatlog;DisableOverhead;DisablePortraitIndicator;IgnoreResting;UnavailableInActiveRoll;ExcludeFromPortraitRendering"
+data "StatusEffect" "d798b3cf-15ab-4911-9884-82799e6fd3ef"
+data "RemoveEvents" "OnSourceStatusApplied"
+data "RemoveConditions" "HasStatus('GOLD_SHADOW_SWAPPED_SIGNAL',context.Source)"
+data "OnRemoveFunctors" "Unsummon()"
+data "AuraRadius" "50"
+data "AuraStatuses" "IF(HasPassive('Class_Feature_Masks_Of_Gold')):ApplyStatus(GOLD_SHADOW_SWAP,100,1)"
+
+new entry "GOLD_SHADOW_SWAP"
+type "StatusData"
+data "StatusType" "BOOST"
+data "Boosts" "UnlockSpell(Gold_Shadow_Swap)"
+data "StackId" "GOLD_SHADOW_SWAP"
+data "StackType" "Ignore"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting;ApplyToDead"
+data "OnRemoveFunctors" "ApplyStatus(SELF,GOLD_SHADOW_SWAPPED_SIGNAL,100,1)"
+
+new entry "Gold_Shadow_Swap"
+type "SpellData"
+data "SpellType" "Target"
+data "DisplayName" "hae09af39e55f43df8a2cdd1f6d6a8e731e6c"
+data "Description" "h27619b5b85104e908a662d40aef55fa30cbc"
+data "DescriptionParams" "DealDamage(1d12,Psychic)"
+data "TargetRadius" "18"
+data "TargetConditions" "HasStatus('GOLD_SHADOW')"
+data "SpellProperties" "SwapPlaces();ApplyStatus(SELF,GOLD_SHADOW_SWAPPED_SIGNAL,100,1);IF(not HasPassive('Gold_Savant',context.Source)):DealDamage(SELF,1d12,Psychic)"
+data "Icon" "Passive_TemporalAllomancer_MasksOfGold"
+data "UseCosts" "BonusActionPoint:1;MetalReserves:1"
+data "SpellAnimation" "9fd22d7d-5d7a-470b-a939-810046915bed,,;,,;4222840e-85c4-41d4-89f3-cf525ab7a2ce,,;d58199b1-9bc5-4715-99d4-43a5b5c1ec16,,;2d19a206-bf18-4f4d-ba95-f83c5fc38fd7,,;,,;57db495b-2467-467b-a599-d7df2fa4d659,,;,,;,,"
+data "PrepareEffect" "7121a488-3f8d-4613-9cfb-ac8d6e5f4318"
+data "CastEffect" "71859b27-58b3-4ed1-94e3-0cf77a8b8f39"
+
+new entry "GOLD_SHADOW_SWAPPED_SIGNAL"
+type "StatusData"
+data "StatusType" "BOOST"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;"
+data "OnApplyFunctors" "RemoveStatus(GOLD_SHADOW_SWAPPED_SIGNAL)"
+
+
+
+
+
+// Level 11
+new entry "Class_Feature_Efficient_Bubbles"
+type "PassiveData"
+data "DisplayName" "hc8bc1ac1e8ee4784a5607391736bfac72d9g"
+data "Description" "h5e599c90fa804ddeab416861ce530c04ecgb"
+data "Icon" "Passive_TemporalAllomancer_EfficientBubbles"
+data "Properties" "Highlighted"
+
+
+
+
+
+new entry "Class_Feature_Temporal_Potency"
+type "PassiveData"
+data "DisplayName" "h5f86845020c1447eafd996f4c6b0d5bfb03b"
+data "Description" "hc7ef1437fec9461ea2a0b30bdd251f84df05"
+data "Icon" "Passive_TemporalAllomancer_TemporalPotency"
+data "Properties" "Highlighted"

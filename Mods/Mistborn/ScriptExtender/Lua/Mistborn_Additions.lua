@@ -117,7 +117,7 @@ Ext.Osiris.RegisterListener("UsingSpell", 5, "before", function(_, spell, _, _, 
             local participantTpl = row[1]
             local participantGUID = string.sub(participantTpl, -36)
             local participantEntity = Ext.Entity.Get(participantGUID)
-            if Osi.HasActiveStatus(participantTpl,"BENDALLOY_HASTE") == 1 then
+            if Osi.HasActiveStatus(participantTpl,"BENDALLOY_HASTE") == 1 or Osi.HasActiveStatus(participantTpl,"BENDALLOY_HASTE_POTENT") == 1 then
                 Osi.ApplyStatus(participantTpl,"TIMEBUBBLE_LETHARGY_IMMUNITY",1)
                 participantEntity:Replicate("CombatParticipant")
             end
@@ -129,7 +129,7 @@ Ext.Osiris.RegisterListener("UsingSpell", 5, "before", function(_, spell, _, _, 
             local participantTpl = row[1]
             local participantGUID = string.sub(participantTpl, -36)
             local participantEntity = Ext.Entity.Get(participantGUID)
-            if Osi.HasActiveStatus(participantTpl,"CADMIUM_SLOW") == 1 then
+            if Osi.HasActiveStatus(participantTpl,"CADMIUM_SLOW") == 1 or Osi.HasActiveStatus(participantTpl,"CADMIUM_SLOW_POTENT") == 1 then
                 Osi.ApplyStatus(participantTpl,"TIMEBUBBLE_LETHARGY_IMMUNITY",1)
                 participantEntity:Replicate("CombatParticipant")
             end

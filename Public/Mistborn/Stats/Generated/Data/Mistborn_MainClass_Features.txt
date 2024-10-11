@@ -10,6 +10,28 @@ data "Properties" "Highlighted"
 
 
 
+
+// Level 4
+new entry "SlowFall_Mistborn"
+type "PassiveData"
+using "SlowFall"
+data "Description" "hf9aaba6a3842414daba4f81063857d792bc1;2"
+data "TooltipUseCosts" "ReactionActionPoint:1;MetalReserves:1"
+data "EnabledConditions" "HasActionResource('ReactionActionPoint', 1, 0, false, false, context.Source) and HasActionResource('MetalReserves',1,0,false,true,context.Source)"
+data "ToggleOnFunctors" "ApplyStatus(SLOWFALL_MISTBORN_PASSIVE_TECHNICAL,100,-1)"
+data "ToggleOffFunctors" "RemoveStatus(SLOWFALL_MISTBORN_PASSIVE_TECHNICAL)"
+
+new entry "SLOWFALL_MISTBORN_PASSIVE_TECHNICAL"
+type "StatusData"
+data "StatusType" "BOOST"
+using "SLOWFALL_PASSIVE_TECHNICAL"
+data "OnRemoveFunctors" "IF(RemoveCause(StatusRemoveCause.Condition)):UseActionResource(ReactionActionPoint,1);IF(RemoveCause(StatusRemoveCause.Condition)):UseActionResource(MetalReserves,1)"
+
+
+
+
+
+
 // Level 7
 new entry "Metal_Flaring"
 type "PassiveData"

@@ -14,7 +14,7 @@ data "ExtraDescriptionParams" "10;1"
 data "UseCosts" "ReactionActionPoint:1;MetalReserves:1"
 data "RootSpellID" ""
 data "InterruptPrototype" "Interrupt_Chromium_Counterspell_Base"
-data "SpellFlags" ""
+data "SpellFlags" "HasSomaticComponent"
 data "RequirementConditions" "not HasStatus('CHROMIUM_DRAINED')"
 
 new entry "Chromium_Negate_Enhance"

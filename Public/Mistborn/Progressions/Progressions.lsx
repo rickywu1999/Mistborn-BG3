@@ -6,7 +6,7 @@
             <children>
                 <node id="Progression">
                     <attribute id="AllowImprovement" type="bool" value="false"/> 
-                    <attribute id="Boosts" type="LSString" value="ActionResource(Allomantic_Reflex_Resource,1,0);ActionResource(MetalReserves,4,0);ProficiencyBonus(SavingThrow,Dexterity);ProficiencyBonus(SavingThrow,Intelligence);Proficiency(LightArmor);Proficiency(Shields);Proficiency(SimpleWeapons);Proficiency(Shortswords);Proficiency(Longswords);Proficiency(Rapiers)"/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(MetalReserves,4,0);ProficiencyBonus(SavingThrow,Dexterity);ProficiencyBonus(SavingThrow,Intelligence);Proficiency(LightArmor);Proficiency(Shields);Proficiency(SimpleWeapons);Proficiency(Shortswords);Proficiency(Longswords);Proficiency(Rapiers);Proficiency(HandCrossbows);"/>
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="Mistborn"/> 
                     <attribute id="ProgressionType" type="uint8" value="0"/>
@@ -17,7 +17,7 @@
                 </node>
                 <node id="Progression">
                     <attribute id="AllowImprovement" type="bool" value="false"/> 
-                    <attribute id="Boosts" type="LSString" value="ActionResource(MetalReserves,4,0);Proficiency(LightArmor);Proficiency(Shields);Proficiency(SimpleWeapons);Proficiency(Shortswords);Proficiency(Longswords);Proficiency(Rapiers)"/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(MetalReserves,4,0);Proficiency(LightArmor);Proficiency(Shields);Proficiency(SimpleWeapons);Proficiency(Shortswords);Proficiency(Longswords);Proficiency(Rapiers);Proficiency(HandCrossbows);"/>
                     <attribute id="IsMulticlass" type="bool" value="true"/>
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="Mistborn"/> 
@@ -69,7 +69,7 @@
                     <attribute id="Boosts" type="LSString" value="ActionResource(MetalReserves,1,0)"/>
                     <attribute id="Level" type="uint8" value="4"/>
                     <attribute id="Name" type="LSString" value="Mistborn"/>
-                    <attribute id="PassivesAdded" type="LSString" value="SlowFall;"/>
+                    <attribute id="PassivesAdded" type="LSString" value="SlowFall_Mistborn;"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
                     <attribute id="Selectors" type="LSString" value="SelectPassives(f94764f3-0a6a-4492-b42e-333ea67e2b28,1,Choosable_Metals)"/>
                     <attribute id="TableUUID" type="guid" value="6e5e6b00-d045-4c13-98fb-3e895b3b9940"/>
@@ -334,7 +334,7 @@
                     <attribute id="AllowImprovement" type="bool" value="false"/>
                     <attribute id="Level" type="uint8" value="3"/>
                     <attribute id="Name" type="LSString" value="TemporalAllomancer"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Class_Feature_Metal_Deflection"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Class_Feature_Chronostamina"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="TableUUID" type="guid" value="a01b590c-f5de-460d-98d8-e2d202342b1c"/>
                     <attribute id="UUID" type="guid" value="df5914c2-7cae-4fb2-bc96-205a7fc69a2c"/>
@@ -343,6 +343,7 @@
                     <attribute id="AllowImprovement" type="bool" value="false"/>
                     <attribute id="Level" type="uint8" value="6"/>
                     <attribute id="Name" type="LSString" value="TemporalAllomancer"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Class_Feature_Masks_Of_Gold"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="TableUUID" type="guid" value="a01b590c-f5de-460d-98d8-e2d202342b1c"/>
                     <attribute id="UUID" type="guid" value="1dde6818-e2ce-433c-9ff3-97b5e1f2f3cd"/>
@@ -351,6 +352,7 @@
                     <attribute id="AllowImprovement" type="bool" value="false"/>
                     <attribute id="Level" type="uint8" value="11"/>
                     <attribute id="Name" type="LSString" value="TemporalAllomancer"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Class_Feature_Efficient_Bubbles"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="TableUUID" type="guid" value="a01b590c-f5de-460d-98d8-e2d202342b1c"/>
                     <attribute id="UUID" type="guid" value="61bfb193-d19d-4751-bce4-170b01f5e699"/>
@@ -359,6 +361,7 @@
                     <attribute id="AllowImprovement" type="bool" value="false"/>
                     <attribute id="Level" type="uint8" value="17"/>
                     <attribute id="Name" type="LSString" value="MentalAllomancer"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Class_Feature_Temporal_Potency"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="TableUUID" type="guid" value="a01b590c-f5de-460d-98d8-e2d202342b1c"/>
                     <attribute id="UUID" type="guid" value="a0869980-7d98-4074-92d9-cc8a829e2791"/>
