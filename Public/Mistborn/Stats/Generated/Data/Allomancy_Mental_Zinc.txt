@@ -208,6 +208,7 @@ data "Boosts" "RollBonus(SavingThrow,-3,Wisdom);"
 
 
 
+
 //Riot Anger
 new entry "RiotAnger_Container"
 type "SpellData"

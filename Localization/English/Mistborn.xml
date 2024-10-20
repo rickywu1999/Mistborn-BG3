@@ -79,15 +79,15 @@
     <content contentuid="h5c54af2eaffd456abac381d42472cd7278g1" version="1">Iron Lurch (Flare)</content>
     <content contentuid="h1aa4b50a3431448a86cdea0c3c73373de4df" version="1">Iron Pull (Flare)</content>
     <content contentuid="hb370d70c3fb84a099968d0ea58d4f8a30309" version="1">Iron Redirection</content>
-    <content contentuid="h34fb225f00b84bfe9d4da9d6e6579cf25762" version="1">Burn iron to protect nearby allies by using a &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;reaction&lt;/LSTag&gt; and &lt;LSTag Type="ActionResource" Tooltip="MetalReserves"&gt;Metal Reserve&lt;/LSTag&gt; to redirect ranged weapon attacks towards your shield.&lt;br&gt;&lt;br&gt;Reduce the damage taken from a redirected attack by [1].</content>
+    <content contentuid="h34fb225f00b84bfe9d4da9d6e6579cf25762" version="1">Burn iron to project an aura that protects nearby allies. By using a &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;reaction&lt;/LSTag&gt; and a &lt;LSTag Type="ActionResource" Tooltip="MetalReserves"&gt;Metal Reserve&lt;/LSTag&gt;, redirect ranged weapon attacks towards your shield.&lt;br&gt;&lt;br&gt;Reduce the damage taken from a redirected attack by [1].</content>
     <content contentuid="h696325d3a7c54140a2130863523b3d54gf58" version="1">Iron Redirection Aura</content>
     <content contentuid="hd3668c88f423412a99fb69aeb907da189d9g" version="1">Redirect a ranged weapon attack towards your shield, reducing the damage taken by [1].</content>
     <content contentuid="h4c595da44d704a7ba8ccad4fddf6755e3a23" version="1">Protected from ranged weapon attacks.</content>
     <content contentuid="h27db4d39940c41ac8a79866305c6d19640ae" version="1">Protect nearby allies by redirecting ranged weapon attacks towards your shield, reducing the damage taken by [1].</content>
 	<content contentuid="hc8c9cd00588847d19fe26e544db7166510cf" version="1">Iron Redirection (End)</content>
     <content contentuid="hb087aa7ac9d24efcae534035fea84708d85g" version="1">Stop burning iron to end Iron Redirection.</content>
-    <content contentuid="h60d706c025bb4834971f166fcf4ea2f56a2d" version="1">Iron DIsarm</content>
-    <content contentuid="he6aa05d79ebb4b288c04feb54a1d719e968f" version="1">Burn iron, yank the weapon from the target’s grip, disarming them with a swift pull.</content>
+    <content contentuid="h60d706c025bb4834971f166fcf4ea2f56a2d" version="1">Iron Disarm</content>
+    <content contentuid="he6aa05d79ebb4b288c04feb54a1d719e968f" version="1">Burn iron to yank the weapon from the target’s grip, disarming them with a swift pull.</content>
     <!--Steel-->
 	<content contentuid="h29d5f47696104527b1968d1b760ab016c2gc" version="1">Steel Shove</content>
     <content contentuid="h40d2c1de0b73482b8e20d8d62513602d9088" version="1">Burn steel to push a metal target of equal or smaller size [1] away. If the target is not an ally, deal damage upon impact.</content>
@@ -103,7 +103,7 @@
     <content contentuid="h80e39b64ced94022b13e6cfce1171256eg02" version="1">Coin Shot (Flare)</content>
     <content contentuid="hc5bfe47330444cec97eb26795aae649a3f0e" version="1">The damage of this ability increases by an additional die at level 5, 11, and 17.</content>
     <content contentuid="h1dd02ebd138043189c398e972b391af64g8e" version="1">Steel Leap</content>
-    <content contentuid="hc0b63d0d18884596899f5ddee96470c8dc2d" version="1">Burn steel to push against metal on the ground while moving, triple your jumping distance.</content>
+    <content contentuid="hc0b63d0d18884596899f5ddee96470c8dc2d" version="1">Burn steel to enhance your jumps. By pushing against metals on the ground, triple your jumping distance.</content>
     <!--Tin-->
     <content contentuid="hd15c17e79669457eac12fc9e7e7540b04bc9" version="1">Tineye</content>
     <content contentuid="hb7a196ca8ea4411fb85e1b805d4131575b03" version="1">Your heightened vision increase your Perception by [1] and grants Darkvision out to a range of [2]. &lt;br&gt;&lt;br&gt;However, if you are &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinded&lt;/LSTag&gt; while burning tin, you must make a DC [3] Constitution save or become &lt;LSTag Type="Status" Tooltip="STUNNED"&gt;Stunned&lt;/LSTag&gt; for [4] round(s) and lose this buff.</content>
@@ -117,7 +117,7 @@
     <content contentuid="hf3d668d152394a7388d1ecb2384734676ec6" version="1">Your heightened vision increase your Perception by [1] and grants Darkvision out to a range of [2]. &lt;br&gt;&lt;br&gt;However, if you are &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinded&lt;/LSTag&gt; while burning tin, you must make a DC [3] Constitution save or become &lt;LSTag Type="Status" Tooltip="STUNNED"&gt;Stunned&lt;/LSTag&gt; for [4] round(s).</content>
     <!--Pewter-->
     <content contentuid="h0b237ca447fb4310a1bc27e818b6518152g8" version="1">Pewter Enhance</content>
-    <content contentuid="h0ab304feea5f43628c0643b047849df650fb" version="1">Burn pewter, temporarily increase physical strength and resilience, gaining the &lt;LSTag Type="Status" Tooltip="PEWTERENHANCE"&gt;Pewter Enhance&lt;/LSTag&gt; buff.</content>
+    <content contentuid="h0ab304feea5f43628c0643b047849df650fb" version="1">Burn pewter to temporarily increase physical strength and resilience, gaining the &lt;LSTag Type="Status" Tooltip="PEWTERENHANCE"&gt;Pewter Enhance&lt;/LSTag&gt; buff.</content>
     <content contentuid="h8fa3c321e1f54d82b189a9c2ab12eca5gfaf" version="1">Gain a +[1] bonus to Strength, Dexterity, and Constitution &lt;LSTag Tooltip="SavingThrow"&gt;saving throws&lt;/LSTag&gt; and a +[1] bonus to &lt;LSTag Tooltip="AttackRoll"&gt;attack rolls&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Regain [2] at the start of your turn.&lt;br&gt;&lt;br&gt;Take [3] less damage from Piercing, Slashing, and Bludgeoning damage. &lt;b&gt;Each hit sustained while burning pewter will deal [4] damage after you stop burning pewter.&lt;/b&gt;</content>
     <content contentuid="h4c31694fc59e46708bb559634e098cd2e933" version="1">Pewter Fatigue</content>
     <content contentuid="hd95d6fdf6a454a55baff148fb30ab97a4d4f" version="1">Take [1] damage per stack.</content>
@@ -141,7 +141,7 @@
     <content contentuid="ha86d28dfb92f4fbc93bff87817f589f1ef18" version="1">Riot Terror</content>
     <content contentuid="ha35f2aee61b041648e3509485848477b7baf" version="1">Burn zinc to temporarily riot a creature's fear after you perform a weapon attack, possibly applying &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frighten&lt;/LSTag&gt; to the creature.</content>
     <content contentuid="h3754f1e7ef15464d8d9f886805fe3ede459g" version="1">Riot Friendship</content>
-    <content contentuid="h2240efb282c74ad5b8cc82f434619dbbaa3a" version="1">Burn zinc to temporarily riot feelings of comraderie in a non-hostile creature to gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Charisma &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
+    <content contentuid="h2240efb282c74ad5b8cc82f434619dbbaa3a" version="1">Burn zinc to temporarily riot feelings of camaraderie in a non-hostile creature to gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Charisma &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
     <content contentuid="h32dd9ec72b534c9fac2d2d9bd75546e98d08" version="1">Riot Anxiety</content>
     <content contentuid="h7e09bfa035cb47648d436ba2585439e13627" version="1">Burn zinc to temporarily riot the anxiety of up to 3 creatures, reducing &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; by [1].</content>
     <content contentuid="h1c143233e6c5403fa830edc7794830ba4ac0" version="1">Anxious</content>
@@ -163,7 +163,7 @@
     <content contentuid="ha965497adaad4c24b3e0d7adf274015cb949" version="1">Burn brass to temporarily soothe away a creature's hatred after you perform a weapon attack, possibly applying &lt;LSTag Type="Status" Tooltip="CHARMED"&gt;Charmed&lt;/LSTag&gt; to the creature.</content>
     <content contentuid="he16dfdbc975f4921b939ec0f022725eb6gc0" version="1">Soothe Attention</content>
     <content contentuid="hc0ca46f0343d4995855d5ccfdbfe39b5541f" version="1">Peripheral vision and sight range reduced.</content>
-    <content contentuid="h86e4cd3412bd44b78b8aa1c327a0a1c20634" version="1">Burn brass to temporarily soothe away the focus and attention of up to 3 non-hostile creature, reducing their peripheral vision and vision range.</content>
+    <content contentuid="h86e4cd3412bd44b78b8aa1c327a0a1c20634" version="1">Burn brass to temporarily soothe away the focus and attention of up to 3 non-hostile creatures, reducing their peripheral vision and vision range.</content>
     <content contentuid="h89d7e38eacd64995a24841a2773219ef7g54" version="1">Unattentive</content>
     <content contentuid="h534ed72f6f314442a6f441c4035b23f907e2" version="1">Soothe Stress</content>
     <content contentuid="h5d427b2c058a4a4a804d79040a05223d8600" version="1">Burn brass to temporarily soothe away the stress of up to 3 creatures, increasing &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; by [1].</content>
@@ -182,21 +182,21 @@
     <content contentuid="he4a614d675e64ce29fa1d53f404be0d32a9c" version="1">Wary (Flare)</content>
     <!--Copper-->
     <content contentuid="h29359fe7faee4d97b2c277283100d0b28gg7" version="1">Copper Nondetection</content>
-    <content contentuid="h2309a5123ce644ada9b3ab60512f18a1bfd3" version="1">Burn copper to create a coppercloud to hide nearby allies from divination magic and prevent them from being targetted by divination spells.</content>
+    <content contentuid="h2309a5123ce644ada9b3ab60512f18a1bfd3" version="1">Burn copper to create a coppercloud to hide nearby allies from divination magic and prevent them from being targeted by divination spells.</content>
     <content contentuid="hf46118e80c1d400484e11c68334de31c984f" version="1">Copper Guard</content>
     <content contentuid="h5c34332450e543648f79b0d542e771237a43" version="1">Copper Guard Aura</content>
     <content contentuid="hc806e9433fb944fcbd94803575f557ab1cb9" version="1">This entity and nearby allies have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Type="Status" Tooltip="CHARMED"&gt;Charm&lt;/LSTag&gt; and &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frighten&lt;/LSTag&gt; &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
     <content contentuid="h9c3f10c1dcc44fdfbe187635bb395f5e9gbg" version="1">Protected by an ally's coppercloud. &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Type="Status" Tooltip="CHARMED"&gt;Charm&lt;/LSTag&gt; and &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frighten&lt;/LSTag&gt; &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
     <content contentuid="h13bfb07836894dfaae7cda722ec8f8cc53b9" version="1">Burn copper to create a coppercloud to provide nearby allies an &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; against emotion altering statuses like &lt;LSTag Type="Status" Tooltip="CHARMED"&gt;Charm&lt;/LSTag&gt; and &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frighten&lt;/LSTag&gt;.</content>
     <content contentuid="h833d175a569d48f9b71dbd1740474a976g8c" version="1">Copper Nondetection Aura</content>
-    <content contentuid="h4a0ca9e4c4ad4f998df40f8e8fef87674b40" version="1">This entity and nearby allies are hidden from divination magic and can not be targetted by divination spells.</content>
+    <content contentuid="h4a0ca9e4c4ad4f998df40f8e8fef87674b40" version="1">This entity and nearby allies are hidden from divination magic and can not be targeted by divination spells.</content>
     <!--Bronze-->
     <content contentuid="h89e164d006b74bf7ad1d756fa7307869fb95" version="1">Bronze Detect Magic</content>
     <content contentuid="hdc8dd8e9b89d4473a7b6050ad04c7bdd41gc" version="1">Bronze Detect Evil and Good</content>
     <content contentuid="hde8ff9b6fc684e15964336743263e604f947" version="1">Bronze Sense Invisibility</content>
     <content contentuid="h0311cc287c70463cb2139452bcb77f038g0g" version="1">Burn bronze to see &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt; creatures, and possibly reveal them to others.</content>
     <content contentuid="hc1b1d6a80ca1484dbf53a82ac69bcaf7c2g2" version="1">Burn bronze to sense the presence of magic in the area. You can fully focus on a creature possessing the ability to cast spells, preventing it from becoming &lt;LSTag Type="Status" Tooltip="SNEAKING"&gt;Hidden&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt; while its magic can be detected.</content>
-    <content contentuid="he8ca3a26c3ad420d97c9deadfffb40ded3d2" version="1">Burn bronze to detect the presence of aberrations, celestials, elementals, feys, fiends and undead in the area, preventing them from &lt;LSTag Type="Status" Tooltip="SNEAKING"&gt;Hiding&lt;/LSTag&gt; or becoming &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt;.</content>
+    <content contentuid="he8ca3a26c3ad420d97c9deadfffb40ded3d2" version="1">Burn bronze to detect the presence of aberrations, celestials, elementals, fey, fiends and undead in the area, preventing them from &lt;LSTag Type="Status" Tooltip="SNEAKING"&gt;Hiding&lt;/LSTag&gt; or becoming &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt;.</content>
     
     <!--TEMPORAL-->
     <!--Gold-->
@@ -255,9 +255,6 @@
     <!--Aluminum-->
     <content contentuid="h5cf2738ad89e419da1b664800dc65bd95bca" version="1">Burn aluminum to immediately remove all your &lt;LSTag Type="ActionResource" Tooltip="MetalReserves"&gt;Metal Reserves&lt;/LSTag&gt;. This also removes any magical curses affecting you.</content>
     <content contentuid="h9ca5aa65ef7c4f3d8f44e8fe97ebaff1f70e" version="1">Aluminum Purge</content>
-    <content contentuid="h03f25b54a68545e08f153b6da0dd1b0bg0dc" version="1">Aluminum Equipment</content>
-    <content contentuid="h656f992f72174ea397f7344cdc5f83c0110c" version="1">Utilize the nullifying effects of aluminum by integrating it on your equipment, allowing you to nullify a spell targetting you.</content>
-    <content contentuid="hab762bde53fc48eeae6b9bd2274234cbcdab" version="1">If the spell is higher than level [2], you must make a &lt;LSTag Tooltip="AbilityCheck"&gt;check&lt;/LSTag&gt; using your spellcasting ability to prevent it. The check's difficulty is equal to [1] plus the level of the spell you are trying to counter.</content>
     <!--Chromium-->
     <content contentuid="hef1c9e2a70ec4c2a9cd16f262cb64d7c649g" version="1">Chromium Negate</content>
     <content contentuid="ha322b5723d0b42a8abe954a5223b4933d685" version="1">Burn chromium to touch a nearby creature and try to stop the spell being cast.</content>
@@ -293,16 +290,16 @@
     <content contentuid="had7c626f57b843c4bfa34eac2c16c67215ba" version="1">Erupt with Divination magic, granting nearby creatures &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on their next &lt;LSTag Tooltip="AttackRoll"&gt;attack&lt;/LSTag&gt;.</content>
     <content contentuid="h7b90e1ef97ed4c33a664c08047c2cba02b0d" version="1">Prophetic Boon</content>
     <content contentuid="h9926a393afe54885b093248d7be802e4cf6f" version="1">You are infused with Divination magic and have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on your next &lt;LSTag Tooltip="AttackRoll"&gt;attack&lt;/LSTag&gt;.</content>
-    <content contentuid="hc255f807db684552b23294ae063710a8e93g" version="1">Erupt with Divination magic, granting nearby creatures &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on their next &lt;LSTag Tooltip="AttackRoll"&gt;attack&lt;/LSTag&gt;. Additionally, the number you need to &lt;LSTag Tooltip="AttackRoll"&gt;roll&lt;/LSTag&gt; a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; on this hit is also reduced by 5.</content>
+    <content contentuid="hc255f807db684552b23294ae063710a8e93g" version="1">Erupt with Divination magic, granting nearby creatures &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on their next &lt;LSTag Tooltip="AttackRoll"&gt;attack&lt;/LSTag&gt;. Additionally, the number you need to &lt;LSTag Tooltip="AttackRoll"&gt;roll&lt;/LSTag&gt; a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; on this hit is also reduced by 3.</content>
     <content contentuid="h6a78e1a724b44ae6bda8a01c6b15b9d129f7" version="1">Prophetic Blessing</content>
     <content contentuid="h9bb1cea486e74aa79f26efa750b95bcf5fc8" version="1">Divination Flare</content>
-    <content contentuid="h041e755a34d649149de1aa33f4e2f3340266" version="1">You are infused with Divination magic and have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on your next &lt;LSTag Tooltip="AttackRoll"&gt;attack&lt;/LSTag&gt;. The number you need to &lt;LSTag Tooltip="AttackRoll"&gt;roll&lt;/LSTag&gt; a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; on this hit is also reduced by 5.</content>
+    <content contentuid="h041e755a34d649149de1aa33f4e2f3340266" version="1">You are infused with Divination magic and have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on your next &lt;LSTag Tooltip="AttackRoll"&gt;attack&lt;/LSTag&gt;. The number you need to &lt;LSTag Tooltip="AttackRoll"&gt;roll&lt;/LSTag&gt; a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; on this attack is also reduced by 3.</content>
     <content contentuid="h1aa5a02613ab4005ba2850c6b4642c195786" version="1">Enchantment</content>
     <content contentuid="h7ec38071e626430fa9831821a9aaa035a7ga" version="1">Recently used Enchantment magic.</content>
     <content contentuid="hbc9f6ef3bd1f433696c42030c96f1389a216" version="1">Enchantment Surge</content>
     <content contentuid="h3de7900d8e76433ebfab138ca8f65050ba76" version="1">Enchantment Flare</content>
-    <content contentuid="h543ecc6a954b40869fb39d2ccc7a4475c956" version="1">Erupt with Enchantment magic, inflicting all nearby creatures with &lt;LSTag Type="Status" Tooltip="CROWN_OF_MADNESS "&gt;madness&lt;/LSTag&gt;.</content>
-    <content contentuid="h15271941b7b54b51bc98382503fff3c47gc2" version="1">Erupt with Enchantment magic, inflicting all nearby creatures with &lt;LSTag Type="Status" Tooltip="CONFUSION "&gt;confusion&lt;/LSTag&gt;.</content>
+    <content contentuid="h543ecc6a954b40869fb39d2ccc7a4475c956" version="1">Erupt with Enchantment magic, inflicting all nearby creatures with &lt;LSTag Type="Status" Tooltip="FRIGHTENED "&gt;fear&lt;/LSTag&gt;.</content>
+    <content contentuid="h15271941b7b54b51bc98382503fff3c47gc2" version="1">Erupt with Enchantment magic, inflicting all nearby creatures with &lt;LSTag Type="Status" Tooltip="CROWN_OF_MADNESS "&gt;madness&lt;/LSTag&gt;.</content>
     <content contentuid="h1fe9571284464f8d82cb90297d285645f198" version="1">Recently used Evocation magic.</content>
     <content contentuid="he956a760f7044f8fa9dd7d6e0bbc7e204dc3" version="1">Evocation</content>
     <content contentuid="h9d075a7cccd24f878d8e1aeae17cdbfd07bd" version="1">Evocation Surge</content>
@@ -315,7 +312,7 @@
     <content contentuid="hdaaecd2a1e5842aea4341fab5bf5bb088g97" version="1">Illusory Distraction</content>
     <content contentuid="h0877c3bcaff14777a2771767b096b760ae52" version="1">You are disoriented by illusions and have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on your next &lt;LSTag Tooltip="AttackRoll"&gt;attack&lt;/LSTag&gt;.</content>
     <content contentuid="h74ab2d54b40743bc877b9596bc00e5c341ab" version="1">Illusion Flare</content>
-    <content contentuid="ha0521cada62c44d5b631a50cdea6b45e6e5c" version="1">After erupting with Illusion magic, surrounding creatures are disoriented by illusions and have a chance to become &lt;LSTag Type="Status" Tooltip="HYPNOTIC_PATTERN "&gt;hypnotized&lt;/LSTag&gt;.</content>
+    <content contentuid="ha0521cada62c44d5b631a50cdea6b45e6e5c" version="1">After erupting with Illusion magic, surrounding creatures are disoriented by illusions and have a chance to become &lt;LSTag Type="Status" Tooltip="HYPNOTIC_PATTERN"&gt;hypnotized&lt;/LSTag&gt;.</content>
     <content contentuid="h70aba54d77bc4424b737662344d0378cb338" version="1">Necromancy</content>
     <content contentuid="h6d07858b55f243258c51e8c47cd89842f5fe" version="1">Recently used Necromancy magic.</content>
     <content contentuid="ha97256a78b6646edbfd1237c807bc4047caf" version="1">Necromancy Surge</content>
@@ -331,6 +328,14 @@
     <content contentuid="h17d7a4fd657d42c0a926425f1698a759c672" version="1">Erupt with Transmutation magic, reducing the size of all nearby creatures.</content>
     <content contentuid="h214725cfb89a46c4a7611326c77cc522a260" version="1">Transmutation Flare</content>
     <content contentuid="h33dee68d67254f75bfa7888b2f82f3f57ed5" version="1">Erupt with Transmutation magic, transforming all nearby creatures into harmless sheep.</content>
+    <content contentuid="h479b17e5b48944279388f1fd2fc0942egg3e" version="1">Nicrosil Boost</content>
+    <content contentuid="hd52a03bdba2c42ae864751a6023f68a6e4c7" version="1">Burn nicrosil and touch a nearby ally that has recently cast a spell.&lt;br&gt;&lt;br&gt;Their next spell from the same school can be Twinned, targeting an additional creature. Casting this Twinned spell requires both an Action and a Bonus Action. This effect can only be applied to spells of 6th level or lower.</content>
+    <content contentuid="h2d5388281e674b15a0d5fad9aa9576814eca" version="1">Nicrosil Boost: Twinned Spell</content>
+    <content contentuid="h69a49598b7c74f84bd22d4376133f37fg2gc" version="1">Spells that only target 1 creature can target an additional creature.&lt;br&gt;&lt;br&gt;Requires both an action and bonus action. This effect can only be applied to spells of 6th level or lower.</content>
+    <content contentuid="h87b68c7dad6042a58f5524459c7febbac956" version="1">Nicrosil Boost: Tripled Spell</content>
+    <content contentuid="h63c0b635bbf34a37bf40069dba52a50b1c48" version="1">Spells that only target 1 creature can target an additional creature.&lt;br&gt;&lt;br&gt;Requires both an action and bonus action. This effect can only be applied to spells of 6th level or lower.</content>
+    <content contentuid="he3f902109da04ee794902a5daa011f380249" version="1">Burn nicrosil and touch a nearby ally that has recently cast a spell.&lt;br&gt;&lt;br&gt;Their next spell from the same school can be Tripled, targeting two additional creatures. Casting this Tripled spell requires both an Action and a Bonus Action. This effect can only be applied to spells of 6th level or lower.</content>
+    <content contentuid="hb0d2746156864ab1b4ad8fb310299843e1f5" version="1">Spells that only target 1 creature can target two additional creatures.&lt;br&gt;&lt;br&gt;Requires both an action and bonus action. This effect can only be applied to spells of 6th level or lower.</content>
     <!--Duralumin-->
     <content contentuid="h54140d9709dc492c894a1540d2c2ebe10821" version="1">Duralumin</content>
     <content contentuid="hcdc77ce7c3044f83b0e888cabdaa7e20ed99" version="1">Burn Duralumin alongside another metal, amplify the effects of that metal to achieve powerful feats of Allomancy. In exchange, all reserves of the chosen metal are consumed, rendering you unable to use that metal until your next long rest. All Duralumin-Enhanced abilities have a +2 to DC.</content>
@@ -391,7 +396,8 @@
     <content contentuid="h1a2e660a30dd4d2684a59dfb9799fafa8g7g" version="1">Backup Reserves</content>
     <content contentuid="h41a630b075dd4d26ab1198b38d9c75f256ee" version="1">You’ve learned to keep an emergency supply of metals for critical moments in battle. You prepare a vial filled with extra solution, which you can swiftly consume as a bonus action to restore 4 &lt;LSTag Type="ActionResource" Tooltip="MetalReserves"&gt;Metal Reserves&lt;/LSTag&gt;.</content>
     <content contentuid="hd4b9a16d77974de4b20a0ef580d536a883ee" version="1">Quick Allomancy</content>
-    <content contentuid="hd4698eefbbb74e06a8676e21cf10898b25g6" version="1">Your mastery of allomantic abilities allows you to act with exceptional speed. Once per short rest, you can gain an additional action on your turn.</content>
+    <content contentuid="h66dad9a04266447aa613cd7d6ef5373fd3c1" version="1">Can use an extra non-Duralumin allomantic ability without expending an action or bonus action.</content>
+    <content contentuid="hd4698eefbbb74e06a8676e21cf10898b25g6" version="1">Your mastery of allomantic abilities allows you to act with exceptional speed. Once per short or long rest, you can use an extra non-Duralumin allomantic ability without expending an action or bonus action.</content>
     <content contentuid="h31c04bd792ef4944843e9321d033fa06748f" version="1">Atium</content>
     <content contentuid="had319307076847bda5c10639bfac6ce179ab" version="1">Burning atium grants you the ability to see a few seconds into the future, manifesting as shadows that show where your enemies will move or attack. For the next 3 turns, you gain +3 &lt;LSTag Tooltip="ArmourClass"&gt;AC&lt;/LSTag&gt;, &lt;LSTag Tooltip="Advantage"&gt;advantage&lt;/LSTag&gt; on all &lt;LSTag Tooltip="AttackRoll"&gt;attack rolls&lt;/LSTag&gt; and &lt;LSTag Tooltip="SavingThrow"&gt;saving throws&lt;/LSTag&gt;, and enemies have &lt;LSTag Tooltip="Disadvantage"&gt;disadvantage&lt;/LSTag&gt; when attacking you.</content>
     <content contentuid="h043369cc76d44e59bccd24e7b19873ec6544" version="1">Gain +3 &lt;LSTag Tooltip="ArmourClass"&gt;AC&lt;/LSTag&gt;, &lt;LSTag Tooltip="Advantage"&gt;advantage&lt;/LSTag&gt; on all &lt;LSTag Tooltip="AttackRoll"&gt;attack rolls&lt;/LSTag&gt; and &lt;LSTag Tooltip="SavingThrow"&gt;saving throws&lt;/LSTag&gt;, and enemies have &lt;LSTag Tooltip="Disadvantage"&gt;disadvantage&lt;/LSTag&gt; when attacking you</content>
@@ -469,7 +475,7 @@
     <content contentuid="h7950b4a2bf9e4ee8917fd535ea8e2ac2288c" version="1">Chronostamina</content>
     <content contentuid="ha3edf543717f4ea9a7bc18ec2176c0aff5f7" version="1">As a master of manipulating time bubbles, you seamlessly adjust to rapid shifts in time. You are immune to the effects of &lt;LSTag Type="Status" Tooltip="HASTE_LETHARGY"&gt;Lethargy&lt;/LSTag&gt; from spells like &lt;LSTag Type="Spell" Tooltip="Target_Haste"&gt;Haste&lt;/LSTag&gt;, as well as the effects of &lt;LSTag Type="Spell" Tooltip="Target_Slow"&gt;Slow&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Shout_TimeStop"&gt;Time Stop&lt;/LSTag&gt; spells, and from moving out of time bubbles. The effect of a cadmium bubble still affects you.</content>
     <content contentuid="hab4e99b3bb45479e8c37528bfaa1528cb9ga" version="1">Masks of Gold</content>
-    <content contentuid="h887dc2c50f75467a96688d4f31bddd49gc82" version="1">You have mastered the use of Gold Shadows, enabling you to exploit their potential with greater ease. As an action, summon a Gold Shadow that only you can see and that cannot interact with anything. As a bonus action, you can merge into the shadow, taking the shadow's position and destroying it in the process.</content>
+    <content contentuid="h887dc2c50f75467a96688d4f31bddd49gc82" version="1">You have mastered the use of Gold Shadows, enabling you to exploit their potential with greater ease. As an action, summon a Gold Shadow that only you can see and that cannot interact with anything. As a bonus action, you can merge into the shadow, taking the shadow's position and destroying it in the process.&lt;br&gt;&lt;br&gt; Requires learning Gold to use.</content>
     <content contentuid="h22db202068234fd98ce7b8232776e722g570" version="1">Burn gold to summon a Gold Shadow that can not interact with anything and is visible only to you. Like other gold abilities, this process is mentally taxing and you will take [1] damage. You may choose to merge with the shadow and take its position whenever you want, destroying the shadow in the process.</content>
     <content contentuid="hae09af39e55f43df8a2cdd1f6d6a8e731e6c" version="1">Gold Shadow Merge</content>
     <content contentuid="h27619b5b85104e908a662d40aef55fa30cbc" version="1">Merge with your Gold Shadow and take its position. This process will destroy the shadow. Like other gold abilities, this process is mentally taxing and you will take [1] damage.</content>
@@ -477,4 +483,23 @@
     <content contentuid="h5e599c90fa804ddeab416861ce530c04ecgb" version="1">You have become highly efficient in manipulating Cadmium and Bendalloy time bubbles. Maintaining these bubbles now costs only 1 Metal Reserve per turn instead of 2.</content>
     <content contentuid="h5f86845020c1447eafd996f4c6b0d5bfb03b" version="1">Temporal Potency</content>
     <content contentuid="hc7ef1437fec9461ea2a0b30bdd251f84df05" version="1">Your time bubbles have become significantly more potent. Bendalloy bubbles now grant an additional action per turn and an additional 2 AC. Cadmium bubbles reduce AC and Dexterity saving throws by an additional 2 and quarter movement speed instead of halving it.</content>
+    <!--Enhancement Allomancer-->
+    <content contentuid="hb08d2ef82a0c4d3fa3c9b91b401809d80efd" version="1">Combat Enhancement</content>
+    <content contentuid="h705e2032e17b4c049a69a9baa19087e23078" version="1">You learn to combine your weapon attacks and enhancement allomancy. When you successfully hit with a melee weapon attack, you may activate the effect of Chromium Leach or Nicrosil Infuse on the creature you hit.</content>
+    <content contentuid="hb8b01831ba4d43ea97223a38c35e183cd8f8" version="1">Aluminum Specialist</content>
+    <content contentuid="he044376b503e4e6e9f9ea91d85bea9625f64" version="1">You learn other ways to utilize the nullifying effects of aluminum. Once per long rest, you can choose to augment an ally's helmet, body armor, or weapon with aluminum for different effects.&lt;br&gt;&lt;br&gt; Require learning Aluminum to use.</content>
+    <content contentuid="h03f25b54a68545e08f153b6da0dd1b0bg0dc" version="1">Aluminum Armor</content>
+    <content contentuid="h656f992f72174ea397f7344cdc5f83c0110c" version="1">Utilize the nullifying effects of aluminum by integrating it on an ally's armor, allowing them to nullify a spell targeting you.</content>
+    <content contentuid="hab762bde53fc48eeae6b9bd2274234cbcdab" version="1">If the spell is higher than your proficiency bonus, you must make a &lt;LSTag Tooltip="AbilityCheck"&gt;check&lt;/LSTag&gt; using your spellcasting ability to prevent it. The check's difficulty is equal to [1] plus the level of the spell you are trying to counter.</content>
+    <content contentuid="h154c06ba35844d1ca44ae05f804168d9gd95" version="1">Aluminum Helm</content>
+    <content contentuid="hf624dcbd2a8a45cdaa42a1860e349ca1e29a" version="1">Utilize the nullifying effects of aluminum by integrating it on an ally's helmet, granting them advantage to &lt;LSTag Type="Status" Tooltip="CHARMED"&gt;charm&lt;/LSTag&gt; and &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;frightened&lt;/LSTag&gt;.</content>
+    <content contentuid="h247826c862e6481bacc025c6e7b0df8533ae" version="1">Aluminum Weapon</content>
+    <content contentuid="h2a2b2f0872cb47f9b10467a1a93ccefdeeea" version="1">Utilize the nullifying effects of aluminum by integrating it on an ally's weapon, granting them immunity to &lt;LSTag Type="Status" Tooltip="DISARM"&gt;disarm&lt;/LSTag&gt; and +1 to &lt;LSTag Tooltip="AttackRoll"&gt;attack rolls&lt;/LSTag&gt;.</content>
+    <content contentuid="h157bf07583ed43de823ca62777eff35318g1" version="1">You can nullify a spell targeting you.</content>
+    <content contentuid="h95ea2d6e493e41f0a4159678585e57d1bf05" version="1">You have &lt;LSTag Tooltip="Advantage"&gt;advantage&lt;/LSTag&gt; to &lt;LSTag Type="Status" Tooltip="CHARMED"&gt;charm&lt;/LSTag&gt; and &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;frightened&lt;/LSTag&gt;.</content>
+    <content contentuid="h735e267a86cd45069355e156b327c84b72b1" version="1">You have immunity to &lt;LSTag Type="Status" Tooltip="DISARM"&gt;disarm&lt;/LSTag&gt; and +1 to &lt;LSTag Tooltip="AttackRoll"&gt;attack rolls&lt;/LSTag&gt;.</content>
+    <content contentuid="h1e7d85d8769b467cb3c962f32d4fbabc3g1b" version="1">Controlled Burst</content>
+    <content contentuid="hd1b952d2d11b47d5893e33d580ce70432084" version="1">You now have complete control over the potent effects of Duralumin and Nicrosil. Duralumin abilities and Nicrosil Boost now cost significantly less Metal Reserves for the same effect. Additionally, Duralumin abilities can now be used without expending a bonus action.</content>
+    <content contentuid="ha6b2b7b051584cc09641382c23fd6d9a2b31" version="1">Extended Effect</content>
+    <content contentuid="h7ff18c91b3474133b3d363807dbc3446985g" version="1">You can now use your Enhancement abilities from a distance. The range of Nicrosil Infuse and Chromium Leach increases to [1]. Additionally, when you use these abilities, you also trigger the Extra Attack feature.</content>
 </contentList>

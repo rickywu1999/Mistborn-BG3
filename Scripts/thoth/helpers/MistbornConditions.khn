@@ -39,9 +39,10 @@ end
 
 function MistbornCounterspell(level)
     local spellPowerLevel = SpellPowerLevelEqualOrLessThan(level)
+    local ability = context.PreferredCastingAbility
     if not spellPowerLevel.Result then
         local counterspellDC = 10 + context.HitDescription.SpellPowerLevel
-        local st = AbilityCheck(Ability.Wisdom, counterspellDC, false, false, 0, context.Observer, context.Observer)
+        local st = AbilityCheck(ability, counterspellDC, false, false, 0, context.Observer, context.Observer)
         return ConditionResult(st.Result,{},{},st.Chance)
     end
     return ConditionResult(true,{},{},1.0)
@@ -153,6 +154,30 @@ function MistbornHasMentalStatuses()
     | HasStatus('RIOTANGER_FLARE')
     | HasStatus('MENTAL_DURALUMIN_EMOTIONLESS')
     | HasStatus('FEARED_ZINC')
+end
+
+function MistbornDuraluminAbilities()
+    return SpellId('Physical_Iron_Pull_Duralumin') 
+    | SpellId('Physical_Steel_Push_Duralumin') 
+    | SpellId('Physical_Steel_CoinShot_Duralumin') 
+    | SpellId('Physical_Pewter_Duralumin') 
+    | SpellId('Mental_Brass_Duralumin') 
+    | SpellId('Mental_Zinc_Duralumin') 
+    | SpellId('Enhancement_Chromium_Duralumin') 
+    | SpellId('Temporal_Cadmium_Duralumin') 
+    | SpellId('Temporal_Bendalloy_Duralumin') 
+end
+
+function MistbornExtendedEffectAbilities()
+    return SpellId('Chromium_Leach_Base') 
+    | SpellId('Chromium_Leach_Enhance') 
+    | SpellId('Chromium_Leach_Flare') 
+    | SpellId('Nicrosil_Boost_Enhance') 
+    | SpellId('Nicrosil_Boost_Flare') 
+end
+
+function MistbornTwinned()
+    return (TwinnedProjectileSpellCheck() | TwinnedTargetSpellCheck() | TwinnedTargetTouchSpellCheck()) & SpellLevelEqualOrLessThan(6) & ~HasUseCosts('BonusActionPoint')
 end
 
 function MBHumM()

@@ -101,9 +101,8 @@
                     <attribute id="Boosts" type="LSString" value="ActionResource(MetalReserves,1,0)"/>
                     <attribute id="Level" type="uint8" value="7"/>
                     <attribute id="Name" type="LSString" value="Mistborn"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Metal_Flaring;Evasion"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Metal_Flaring"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
-                    <attribute id="Selectors" type="LSString" value="SelectPassives(f94764f3-0a6a-4492-b42e-333ea67e2b28,1,Choosable_Metals)"/>
                     <attribute id="TableUUID" type="guid" value="6e5e6b00-d045-4c13-98fb-3e895b3b9940"/>
                     <attribute id="UUID" type="guid" value="269c77eb-29e9-4490-a395-19497c74c188"/>
                 </node>
@@ -122,9 +121,8 @@
                     <attribute id="Boosts" type="LSString" value="ActionResource(MetalReserves,1,0);ActionResource(Allomantic_Reflex_Resource,1,0)"/>
                     <attribute id="Level" type="uint8" value="9"/>
                     <attribute id="Name" type="LSString" value="Mistborn"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Allomantic_Reflexes;Allomantic_Reflexes_Iron;Allomantic_Reflexes_Steel;Allomantic_Reflexes_Brass;Allomantic_Reflexes_Zinc;Allomantic_Reflexes_Chromium"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Allomantic_Reflexes;Allomantic_Reflexes_Iron;Allomantic_Reflexes_Steel;Allomantic_Reflexes_Brass;Allomantic_Reflexes_Zinc;Allomantic_Reflexes_Chromium;Allomantic_Reflexes_Pewter"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
-                    <attribute id="Selectors" type="LSString" value="SelectPassives(f94764f3-0a6a-4492-b42e-333ea67e2b28,1,Choosable_Metals)"/>
                     <attribute id="TableUUID" type="guid" value="6e5e6b00-d045-4c13-98fb-3e895b3b9940"/>
                     <attribute id="UUID" type="guid" value="c1cc55b8-2986-48a9-9141-a716a1ff2bb5"/>
                 </node>
@@ -144,7 +142,6 @@
                     <attribute id="Level" type="uint8" value="11"/>
                     <attribute id="Name" type="LSString" value="Mistborn"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
-                    <attribute id="Selectors" type="LSString" value="SelectPassives(f94764f3-0a6a-4492-b42e-333ea67e2b28,1,Choosable_Metals)"/>
                     <attribute id="TableUUID" type="guid" value="6e5e6b00-d045-4c13-98fb-3e895b3b9940"/>
                     <attribute id="UUID" type="guid" value="049bed03-8cce-496d-9608-f6f5409f2f61"/>
                 </node>
@@ -170,7 +167,7 @@
                     <attribute id="Level" type="uint8" value="13"/>
                     <attribute id="Name" type="LSString" value="Mistborn"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
-                    <attribute id="Selectors" type="LSString" value="SelectPassives(f94764f3-0a6a-4492-b42e-333ea67e2b28,1,Choosable_Metals);AddSpells(95755291-c3a3-459a-86da-e11cd733c519)"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(95755291-c3a3-459a-86da-e11cd733c519)"/>
                     <attribute id="TableUUID" type="guid" value="6e5e6b00-d045-4c13-98fb-3e895b3b9940"/>
                     <attribute id="UUID" type="guid" value="16bbdea8-14eb-4108-b6c0-8264563a3720"/>
                 </node>
@@ -180,7 +177,7 @@
                     <attribute id="Level" type="uint8" value="14"/>
                     <attribute id="Name" type="LSString" value="Mistborn"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
-                    <attribute id="Selectors" type="LSString" value="AddSpells(24c3f5f2-2df8-4367-b7b7-082e9a10d111)"/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(f94764f3-0a6a-4492-b42e-333ea67e2b28,1,Choosable_Metals);AddSpells(24c3f5f2-2df8-4367-b7b7-082e9a10d111)"/>
                     <attribute id="TableUUID" type="guid" value="6e5e6b00-d045-4c13-98fb-3e895b3b9940"/>
                     <attribute id="UUID" type="guid" value="53c3bd81-572d-4f02-a978-e234e2eacb3d"/>
                 </node>
@@ -189,7 +186,7 @@
                     <attribute id="Level" type="uint8" value="15"/>
                     <attribute id="Name" type="LSString" value="Mistborn"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
-                    <attribute id="Selectors" type="LSString" value="SelectPassives(f94764f3-0a6a-4492-b42e-333ea67e2b28,1,Choosable_Metals);SelectPassives(3f1af736-c1ef-497d-92a7-65267e4a4508,1,Metal_Savant);"/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(3f1af736-c1ef-497d-92a7-65267e4a4508,1,Metal_Savant);"/>
                     <attribute id="TableUUID" type="guid" value="6e5e6b00-d045-4c13-98fb-3e895b3b9940"/>
                     <attribute id="UUID" type="guid" value="1cd20648-f579-474c-846f-ae989e348342"/>
                 </node>
@@ -199,6 +196,7 @@
                     <attribute id="Level" type="uint8" value="16"/>
                     <attribute id="Name" type="LSString" value="Mistborn"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(f94764f3-0a6a-4492-b42e-333ea67e2b28,1,Choosable_Metals)"/>
                     <attribute id="TableUUID" type="guid" value="6e5e6b00-d045-4c13-98fb-3e895b3b9940"/>
                     <attribute id="UUID" type="guid" value="476abebf-dd65-47ba-93d6-48e6f379c5ec"/>
                 </node>
@@ -207,7 +205,6 @@
                     <attribute id="Level" type="uint8" value="17"/>
                     <attribute id="Name" type="LSString" value="Mistborn"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
-                    <attribute id="Selectors" type="LSString" value="SelectPassives(f94764f3-0a6a-4492-b42e-333ea67e2b28,1,Choosable_Metals)"/>
                     <attribute id="TableUUID" type="guid" value="6e5e6b00-d045-4c13-98fb-3e895b3b9940"/>
                     <attribute id="UUID" type="guid" value="7b1466a1-ddd7-445b-bc49-46636abe5d0e"/>
                 </node>
@@ -217,6 +214,7 @@
                     <attribute id="Level" type="uint8" value="18"/>
                     <attribute id="Name" type="LSString" value="Mistborn"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(f94764f3-0a6a-4492-b42e-333ea67e2b28,1,Choosable_Metals)"/>
                     <attribute id="TableUUID" type="guid" value="6e5e6b00-d045-4c13-98fb-3e895b3b9940"/>
                     <attribute id="UUID" type="guid" value="1487f86a-1d84-4afb-a86d-d7d63f37d637"/>
                 </node>
@@ -225,7 +223,6 @@
                     <attribute id="Level" type="uint8" value="19"/>
                     <attribute id="Name" type="LSString" value="Mistborn"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
-                    <attribute id="Selectors" type="LSString" value="SelectPassives(f94764f3-0a6a-4492-b42e-333ea67e2b28,1,Choosable_Metals)"/>
                     <attribute id="TableUUID" type="guid" value="6e5e6b00-d045-4c13-98fb-3e895b3b9940"/>
                     <attribute id="UUID" type="guid" value="69954fec-e59a-46c3-8b3f-a745f718fa36"/>
                 </node>
@@ -235,7 +232,7 @@
                     <attribute id="Level" type="uint8" value="20"/>
                     <attribute id="Name" type="LSString" value="Mistborn"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
-                    <attribute id="Selectors" type="LSString" value="AddSpells(3bea8111-7d3e-4381-8e28-f101e1d779be)"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(3bea8111-7d3e-4381-8e28-f101e1d779be);SelectPassives(f94764f3-0a6a-4492-b42e-333ea67e2b28,4,Choosable_Metals)"/>
                     <attribute id="TableUUID" type="guid" value="6e5e6b00-d045-4c13-98fb-3e895b3b9940"/>
                     <attribute id="UUID" type="guid" value="1a0327d4-377e-49b9-84d2-f382e2bde597"/>
                 </node>
@@ -375,7 +372,7 @@
                     <attribute id="AllowImprovement" type="bool" value="false"/>
                     <attribute id="Level" type="uint8" value="3"/>
                     <attribute id="Name" type="LSString" value="EnhancementAllomancer"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Class_Feature_Metal_Deflection"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Class_Feature_Combat_Enhancement"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="TableUUID" type="guid" value="68d5d316-8dd9-4fe8-b31e-e295bdb12a9a"/>
                     <attribute id="UUID" type="guid" value="edd4acfd-fc6a-44df-bbaa-700f36450ccb"/>
@@ -384,6 +381,7 @@
                     <attribute id="AllowImprovement" type="bool" value="false"/>
                     <attribute id="Level" type="uint8" value="6"/>
                     <attribute id="Name" type="LSString" value="EnhancementAllomancer"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Class_Feature_Aluminum_Specialist"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="TableUUID" type="guid" value="68d5d316-8dd9-4fe8-b31e-e295bdb12a9a"/>
                     <attribute id="UUID" type="guid" value="2d7171bf-0820-441e-8b2d-2f3b2b66ea36"/>
@@ -392,6 +390,7 @@
                     <attribute id="AllowImprovement" type="bool" value="false"/>
                     <attribute id="Level" type="uint8" value="11"/>
                     <attribute id="Name" type="LSString" value="EnhancementAllomancer"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Class_Feature_Extended_Effect"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="TableUUID" type="guid" value="68d5d316-8dd9-4fe8-b31e-e295bdb12a9a"/>
                     <attribute id="UUID" type="guid" value="d0d91ad6-71a0-4714-b7ee-366c357deb9c"/>
@@ -400,6 +399,7 @@
                     <attribute id="AllowImprovement" type="bool" value="false"/>
                     <attribute id="Level" type="uint8" value="17"/>
                     <attribute id="Name" type="LSString" value="EnhancementAllomancer"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Class_Feature_Controlled_Burst"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="TableUUID" type="guid" value="68d5d316-8dd9-4fe8-b31e-e295bdb12a9a"/>
                     <attribute id="UUID" type="guid" value="a75e6af1-05cc-4745-9b5a-6fa1030139e5"/>
