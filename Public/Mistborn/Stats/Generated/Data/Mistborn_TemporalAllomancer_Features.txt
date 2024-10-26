@@ -7,6 +7,13 @@ data "Boosts" "StatusImmunity(SLOW);StatusImmunity(HASTE_LETHARGY);StatusImmunit
 data "Icon" "Passive_TemporalAllomancer_Chronostamina"
 data "Properties" "Highlighted"
 
+new entry "Class_Feature_Chronostamina_Extra"
+type "PassiveData"
+data "BoostContext" "OnStatusApplied;OnStatusRemoved"
+data "BoostConditions" "HasStatus('BENDALLOY_HASTE') or HasStatus('BENDALLOY_HASTE_POTENT') or HasStatus('CADMIUM_SLOW') or HasStatus('CADMIUM_SLOW_POTENT')"
+data "Boosts" "Advantage(Concentration)"
+data "Properties" "IsHidden"
+
 
 
 

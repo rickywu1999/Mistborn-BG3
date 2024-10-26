@@ -331,7 +331,7 @@
                     <attribute id="AllowImprovement" type="bool" value="false"/>
                     <attribute id="Level" type="uint8" value="3"/>
                     <attribute id="Name" type="LSString" value="TemporalAllomancer"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Class_Feature_Chronostamina"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Class_Feature_Chronostamina;Class_Feature_Chronostamina_Extra"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="TableUUID" type="guid" value="a01b590c-f5de-460d-98d8-e2d202342b1c"/>
                     <attribute id="UUID" type="guid" value="df5914c2-7cae-4fb2-bc96-205a7fc69a2c"/>

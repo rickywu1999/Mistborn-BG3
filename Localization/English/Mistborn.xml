@@ -87,7 +87,7 @@
 	<content contentuid="hc8c9cd00588847d19fe26e544db7166510cf" version="1">Iron Redirection (End)</content>
     <content contentuid="hb087aa7ac9d24efcae534035fea84708d85g" version="1">Stop burning iron to end Iron Redirection.</content>
     <content contentuid="h60d706c025bb4834971f166fcf4ea2f56a2d" version="1">Iron Disarm</content>
-    <content contentuid="he6aa05d79ebb4b288c04feb54a1d719e968f" version="1">Burn iron to yank the weapon from the target’s grip, disarming them with a swift pull.</content>
+    <content contentuid="he6aa05d79ebb4b288c04feb54a1d719e968f" version="1">Burn iron to yank a metal weapon from the target’s grip, disarming them with a swift pull.</content>
     <!--Steel-->
 	<content contentuid="h29d5f47696104527b1968d1b760ab016c2gc" version="1">Steel Shove</content>
     <content contentuid="h40d2c1de0b73482b8e20d8d62513602d9088" version="1">Burn steel to push a metal target of equal or smaller size [1] away. If the target is not an ally, deal damage upon impact.</content>
@@ -180,6 +180,7 @@
     <content contentuid="hca1a593627fc4279b1f432278096112c97f3" version="1">Wary</content>
     <content contentuid="h3f6fd7bdde1148c4b8810981c311f15a3514" version="1">Wary (Enhance)</content>
     <content contentuid="he4a614d675e64ce29fa1d53f404be0d32a9c" version="1">Wary (Flare)</content>
+    <content contentuid="h5afeb56409ca458580e26c12e3305c0de9c2" version="1">Decrease &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; by [1] and increase &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; by [1].</content>
     <!--Copper-->
     <content contentuid="h29359fe7faee4d97b2c277283100d0b28gg7" version="1">Copper Nondetection</content>
     <content contentuid="h2309a5123ce644ada9b3ab60512f18a1bfd3" version="1">Burn copper to create a coppercloud to hide nearby allies from divination magic and prevent them from being targeted by divination spells.</content>
@@ -242,6 +243,7 @@
     <content contentuid="hbcd72eb422bc4c358e22d3f14d301094f72f" version="1">Bendalloy Bubble (Flare)</content>
     <content contentuid="h7e31e5d781174392a7d14dbfb4257f42350a" version="1">Lethargy Immunity</content>
     <content contentuid="hff28cb4df0ed40fe8174bb09f6741761f23c" version="1">You are immune to &lt;LSTag Type="Status" Tooltip="HASTE_LETHARGY"&gt;Lethargy&lt;/LSTag&gt; this turn.</content>
+    <content contentuid="h9da5b3ba85874db89025a7470c095e0248f8" version="1">Ending the bubble manually or running out of &lt;LSTag Type="ActionResource" Tooltip="MetalReserves"&gt;Metal Reserves&lt;/LSTag&gt; on your turn will not cause &lt;LSTag Type="Status" Tooltip="HASTE_LETHARGY"&gt;Lethargy&lt;/LSTag&gt; to affect creatures inside the bubble. However, if your concentration is broken for any other reason, all creatures within the bubble must succeed on a DC 14 Wisdom &lt;LSTag Tooltip="SavingThrow"&gt;saving throw&lt;/LSTag&gt; or become &lt;LSTag Type="Status" Tooltip="HASTE_LETHARGY"&gt;Lethargic&lt;/LSTag&gt;.</content>
     <!--Cadmium-->
     <content contentuid="h9077d58778584f069fe3d0e5e50e3266c60c" version="1">Cadmium Bubble</content>
     <content contentuid="hf3a334479b694043a42c54948d7ab880eddc" version="1">Burn cadmium to create a time bubble that slows down time and applies &lt;LSTag Type="Status" Tooltip="CADMIUM_SLOW"&gt;Slow&lt;/LSTag&gt; to all creatures inside the bubble. Any creatures that leave the bubble must pass a DC 14 Wisdom saving throw or become &lt;LSTag Type="Status" Tooltip="HASTE_LETHARGY"&gt;Lethargic&lt;/LSTag&gt;. The bubble's surface blocks direct attacks from passing in or out.</content>
@@ -429,9 +431,9 @@
     <content contentuid="h59bd5f796e8940f9b2d927d7ec401a687b8f" version="1">Nicrosil Savant</content>
     <content contentuid="h211ad0f6f94d4b53925ec66881eacd7780c4" version="1">Your mastery over Nicrosil allows you to infuse a target regardless of how long ago they last used their magic, allowing you to boost their magic without time constraints.</content>
     <content contentuid="h9fb9a295a71c4a5f9b9ee8676b22e9f91d21" version="1">Bendalloy Savant</content>
-    <content contentuid="h6d18b7a6fec84e4e853ee030c999be811ga7" version="1">As a Bendalloy Savant, you can now move with your Bendalloy bubble, carrying the compressed time field with you as you act, allowing you to manipulate time on the go. Does not apply to bubbles created with duralumin.</content>
+    <content contentuid="h6d18b7a6fec84e4e853ee030c999be811ga7" version="1">As a Bendalloy Savant, you can now move with your Bendalloy bubble, carrying the compressed time field with you as you act, allowing you to manipulate time on the go. This does not apply to bubbles created with duralumin. Additionally, your movement while moving with the bubble is reduced.</content>
     <content contentuid="h5e3b479719ab46f89c6943f10a8c5b9c69ce" version="1">Cadmium Savant</content>
-    <content contentuid="hdc70e19c5dd8401ea81248368f71567add10" version="1">As a Cadmium Savant, you can now move with your Cadmium bubble, carrying the compressed time field with you as you act, allowing you to manipulate time on the go. Does not apply to bubbles created with duralumin.</content>
+    <content contentuid="hdc70e19c5dd8401ea81248368f71567add10" version="1">As a Cadmium Savant, you can now move with your Cadmium bubble, carrying the compressed time field with you as you act, allowing you to manipulate time on the go. This does not apply to bubbles created with duralumin.</content>
     <content contentuid="h835faaa1543244eab166d729a793457a8a48" version="1">Your mastery of electrum grants you unparalleled foresight. &lt;br&gt;&lt;br&gt;You gain permanent immunity to opportunity attacks, allowing you to move freely through the battlefield as you anticipate your enemies' every strike.</content>
     <content contentuid="h98fef4a8d26a4201b3af599fc274fb2a76a2" version="1">Electrum Savant</content>
     <content contentuid="h83e54bee71d0490d9a6b2ed233f38cbafd57" version="1">Gold Savant</content>
@@ -473,7 +475,7 @@
     <content contentuid="h56aad03ad16f47528aeb534446890e15d577" version="1">You have +[1] to all Saving Throws.</content>
     <!--Temporal Allomancer-->
     <content contentuid="h7950b4a2bf9e4ee8917fd535ea8e2ac2288c" version="1">Chronostamina</content>
-    <content contentuid="ha3edf543717f4ea9a7bc18ec2176c0aff5f7" version="1">As a master of manipulating time bubbles, you seamlessly adjust to rapid shifts in time. You are immune to the effects of &lt;LSTag Type="Status" Tooltip="HASTE_LETHARGY"&gt;Lethargy&lt;/LSTag&gt; from spells like &lt;LSTag Type="Spell" Tooltip="Target_Haste"&gt;Haste&lt;/LSTag&gt;, as well as the effects of &lt;LSTag Type="Spell" Tooltip="Target_Slow"&gt;Slow&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Shout_TimeStop"&gt;Time Stop&lt;/LSTag&gt; spells, and from moving out of time bubbles. The effect of a cadmium bubble still affects you.</content>
+    <content contentuid="ha3edf543717f4ea9a7bc18ec2176c0aff5f7" version="1">As a master of manipulating time bubbles, you seamlessly adjust to rapid shifts in time. You are immune to the effects of &lt;LSTag Type="Status" Tooltip="HASTE_LETHARGY"&gt;Lethargy&lt;/LSTag&gt; from spells like &lt;LSTag Type="Spell" Tooltip="Target_Haste"&gt;Haste&lt;/LSTag&gt;, as well as the effects of &lt;LSTag Type="Spell" Tooltip="Target_Slow"&gt;Slow&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Shout_TimeStop"&gt;Time Stop&lt;/LSTag&gt; spells, and from moving out of time bubbles. The effect of a cadmium bubble still affects you. &lt;br&gt;&lt;br&gt; Additionally, you have &lt;LSTag Tooltip="Advantage"&gt;advantage&lt;/LSTag&gt; for maintaining concentration while in a time bubble.</content>
     <content contentuid="hab4e99b3bb45479e8c37528bfaa1528cb9ga" version="1">Masks of Gold</content>
     <content contentuid="h887dc2c50f75467a96688d4f31bddd49gc82" version="1">You have mastered the use of Gold Shadows, enabling you to exploit their potential with greater ease. As an action, summon a Gold Shadow that only you can see and that cannot interact with anything. As a bonus action, you can merge into the shadow, taking the shadow's position and destroying it in the process.&lt;br&gt;&lt;br&gt; Requires learning Gold to use.</content>
     <content contentuid="h22db202068234fd98ce7b8232776e722g570" version="1">Burn gold to summon a Gold Shadow that can not interact with anything and is visible only to you. Like other gold abilities, this process is mentally taxing and you will take [1] damage. You may choose to merge with the shadow and take its position whenever you want, destroying the shadow in the process.</content>
@@ -492,7 +494,7 @@
     <content contentuid="h656f992f72174ea397f7344cdc5f83c0110c" version="1">Utilize the nullifying effects of aluminum by integrating it on an ally's armor, allowing them to nullify a spell targeting you.</content>
     <content contentuid="hab762bde53fc48eeae6b9bd2274234cbcdab" version="1">If the spell is higher than your proficiency bonus, you must make a &lt;LSTag Tooltip="AbilityCheck"&gt;check&lt;/LSTag&gt; using your spellcasting ability to prevent it. The check's difficulty is equal to [1] plus the level of the spell you are trying to counter.</content>
     <content contentuid="h154c06ba35844d1ca44ae05f804168d9gd95" version="1">Aluminum Helm</content>
-    <content contentuid="hf624dcbd2a8a45cdaa42a1860e349ca1e29a" version="1">Utilize the nullifying effects of aluminum by integrating it on an ally's helmet, granting them advantage to &lt;LSTag Type="Status" Tooltip="CHARMED"&gt;charm&lt;/LSTag&gt; and &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;frightened&lt;/LSTag&gt;.</content>
+    <content contentuid="hf624dcbd2a8a45cdaa42a1860e349ca1e29a" version="1">Utilize the nullifying effects of aluminum by integrating it on an ally's helmet, granting them &lt;LSTag Tooltip="Advantage"&gt;advantage&lt;/LSTag&gt; to &lt;LSTag Type="Status" Tooltip="CHARMED"&gt;charm&lt;/LSTag&gt; and &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;frightened&lt;/LSTag&gt;.</content>
     <content contentuid="h247826c862e6481bacc025c6e7b0df8533ae" version="1">Aluminum Weapon</content>
     <content contentuid="h2a2b2f0872cb47f9b10467a1a93ccefdeeea" version="1">Utilize the nullifying effects of aluminum by integrating it on an ally's weapon, granting them immunity to &lt;LSTag Type="Status" Tooltip="DISARM"&gt;disarm&lt;/LSTag&gt; and +1 to &lt;LSTag Tooltip="AttackRoll"&gt;attack rolls&lt;/LSTag&gt;.</content>
     <content contentuid="h157bf07583ed43de823ca62777eff35318g1" version="1">You can nullify a spell targeting you.</content>

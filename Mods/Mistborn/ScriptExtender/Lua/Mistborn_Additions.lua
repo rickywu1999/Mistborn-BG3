@@ -110,33 +110,6 @@ Ext.Osiris.RegisterListener("StatusApplied", 4, "after", function(object, status
     end
 end)
 
-Ext.Osiris.RegisterListener("UsingSpell", 5, "before", function(_, spell, _, _, _)
-    if spell == "BendalloyBubble_End" then
-        local combatParticipants = Osi["DB_Is_InCombat"]:Get(nil, nil)
-        for _, row in pairs(combatParticipants) do
-            local participantTpl = row[1]
-            local participantGUID = string.sub(participantTpl, -36)
-            local participantEntity = Ext.Entity.Get(participantGUID)
-            if Osi.HasActiveStatus(participantTpl,"BENDALLOY_HASTE") == 1 or Osi.HasActiveStatus(participantTpl,"BENDALLOY_HASTE_POTENT") == 1 then
-                Osi.ApplyStatus(participantTpl,"TIMEBUBBLE_LETHARGY_IMMUNITY",1)
-                participantEntity:Replicate("CombatParticipant")
-            end
-        end
-    end
-    if spell == "CadmiumBubble_End" then
-        local combatParticipants = Osi["DB_Is_InCombat"]:Get(nil, nil)
-        for _, row in pairs(combatParticipants) do
-            local participantTpl = row[1]
-            local participantGUID = string.sub(participantTpl, -36)
-            local participantEntity = Ext.Entity.Get(participantGUID)
-            if Osi.HasActiveStatus(participantTpl,"CADMIUM_SLOW") == 1 or Osi.HasActiveStatus(participantTpl,"CADMIUM_SLOW_POTENT") == 1 then
-                Osi.ApplyStatus(participantTpl,"TIMEBUBBLE_LETHARGY_IMMUNITY",1)
-                participantEntity:Replicate("CombatParticipant")
-            end
-        end
-    end
-end)
-
 Ext.Osiris.RegisterListener("UsingSpell", 5, "after", function(caster, spell, _, _, _)
     if string.match(spell,"AlterFightingStyle") then
         local entity = Ext.Entity.Get(caster)
