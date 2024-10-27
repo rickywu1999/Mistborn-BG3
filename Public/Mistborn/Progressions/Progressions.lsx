@@ -121,7 +121,7 @@
                     <attribute id="Boosts" type="LSString" value="ActionResource(MetalReserves,1,0);ActionResource(Allomantic_Reflex_Resource,1,0)"/>
                     <attribute id="Level" type="uint8" value="9"/>
                     <attribute id="Name" type="LSString" value="Mistborn"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Allomantic_Reflexes;Allomantic_Reflexes_Iron;Allomantic_Reflexes_Steel;Allomantic_Reflexes_Brass;Allomantic_Reflexes_Zinc;Allomantic_Reflexes_Chromium;Allomantic_Reflexes_Pewter"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Allomantic_Reflexes;"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
                     <attribute id="TableUUID" type="guid" value="6e5e6b00-d045-4c13-98fb-3e895b3b9940"/>
                     <attribute id="UUID" type="guid" value="c1cc55b8-2986-48a9-9141-a716a1ff2bb5"/>

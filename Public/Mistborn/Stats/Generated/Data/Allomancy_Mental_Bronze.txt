@@ -30,6 +30,7 @@ data "StatusType" "BOOST"
 using "DETECT_MAGIC_AURA"
 data "Icon" "Spell_Mental_Bronze_DetectMagic"
 data "StatusEffect" "18f37e12-5586-49cf-8559-c2a677505e2b"
+data "StackType" "Ignore"
 
 new entry "BRONZE_DETECT_MAGIC_AURA_SAVANT"
 type "StatusData"

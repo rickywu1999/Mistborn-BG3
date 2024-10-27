@@ -122,6 +122,7 @@ data "Description" "h157bf07583ed43de823ca62777eff35318g1;8"
 data "Icon" "Passive_EnhancementAllomancer_AluminumArmor"
 data "Boosts" "UnlockInterrupt(Interrupt_Aluminum_Counterspell)"
 data "StatusPropertyFlags" "ApplyToDead"
+data "StackType" "Ignore"
 
 new entry "Aluminum_Equipment"
 type "SpellData"
@@ -199,6 +200,7 @@ data "Description" "h95ea2d6e493e41f0a4159678585e57d1bf05;8"
 data "Icon" "Passive_EnhancementAllomancer_AluminumHelm"
 data "Boosts" "Tag(CHARMED_ADV);Tag(FRIGHTENED_ADV)"
 data "StatusPropertyFlags" "ApplyToDead"
+data "StackType" "Ignore"
 
 new entry "Aluminum_Weapon"
 type "SpellData"
@@ -219,11 +221,13 @@ data "Description" "h735e267a86cd45069355e156b327c84b72b1;2"
 data "Icon" "Passive_EnhancementAllomancer_AluminumWeapon"
 data "Boosts" "CannotBeDisarmed();StatusImmunity(DISARM);RollBonus(Attack,1)"
 data "StatusPropertyFlags" "ApplyToDead"
+data "StackType" "Ignore"
 
 new entry "ALUMINUM_SPECIALIST"
 type "StatusData"
 data "StatusType" "BOOST"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;ApplyToDead"
+data "StackType" "Ignore"
 
 
 
