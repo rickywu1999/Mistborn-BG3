@@ -121,7 +121,6 @@ data "DisplayName" "h1c59c19d18394de0a6dd59ab1a630b0d1629;2"
 data "Boosts" "CannotHarmCauseEntity(CannotHarmThroughTemporalBubble)"
 data "StatusGroups" "SG_RemoveOnRespec"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
-data "StackType" "Ignore"
 
 new entry "BENDALLOY_HASTE"
 type "StatusData"
