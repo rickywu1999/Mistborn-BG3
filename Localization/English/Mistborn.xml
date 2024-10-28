@@ -235,7 +235,7 @@
     <content contentuid="h5dff4d266e404685ba907d1181ddc75a2d3b" version="1">Burn electrum to see shadows of your movement a few seconds into the future. Using this information, you see potential attacks before they happen and avoid all &lt;LSTag Tooltip="OpportunityAttack"&gt;opportunity attacks&lt;/LSTag&gt; while moving.</content>
     <!--Bendalloy-->
     <content contentuid="h1eddc236826842d08e4a46a0af3c17a9cb2e" version="1">Bendalloy Bubble</content>
-    <content contentuid="h710affb86c194f17aa0fcbbe3ce25182ba0b" version="1">Burn bendalloy to create a time bubble that speeds up time and applies &lt;LSTag Type="Status" Tooltip="BENDALLOY_HASTE"&gt;Haste&lt;/LSTag&gt; to all creatures inside the bubble. Any creatures that leave the bubble must pass a DC 14 Wisdom saving throw or become &lt;LSTag Type="Status" Tooltip="HASTE_LETHARGY"&gt;Lethargic&lt;/LSTag&gt;. The bubble's surface blocks direct attacks from passing in or out.</content>
+    <content contentuid="h710affb86c194f17aa0fcbbe3ce25182ba0b" version="1">Burn bendalloy to create a time bubble that speeds up time and applies &lt;LSTag Type="Status" Tooltip="BENDALLOY_HASTE"&gt;Haste&lt;/LSTag&gt; to all creatures inside the bubble. Any creatures that leave the bubble must pass a DC 14 Wisdom saving throw or become &lt;LSTag Type="Status" Tooltip="HASTE_LETHARGY"&gt;Lethargic&lt;/LSTag&gt;. The bubble's surface heavily decreases the accuracy of attacks that pass through.</content>
     <content contentuid="hd78b4c08a97d48fc9bb75aa363e7a6a7f98c" version="1">Bendalloy Bubble (End)</content>
     <content contentuid="h0e14a1c43dbd41a58d72942570b6262ag31e" version="1">Stop maintaining the bendalloy bubble.</content>
     <content contentuid="h6e631e936e21464b9a55f6a1ec23fb42a880" version="1">Bendalloy Haste</content>
@@ -246,7 +246,7 @@
     <content contentuid="h9da5b3ba85874db89025a7470c095e0248f8" version="1">Ending the bubble manually or running out of &lt;LSTag Type="ActionResource" Tooltip="MetalReserves"&gt;Metal Reserves&lt;/LSTag&gt; on your turn will not cause &lt;LSTag Type="Status" Tooltip="HASTE_LETHARGY"&gt;Lethargy&lt;/LSTag&gt; to affect creatures inside the bubble. However, if your concentration is broken for any other reason, all creatures within the bubble must succeed on a DC 14 Wisdom &lt;LSTag Tooltip="SavingThrow"&gt;saving throw&lt;/LSTag&gt; or become &lt;LSTag Type="Status" Tooltip="HASTE_LETHARGY"&gt;Lethargic&lt;/LSTag&gt;.</content>
     <!--Cadmium-->
     <content contentuid="h9077d58778584f069fe3d0e5e50e3266c60c" version="1">Cadmium Bubble</content>
-    <content contentuid="hf3a334479b694043a42c54948d7ab880eddc" version="1">Burn cadmium to create a time bubble that slows down time and applies &lt;LSTag Type="Status" Tooltip="CADMIUM_SLOW"&gt;Slow&lt;/LSTag&gt; to all creatures inside the bubble. Any creatures that leave the bubble must pass a DC 14 Wisdom saving throw or become &lt;LSTag Type="Status" Tooltip="HASTE_LETHARGY"&gt;Lethargic&lt;/LSTag&gt;. The bubble's surface blocks direct attacks from passing in or out.</content>
+    <content contentuid="hf3a334479b694043a42c54948d7ab880eddc" version="1">Burn cadmium to create a time bubble that slows down time and applies &lt;LSTag Type="Status" Tooltip="CADMIUM_SLOW"&gt;Slow&lt;/LSTag&gt; to all creatures inside the bubble. Any creatures that leave the bubble must pass a DC 14 Wisdom saving throw or become &lt;LSTag Type="Status" Tooltip="HASTE_LETHARGY"&gt;Lethargic&lt;/LSTag&gt;. The bubble's surface heavily decreases the accuracy of attacks that pass through.</content>
     <content contentuid="h23191c8236ae4fc9b84b43b956a3d7da5883" version="1">Cadmium Bubble (Flare)</content>
     <content contentuid="h2284e55a74e443e3b1d5e77589885d7fd261" version="1">Cadmium Bubble (End)</content>
     <content contentuid="had7dc4f3654b4f488dbdd67e0788de291g84" version="1">Stop maintaining the cadmium bubble.</content>
@@ -366,14 +366,14 @@
     <content contentuid="h1393d7a723f84624a2595b7db10562e1bb84" version="1">Chromium Drained</content>
     <content contentuid="h9d96165c0cad47af87202eac7b939ef03e6g" version="1">Duralumin-Enhanced Cadmium Bubble</content>
     <content contentuid="hab3fa12b9d304845993cc60799cd3bfca75b" version="1">Cadmium Drained</content>
-    <content contentuid="h03e922716a274a06893a0ff18e39522af5gg" version="1">By burning cadmium with duralumin, dramatically decrease the speed of time in your time bubble. Create a cadmium bubble that lasts 3 turns. All creatures inside the bubbles are affected by &lt;LSTag Type="Status" Tooltip="TIME_STOP_MISTBORN"&gt;Time Stop&lt;/LSTag&gt;. The bubble's surface blocks direct attacks from passing in or out.</content>
+    <content contentuid="h03e922716a274a06893a0ff18e39522af5gg" version="1">By burning cadmium with duralumin, dramatically decrease the speed of time in your time bubble. Create a cadmium bubble that lasts 3 turns. All creatures inside the bubbles are affected by &lt;LSTag Type="Status" Tooltip="TIME_STOP_MISTBORN"&gt;Time Stop&lt;/LSTag&gt;. The bubble's surface heavily decreases the accuracy of attacks that pass through.</content>
     <content contentuid="hdc5f0e2327a04a62a8d10bcb019c753egfd0" version="1">Time Stop</content>
     <content contentuid="h164818de5e3747e1bf9df72ddb7b1457aga6" version="1">Flow of time has stopped for you.</content>
     <content contentuid="h5450d0237ae6411ca3367b2e8d160df5eb8f" version="1">Duralumin-Enhanced Bendalloy Bubble</content>
     <content contentuid="hfae4ce7e90024ecaa96640b703a8eae79aee" version="1">Bendalloy Drained</content>
     <content contentuid="ha4d6ce2d90b1469bacc365e8754ca3238315" version="1">Time Rush</content>
     <content contentuid="h976db10477b84d8ba76ca07578cdb2c578ea" version="1">Flow of time has stopped for those around you.</content>
-    <content contentuid="hb686bd34045448da93acaf1cba78a36672bb" version="1">By burning bendalloy with duralumin, dramatically increase the speed of time in your time bubble. Create a bendalloy bubble that lasts 3 turns. All creatures outside the bubbles are affected by &lt;LSTag Type="Status" Tooltip="TIME_STOP_MISTBORN"&gt;Time Stop&lt;/LSTag&gt;. The bubble's surface blocks direct attacks from passing in or out.</content>
+    <content contentuid="hb686bd34045448da93acaf1cba78a36672bb" version="1">By burning bendalloy with duralumin, dramatically increase the speed of time in your time bubble. Create a bendalloy bubble that lasts 3 turns. All creatures outside the bubbles are affected by &lt;LSTag Type="Status" Tooltip="TIME_STOP_MISTBORN"&gt;Time Stop&lt;/LSTag&gt;. The bubble's surface heavily decreases the accuracy of attacks that pass through.</content>
 
     <!--Subclasses-->
     <content contentuid="h2f04c36773e649178e54920670ed7fa1g85c" version="1">Battle Allomancer</content>

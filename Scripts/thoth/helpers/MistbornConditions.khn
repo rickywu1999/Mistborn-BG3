@@ -176,6 +176,15 @@ function MistbornExtendedEffectAbilities()
     | SpellId('Nicrosil_Boost_Flare') 
 end
 
+function InTimeBubble(entity)
+    entity = entity or context.Target
+    return HasStatus('CADMIUM_SLOW',entity)
+    | HasStatus('BENDALLOY_HASTE',entity)
+    | HasStatus('BENDALLOY_HASTE_POTENT',entity)
+    | HasStatus('CADMIUM_SLOW_POTENT',entity)
+    | HasStatus('TIME_STOP_MISTBORN',entity)
+end
+
 function MistbornTwinned()
     return (TwinnedProjectileSpellCheck() | TwinnedTargetSpellCheck() | TwinnedTargetTouchSpellCheck()) & SpellLevelEqualOrLessThan(6) & ~HasUseCosts('BonusActionPoint')
 end

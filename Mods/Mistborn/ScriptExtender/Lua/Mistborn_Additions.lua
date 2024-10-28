@@ -11,6 +11,9 @@ Ext.Osiris.RegisterListener("UsingSpellOnTarget", 6, "after", function(_, target
 end)
 
 Ext.Osiris.RegisterListener("StatusApplied", 4, "after", function(object, status, causee,_)
+    if status == "" then
+        
+    end
     if status == "IRONREDIRECTION_ACTIVATED" then
         Osi.UseSpell(object, PersistentVars['IronRedirectionSpellBlocked'],PersistentVars['IronRedirectionAuraOwner'])
         Osi.RemoveStatus(object,"IRONREDIRECTION_ACTIVATED","")

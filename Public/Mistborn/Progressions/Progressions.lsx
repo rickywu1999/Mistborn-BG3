@@ -272,7 +272,7 @@
                 </node>
                 <node id="Progression">
                     <attribute id="AllowImprovement" type="bool" value="false"/>
-                    <attribute id="Level" type="uint8" value="12"/>
+                    <attribute id="Level" type="uint8" value="17"/>
                     <attribute id="Name" type="LSString" value="BattleAllomancer"/>
                     <attribute id="PassivesAdded" type="LSString" value="Class_Feature_Metallic_Synergy;Class_Feature_Metallic_Synergy_Hidden"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
