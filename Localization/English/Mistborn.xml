@@ -61,7 +61,7 @@
     <!--ConditionErrors-->
     <content contentuid="ha23387d82e23473d9d3c175ab263dcc9daa3" version="1">Target must be smaller than you.</content>
     <content contentuid="hcb084bf1af2b4898a234b141d581f52bg05a" version="1">Target must be larger than you.</content>
-    <content contentuid="h14c85f0aba9a4bb68ba91ca95c480502481a" version="1">Target must be metallic or have metal.</content>
+    <content contentuid="h14c85f0aba9a4bb68ba91ca95c480502481a" version="1">Target must be metallic, have metal, or be holding a weapon.</content>
     <content contentuid="ha74feae2af9d4a6384e47285fe853221bf19" version="1">Target must have spell slots.</content>
     <content contentuid="hfb05969648b54d918079ba6c9941b0a2b9c0" version="1">Target must have recently used a spell.</content>
     <content contentuid="ha19a1dee812641a3a844d690e98c9ebe8egg" version="1">Cannot target through Temporal Bubble.</content>
