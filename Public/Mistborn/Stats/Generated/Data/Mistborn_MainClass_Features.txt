@@ -73,7 +73,6 @@ data "DisplayName" "hbf80e029cf7b4f588cbe30b56224c668cg12"
 data "Description" "h94cda78db01b4190a7dbc5753b644b235518"
 data "DescriptionParams" "Distance(2)"
 data "Icon" "PassiveFeature_Generic_Tactical"
-data "StackType" "Ignore"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;"
 
 new entry "Interrupt_IronPull"
