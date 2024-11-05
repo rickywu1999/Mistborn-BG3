@@ -11,6 +11,22 @@ data "Properties" "Highlighted"
 
 
 
+// Level 2
+// Fighting Style: Caster
+new entry "FightingStyle_Caster"
+type "PassiveData"
+data "DisplayName" "h8671ab8d8bb74e789e268ff6c8b1288f239e;2"
+data "Description" "hd33f8f5b1b18463c8a7ee4689ac76f22f12f;2"
+data "DescriptionParams" "1"
+data "Icon" "PassiveFeature_MagicInitiateWizard"
+data "Properties" "Highlighted"
+data "Boosts" "ActionResource(MetalReserves,1,0)"
+
+
+
+
+
+
 // Level 4
 new entry "SlowFall_Mistborn"
 type "PassiveData"
@@ -103,7 +119,7 @@ data "TooltipStatusApply" "ApplyStatus(DISARMED, 100, 1)"
 data "InterruptContext" "OnStatusApplied"
 data "InterruptContextScope" "Nearby"
 data "Container" "YesNoDecision"
-data "Conditions" "Character() and not HasPassive('ImmuneToDisarm') and HasMetalWeaponInAnyHand() and Self(context.Source,context.Observer) and IsAbleToReact(context.Observer) and Enemy() and not HasStatus('SG_Invisible',context.Target) and not AnyEntityIsItem() and IsCurrentTurnInCombat() and HasStatus('ALLOMANTIC_REFLEXES_DETECTED',context.Target)"
+data "Conditions" "Character() and not HasPassive('ImmuneToDisarm') and HasWeaponInMainHand() and Self(context.Source,context.Observer) and IsAbleToReact(context.Observer) and Enemy() and not HasStatus('SG_Invisible',context.Target) and not AnyEntityIsItem() and IsCurrentTurnInCombat() and HasStatus('ALLOMANTIC_REFLEXES_DETECTED',context.Target)"
 data "Properties" "UseSpell(IronDisarm,true,true,true)"
 data "Cost" "ReactionActionPoint:1;MetalReserves:2;Allomantic_Reflex_Resource:1"
 data "InterruptDefaultValue" "Ask;Enabled"
